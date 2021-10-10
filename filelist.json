@@ -41161,7 +41161,7 @@
 	},
 	{
 		"filename": "data\/descr_banners.txt",
-		"checksum": 2531660831
+		"checksum": 2599999751
 	},
 	{
 		"filename": "data\/descr_beliefs.txt",
@@ -42045,6 +42045,14 @@
 	},
 	{
 		"filename": "data\/models\/textures\/standard_gaul_ally.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models\/textures\/standard_georgia.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models\/textures\/standard_georgia_ally.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -56250,6 +56258,10 @@
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/ingame_maps\/map_thrace.tga",
 		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map.rwm",
+		"checksum": 1462741756
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_fe.tga",
