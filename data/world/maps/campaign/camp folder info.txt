@@ -1,0 +1,10 @@
+Campaign folder info:
+
+- Do not remove one of the campaign folders!
+
+- The active MAIN CAMPAIGN is the barbarian_invasion folder for the RTW 1.5 and the BI 1.6 exe
+- The active ADDITIONAL CAMPAIGN is the crusader_epoche folder for the RTW 1.5 and the BI 1.6 exe
+
+- To play CUSTOM or HISTORICAL BATTLE or MULTIPLAYER mode, the imperial_campaign folder is needed, otherwise we could remove it if this wouldn't be a requirement, as for the provided file/code structure.
+
+- For the MULTIPLAYER mode (MP), you must start first the MAIN CAMPAIGN 'The Rise of the Knighthood', then copy the generated map.rwm file from the camp folder barbarian_invasion, and copy/paste it into the base folder. This must be done by every MP match-member. Of course all MP's must play the same exe, and without any modified files, or all have the same modified files. In case the ADDITIONAL CAMPAIGN 'The Crusader Epoche' shall be the base for the MP match, simply proceed analog.

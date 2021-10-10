@@ -1,0 +1,147 @@
+; Chivalry TW, "Free" Mercs
+;---------------------------
+
+pool Caucasus 
+		regions Shirvan Abkhazia Georgia 			
+		unit caucasian mountaineers merc, exp 1 cost 650 replenish 0.1 - 0.7 max 2 initial 1
+
+pool Baltic 
+		regions Prussia	Livonia	Lithuania Estonia	
+		unit prussian draugija, exp 1 cost 1150 replenish 0.1 - 0.4 max 1 initial 0
+
+pool Ireland 
+		regions Ulster Meath Connacht Munster			
+		unit gaenaght, exp 1 cost 750 replenish 0.1 - 0.4 max 1 initial 1
+		unit kernbannal, exp 0 cost 500 replenish 0.1 - 0.5 max 2 initial 1
+
+pool Wales
+		regions Gwynned		
+		unit welsh longbowmen, exp 1 cost 950 replenish 0.1 - 0.5 max 1 initial 1
+
+pool England
+		regions East_Anglia Kent Wessex Northumbria		
+		unit welsh longbowmen, exp 1 cost 1150 replenish 0.1 - 0.2 max 1 initial 0
+
+pool Europe1  
+		regions Lombardia Verona 			
+		unit twohand swordsmen, exp 1 cost 1050 replenish 0.1 - 0.5 max 1 initial 0
+		unit italian crossbow merc, exp 1 cost 1050 replenish 0.1 - 0.2 max 1 initial 0
+		unit frankish mercenaries merc, exp 1 cost 1000 replenish 0.1 - 0.3 max 1 initial 0
+	
+pool Europe2  
+		regions East_Anglia Kent Normandie  			
+		unit norman mercenaries, exp 1 cost 1000 replenish 0.2 - 0.5 max 1 initial 1 
+
+pool Europe2a  
+		regions Bretagne Flanders Frisia			
+		unit norman mercenaries, exp 1 cost 1050 replenish 0.1 - 0.4 max 1 initial 1
+		unit frankish mercenaries merc, exp 1 cost 1050 replenish 0.1 - 0.25 max 1 initial 1
+	
+pool Europe3  
+		regions Calabria Val_Dimone Principality_of_Bari 			
+		unit norman mercenaries, exp 1 cost 1100 replenish 0.1 - 0.5 max 1 initial 1
+		unit italian crossbow merc, exp 1 cost 1200 replenish 0.1 - 0.2 max 1 initial 0
+
+pool Europe4
+		regions Burgund Provence
+		unit burgundian foot knights, exp 1 cost 1100 replenish 0.1 - 0.3 max 1 initial 0
+	    unit frankish mercenaries merc, exp 1 cost 1000 replenish 0.1 - 0.5 max 1 initial 1
+	
+pool Europe5  
+		regions Liguria Toscana Papal-States Spoleto			
+		unit frankish mercenaries merc, exp 1 cost 1150 replenish 0.1 - 0.2 max 1 initial 0
+
+pool Europe6  
+		regions Liguria Venezien Toscana		
+		unit italian crossbow merc, exp 1 cost 1000 replenish 0.1 - 0.3 max 1 initial 1
+
+pool Europe7  
+		regions Spoleto Province_of_Benevento Wadi_al-Mazzara Siracuse
+		unit italian crossbow merc, exp 1 cost 1100 replenish 0.1 - 0.3 max 1 initial 1
+
+pool Europe8  
+		regions Provence Toulouse Auvergne Guyenne	
+		unit italian crossbow merc, exp 1 cost 1200 replenish 0.1 - 0.2 max 1 initial 0
+	
+pool Europe8a  
+		regions Toulouse Auvergne Guyenne
+		unit frankish mercenaries merc, exp 1 cost 1150 replenish 0.1 - 0.5 max 1 initial 1
+
+pool Crusader Isles  
+		regions Malta Krete			
+		unit latin auxiliaries merc, exp 1 cost 1050 replenish 0.1 - 0.5 max 1 initial 0
+		unit italian crossbow merc, exp 1 cost 1200 replenish 0.1 - 0.2 max 1 initial 0
+		
+pool Crusader Isles2  
+		regions Kypros Rhodos			
+		unit latin auxiliaries merc, exp 1 cost 1100 replenish 0.1 - 0.4 max 2 initial 0
+		unit armenian foot archers, exp 1 cost 800 replenish 0.1 - 0.3 max 2 initial 0
+		unit armenian catapult merc, exp 1 cost 2250 replenish 0.1 - 0.1 max 2 initial 0
+
+pool Konst  
+		regions Byzantion			
+		unit trebizond archers merc, exp 1 cost 850 replenish 0.1 - 0.3 max 1 initial 0	
+		unit frankish mercenaries merc, exp 1 cost 1250 replenish 0.1 - 0.3 max 1 initial 0
+		unit latin auxiliaries merc, exp 1 cost 1150 replenish 0.1 - 0.4 max 1 initial 0
+	
+pool Trebizond
+	    regions Trebizond		
+	    unit trebizond archers merc, exp 1 cost 750 replenish 0.1 - 0.6 max 2 initial 1
+		unit latin auxiliaries merc, exp 1 cost 1150 replenish 0.1 - 0.3 max 1 initial 0
+
+pool Southeast-Euro
+	    regions Magyarorszag Steiermark Bavaria Bohemia
+		unit frankish mercenaries merc, exp 1 cost 1250 replenish 0.1 - 0.3 max 1 initial 0
+		unit italian crossbow merc, exp 1 cost 1300 replenish 0.1 - 0.2 max 1 initial 0
+	 
+pool Central-Euro
+	    regions Swabia Franconia Niederlothringen 
+		unit frankish mercenaries merc, exp 1 cost 1200 replenish 0.1 - 0.6 max 1 initial 0
+		unit italian crossbow merc, exp 1 cost 1250 replenish 0.1 - 0.2 max 1 initial 0
+	 
+pool Central-Euro2
+	    regions Oberlothringen Champagne Ile_de_France
+		unit frankish mercenaries merc, exp 1 cost 1150 replenish 0.1 - 0.6 max 1 initial 0
+		unit italian crossbow merc, exp 1 cost 1250 replenish 0.1 - 0.2 max 1 initial 0
+	 
+pool West-Euro
+	    regions Poitou Anjou
+		unit frankish mercenaries merc, exp 1 cost 1100 replenish 0.1 - 0.5 max 1 initial 0
+	 
+pool Christ-Iberia
+	    regions Catalonia Aragon Kingdom_of_Castilla Kingdom_of_Leon
+		unit frankish mercenaries merc, exp 1 cost 1150 replenish 0.1 - 0.4 max 1 initial 0
+		unit italian crossbow merc, exp 1 cost 1250 replenish 0.1 - 0.25 max 1 initial 0
+	 
+pool North-Germany
+	    regions Holstein Jylland Frisia Polabia 
+		unit saxon swordsmen, exp 1 cost 1200 replenish 0.1 - 0.2 max 1 initial 0
+
+pool Dane-Vik-Mercs
+	    regions Holstein Jylland Frisia Polabia
+		unit viking warriors merc, exp 1 cost 1050 replenish 0.1 - 0.4 max 1 initial 0
+
+pool Swede-Vik-Mercs
+	    regions Livonia Estonia Finland Pomerania Zopadno_Pomorsko Gotland Smaland
+		unit viking warriors merc, exp 1 cost 950 replenish 0.1 - 0.5 max 1 initial 0
+
+pool Norse-Vik-Mercs
+	    regions Nordvegur Hebrides
+		unit viking warriors merc, exp 1 cost 950 replenish 0.1 - 0.5 max 1 initial 1
+	 
+pool Levant 
+	    regions Palestina Tripoli Antioch
+		unit armenian catapult merc, exp 1 cost 2050 replenish 0.1 - 0.1 max 2 initial 0
+		unit armenian foot archers, exp 1 cost 750 replenish 0.1 - 0.4 max 2 initial 1
+		unit italian crossbow merc, exp 1 cost 1500 replenish 0.1 - 0.2 max 1 initial 0
+
+pool Illyria 
+	    regions Serbia Bosnia Croatia
+		unit serbo-croatic infantry, exp 1 cost 600 replenish 0.1 - 0.6 max 2 initial 1
+	 
+pool Kurdistan 
+	    regions Chersianon Azerbaijan Edessa
+		unit kurdish infantry, exp 1 cost 720 replenish 0.1 - 0.6 max 2 initial 1
+		unit armenian catapult merc, exp 1 cost 2050 replenish 0.1 - 0.1 max 2 initial 0
+		unit armenian foot archers, exp 1 cost 750 replenish 0.1 - 0.3 max 2 initial 0
+	

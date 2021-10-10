@@ -1,0 +1,84 @@
+;; JNF 2021-07-27 - Okay, I TRIED to make this compatable with the old definition style, but there's absolutely no way to verify the format so if things were wrong you'd get a
+;;                  whole bunch of "settlement '' not found in stringtable" errors because the region DB also has zero verification and since the last line of the settlement has
+;;                  "pagan" in it instead of "data/ui/pips/pip_religion_pagan_positive.tga", which would be the name of the religion because you're missing a line so it overflows,
+;;                  and so the format, stupidly, just assumes because the line isn't a valid religion it must, in fact, be the start of another settlement definition. Idiotic.
+;;                  Anyway, that's why you have to rewrite this, modders. Have fun!
+
+"religions":
+[
+	"christianity":
+	{
+		;;the name of the trait to be used to identify members of this religion
+		;;will be auto-generated if not defined
+		"trait": "Christian",
+		
+		;;UI icons to use for this
+		"unrest icon": "data/ui/pips/pip_religion_christian_negative.tga",
+		"religion icon":  "data/ui/pips/pip_religion_christian.tga",
+		
+		;;info button button used for the settlement overview panel
+		"info button": "data/ui/buttons/settlementdetailschristianity.tga",
+		
+		;;localised name for this religion
+		"name": "CHRISTIAN_LABEL",
+		
+		;;tooltips for when a religion is creating unrest
+		"unrest tooltip": "CHRISTIAN_UNREST",
+		
+		;;how much extra or less unrest and order should this religion create
+		"unrest multiplier": 1,
+		
+		;;should this religion be hidden at zero presense and influence
+		"hide at zero": false, 
+	},
+	"pagan":
+	{
+		;;the name of the trait to be used to identify members of this religion
+		;;will be auto-generated if not defined
+		"trait": "Pagan",
+		
+		;;UI icons to use for this
+		"unrest icon": "data/ui/pips/pip_religion_pagan_negative.tga",
+		"religion icon":  "data/ui/pips/pip_religion_pagan.tga",
+		
+		;;info button button used for the settlement overview panel
+		"info button": "data/ui/buttons/settlementdetailspaganism.tga",
+		
+		;;localised name for this religion
+		"name": "PAGAN_LABEL",
+		
+		;;tooltips for when a religion is creating unrest
+		"unrest tooltip": "PAGAN_UNREST",
+		
+		;;how much extra or less unrest and order should this religion create
+		"unrest multiplier": 1,
+		
+		;;should this religion be hidden at zero presense and influence
+		"hide at zero": false, 
+	},
+	"islam":
+	{
+		;;the name of the trait to be used to identify members of this religion
+		;;will be auto-generated if not defined
+		"trait": "Muslim",
+		
+		;;UI icons to use for this
+		"unrest icon": "data/ui/pips/islam_unrest.tga",
+		"religion icon":  "data/ui/pips/islam.tga",
+		
+		;;info button button used for the settlement overview panel
+		"info button": "data/ui/pips/islam.tga",
+		
+		;;localised name for this religion
+		"name": "ISLAM_LABEL",
+		
+		;;tooltips for when a religion is creating unrest
+		"unrest tooltip": "ISLAM_UNREST",
+		
+		;;how much extra or less unrest and order should this religion create
+		"unrest multiplier": 1,
+		
+		;;should this religion be hidden at zero presense and influence
+		"hide at zero": false, 
+	},
+],

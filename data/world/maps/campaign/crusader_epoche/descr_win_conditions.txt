@@ -1,0 +1,90 @@
+; Chiv Win Cons - DaVinci
+; CE campaign  
+;-----------------------------------------------------------------------------------------------------------------
+britons ; England start 6
+hold_regions Kent East_Anglia Wessex Mercia Northumbria Normandie Gwynned Strathclyde Alban Hebrides Bretagne Ulster Munster Connacht Meath Anjou Poitou Toulouse Guyenne Tripoli Palestina Fillistin Kypros Krete Rhodos Nordvegur Malta
+take_regions 27
+;-----------------------------------------------------------------------------------------------------------------
+gauls ; France start 7
+hold_regions Champagne Ile_de_France Poitou Auvergne Anjou Normandie Bretagne Toulouse Guyenne Provence Flanders Burgund Oberlothringen Schweiz Corsica Toscana Liguria Papal-States Province_of_Benevento Spoleto Calabria Principality_of_Bari Malta Hellas Peloponnesos Thessalonika Byzantion Antioch Edessa Tripoli Palestina Kypros  
+take_regions 32
+;-----------------------------------------------------------------------------------------------------------------
+germans ; HRE start 9
+hold_regions Oberlothringen Niederlothringen Holstein Sachsen Franconia Swabia Bavaria Steiermark Verona Provence Burgund Flanders Frisia Schweiz Lombardia Venezien Toscana Liguria Papal-States Spoleto Province_of_Benevento Calabria Principality_of_Bari Wadi_al-Mazzara Val_Dimone Siracuse Malta Polabia Lusatia Zopadno_Pomorsko Pomerania Prussia Palestina Gotland 
+take_regions 34
+;-----------------------------------------------------------------------------------------------------------------
+romans_scipii ; Castile start 4
+hold_regions Kingdom_of_Leon Kingdom_of_Castilla Portucalense Province_of_Toledo Portugal Province_of_Zaragoza Navarra Valencia Denia Andalusia Sevilla Baleares Sardinia Mahdiyah al-Maghrib Province_of_Tlemsen Province_of_Bijayah Catalonia Aragon
+take_regions 19
+;-----------------------------------------------------------------------------------------------------------------
+romans_senate ; Bohemia start 2
+hold_regions Bohemia Moravia Lusatia Steiermark Bavaria Mazowsze Slask Welkopolska Malopolska Nyitra Karpatalja Chervenski_Goroda Galich Moldavia 
+take_regions 14
+;-----------------------------------------------------------------------------------------------------------------
+spain ; Aragon start 2
+hold_regions Aragon Catalonia Navarra Province_of_Zaragoza Valencia Baleares Sardinia Wadi_al-Mazzara Val_Dimone Siracuse Calabria Principality_of_Bari Province_of_Benevento Malta Hellas Peloponnesos Thessalonika Byzantion  
+take_regions 18
+;-----------------------------------------------------------------------------------------------------------------
+carthage ; Hungary start 5
+hold_regions Nyitra Magyarorszag Alfold Erderly Karpatalja Croatia Bosnia Serbia Epiros Makedon Thrake Bulgaria Wallachia Volin Galich Moldavia Moravia Chervenski_Goroda Polotsk Khotzir Cherson 
+take_regions 21
+;-----------------------------------------------------------------------------------------------------------------
+parthia ; Byzantine Empire start 14
+hold_regions Thrake Byzantion Rhodos Epiros Hellas Peloponnesos Thessalonika Makedon Bulgaria Armenia Trebizond Bithynia Krete Chersianon Abydos Kybrrhaiots Armeniakon Galatia Anatolikon Vaspurakan Edessa Antioch Serbia Croatia Bosnia Cherson Abkhazia Georgia Calabria Principality_of_Bari Province_of_Benevento Val_Dimone Wadi_al-Mazzara Siracuse Seleukeia Cilicia Kypros  
+take_regions 38 
+;-----------------------------------------------------------------------------------------------------------------
+macedon ; Moors:Almoravids/Almohads/Berber-Iazighen start 5  
+hold_regions al-Maghrib Denia Granada Andalusia Sevilla Al-Udwa Portugal Valencia Province_of_Toledo Baleares Province_of_Tlemsen Province_of_Bijayah Mahdiyah Tunesia Libiya Tafilet as-Sahra Barka Tripolitania al-Sudan An-Nuba Wadi_al-Mazzara Sardinia
+take_regions 23
+;-----------------------------------------------------------------------------------------------------------------
+thrace ; Turks: Seljuks/Ayyubids start 8  
+hold_regions Iraq Jazira Arabia Syria Edessa Antioch Azerbaijan Vaspurakan Palestina Tripoli Fillistin ash-Sharat Cilicia Seleukeia Kybrrhaiots Anatolikon Chersianon Galatia Armeniakon Trebizond Shirvan Armenia Abkhazia Georgia Abydos Sina Al-Urdun Nejd Sinai Kypros Rhodos Krete
+take_regions 32
+;-----------------------------------------------------------------------------------------------------------------
+greek_cities ; Egypt: Fatimids/Mameluks start 8  
+hold_regions Al-Iskandariya Misr An-Nuba Dumyat Al-Urdun Sinai Sina Barka Fillistin ash-Sharat Nejd Mahdiyah Tunesia Libiya Tripolitania al-Sudan Palestina Tripoli Arabia Syria Kypros Malta
+take_regions 22
+;-----------------------------------------------------------------------------------------------------------------
+;pontus ; NowgorodRus start 2 -faction removed- 
+;hold_regions Pskov Novgorod Finland Estonia Livonia Lithuania Prussia Malopolska Polotsk Smolensk Pinsk Volin Galich Novgorod-Siversky Vladimir Murom Volga_Bulgaria Ryazan Qanglia Suzdal Khazaria ;Itil Gotland
+;take_regions 23
+;-----------------------------------------------------------------------------------------------------------------
+armenia ; KievRus start 4 
+hold_regions Kiev Perejaslavl Tmutarakan Novgorod Chernigov Khotzir Cherson Bulgaria Volin Galich Moldavia Novgorod-Siversky Vladimir Murom Volga_Bulgaria Ryazan Itil Khwarazm Qanglia Khazaria Alania Georgia Finland Estonia Gotland Pskov Livonia Lithuania Prussia Malopolska Polotsk Smolensk Pinsk Suzdal
+take_regions 34
+;-----------------------------------------------------------------------------------------------------------------
+egypt ; Cumans/Steppe-People start 3  
+hold_regions Khotzir Itil Khazaria Khwarazm Bulgaria Wallachia Karpatalja Erderly Polotsk Smolensk Pinsk Volin Galich Moldavia Kiev Perejaslavl Cherson Novgorod-Siversky Vladimir Murom Volga_Bulgaria Ryazan Qanglia Suzdal Chernigov Tmutarakan Alania Georgia Abkhazia Shirvan
+take_regions 30 
+;-----------------------------------------------------------------------------------------------------------------
+seleucid ; Armenian Cilicia start 2 
+hold_regions Seleukeia Cilicia Tmutarakan Georgia Abkhazia Armenia Shirvan Vaspurakan Azerbaijan Trebizond Armeniakon Galatia Chersianon Anatolikon Kypros Arabia Edessa 
+take_regions 17
+;-----------------------------------------------------------------------------------------------------------------
+numidia ; Poland start 4   
+hold_regions Malopolska Mazowsze Welkopolska Slask Lusatia Zopadno_Pomorsko Chervenski_Goroda Pomerania Prussia Karpatalja Estonia Livonia Lithuania Polotsk Smolensk Pinsk Volin Galich Moldavia Pskov Gotland Bohemia Moravia
+take_regions 23
+;-----------------------------------------------------------------------------------------------------------------
+dacia ; Norman Sicily start 2 
+hold_regions Val_Dimone Calabria Principality_of_Bari Wadi_al-Mazzara Siracuse Province_of_Benevento Kypros Krete Malta Corsica Rhodos Sardinia Hellas Peloponnesos Thessalonika Byzantion Antioch Edessa Tunesia Mahdiyah
+take_regions 20
+;-----------------------------------------------------------------------------------------------------------------
+scythia ; Denmark start 3 
+hold_regions Skane Denmark Jylland Norge Gotland Smaland Svealand Nordvegur Northumbria Hebrides Holstein Polabia Zopadno_Pomorsko Pomerania Prussia Finland Estonia Livonia Lithuania
+take_regions 19
+;-----------------------------------------------------------------------------------------------------------------
+romans_brutii ; Berbers/Zirids start 4  
+hold_regions Tunesia Mahdiyah Province_of_Bijayah Province_of_Tlemsen al-Maghrib Wadi_al-Mazzara Val_Dimone Siracuse Malta Corsica Sardinia Baleares Libiya Denia Granada Tripolitania Tafilet as-Sahra
+take_regions 18
+;-----------------------------------------------------------------------------------------------------------------
+romans_julii ; Italians/Pisa start 2   
+hold_regions Toscana Sardinia Spoleto Corsica Papal-States Liguria Lombardia Verona Venezien Kypros Krete Antioch Edessa Thessalonika Tunesia Mahdiyah Baleares Province_of_Benevento
+take_regions 18
+;-----------------------------------------------------------------------------------------------------------------
+pontus ; Rum-Turks start 2  
+hold_regions Anatolikon Galatia Bithynia Kybrrhaiots Chersianon Armeniakon Trebizond Abydos Shirvan Arabia Edessa Azerbaijan Vaspurakan Cilicia Seleukeia Armenia Abkhazia Georgia Tmutarakan Kypros
+take_regions 20
+;-----------------------------------------------------------------------------------------------------------------
+;slave ; Independent Nations start 97 
+;hold_regions Papal-States
+;take_regions 150

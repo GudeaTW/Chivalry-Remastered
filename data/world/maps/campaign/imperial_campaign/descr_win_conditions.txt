@@ -1,0 +1,94 @@
+; Chiv Win Cons - DaVinci
+; RK campaign  
+;-----------------------------------------------------------------------------------------------------------------
+britons ; England start 6
+hold_regions London
+take_regions 27
+;-----------------------------------------------------------------------------------------------------------------
+gauls ; France start 5
+hold_regions Paris
+take_regions 32
+;-----------------------------------------------------------------------------------------------------------------
+germans ; HRE start 9
+hold_regions Magdeburg 
+take_regions 34
+;-----------------------------------------------------------------------------------------------------------------
+romans_scipii ; Castile start 4
+hold_regions Toledo
+take_regions 19
+;-----------------------------------------------------------------------------------------------------------------
+romans_senate ; Bohemia start 2
+hold_regions Roma
+take_regions 14
+;-----------------------------------------------------------------------------------------------------------------
+spain ; Aragon start 2
+hold_regions Huesca 
+take_regions 18
+;-----------------------------------------------------------------------------------------------------------------
+carthage ; Hungary start 5
+hold_regions Wien 
+take_regions 21
+;-----------------------------------------------------------------------------------------------------------------
+parthia ; Byzantine Empire start 14
+hold_regions Cyzicos  
+take_regions 38 
+;-----------------------------------------------------------------------------------------------------------------
+macedon ; Moors:Almoravids/Almohads/Berbers/Iazighen start 5  
+hold_regions Granada
+take_regions 23
+;-----------------------------------------------------------------------------------------------------------------
+thrace ; Turks: Seljuks/Ayyubids start 8  
+hold_regions Baghdad
+take_regions 32
+;-----------------------------------------------------------------------------------------------------------------
+greek_cities ; Egypt: Fatimids/Mameluks start 8  
+hold_regions Dumyat
+take_regions 20
+;-----------------------------------------------------------------------------------------------------------------
+;pontus ; NowgorodRus start 2 -faction removed- 
+;hold_regions Pskov
+;take_regions 23
+;-----------------------------------------------------------------------------------------------------------------
+armenia ; KievRus start 4 
+hold_regions Kiev
+take_regions 34
+;-----------------------------------------------------------------------------------------------------------------
+egypt ; Cumans/Steppe-People start 3  
+hold_regions Atyrau
+take_regions 30 
+;-----------------------------------------------------------------------------------------------------------------
+seleucid ; Armenian Cilicia start 2 
+hold_regions Ani
+take_regions 17
+;-----------------------------------------------------------------------------------------------------------------
+georgia ; Kingdom of Georgia start 1 
+hold_regions Ani
+take_regions 20
+;-----------------------------------------------------------------------------------------------------------------
+numidia ; Poland start 4   
+hold_regions Magdeburg
+take_regions 23
+;-----------------------------------------------------------------------------------------------------------------
+dacia ; Norman Sicily start 2 
+hold_regions Palermo
+take_regions 20
+;-----------------------------------------------------------------------------------------------------------------
+scythia ; Denmark start 3 
+hold_regions London
+take_regions 19
+;-----------------------------------------------------------------------------------------------------------------
+romans_brutii ; Berbers/Zirids start 4  
+hold_regions Palermo
+take_regions 18
+;-----------------------------------------------------------------------------------------------------------------
+romans_julii ; Italians/Pisa start 2   
+hold_regions Palma
+take_regions 18
+;-----------------------------------------------------------------------------------------------------------------
+pontus ; Rum-Turks start 2  
+hold_regions Konstantinoupoli
+take_regions 20
+;-----------------------------------------------------------------------------------------------------------------
+;slave ; Independent Nations start 97 
+;hold_regions Roma
+;take_regions 150

@@ -1,0 +1,64 @@
+;I'm guessing made by Adherbal, edited by Drak10687 august 2006
+plan
+{
+	target 		rectangle x -18 z 17 rot 0 width 20 height 30
+	floor		../../../chivalry/data/settlement_plans/underlays/CTW_underlay_estate.CAS 	../../../chivalry/data/settlement_plans/overlays/CTW_overlay_estate.CAS 	
+	street_plan	../../../chivalry/data/settlement_plans/street_plans/CTW_path_estate.cas
+	borders		barb_village_limits.CAS
+	{
+	}
+	ctw_we_landlords_house,		-5,	15,	0.00,	0.00
+	ctw_we_well,			-18,	17,	90.00,	0.00
+
+	;ctw_we_barn,			-45,	50,	100.00,	0.00
+
+	ctw_we_barn,			48,	45,	-20.00,	0.00
+
+	;ctw_we_small_house_wood,	-50,	-52,	180.00,	0.00
+	;ctw_we_small_house_wood,	-25,	-55,	90.00,	0.00
+	;ctw_we_small_house_wood,	-52,	110,	180.00,	0.00
+
+	;ctw_we_well,			-42,	-38,	0.00,	0.00
+
+	;ctw_we_small_house_wood_2,	-49,	10,	-85.00,	0.00
+	;ctw_we_small_house_wood,	-49,	-5,	95.00,	0.00
+	;ctw_we_small_house_wood_2,	-49,	-20,	95.00,	0.00
+	;ctw_we_small_house_wood_2,	-25,	100,	-20.00,	0.00
+	ctw_we_small_house_wood_2,	-10,	-15,	15.00,	0.00
+
+	ctw_we_blacksmith,		25,	15,	90.00,	0.00
+
+	ctw_we_stables,			45,	-5,	135.00,	0.00
+
+	;ctw_we_fence,			-14,	-59,	180.00,	0.00
+	;ctw_we_fence,			-14,	-49,	180.00,	0.00
+	;ctw_we_fence,			-10,	-41,	135.00,	0.00
+	;ctw_we_fence,			-1,	-37,	90.00,	0.00
+	;ctw_we_fence,			9,	-37,	90.00,	0.00
+	;ctw_we_fence,			16,	-40,	45.00,	0.00
+
+	ctw_we_haystack,			-25,	-42,	0.00,	0.00
+	ctw_we_haystack,			-20,	-38,	45.00,	0.00
+
+	hay_field_square,		-200	-200,	0.00,	0.00
+	ctw_we_mill,			-200	-250,	90.00,	0.00
+	ctw_we_small_house_wood,		-250,	-210,	180.00,	0.00
+	ctw_we_haystack,			-240,	-240,	45.00,	0.00
+
+	hay_field_long_ploughed,	-400,	-50,	-90.00,	0.00
+	ctw_we_haystack,			-400,	-65,	0.00,	0.00
+	ctw_we_haystack,			-410,	-69,	-45.00,	0.00
+	ctw_we_small_house_wood_2,		-410,	-45,	-10.00,	0.00
+
+	ctw_we_mill,			240	20,	135.00	0.00
+
+	hay_field_new_128_64,		200,	60,	-90.00,	0.00
+
+	hay_field_small_ploughed,	300,	-80,	0.00,	0.00
+	ctw_we_small_house_wood,		320,	-100,	90.00,	0.00
+	tree_E,				300,	-80,	0.00,	0
+
+	tree_E,				-150,	-60,	45.00,	0
+	tree_E,				-210,	80,	90.00,	0
+
+}

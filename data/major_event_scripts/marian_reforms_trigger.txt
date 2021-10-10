@@ -1,0 +1,6 @@
+script
+	;;check every settlement in the world
+
+
+	return false ;;don't trigger marian reforms
+end_script

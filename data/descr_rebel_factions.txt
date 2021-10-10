@@ -1,0 +1,1940 @@
+; ChivTW / Slave-faction units for spawning-events
+  
+rebel_type			Brigantes	
+category			peasant_revolt
+chance				7					
+description			Brigantes
+
+unit				saxon housecarls
+unit				saxon fyrdmen
+unit				spearmen
+unit				archers
+
+rebel_type			Welsh 		
+category			peasant_revolt
+chance				6				
+description			Welsh
+
+unit				archers
+unit				welsh longbowmen
+unit				spearmen
+
+rebel_type			Anglo_Saxons	
+category			peasant_revolt
+chance				5					
+description			Anglo_Saxons
+
+unit				saxon housecarls
+unit				saxon fyrdmen
+unit				archers
+unit			    spearmen
+
+
+rebel_type			Kentishmen	
+category			peasant_revolt
+chance				2					
+description			Kentishmen
+
+unit				saxon housecarls
+unit				saxon fyrdmen
+unit				archers
+unit				spearmen
+unit				crossbowmen
+
+
+rebel_type			Mercians	
+category			peasant_revolt
+chance				2					
+description			Mercians
+
+unit				saxon housecarls
+unit				saxon fyrdmen
+unit				archers
+unit				spearmen
+
+
+rebel_type			Northumbrians	
+category			peasant_revolt
+chance				2					
+description			Northumbrians
+
+unit				saxon housecarls
+unit				saxon fyrdmen
+unit				archers
+unit				spearmen
+
+
+rebel_type			Scots	
+category			peasant_revolt
+chance				10					
+description			Scots
+
+unit		        militia cavalry
+unit				crossbowmen
+unit				archers
+unit				gaenaght
+unit				kernbannal
+unit				lewnaght
+unit				spearmen
+
+rebel_type			Irish	
+category			peasant_revolt
+chance				8					
+description			Irish
+
+unit		        militia cavalry
+unit				archers
+unit				gaenaght
+unit				lewnaght
+unit				kernbannal
+unit				spearmen
+
+rebel_type			Norsemen	
+category			peasant_revolt
+chance				10		
+description			Norsemen
+
+unit				archers
+unit				spearmen
+unit				lewnaght
+unit				viking warriors
+unit		        militia cavalry
+unit		        gaenaght
+unit		        kernbannal
+
+
+rebel_type			Bretons	
+category			peasant_revolt
+chance				1					
+description			Bretons
+
+unit				mounted sergeants
+unit		        militia cavalry
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				armoured spearmen
+unit				feudal sergeants
+unit				spearmen
+
+
+rebel_type			Normans	
+category			peasant_revolt
+chance				10					
+description			Normans
+
+unit				mounted sergeants
+unit				norman cavalry
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				armoured spearmen
+unit				feudal sergeants
+unit				spearmen
+
+
+rebel_type			Flemish	
+category			peasant_revolt
+chance				3					
+description			Flemish
+
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				armoured spearmen
+unit				feudal sergeants
+unit				spearmen
+
+rebel_type			Angevins	
+category			peasant_revolt
+chance				5					
+description			Angevins
+
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				armoured spearmen
+unit				feudal sergeants
+unit				spearmen
+
+
+rebel_type			Champenois	
+category			peasant_revolt
+chance				5					
+description			Champenois
+
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				armoured spearmen
+unit				feudal sergeants
+unit				spearmen
+
+
+rebel_type			Francois	
+category			peasant_revolt
+chance				7					
+description			Francois
+
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				armoured spearmen
+unit				feudal sergeants
+unit				spearmen
+
+
+rebel_type			Poitevins	
+category			peasant_revolt
+chance				5					
+description			Poitevins
+
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				armoured spearmen
+unit				feudal sergeants
+unit				spearmen
+
+
+rebel_type			Burgundians	
+category			peasant_revolt
+chance				4					
+description			Burgundians
+
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				armoured spearmen
+unit				feudal sergeants
+unit				spearmen
+
+
+rebel_type			Occitans	
+category			peasant_revolt
+chance				4					
+description			Occitans
+
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				armoured spearmen
+unit				feudal sergeants
+unit				spearmen
+
+
+rebel_type			Gascons	
+category			peasant_revolt
+chance				2					
+description			Gascons
+
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				armoured spearmen
+unit				feudal sergeants
+unit				spearmen
+
+
+rebel_type			Provencal	
+category			peasant_revolt
+chance				2		
+description			Provencal
+
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				armoured spearmen
+unit				feudal sergeants
+unit				spearmen
+
+
+rebel_type			Dithmarscher	
+category			peasant_revolt
+chance				6		
+description			Dithmarscher
+
+unit				saxon knights
+unit				feudal foot knights
+unit				archers
+unit				saxon heavy spearmen
+unit				feudal sergeants
+unit				spearmen
+unit				woodsmen
+
+rebel_type			Saxons	
+category			peasant_revolt
+chance				3		
+description			Saxons
+
+unit				saxon knights
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				saxon heavy spearmen
+unit				feudal sergeants
+unit				spearmen
+unit				woodsmen
+
+rebel_type			Friesen	
+category			peasant_revolt
+chance				4		
+description			Friesen
+
+unit				saxon knights
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				saxon heavy spearmen
+unit				feudal sergeants
+unit				spearmen
+unit				woodsmen
+
+rebel_type			Walsch	
+category			peasant_revolt
+chance				1		
+description			Walsch
+
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				armoured spearmen
+unit				feudal sergeants
+unit				spearmen
+unit				woodsmen
+
+rebel_type			Frankischer	
+category			peasant_revolt
+chance				1		
+description			Frankischer
+
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				armoured spearmen
+unit				feudal sergeants
+unit				spearmen
+unit				woodsmen
+
+rebel_type			Alemans	
+category			peasant_revolt
+chance				1		
+description			Alemans
+
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				armoured spearmen
+unit				feudal sergeants
+unit				spearmen
+unit				woodsmen
+
+rebel_type			Swabians	
+category			peasant_revolt
+chance				1		
+description			Swabians
+
+unit				swabian swordsmen
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				armoured spearmen
+unit				feudal sergeants
+unit				spearmen
+unit				woodsmen
+
+rebel_type			Bavarians	
+category			peasant_revolt
+chance				7		
+description			Bavarians
+
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				armoured spearmen
+unit				feudal sergeants
+unit				spearmen
+unit				woodsmen
+
+rebel_type			Slovenes	
+category			peasant_revolt
+chance				5		
+description			Slovenes
+unit				mounted sergeants
+unit				militia cavalry
+unit				archers
+unit				armoured spearmen
+unit				feudal sergeants
+unit				spearmen
+unit				woodsmen
+unit				slavic warband
+
+rebel_type			Swiss	
+category			peasant_revolt
+chance				2		
+description			Swiss
+unit				crossbowmen
+unit				archers
+unit				armoured spearmen
+unit				feudal sergeants
+unit				spearmen
+unit				woodsmen
+
+rebel_type			Lombardi	
+category			peasant_revolt
+chance				4		
+description			Lombardi
+
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				feudal sergeants
+unit				italian city militia
+unit				ribaldi
+unit                italian knights
+
+rebel_type			Veronese	
+category			peasant_revolt
+chance				3		
+description			Veronese
+
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				feudal sergeants
+unit				italian city militia
+unit				ribaldi
+unit                italian knights
+
+rebel_type			Veneziani	
+category			peasant_revolt
+chance				10		
+description			Veneziani
+
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				feudal sergeants
+unit				italian city militia
+unit				ribaldi
+unit                italian knights
+
+rebel_type			Genovesi	
+category			peasant_revolt
+chance				10		
+description			Genovesi
+
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				feudal sergeants
+unit				italian city militia
+unit				ribaldi
+unit                italian knights
+
+rebel_type			Pisani	
+category			peasant_revolt
+chance				10		
+description			Pisani
+
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				feudal sergeants
+unit				italian city militia
+unit				ribaldi
+unit                italian knights
+
+rebel_type			Corsi	
+category			peasant_revolt
+chance				15		
+description			Corsi
+unit				mounted sergeants
+unit				crossbowmen
+unit				archers
+unit				feudal sergeants
+
+
+rebel_type			Laziali	
+category			peasant_revolt
+chance				15		
+description			Laziali
+
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				feudal sergeants
+unit				italian city militia
+unit				ribaldi
+unit                italian knights
+
+rebel_type			Umbri	
+category			peasant_revolt
+chance				5		
+description			Umbri
+
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				feudal sergeants
+unit				italian city militia
+unit				ribaldi
+unit                italian knights
+
+rebel_type			Campani	
+category			peasant_revolt
+chance				2		
+description			Campani
+
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				feudal sergeants
+unit				italian city militia
+unit				ribaldi
+unit                italian knights
+
+rebel_type			Calabresi	
+category			peasant_revolt
+chance				10		
+description			Calabresi
+
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				feudal sergeants
+unit				italian city militia
+unit				ribaldi
+unit                italian knights
+
+rebel_type			Pugliese	
+category			peasant_revolt
+chance				7		
+description			Pugliese
+
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				feudal sergeants
+unit				italian city militia
+unit				ribaldi
+unit                italian knights
+
+rebel_type			Siciliani	
+category			peasant_revolt
+chance				7		
+description			Siciliani
+
+unit				seljuk horse archers
+unit				saracen warriors
+unit				saracen archers
+unit				arab infantry
+
+rebel_type			Musulmani	
+category			peasant_revolt
+chance				1		
+description			Musulmani
+
+unit				crossbowmen
+unit				archers
+unit				seljuk horse archers
+unit				saracen warriors
+unit				saracen archers
+unit				arab infantry
+
+
+
+rebel_type			Galicians	
+category			peasant_revolt
+chance				10		
+description			Galicians
+
+unit				algarave
+unit				mounted sergeants
+unit				jinetes
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				feudal sergeants
+unit				apellidos
+unit				spearmen
+
+
+rebel_type			Asturians	
+category			peasant_revolt
+chance				10		
+description			Asturians
+
+unit				algarave
+unit				mounted sergeants
+unit				jinetes
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				feudal sergeants
+unit				apellidos
+unit				spearmen
+
+
+rebel_type			Basques	
+category			peasant_revolt
+chance				10		
+description			Basques
+
+unit				hueste
+unit				militia cavalry
+unit				mounted sergeants
+unit				jinetes
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				frankish mercenaries
+unit				feudal sergeants
+unit				apellidos
+unit				spearmen
+
+
+rebel_type			Catalonians	
+category			peasant_revolt
+chance				10		
+description			Catalonians
+
+unit				hueste
+unit				militia cavalry
+unit				mounted sergeants
+unit				jinetes
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				frankish mercenaries
+unit				feudal sergeants
+unit				apellidos
+unit				spearmen
+
+
+rebel_type			Valencians	
+category			peasant_revolt
+chance				3		
+description			Valencians
+
+unit				andalusian infantry
+unit				andalusian heavy infantry
+unit				murabitin infantry
+unit				jinetes
+unit				crossbowmen
+unit				archers
+unit				spearmen
+
+
+rebel_type			Toledans	
+category			peasant_revolt
+chance				12		
+description			Toledans
+
+unit				algarave
+unit				mounted sergeants
+unit				jinetes
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				feudal sergeants
+unit				apellidos
+unit				spearmen
+
+
+rebel_type			Portuguese	
+category			peasant_revolt
+chance				12		
+description			Portuguese
+
+unit				mounted sergeants
+unit				jinetes
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				feudal sergeants
+unit				spearmen
+unit                portu militia cavalry
+unit                portu lancers
+
+rebel_type			Muladies	
+category			peasant_revolt
+chance				4		
+description			Muladies
+
+unit				andalusian infantry
+unit				andalusian heavy infantry
+unit				murabitin infantry
+unit				berber cavalry
+unit				jinetes
+unit				crossbowmen
+unit				archers
+unit				spearmen
+
+
+
+rebel_type			Granadines	
+category			peasant_revolt
+chance				12		
+description			Granadines
+
+unit				andalusian infantry
+unit				andalusian heavy infantry
+unit				murabitin infantry
+unit				berber camels
+unit				berber cavalry
+unit				jinetes
+unit				crossbowmen
+unit				archers
+unit				spearmen
+
+
+rebel_type			Jyder	
+category			peasant_revolt
+chance				10		
+description			Jyder
+unit				viking huscarls
+unit				archers
+unit				spearmen
+unit				woodsmen
+unit				viking warriors
+unit				norman axemen
+
+rebel_type			Sjaellaendere	
+category			peasant_revolt
+chance				10	
+description			Sjaellaendere
+unit				viking huscarls
+unit				archers
+unit				spearmen
+unit				woodsmen
+unit				viking warriors
+unit				norman axemen
+
+rebel_type			Skanings	
+category			peasant_revolt
+chance				1		
+description			Skanings
+unit				viking huscarls
+unit				archers
+unit				spearmen
+unit				woodsmen
+unit				viking warriors
+unit				norman axemen
+
+rebel_type			Smalanningar	
+category			peasant_revolt
+chance				4		
+description			Smalanningar
+unit				viking huscarls
+unit				archers
+unit				spearmen
+unit				woodsmen
+unit				viking warriors
+unit				norman axemen
+
+rebel_type			Gutar	
+category			peasant_revolt
+chance				4		
+description			Gutar
+unit				viking huscarls
+unit				archers
+unit				spearmen
+unit				woodsmen
+unit				viking warriors
+unit				norman axemen
+
+rebel_type			Svear	
+category			peasant_revolt
+chance				7		
+description			Svear
+unit				viking huscarls
+unit				archers
+unit				spearmen
+unit				woodsmen
+unit				viking warriors
+unit				norman axemen
+
+rebel_type			Nordmenn	
+category			peasant_revolt
+chance				9		
+description			Nordmenn
+unit				viking huscarls
+unit				archers
+unit				spearmen
+unit				woodsmen
+unit				viking warriors
+unit				norman axemen
+
+rebel_type			Vieleti	
+category			peasant_revolt
+chance				3		
+description			Vieleti
+unit				militia cavalry
+unit				mounted druzhina
+unit				archers
+unit				spearmen
+unit				viking warriors
+unit				woodsmen
+unit				slavic warband
+
+rebel_type			Sorbs	
+category			peasant_revolt
+chance				3		
+description			Sorbs
+unit				militia cavalry
+unit				archers
+unit				spearmen
+unit				woodsmen
+unit				slavic warband
+
+rebel_type			Pomeranians	
+category			peasant_revolt
+chance				3		
+description			Pomeranians
+unit				militia cavalry
+unit				mounted druzhina
+unit				archers
+unit				spearmen
+unit				woodsmen
+unit				slavic warband
+
+rebel_type			Wielkopolanie	
+category			peasant_revolt
+chance				5		
+description			Wielkopolanie
+unit				militia cavalry
+unit				archers
+unit				spearmen
+unit				woodsmen
+unit				slavic warband
+
+rebel_type			Mazowszanie	
+category			peasant_revolt
+chance				5		
+description			Mazowszanie
+unit				militia cavalry
+unit				archers
+unit				spearmen
+unit				woodsmen
+unit				slavic warband
+
+rebel_type			Slazacy	
+category			peasant_revolt
+chance				5		
+description			Slazacy
+unit				militia cavalry
+unit				archers
+unit				spearmen
+unit				woodsmen
+unit				slavic warband
+
+rebel_type			Malopolanie	
+category			peasant_revolt
+chance				5		
+description			Malopolanie
+unit				militia cavalry
+unit				archers
+unit				spearmen
+unit				woodsmen
+unit				slavic warband
+
+rebel_type			Czechs	
+category			peasant_revolt
+chance				10		
+description			Czechs
+
+unit				militia cavalry
+unit				crossbowmen
+unit				archers
+unit				spearmen
+unit				woodsmen
+unit				slavic warband
+
+rebel_type			Slovaks	
+category			peasant_revolt
+chance				10		
+description			Slovaks
+unit				militia cavalry
+unit				archers
+unit				spearmen
+unit				woodsmen
+unit				slavic warband
+
+rebel_type			Lemko	
+category			peasant_revolt
+chance				3		
+description			Lemko
+
+unit				mounted druzhina
+unit				archers
+unit				russian spearmen
+unit				spearmen
+unit				rogatnyk
+unit				woodsmen
+unit				slavic warband
+unit				militia cavalry
+
+rebel_type			Prusai	
+category			peasant_revolt
+chance				20		
+description			Prusai
+
+unit				prussian draugija
+unit				lithuanian cavalry
+unit				militia cavalry
+unit				archers
+unit				spearmen
+unit				russian spearmen
+unit				russ archers
+unit				rogatnyk
+unit				mounted druzhina
+unit				foot druzhina
+unit				woodsmen
+
+rebel_type			Aukstaiciai	
+category			peasant_revolt
+chance				10		
+description			Aukstaiciai
+unit				lithuanian cavalry
+unit				militia cavalry
+unit				archers
+unit				spearmen
+unit				russian spearmen
+unit				russ archers
+unit				rogatnyk
+unit				mounted druzhina
+unit				foot druzhina
+unit				woodsmen		
+
+rebel_type			Letgaliai	
+category			peasant_revolt
+chance				10		
+description			Letgaliai
+unit				lithuanian cavalry
+unit				militia cavalry
+unit				archers
+unit				spearmen
+unit				russian spearmen
+unit				russ archers
+unit				rogatnyk
+unit				mounted druzhina
+unit				foot druzhina
+unit				woodsmen
+
+rebel_type			Estid	
+category			peasant_revolt
+chance				10		
+description			Estid
+unit				lithuanian cavalry
+unit				militia cavalry
+unit				archers
+unit				spearmen
+unit				russian spearmen
+unit				russ archers
+unit				rogatnyk
+unit				mounted druzhina
+unit				foot druzhina
+unit				woodsmen
+
+rebel_type			Suomi	
+category			peasant_revolt
+chance				3		
+description			Suomi
+
+unit				archers
+unit				spearmen
+unit				russian spearmen
+unit				woodsmen
+unit				russ archers
+unit				rogatnyk
+unit				mounted druzhina
+unit				foot druzhina
+
+rebel_type			Pskoviane	
+category			peasant_revolt
+chance				2		
+description			Pskoviane
+
+unit				russ archers
+unit				rogatnyk
+unit				mounted druzhina
+unit				foot druzhina
+unit				archers
+unit				russian spearmen
+unit				spearmen
+unit				woodsmen
+unit				slavic warband
+unit				steppe heavy cavalry
+unit				steppe light cavalry
+unit				seljuk horse archers
+unit				steppe infantry
+
+rebel_type			Novgorodtsy	
+category			peasant_revolt
+chance				1		
+description			Novgorodtsy
+
+unit				russ archers
+unit				rogatnyk
+unit				mounted druzhina
+unit				foot druzhina
+unit				archers
+unit				russian spearmen
+unit				spearmen
+unit				woodsmen
+unit				slavic warband
+unit				steppe heavy cavalry
+unit				steppe light cavalry
+unit				seljuk horse archers
+unit				steppe infantry
+
+rebel_type			Polochane	
+category			peasant_revolt
+chance				1		
+description			Polochane
+
+unit				russ archers
+unit				rogatnyk
+unit				mounted druzhina
+unit				foot druzhina
+unit				archers
+unit				russian spearmen
+unit				spearmen
+unit				woodsmen
+unit				slavic warband
+unit				steppe heavy cavalry
+unit				steppe light cavalry
+unit				seljuk horse archers
+unit				steppe infantry
+
+rebel_type			Smoliane	
+category			peasant_revolt
+chance				1		
+description			Smoliane
+
+unit				russ archers
+unit				rogatnyk
+unit				mounted druzhina
+unit				foot druzhina
+unit				archers
+unit				russian spearmen
+unit				spearmen
+unit				woodsmen
+unit				slavic warband
+unit				steppe heavy cavalry
+unit				steppe light cavalry
+unit				seljuk horse archers
+unit				steppe infantry
+
+rebel_type			Suzdaltsy	
+category			peasant_revolt
+chance				2		
+description			Suzdaltsy
+
+unit				russ archers
+unit				rogatnyk
+unit				mounted druzhina
+unit				foot druzhina
+unit				archers
+unit				russian spearmen
+unit				spearmen
+unit				woodsmen
+unit				slavic warband
+unit				steppe heavy cavalry
+unit				steppe light cavalry
+unit				seljuk horse archers
+unit				steppe infantry
+
+rebel_type			Vladimirtsy	
+category			peasant_revolt
+chance				3		
+description			Vladimirtsy
+
+unit				russ archers
+unit				rogatnyk
+unit				mounted druzhina
+unit				foot druzhina
+unit				archers
+unit				russian spearmen
+unit				spearmen
+unit				woodsmen
+unit				slavic warband
+unit				steppe heavy cavalry
+unit				steppe light cavalry
+unit				seljuk horse archers
+unit				steppe infantry
+
+rebel_type			Chernygivtsi	
+category			peasant_revolt
+chance				1		
+description			Chernygivtsi
+
+unit				russ archers
+unit				rogatnyk
+unit				mounted druzhina
+unit				foot druzhina
+unit				archers
+unit				russian spearmen
+unit				spearmen
+unit				woodsmen
+unit				slavic warband
+unit				steppe heavy cavalry
+unit				steppe light cavalry
+unit				seljuk horse archers
+unit				steppe infantry
+
+rebel_type			Cheremisi	
+category			peasant_revolt
+chance				2		
+description			Cheremisi
+
+unit				russ archers
+unit				rogatnyk
+unit				mounted druzhina
+unit				foot druzhina
+unit				archers
+unit				russian spearmen
+unit				spearmen
+unit				woodsmen
+unit				slavic warband
+unit				steppe heavy cavalry
+unit				steppe light cavalry
+unit				seljuk horse archers
+unit				steppe infantry
+
+
+rebel_type			Volyniany	
+category			peasant_revolt
+chance				1		
+description			Volyniany
+
+unit				volhynian militia
+unit				russ archers
+unit				rogatnyk
+unit				mounted druzhina
+unit				foot druzhina
+unit				archers
+unit				russian spearmen
+unit				spearmen
+unit				woodsmen
+unit				slavic warband
+unit				steppe heavy cavalry
+unit				steppe light cavalry
+unit				seljuk horse archers
+unit				steppe infantry
+
+rebel_type			Pinchany	
+category			peasant_revolt
+chance				1		
+description			Pinchany
+
+unit				russ archers
+unit				rogatnyk
+unit				mounted druzhina
+unit				foot druzhina
+unit				archers
+unit				russian spearmen
+unit				spearmen
+unit				woodsmen
+unit				slavic warband
+unit				steppe heavy cavalry
+unit				steppe light cavalry
+unit				seljuk horse archers
+unit				steppe infantry
+
+rebel_type			Kyiany	
+category			peasant_revolt
+chance				1		
+description			Kyiany
+
+unit				kievan militia
+unit				russ archers
+unit				rogatnyk
+unit				mounted druzhina
+unit				foot druzhina
+unit				archers
+unit				russian spearmen
+unit				spearmen
+unit				woodsmen
+unit				slavic warband
+unit				klobuki archers
+unit				steppe heavy cavalry
+unit				steppe light cavalry
+unit				seljuk horse archers
+unit				steppe infantry
+
+rebel_type			Galichany	
+category			peasant_revolt
+chance				1		
+description			Galichany
+
+unit				russ archers
+unit				rogatnyk
+unit				mounted druzhina
+unit				foot druzhina
+unit				archers
+unit				russian spearmen
+unit				spearmen
+unit				steppe heavy cavalry
+unit				woodsmen
+unit				slavic warband
+unit				steppe light cavalry
+unit				seljuk horse archers
+unit				steppe infantry
+
+rebel_type			Pereyaslavtsi	
+category			peasant_revolt
+chance				1		
+description			Pereyaslavtsi
+
+unit				russ archers
+unit				rogatnyk
+unit				mounted druzhina
+unit				foot druzhina
+unit				archers
+unit				russian spearmen
+unit				spearmen
+unit				steppe heavy cavalry
+unit				woodsmen
+unit				slavic warband
+unit				klobuki archers
+unit				steppe light cavalry
+unit				seljuk horse archers
+unit				steppe infantry
+
+rebel_type			Sivertsi	
+category			peasant_revolt
+chance				1		
+description			Sivertsi
+
+unit				russ archers
+unit				rogatnyk
+unit				mounted druzhina
+unit				foot druzhina
+unit				archers
+unit				russian spearmen
+unit				spearmen
+unit				steppe heavy cavalry
+unit				woodsmen
+unit				slavic warband
+unit				steppe light cavalry
+unit				seljuk horse archers
+unit				steppe infantry
+
+rebel_type			Kumans	
+category			peasant_revolt
+chance				10		
+description			Kumans
+unit				steppe heavy cavalry
+unit				steppe light cavalry
+unit				seljuk horse archers
+unit				cuman horse archers
+unit				steppe infantry
+
+rebel_type			Goths	
+category			peasant_revolt
+chance				10		
+description			Goths
+unit				steppe heavy cavalry
+unit				steppe light cavalry
+unit				seljuk horse archers
+unit				steppe infantry
+unit				archers
+unit				spearmen
+
+rebel_type			Cherventsi	
+category			peasant_revolt
+chance				2		
+description			Cherventsi
+
+unit				russ archers
+unit				rogatnyk
+unit				mounted druzhina
+unit				foot druzhina
+unit				archers
+unit				russian spearmen
+unit				spearmen
+unit				woodsmen
+unit				slavic warband
+
+rebel_type			Magyars	
+category			peasant_revolt
+chance				10		
+description			Magyars
+unit				szekely
+unit				light cavalry
+unit				militia cavalry
+unit				archers
+unit				spearmen
+unit				slavic warband
+
+rebel_type			Pechenegs	
+category			peasant_revolt
+chance				5		
+description			Pechenegs
+
+unit				steppe heavy cavalry
+unit				cuman horse archers
+unit				steppe light cavalry
+unit				seljuk horse archers
+unit				spearmen
+unit				archers
+unit				vlach tribesmen
+unit				slavic warband
+
+rebel_type			Vlachs	
+category			peasant_revolt
+chance				5		
+description			Vlachs
+unit				vlach tribesmen
+unit				light cavalry
+unit				militia cavalry
+unit				archers
+unit				spearmen
+unit				slavic warband
+
+rebel_type			Bulgarians	
+category			peasant_revolt
+chance				4		
+description			Bulgarians
+unit				vlach tribesmen
+unit				light cavalry
+unit				seljuk horse archers
+unit				archers
+unit				spearmen
+unit				slavic warband
+
+rebel_type			Croatians	
+category			peasant_revolt
+chance				5		
+description			Croatians
+unit				mounted sergeants
+unit				militia cavalry
+unit				light cavalry
+unit				archers
+unit				armoured spearmen
+unit				spearmen
+unit				slavic warband
+
+rebel_type			Bosnians	
+category			peasant_revolt
+chance				4		
+description			Bosnians
+unit				light cavalry
+unit				seljuk horse archers
+unit				archers
+unit				spearmen
+unit				slavic warband
+
+rebel_type			Serbians	
+category			peasant_revolt
+chance				4		
+description			Serbians
+unit				mounted sergeants
+unit				light cavalry
+unit				seljuk horse archers
+unit				archers
+unit				spearmen
+unit				slavic warband
+
+rebel_type			Slavonians	
+category			peasant_revolt
+chance				4		
+description			Slavonians
+unit				mounted sergeants
+unit				light cavalry
+unit				archers
+unit				spearmen
+unit				slavic warband
+
+rebel_type			Albanians	
+category			peasant_revolt
+chance				10		
+description			Albanians
+unit				light cavalry
+unit				archers
+unit				spearmen
+unit				slavic warband
+
+rebel_type			Hellenes	
+category			peasant_revolt
+chance				10		
+description			Hellenes
+unit				archers
+unit				spearmen
+
+
+rebel_type			Cretans	
+category			peasant_revolt
+chance				4		
+description			Cretans
+unit				archers
+unit				spearmen
+
+
+rebel_type			Dragoviti	
+category			peasant_revolt
+chance				1		
+description			Dragoviti
+unit				light cavalry
+unit				archers
+unit				spearmen
+unit				slavic warband
+
+rebel_type			Thynians	
+category			peasant_revolt
+chance				8		
+description			Thynians
+unit				light cavalry
+unit				archers
+unit				spearmen
+
+
+rebel_type			Iugrians	
+category			peasant_revolt
+chance				1		
+description			Iugrians
+unit				steppe heavy cavalry
+unit				steppe light cavalry
+unit				archers
+unit				spearmen
+unit				woodsmen
+
+rebel_type			Volga_Bulgars	
+category			peasant_revolt
+chance				3		
+description			Volga_Bulgars
+unit				steppe heavy cavalry
+unit				steppe light cavalry
+unit				steppe infantry
+unit				archers
+unit				spearmen
+
+
+rebel_type			Mordvins	
+category			peasant_revolt
+chance				1		
+description			Mordvins
+unit				steppe heavy cavalry
+unit				steppe light cavalry
+unit				archers
+unit				spearmen
+unit				woodsmen
+
+rebel_type			Khazars	
+category			peasant_revolt
+chance				4		
+description			Khazars
+unit				steppe heavy cavalry
+unit				steppe light cavalry
+unit				steppe infantry
+unit				archers
+unit				spearmen
+
+
+rebel_type			Khwarazmians	
+category			peasant_revolt
+chance				5		
+description			Khwarazmians
+unit				kwarazmian cavalry
+unit				steppe heavy cavalry
+unit				steppe light cavalry
+unit				steppe infantry
+unit				archers
+unit				spearmen
+
+
+rebel_type			Alans	
+category			peasant_revolt
+chance				4		
+description			Alans
+unit				kwarazmian cavalry
+unit				steppe heavy cavalry
+unit				steppe light cavalry
+unit				steppe infantry
+unit				archers
+unit				spearmen
+unit				caucasian mountaineers
+
+rebel_type			Abkhazians	
+category			peasant_revolt
+chance				4		
+description			Abkhazians
+unit				early didebuls
+unit				caucasian mountaineers
+unit				archers
+unit				spearmen
+
+
+rebel_type			Georgians	
+category			peasant_revolt
+chance				5
+description			Georgians		
+unit				early didebuls
+unit				caucasian mountaineers
+unit				archers
+unit				spearmen
+
+
+rebel_type			Caucasian_Muslims	
+category			peasant_revolt
+chance				3		
+description			Caucasian_Muslims
+unit				caucasian mountaineers
+unit				archers
+unit				spearmen
+
+
+rebel_type			Armenians	
+category			peasant_revolt
+chance				4		
+description			Armenians
+unit				early didebuls
+unit				caucasian mountaineers
+unit				armenian infantry
+unit				armenian borderers
+unit				archers
+unit				spearmen
+
+
+rebel_type			Azeris	
+category			peasant_revolt
+chance				3		
+description			Azeris
+unit				caucasian mountaineers
+unit				ghazi cavalry
+unit				ghazi infantry
+unit				archers
+unit				spearmen
+
+
+rebel_type			Bithynians	
+category			peasant_revolt
+chance				7		
+description			Bithynians
+unit				light cavalry
+unit				seljuk horse archers
+unit				archers
+unit				spearmen
+
+
+rebel_type			Mysians	
+category			peasant_revolt
+chance				1		
+description			Mysians
+unit				light cavalry
+unit				seljuk horse archers
+unit				archers
+unit				spearmen
+
+
+rebel_type			Pamphylians	
+category			peasant_revolt
+chance				1		
+description			Pamphylians
+unit				light cavalry
+unit				seljuk horse archers
+unit				archers
+unit				spearmen
+
+
+rebel_type			Rodesians	
+category			peasant_revolt
+chance				1		
+description			Rodesians
+unit				light cavalry
+unit				seljuk horse archers
+unit				archers
+unit				spearmen
+
+
+rebel_type			Turcomans	
+category			peasant_revolt
+chance				8		
+description			Turcomans
+unit				light cavalry
+unit				seljuk horse archers
+unit				archers
+unit				spearmen
+
+
+rebel_type			Paphlagonians	
+category			peasant_revolt
+chance				2		
+description			Paphlagonians
+unit				light cavalry
+unit				seljuk horse archers
+unit				archers
+unit				spearmen
+
+
+rebel_type			Seleukeian_Armenians	
+category			peasant_revolt
+chance				3		
+description			Seleukeian_Armenians
+unit				early didebuls
+unit				armenian infantry
+unit				armenian borderers
+unit				archers
+unit				spearmen
+
+
+
+rebel_type			Cyprians	
+category			peasant_revolt
+chance				3		
+description			Cyprians
+unit				archers
+unit				spearmen
+
+
+rebel_type			Kilikian_Armenians	
+category			peasant_revolt
+chance				6		
+description			Kilikian_Armenians
+unit				early didebuls
+unit				armenian infantry
+unit				armenian borderers
+unit				archers
+unit				spearmen
+
+
+
+rebel_type			Trapezuntines	
+category			peasant_revolt
+chance				3		
+description			Trapezuntines
+unit				light cavalry
+unit				trebizond archers
+unit				seljuk horse archers
+unit				archers
+unit				spearmen
+
+
+rebel_type			Syrians	
+category			peasant_revolt
+chance				5		
+description			Syrians
+
+unit				ghazi cavalry
+unit				bedouin camels
+unit				seljuk horse archers
+unit				saracen warriors
+unit				archers
+unit				saracen archers
+unit				arab infantry
+unit				spearmen
+unit				ghazi infantry
+
+
+rebel_type			Ayyubids	
+category			peasant_revolt
+chance				15		
+description			Ayyubids
+
+unit				seljuk horse archers
+unit				saracen warriors
+unit				archers
+unit				saracen archers
+unit				arab infantry
+unit				spearmen
+
+
+rebel_type			Arabs	
+category			peasant_revolt
+chance				10		
+description			Arabs
+
+unit				bedouin camels
+unit				seljuk horse archers
+unit				saracen warriors
+unit				archers
+unit				saracen archers
+unit				arab infantry
+unit				spearmen
+
+
+rebel_type			Orthodox_Christians	
+category			peasant_revolt
+chance				7		
+description			Orthodox_Christians
+unit				ghazi cavalry
+unit				ghazi infantry
+unit				armenian borderers
+unit				archers
+unit				spearmen
+
+
+rebel_type			Hebrews	
+category			peasant_revolt
+chance				7		
+description			Hebrews
+
+unit				bedouin camels
+unit				seljuk horse archers
+unit				archers
+unit				saracen archers
+unit				arab infantry
+unit				spearmen
+
+
+rebel_type			Palestinians	
+category			peasant_revolt
+chance				5		
+description			Palestinians
+
+unit				bedouin camels
+unit				seljuk horse archers
+unit				archers
+unit				saracen archers
+unit				arab infantry
+unit				spearmen
+
+rebel_type			Banu_Tamim	
+category			peasant_revolt
+chance				4		
+description			Banu_Tamim
+
+unit				bedouin camels
+unit				seljuk horse archers
+unit				archers
+unit				saracen archers
+unit				arab infantry
+unit				spearmen
+
+
+rebel_type			Banu_Hashim	
+category			peasant_revolt
+chance				1		
+description			Banu_Hashim
+
+unit				bedouin camels
+unit				seljuk horse archers
+unit				archers
+unit				saracen archers
+unit				arab infantry
+unit				spearmen
+
+
+rebel_type			Bedouins	
+category			peasant_revolt
+chance				1		
+description			Bedouins
+
+unit				bedouin camels
+unit				seljuk horse archers
+unit				archers
+unit				saracen archers
+unit				arab infantry
+unit				spearmen
+
+rebel_type			Nubians	
+category			peasant_revolt
+chance				1		
+description			Nubians
+unit				nubian infantry
+unit				bedouin camels
+unit				seljuk horse archers
+unit				archers
+unit				saracen archers
+unit				arab infantry
+unit				spearmen
+
+rebel_type			Banu_Sulaym	
+category			peasant_revolt
+chance				1		
+description			Banu_Sulaym
+unit				bedouin camels
+unit				seljuk horse archers
+unit				archers
+unit				saracen archers
+unit				arab infantry
+unit				spearmen
+
+rebel_type			Sudanese	
+category			peasant_revolt
+chance				1		
+description			Sudanese
+unit				nubian infantry
+unit				bedouin camels
+unit				seljuk horse archers
+unit				archers
+unit				saracen archers
+unit				arab infantry
+unit				spearmen
+
+rebel_type			Banu_Jami	
+category			peasant_revolt
+chance				1		
+description			Banu_Jami
+unit				bedouin camels
+unit				seljuk horse archers
+unit				archers
+unit				saracen archers
+unit				arab infantry
+unit				spearmen
+
+
+rebel_type			Maltese	
+category			peasant_revolt
+chance				5		
+description			Maltese
+unit				seljuk horse archers
+unit				saracen warriors
+unit				archers
+unit				saracen archers
+unit				arab infantry
+unit				spearmen
+
+
+rebel_type			Banu_Hilal	
+category			peasant_revolt
+chance				3		
+description			Banu_Hilal
+unit				bedouin camels
+unit				seljuk horse archers
+unit				archers
+unit				saracen archers
+unit				arab infantry
+unit				spearmen
+unit				berber camels
+unit				berber cavalry
+
+rebel_type			Berbers	
+category			peasant_revolt
+chance				2		
+description			Berbers
+unit				berber camels
+unit				berber cavalry
+unit				archers
+unit				spearmen
+unit				arab infantry
+unit				seljuk horse archers
+
+rebel_type			Kutama	
+category			peasant_revolt
+chance				2		
+description			Kutama
+unit				berber camels
+unit				berber cavalry
+unit				archers
+unit				spearmen
+unit				arab infantry
+unit				seljuk horse archers
+
+rebel_type			Beni_Helal	
+category			peasant_revolt
+chance				3		
+description			Beni_Helal
+unit				berber camels
+unit				berber cavalry
+unit				archers
+unit				spearmen
+unit				arab infantry
+unit				seljuk horse archers
+
+rebel_type			Beni_Hassans	
+category			peasant_revolt
+chance				3		
+description			Beni_Hassans
+unit				berber camels
+unit				berber cavalry
+unit				archers
+unit				spearmen
+unit				seljuk horse archers
+unit				arab infantry
+
+rebel_type			Tajakant	
+category			peasant_revolt
+chance				2		
+description			Tajakant
+unit				berber camels
+unit				berber cavalry
+unit				archers
+unit				spearmen
+unit				seljuk horse archers
+unit				arab infantry
+
+rebel_type			Imazighen	
+category			peasant_revolt
+chance				4		
+description			Imazighen
+unit				berber camels
+unit				berber cavalry
+unit				seljuk horse archers
+unit				arab infantry
+unit				archers
+unit				spearmen
+
+
+rebel_type			Banu_Ghaniya	
+category			peasant_revolt
+chance				3		
+description			Banu_Ghaniya
+unit				berber camels
+unit				berber cavalry
+unit				seljuk horse archers
+unit				arab infantry
+unit				archers
+unit				spearmen
+
+
+rebel_type			Sardi	
+category			peasant_revolt
+chance				5		
+description			Sardi
+unit				sardinian mercenaries
+unit				mounted sergeants
+unit				feudal foot knights
+unit				crossbowmen
+unit				archers
+unit				feudal sergeants
+unit				italian city militia
+unit				ribaldi
+unit                italian knights
+
+					
+;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
+;non region			based
+;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+					
+rebel_type			brigands
+category			brigands
+chance				10
+description			brigands
+unit				spearmen
+unit				archers
+	
+					
+rebel_type			pirates
+category			pirates
+chance				55
+description			pirates
+unit				naval pirate ships

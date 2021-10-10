@@ -1,0 +1,252 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
+;
+;	This file contains the mount linkages; it gets parsed on application 
+;	startup but is not otherwise referred to. The data format is thus:
+;
+;	Fields should be entered in the order shown.
+;
+;	;						indicates a comment ;-)
+;	/ /						indicates a section
+;	[]						indicates optional
+;
+;	/generic/
+;							
+;	type					indicates a new mount type, must be followed by id name string
+;	class					mount class (current possibilities - horse, camel, elephant, chariot, scorpion_cart)
+;	model*					model id from descr_model_battle 
+;	radius					mount radius
+;	[ x_radius ]			mount x axis radius for elliptical mounts (radius is y radius in this case) 
+;	height					mount height
+;	mass					mount mass
+;	banner_height			height of banners above mount
+;	bouyancy_offset			bouyancy offset of mount above root node
+;	water_trail_effect		display effect for moving through water
+;
+;	* do not specify for chariots and scorpion carts - use lods in the chariot/scorpion cart specific section
+;
+;	/horse, camel or elephant specific/
+;
+;	root_node_height		height of the horse, camel or elephants root node above the ground
+;
+;	/horse and camel specific/
+;	
+;	rider_offset			(x, y, z) for the rider relative to horse or camel root node
+;
+;	/elephant, chariot and scorpion cart specific/
+;
+;	attack_delay			delay between mount attacks (tusks and scythes) in seconds
+;
+;	/elephant specific/
+;	
+;	dead_radius				radius of dead obstacle
+;	tusk_z					distance along the z axis of tusks from centre
+;	tusk_radius				radius of tusk attack
+;	riders					number of riders
+;	rider_offset			(x, y, z) for each rider relative to elephant root node
+;
+;	/chariot and scorpion cart specific/
+;
+;	axle_width				width of the chariot/scorpion cart axle
+;	wheel_radius			radius of the chariots/scorpion cart wheels
+;	pivot_offset			(x, y, z) position of the tow-pole pivot point releative to the axle centre
+;	pole_length				length of the tow pole
+;	pole_pivot				offset from pole origin to pivot point
+;	pole_connect			height at which pole connects to harness above ground
+;	harness_connect			height at which harness connects to horse above ground
+;	[
+;		attack_delay			delay between scythe attacks in seconds
+;		scythe_radius			radius of scythe from end of axle
+;		revs_per_attack 		revolutions per second per scythe attack on an individual (rounded down)	
+;	] #
+;	horse_type				type of horse to tow chariot/scorpion cart
+;	horses					number of horses
+;	horse_offset			(x, z) for each horse relative to pivot point
+;	riders					number of riders 
+;	rider_offset			(x, y, z) for each rider releative to axle centre
+;	lods					number of lods - min 1, max 5
+;	lod						(model_filename, range) for each lod in ascending order of distance (use range = max for furthest lod)
+;	trail_effect			effect definition for water trails
+;
+;	# ommitting this section will mean no scythes are displayed and no scythe attacks will be used.  
+;
+;	/scorpion cart specific/
+;
+;	scorpion_offset		
+;	scorpion_height			
+;	scorpion_forward_length
+;	scorpion_reload_ticks
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
+;
+; camels 
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
+
+type				camel
+class				camel
+model				camel
+radius				1.5
+x_radius			0.5
+height				2.5
+mass				2
+banner_height		0
+bouyancy_offset		1.8
+water_trail_effect  camel_water_trail
+root_node_height	1.52
+rider_offset		0, 0.43, -0.2
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
+;
+; horses 
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
+
+type				medium horse
+class				horse
+model				horse_medium
+radius				1.4
+x_radius			0.4
+height				2.5
+mass				1.3
+banner_height			0
+bouyancy_offset			1.8
+water_trail_effect		horse_water_trail
+root_node_height		1.6
+rider_offset			0.0, 0.15, 0.0
+
+type				cataphract horse
+class				horse
+model				horse_cataphract
+radius				1.4
+x_radius			0.4
+height				2.5
+mass				2.5
+banner_height			0
+bouyancy_offset			1.8
+water_trail_effect		horse_water_trail
+root_node_height		1.6
+rider_offset			0.0, 0.3, 0.0
+
+type				generals horse
+class				horse
+model				generals_horse
+radius				1.4
+x_radius			0.4
+height				2.5
+mass				1.5
+banner_height			0
+bouyancy_offset			1.8
+water_trail_effect		horse_water_trail
+root_node_height		1.6
+rider_offset			0.0, 0.15, 0.0
+
+type				generals warhorse
+class				horse
+model				generals_warhorse
+radius				1.4
+x_radius			0.4
+height				2.5
+mass				2.0
+banner_height			0
+bouyancy_offset			1.8
+water_trail_effect		horse_water_trail
+water_trail_effect_running  horse_water_trail_running
+root_node_height		1.6
+rider_offset			0.0, 0.15, 0.0
+
+type				warhorse
+class				horse
+model				horse_warhorse
+radius				1.6
+x_radius			0.6
+height				2.5
+mass				1.6
+banner_height			0
+bouyancy_offset			1.8
+water_trail_effect		horse_water_trail
+root_node_height		1.6
+rider_offset			0.0, 0.15, 0.0
+
+; re-used for a covered horse model
+type				gothic horse
+class				horse
+model				horse_gothic
+radius				1.4
+x_radius			0.4
+height				2.5
+mass				2.5
+banner_height			0
+bouyancy_offset			1.8
+water_trail_effect		horse_water_trail
+root_node_height		1.6
+rider_offset			0.0, 0.15, 0.0
+
+type				ranged horse
+class				horse
+model				horse_ranged
+radius				1.4
+x_radius			0.4
+height				2.5
+mass				1.0
+banner_height			0
+bouyancy_offset			1.8
+water_trail_effect		horse_water_trail
+root_node_height		1.6
+rider_offset			0.0, 0.15, 0.0
+
+type				pony
+class				horse
+model				horse_pony
+radius				1.4
+x_radius			0.4
+height				2.2
+mass				0.8
+banner_height			0
+bouyancy_offset			1.8
+water_trail_effect		horse_water_trail
+root_node_height		1.6
+rider_offset			0.0, 0.15, 0.0
+
+type				light horse
+class				horse
+model				horse_light
+radius				1.4
+x_radius			0.4
+height				2.5
+mass				1.0
+banner_height			0
+bouyancy_offset			1.8
+water_trail_effect		horse_water_trail
+root_node_height		1.6
+rider_offset			0.0, 0.15, 0.0
+
+type				covered horse eastern
+class				horse
+model				horse_covered_eastern
+radius				1.4
+x_radius			0.4
+height				2.5
+mass				2.5
+banner_height			0
+bouyancy_offset			1.8
+water_trail_effect		horse_water_trail
+root_node_height		1.6
+rider_offset			0.0, 0.15, 0.0
+
+type				covered horse2
+class				horse
+model				horse_covered2
+radius				1.4
+x_radius			0.4
+height				2.5
+mass				2.2
+banner_height			0
+bouyancy_offset			1.8
+water_trail_effect		horse_water_trail
+root_node_height		1.6
+rider_offset			0.0, 0.15, 0.0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	

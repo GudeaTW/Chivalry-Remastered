@@ -1,0 +1,1633 @@
+; Chivalry TW
+; Regions List, DaVinci
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+Cilicia ; ok
+	Sis
+	seleucid
+	Brigantes
+	255 20 200
+	none
+	5
+	4
+;	christianity 80 islam 15 pagan 5
+Abkhazia ; ok
+	Kutaisi
+	seleucid
+	Brigantes
+	255 40 240
+	none
+	5
+	4
+;	christianity 80 islam 10 pagan 10
+Toscana ; ok
+	Pisa
+	romans_julii
+	Brigantes
+	190 50 170
+	none
+	5
+	5
+;	christianity 95 pagan 5
+Principality_of_Bari ; Apulia
+	Bari
+	dacia
+	Brigantes
+	24 211 227
+	none
+	5
+	4
+;	christianity 95 pagan 5
+Sardinia ; ok
+	Cagliari
+	romans_julii
+	Brigantes
+	198 35 13
+	none
+	5
+	5
+;	christianity 60 islam 30 pagan 10 
+Siracuse            ; ok
+	Siracusa
+	romans_julii
+	Brigantes
+	198 178 13
+	none
+	5
+	5
+;	christianity 55 islam 40 pagan 5
+Calabria ; ok
+	Cosenza ; Mileto
+	dacia
+	Brigantes
+	190 50 190
+	none
+	5
+	5
+;	christianity 95 pagan 5
+Province_of_Benevento ; ok
+	Benevento ; Capua
+	romans_julii
+	Brigantes
+	114 50 207
+	none
+	5
+	5
+;	christianity 95 pagan 5
+Liguria ; ok
+	Genoa
+	romans_julii
+	Brigantes
+	170 50 150
+	none
+	5
+	5
+;	christianity 95 pagan 4 islam 1
+Venezien           
+	Venezia
+	romans_julii
+	Brigantes
+	84 4 184
+	none 
+	5
+	5
+;	christianity 90 pagan 9 islam 1
+Corsica ; ok
+	Abjacio
+	romans_julii
+	Brigantes
+	21 189 95
+	none
+	5
+	3
+;	christianity 55 pagan 40 islam 5
+Val_Dimone ; ok
+	Palermo
+	dacia
+	Brigantes
+	230 50 210
+	none
+	5
+	5
+;	christianity 65 islam 30 pagan 5
+Wadi_al-Mazzara ; ok
+	Agrigento
+	romans_julii
+	Brigantes
+	210 50 190
+	none
+	5
+	4
+;	islam 60 christianity 35 pagan 5
+Seleukeia ; ok
+	Tarsos
+	seleucid
+	Brigantes
+	255 20 240
+	none
+	5
+	4
+;	christianity 80 islam 15 pagan 5
+Georgia ; ok
+	Tbilisi
+	seleucid
+	Brigantes
+	255 160 120
+	none
+	5
+	4
+;	christianity 85 islam 10 pagan 5
+Shirvan ; ok
+	Shamakha
+	seleucid
+	Brigantes
+	255 20 20
+	none
+	5
+	3
+;	islam 65 pagan 30 christianity 5
+Baleares ; ok
+	Palma
+	romans_julii
+	Brigantes
+	235 117 250
+	none
+	5
+	3
+;	islam 60 christianity 30 pagan 10
+Provence ; ok
+	Arles
+	romans_julii
+	Brigantes
+	160 10 10
+	none 
+	5
+	5
+;	christianity 90 pagan 10
+Lombardia ; ok
+	Milano
+	romans_julii
+	Brigantes
+	150 50 150
+	none
+	5
+	5
+;	christianity 90 pagan 10
+Perugia ; ok
+	Spoleto
+	romans_julii
+	Brigantes
+	170 50 170
+	none
+	5
+	5
+;	christianity 95 pagan 5
+Libiya ; ok 
+	Gadamis
+	romans_julii
+	Brigantes
+	220 150 40
+	none
+	5
+	1
+;	islam 50 pagan 45 christianity 5
+Anatolikon ; ok
+	Iconium
+	seleucid
+	Brigantes
+	255 200 200
+	none
+	5
+	3
+;	christianity 44 islam 51 pagan 5
+Antioch ; ok
+	Antioch
+	seleucid
+	Brigantes
+	84 186 107
+	none
+	5
+	4
+;	christianity 55 islam 35  pagan 10 
+Edessa ; ok
+	Edessa
+	seleucid
+	Brigantes
+	26 31 249
+	none
+	5
+	3
+;	christianity 55 islam 40  pagan 5
+Malta  ; ok
+	Medina 
+	romans_julii
+	Brigantes
+	83 122 13
+	none 
+	5
+	3
+;	islam 52 christianity 38 pagan 10
+Trebizond ; ok
+	Trapezos
+	seleucid
+	Brigantes
+	255 80 80
+	none
+	5
+	4
+;	christianity 65 pagan 15 islam 20
+Bithynia ; ok
+	Nikaia
+	seleucid
+	Brigantes
+	255 240 240
+	none
+	5
+	4
+;	christianity 70 pagan 15 islam 15
+Armeniakon ; ok
+	Sinope
+	seleucid
+	Brigantes
+	255 160 160
+	none
+	5
+	3
+;	christianity 60 pagan 15 islam 25
+Kybrrhaiots ; ok
+	Adalia
+	seleucid
+	Brigantes
+	255 60 60
+	none
+	5
+	4
+;	christianity 70 pagan 15 islam 15
+Abydos ; ok
+	Cyzicos
+	seleucid
+	Brigantes
+	255 140 140
+	none
+	5
+	3
+;	christianity 75 pagan 25
+Tripoli ; ok
+	Tripoli
+	seleucid
+	Brigantes
+	42 126 138
+	none
+	5
+	3
+;	islam 50 christianity 45 pagan 5 
+Bulgaria ; ok
+	Preslav
+	parthia
+	Brigantes
+	60 60 120
+	none
+	5
+	5
+;	pagan 55 christianity 45
+Byzantion ; ok
+	Konstantinoupoli
+	parthia
+	Brigantes
+	100 130 60
+	none
+	5
+	5
+;	christianity 94 pagan 4 islam 2
+Thrake ; ok
+	Hadrianopolis
+	parthia
+	Brigantes
+	3 124 193
+	none
+	5
+	5
+;	christianity 90 pagan 10
+Makedon ; ok
+	Skupi
+	parthia
+	Brigantes
+	200 200 30
+	none
+	5
+	4
+;	christianity 70 pagan 30
+Thessalonika ; ok
+	Thessalonika
+	parthia
+	Brigantes
+	185 117 1
+	none
+	5
+	5
+;	christianity 95 pagan 5
+Peloponnesos ;ok
+	Argos
+	parthia
+	Brigantes
+	26 90 91
+	none
+	5
+	3
+;	christianity 95 pagan 5
+Hellas ; ok
+    	Athina
+	parthia
+	Brigantes
+	120 200 60
+	none
+	5
+	3
+;	christianity 95 pagan 5
+Epiros ; ok
+	Dyrrachion
+	parthia
+	Brigantes
+	23 224 73
+	none
+	5
+	4
+;	christianity 70 pagan 30
+Rhodos ; ok
+	Rhodos
+	parthia
+	Brigantes
+	131 33 77
+	none
+	5
+	3
+;	christianity 90 islam 5 pagan 5
+Krete ; ok
+	Kastro
+	parthia
+	Brigantes
+	193 162 206
+	none
+	5
+	2
+;	christianity 70 pagan 25 islam 5
+Kypros ; ok
+	Leukosia
+	parthia
+	Brigantes
+	126 144 111
+	none
+	5
+	4
+;	christianity 65 islam 30 pagan 5
+Cherson ; ok
+	Chersonesos
+	parthia
+	Brigantes
+	31 75 37
+	none
+	5
+	4
+;	pagan 70 christianity 30 
+Aragon ; ok
+	Huesca
+	spain
+	Brigantes
+	13 196 198
+	none
+	5
+	4
+;	christianity 90 pagan 10
+Catalonia ; ok
+	Barcelona
+	spain
+	Brigantes
+	117 198 13
+	none
+	5
+	5
+;	christianity 90 pagan 10
+Chersianon ; ok
+	Kaiseria
+	pontus
+	Brigantes
+	255 120 120
+	none
+	5
+	3
+;	christianity 35 islam 60 pagan 5
+Galatia ; ok
+	Ancyra
+	pontus
+	Brigantes
+	66 232 191
+	none
+	5
+	3
+;	christianity 50 islam 45 pagan 5
+Iraq ; ok
+    	Baghdad
+	thrace
+	Brigantes
+	97 113 106
+	none
+	5
+	4
+;	islam 90 pagan 5 christianity 5
+Arabia ; ok ; Syria
+	Susa ; Aleppo
+	thrace
+	Brigantes
+	25 222 152
+	none
+	5
+	2
+;	islam 55 christianity 35 pagan 10
+Armenia ; ok
+	Ani
+	seleucid
+	Brigantes
+	255 80 200
+	none
+	5
+	3
+;	christianity 60 islam 30 pagan 10
+Vaspurakan ; ok
+	Van
+	seleucid
+	Brigantes
+	155 123 72
+	none
+	5
+	3
+;	christianity 55 islam 35 pagan 10
+Azerbaijan ; ok
+	Tabriz
+	thrace
+	Brigantes
+	45 249 32
+	none
+	5
+	3
+;	islam 80 pagan 10 christianity 10
+Jazira ; ok
+	Al-Mawsil
+	thrace
+	Brigantes
+	88 64 201
+	none
+	5
+	3
+;	islam 95 pagan 5
+Palestina ; ok
+	Jerusalem
+	thrace
+	Brigantes
+	169 13 119
+	none
+	5
+	3
+;	islam 45 pagan 35 christianity 20 
+Misr ; ok
+	Al-Qahira
+	greek_cities
+	Brigantes
+	130 186 17
+	none
+	5
+	4
+;	islam 90 christianity 8 pagan 2
+Al-Iskandariya ; ok
+	Al-Iskandariya
+	greek_cities
+	Brigantes
+	54 124 244
+	none
+	5
+	5
+;	islam 80 christianity 15 pagan 5 
+An-Nuba ; ok
+	Asyut
+	greek_cities
+	Brigantes
+	189 169 88
+	none 
+	5
+	2
+;	islam 90 christianity 8 pagan 2 
+Dumyat ; ok
+	Dumyat
+	greek_cities
+	Brigantes
+	178 23 113
+	none
+	5
+	3
+;	islam 90 christianity 8 pagan 2 
+Sina ; ok
+	Aqaba
+	greek_cities
+	Brigantes
+	48 205 193
+	none
+	5
+	2
+;	islam 95 pagan 2 christianity 3
+Fillistin ; ok
+	Gaza
+	greek_cities
+	Brigantes
+	199 43 128
+	none
+	5
+	2
+;	islam 65 pagan 15 christianity 20 
+Syria ; ok
+	Dimashq
+	greek_cities
+	Brigantes
+	15 163 30
+	none
+	5
+	3
+;	islam 75 pagan 5 christianity 20
+Portucalense ; ok
+	Guimaraes
+	romans_scipii
+	Brigantes
+	97 216 96
+	none
+	5
+	4
+;	christianity 85 islam 12 pagan 3
+Kingdom_of_Leon ; ok
+	Leon
+	romans_scipii
+	Brigantes
+	13 157 198
+	none
+	5
+	5
+;	christianity 95 pagan 5
+Kingdom_of_Castilla ; ok
+	Burgos 
+	romans_scipii
+	Brigantes
+	198 13 35
+	none
+	5
+	5
+;	christianity 95 pagan 5
+al-Maghrib ; ok
+	Fas
+	macedon
+	Brigantes
+	202 126 17
+	none
+	5
+	3
+;	islam 90 pagan 5 christianity 5
+Denia ; ok
+	Murcia
+	macedon
+	Brigantes
+	187 198 13
+	none
+	5
+	4
+;	islam 70 pagan 10 christianity 20 
+Granada ; ok 
+	Granada 
+	macedon
+	Brigantes
+	17 13 198
+	none 
+	5
+	5
+;	islam 90 pagan 3 christianity 8
+Andalusia ; ok
+	Cordoba
+	macedon
+	Brigantes
+	153 113 111
+	none
+	5
+	6
+;	islam 90 pagan 5 christianity 5
+Sevilla ; ok
+	Sevilla
+	macedon
+	Brigantes
+	126 101 226
+	none 
+	5
+	5
+;	islam 75 christianity 15 pagan 10
+Mahdiyah ; ok
+	Tunis
+	romans_brutii
+	Brigantes
+	8 153 205
+	none
+	5
+	4
+;	islam 85 christianity 15 pagan 5 
+Tunesia ; ok
+	al-Qayrawan
+	romans_brutii
+	Brigantes
+	211 178 9
+	none
+	6
+	3
+;	islam 75 pagan 10 christianity 15
+Province_of_Bijayah ; ok
+	Bijayah
+	romans_brutii
+	Brigantes
+	239 120 224
+	none
+	5
+	2
+;	islam 90 pagan 5 christianity 5
+Portugal ; ok
+	Badajoz ;Lissabon
+	romans_scipii
+	Brigantes
+	13 198 30
+	none  
+	5
+	5
+;	islam 55 christianity 40 pagan 5
+Valencia ; ok
+	Valencia
+	macedon
+	Brigantes
+	75 31 39
+	none
+	5
+	5
+;	islam 65 christianity 20 pagan 10
+Province_of_Toledo ; ok
+	Toledo
+	romans_scipii
+	Brigantes
+	228 11 183
+	none 
+	5
+	5
+;	christianity 55 islam 42 pagan 3
+Province_of_Zaragoza ; ok
+	Zaragoza
+	spain
+	Brigantes
+	49 21 138
+	none
+	5
+	4
+;	christianity 70 islam 25 pagan 5
+Navarra ; ok
+	Pamplona
+	spain
+	Brigantes
+	146 99 217
+	none
+	5
+	3
+;	christianity 75 pagan 25
+Alania ; ok
+	Samandar 
+	seleucid
+	Brigantes
+	250 136 42
+	none
+	5
+	2
+;	pagan 60 christianity 30 islam 10
+Tmutarakan ; ok
+	Tmutarakan
+	seleucid
+	Brigantes
+	122 221 200
+	none
+	5
+	4
+;	pagan 100 
+Burgund ; ok
+	Geneva
+	romans_julii
+	Brigantes
+	80 80 30
+	none
+	5
+	4
+;	christianity 90 pagan 10
+Toulouse ; ok
+	Toulouse
+	romans_julii
+	Brigantes
+	240 60 60
+	none 
+	5
+	5
+;	christianity 55 pagan 45
+Guyenne ; ok
+	Bordeaux
+	romans_julii
+	Brigantes
+	200 30 30
+	none
+	5
+	5
+;	christianity 70 pagan 30 
+Auvergne ; ok
+	Clermont
+	gauls
+	Brigantes
+	172 211 214
+	none
+	5
+	5
+;	christianity 95 pagan 5
+Anjou ; ok
+	Angers
+	gauls
+	Brigantes
+	1 71 211
+	none
+	5
+	5
+;	christianity 95 pagan 5
+Poitou ; ok
+	Poitiers
+	gauls
+	Brigantes
+	3 34 3
+	none
+	5
+	5
+;	christianity 95 pagan 5
+Champagne ; ok
+    	Reims
+	gauls
+	Brigantes
+	160 10 120
+	none 
+	5
+	5
+;	christianity 95 pagan 5
+Ile_de_France ; ok
+	Paris
+	gauls
+	Brigantes
+	240 120 120
+	none
+	5
+	5
+;	christianity 95 pagan 5
+Bretagne ; ok
+	Fougeres
+	gauls
+	Brigantes
+	240 30 30
+	none
+	5
+	4
+;	christianity 80 pagan 20
+Ulster ; ok
+	Armagh
+	gauls
+	Brigantes
+	160 210 200
+	none 
+	5
+	4
+;	christianity 80 pagan 20
+Meath ; ok
+	Dublin
+	gauls
+	Brigantes
+	120 200 120
+	none
+	5
+	4
+;	christianity 70 pagan 30
+Connacht ; ok
+	Luimneach
+	gauls
+	Brigantes
+	120 210 120
+	none 
+	5
+	3
+;	christianity 70 pagan 30
+Munster ; ok
+	Corcaigh
+	gauls
+	Brigantes
+	160 200 160
+	none
+	5
+	3
+;	christianity 70 pagan 30
+Normandie ; ok
+	Rouen
+	britons
+	Brigantes
+	240 120 60
+	none
+	5
+	5
+;	christianity 80 pagan 20
+Alban ; ok
+	Edinburgh
+	britons
+	Brigantes
+	200 160 200
+	none 
+	5
+	4
+;	christianity 70 pagan 30
+Strathclyde ; ok
+	Stirling
+	britons
+	Brigantes
+	160 160 200
+	none
+	5
+	3
+;	christianity 75 pagan 25
+Northumbria ; ok
+	York
+	britons
+	Brigantes
+	160 160 120
+	none
+	5
+	4
+;	christianity 90 pagan 10
+Mercia ; ok
+	Leicester ; Nottingham
+	britons
+	Brigantes
+	240 240 120
+	none
+	5
+	4
+;	christianity 95 pagan 5
+Gwynned ; ok
+	Aberffraw
+	britons
+	Brigantes
+	160 240 80
+	none
+	5
+	3
+;	christianity 95 pagan 5
+Wessex ; ok
+	Winchester
+	britons
+	Brigantes
+	200 200 40
+	none
+	5
+	5
+;	christianity 90 pagan 10
+East_Anglia ; ok
+	London
+	britons
+	Brigantes
+	130 70 66
+	none
+	5
+	5
+;	christianity 90 pagan 10
+Kent ; ok
+	Dover
+	britons
+	Brigantes
+	124 95 42
+	none
+	5
+	5
+;	christianity 90 pagan 10
+Hebrides ; ok
+	Iona
+	britons
+	Brigantes
+	126 189 90
+	none
+	5
+	2
+;	pagan 90 christianity 10 
+Tafilet ; ok
+	Sijilmasa
+	macedon
+	Brigantes
+	87 65 213
+	none
+	5
+	1
+;	islam 60 pagan 40
+as-Sahra ; ok
+	Targhaza
+	macedon
+	Brigantes
+	206 136 25
+	none
+	5
+	1
+;	pagan 90 islam 10
+Barka ; ok
+	Banghazi
+	greek_cities
+	Brigantes
+	234 223 55
+	none 
+	5
+	3
+;	islam 70 pagan 15 christianity 15
+Tripolitania ; ok ; now al-Jamil
+	Lepcis_Magna ; now Tarabulus
+	greek_cities
+	Brigantes
+	202 17 48
+	none 
+	5
+	2
+;	islam 80 christianity 15 pagan 5
+al-Sudan ; ok
+	Siwa
+	greek_cities
+	Brigantes
+	234 136 77
+	none
+	5
+	2
+;	islam 90 christianity 5 pagan 5 
+Al-Udwa ; ok
+	Marrakush
+	macedon
+	Brigantes
+	249 173 246
+	none
+	5
+	2
+;	islam 88 pagan 10 christianity 2
+Province_of_Tlemsen ; ok
+	Tlemsen
+	romans_brutii
+	Brigantes
+	150 65 239
+	none
+	5
+	2
+;	islam 90 pagan 5 christianity 5
+Khazaria ; ok
+	Atil
+	egypt
+	Brigantes
+	240 240 40
+	none
+	5
+	3
+;	pagan 100
+Khotzir ; ok
+	Olbia
+	egypt
+	Brigantes
+	140 140 40
+	none
+	5
+	4
+;	pagan 90 christianity 10
+Itil ; ok
+	Itil
+	egypt
+	Brigantes
+	128 128 128
+	none 
+	5
+	3
+;	pagan 100
+Moldavia ; ok
+	Iasi
+	egypt
+	Brigantes
+	30 120 120
+	none
+	5
+	4
+;	pagan 100
+Khwarazm ; ok
+	Atyrau
+	egypt
+	Brigantes
+	220 240 40
+	none
+	5
+	2
+;	pagan 100
+Volga_Bulgaria ; ok
+	Bulgar
+	egypt
+	Brigantes
+	124 159 252
+	none
+	5
+	3
+;	pagan 100
+Qanglia ; ok
+	Ustiug
+	egypt
+	Brigantes
+	220 220 40
+	none
+	5
+	3
+;	pagan 100
+Ryazan ; ok
+	Ryazan
+	egypt
+	Brigantes
+	34 41 239
+	none
+	5
+	3
+;	pagan 100
+Flanders ; ok
+	Gent
+	gauls
+	Brigantes
+	160 120 120
+	none
+	5
+	5
+;	christianity 90 pagan 10
+Frisia ; ok
+	Utrecht
+	gauls
+	Brigantes
+	120 80 120
+	none
+	5
+	5
+;	christianity 65 pagan 35
+Schweiz ; ok
+	Bern
+	gauls
+	Brigantes
+	255 34 23
+	none
+	5
+	4
+;	christianity 65 pagan 35
+Niederlothringen ; ok
+	Koeln
+	germans
+	Brigantes
+	80 80 120
+	none 
+	5
+	5
+;	christianity 90 pagan 10
+Oberlothringen ; ok
+	Strasburg
+	germans
+	Brigantes
+	80 50 30
+	none 
+	5
+	5
+;	christianity 90 pagan 10
+Holstein ; ok
+	Slesvig
+	germans
+	Brigantes
+	120 120 200
+	none  
+	5
+	5
+;	christianity 80 pagan 20
+Swabia ; ok
+	Augsburg
+	germans
+	Brigantes
+	80 120 150
+	none
+	5
+	5
+;	christianity 90 pagan 10
+Franconia ; ok
+	Wuerzburg
+	germans
+	Brigantes
+	120 120 150
+	none
+	5
+	5
+;	christianity 90 pagan 10
+Steiermark ; ok
+	Wien
+	germans
+	Brigantes
+	120 80 240
+	none
+	5
+	4
+;	christianity 90 pagan 10
+Bavaria ; ok
+	Salzburg
+	germans
+	Brigantes
+	80 50 150
+	none 
+	5
+	5
+;	christianity 95 pagan 5
+VeronaR ; ok
+	Verona
+	germans
+	Brigantes
+	50 50 150
+	none
+	5
+	5
+;	christianity 90 pagan 10
+Papal-States ; ok            
+	Roma
+	romans_julii
+	Brigantes
+	52 13 198
+	none
+	5
+	5
+;	christianity 96 pagan 4
+Sachsen ; ok
+	Magdeburg
+	germans
+	Brigantes
+	200 80 120
+	none
+	5
+	5
+;	christianity 80 pagan 20
+Jylland ; ok
+	Viborg
+	scythia
+	Brigantes
+	1 196 231
+	none  
+	5
+	5
+;	christianity 75 pagan 25
+Denmark ; ok
+	Vordingborg
+	scythia
+	Brigantes
+	30 120 200
+	none   
+	5
+	4
+;	christianity 75 pagan 25
+Skane ; ok
+	Lund
+	scythia
+	Brigantes
+	180 200 70
+	none 
+	5
+	5
+;	christianity 60 pagan 40
+Svealand ; ok
+	Uppsala
+	scythia
+	Brigantes
+	220 200 90
+	none
+	5
+	3
+;	pagan 71 christianity 29 
+Norge ; ok
+	Oslo
+	scythia
+	Brigantes
+	120 240 90
+	none
+	5
+	3
+;	pagan 60 christianity 40 
+Gotland ; ok
+    	Visby
+	scythia
+	Brigantes
+	160 200 90
+	none
+	5
+	2
+;	pagan 90 christianity 10 
+Nordvegur  ; ok            
+	Bjorgvin
+	scythia
+	Brigantes
+	144 8 62
+	none
+	5
+	2
+;	pagan 90 christianity 10 
+Smaland ; ok
+	Kalmar
+	scythia
+	Brigantes
+	227 125 101
+	none
+	5
+	4
+;	pagan 85 christianity 15
+Moravia ; ok
+	Brno
+	romans_senate
+	Brigantes
+	42 211 227
+	none
+	5
+	4
+;	christianity 85 pagan 15
+Bohemia ; ok
+	Praha
+	romans_senate
+	Brigantes
+	30 80 240
+	none
+	5
+	5
+;	christianity 90 pagan 10
+Welkopolska ; ok
+	Poznan
+	numidia
+	Brigantes
+	215 82 198
+	none
+	5
+	5
+;	christianity 70 pagan 30
+Malopolska ; ok
+	Plock
+	numidia
+	Brigantes
+	238 121 45
+	none
+	5
+	5
+;	christianity 70 pagan 30
+Slask ; ok
+	Wroclaw
+	numidia
+	Brigantes
+	180 189 141
+	none
+	5
+	5
+;	christianity 70 pagan 30
+Mazowsze ; ok
+	Krakow
+	numidia
+	Brigantes
+	80 80 10
+	none 
+	5
+	5
+;	christianity 85 pagan 15
+Finland ; ok
+	Turku
+	scythia
+	Brigantes
+	198 205 160
+	none
+	5
+	2
+;	pagan 100
+Lusatia ; ok
+	Misnia
+	numidia
+	Brigantes
+	30 30 240
+	none 
+	5
+	4
+;	pagan 60 christianity 40
+Polabia ; ok
+	Mecklenburg
+	germans
+	Brigantes
+	30 30 200
+	none
+	5
+	4
+;	pagan 85 christianity 15
+ash-Sharat ; ok
+	Kerak
+	greek_cities
+	Brigantes
+	199 91 249
+	none
+	5
+	2
+;	islam 70 pagan 15 christianity 15
+Al-Urdun ; ok
+	Amman
+	greek_cities
+	Brigantes
+	124 66 239
+	none
+	5
+	2
+;	islam 90 pagan 5 christianity 5
+Nejd ; ok
+	al-Jouf
+	greek_cities
+	Brigantes
+	184 160 33
+	none 
+	5
+	1
+;	islam 88 pagan 10 christianity 2
+Sinai ; ok
+	Tabuk
+	greek_cities
+	Brigantes
+	75 199 155
+	none
+	5
+	2
+;	islam 80 pagan 15 christianity 5
+Serbia ; ok
+	Dubrovnik
+	carthage
+	Brigantes
+	60 240 60
+	none
+	5
+	4
+;	christianity 60 pagan 40 
+Bosnia ; ok
+	Visoko
+	carthage
+	Brigantes
+	147 86 88
+	none
+	5
+	4
+;	pagan 65 christianity 35
+Croatia ; ok
+	Zadar
+	carthage
+	Brigantes
+	30 200 30
+	none
+	5
+	4
+;	christianity 55 pagan 45 
+Alfold ; ok
+	Varad
+	carthage
+	Brigantes
+	65 4 178
+	none 
+	5
+	4
+;	christianity 70 pagan 30
+Magyarorszag ; ok
+	Buda ; changed name to Szekes..
+	carthage
+	Brigantes
+	120 80 10
+	none
+	5
+	5
+;	christianity 85 pagan 15
+Karpatalja ; ok
+	Mukachevo
+	carthage
+	Brigantes
+	184 245 151
+	none
+	5
+	4
+;	pagan 60 christianity 40
+Nyitra ; ok
+	Nitra
+	carthage
+	Brigantes
+	190 187 61
+	none
+	5
+	4
+;	christianity 70 pagan 30
+Erderly ; ok
+	Gyulafehervar
+	carthage
+	Brigantes
+	30 120 60
+	none
+	5
+	5
+;	christianity 80 pagan 20
+Wallachia ; ok
+	Craiova
+	egypt
+	Brigantes
+	200 120 60
+	none
+	5
+	5
+;	pagan 80 christianity 20
+Prussia ; ok
+	Truso
+	numidia
+	Brigantes
+	30 120 10
+	none
+	5
+	4
+;	pagan 100
+Pomerania ; ok
+	Gdansk
+	numidia
+	Brigantes
+	30 80 10
+	none
+	5
+	4
+;	pagan 90 christianity 10
+Zopadno_Pomorsko  ; ok
+	Szteteno
+	numidia
+	Brigantes
+	169 3 199
+	none
+	5
+	4
+;	pagan 91 christianity 9	
+Lithuania ; ok
+	Vilnius
+	numidia
+	Brigantes
+	120 120 40
+	none
+	5
+	5
+;	pagan 99 christianity 1
+Livonia ; ok
+	Riga
+	numidia
+	Brigantes
+	41 162 232
+	none
+	5
+	4
+;	pagan 100 
+Estonia ; ok
+	Reval
+	numidia
+	Brigantes
+	140 160 40
+	none
+	5
+	4
+;	pagan 100
+Pskov ; ok
+	Pskov
+	numidia
+	Brigantes
+	176 111 104
+	none 
+	5
+	4
+;	christianity 50 pagan 50
+Volin ; ok
+	Brest
+	numidia
+	Brigantes
+	33 100 131
+	none
+	5
+	4
+;	pagan 70 christianity 30
+Chervenski_Goroda ; ok
+	Peremyshl
+	numidia
+	Brigantes
+	64 64 64
+	none
+	5
+	4
+;	pagan 70 christianity 30
+Galich ; ok
+	Galich
+	egypt
+	Brigantes
+	100 100 40
+	none
+	5
+	4
+;	pagan 100
+Polotsk ; ok
+	Polotsk
+	numidia
+	Brigantes
+	109 3 115
+	none
+	5
+	4
+;	pagan 95 christianity 5
+Pinsk ; ok
+	Pinsk
+	numidia
+	Brigantes
+	253 213 55
+	none
+	5
+	4
+;	pagan 85 christianity 15
+Novgorod ; ok
+	Novgorod
+	armenia
+	Brigantes
+	160 160 40
+	none
+	5
+	5
+;	christianity 85 pagan 15
+Suzdal ; ok
+	Suzdal
+	egypt
+	Brigantes
+	228 107 171
+	none
+	5
+	3
+;	pagan 100
+Vladimir ; ok
+	Vladimir
+	egypt
+	Brigantes
+	15 11 97
+	none
+	5
+	3
+;	pagan 100
+Smolensk ; ok
+	Smolensk
+	armenia
+	Brigantes
+	160 180 40
+	none
+	5
+	4
+;	pagan 55 christianity 45
+Chernigov ; ok
+	Chernigov
+	armenia
+	Brigantes
+	180 180 40
+	none
+	5
+	4
+;	christianity 55 pagan 45 
+Novgorod-Siversky ; ok
+	Novgorod-Siversky
+	egypt
+	Brigantes
+	104 10 43
+	none 
+	5
+	4
+;	pagan 70 christianity 30
+Perejaslavl ; ok
+	Perejaslavl
+	armenia
+	Brigantes
+	180 200 40
+	none 
+	5
+	4
+;	christianity 50 pagan 50
+Kiev ; ok
+	Kiev
+	armenia
+	Brigantes
+	140 120 40
+	none
+	5
+	5
+;	christianity 90 pagan 10
+Murom ; ok
+	Murom
+	egypt
+	Brigantes
+	62 192 252
+	none
+	5
+	3
+;	pagan 100

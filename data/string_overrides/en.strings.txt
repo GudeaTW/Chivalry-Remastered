@@ -1,0 +1,10 @@
+"Rome.Override.IMPERIAL_CAMPAIGN_BRUTII_TITLE"                             = "Zirid Emirate";
+"Rome.Override.IMPERIAL_CAMPAIGN_JULII_TITLE"                              = "Republic of Pisa";
+"Rome.Override.IMPERIAL_CAMPAIGN_SCIPII_TITLE"                             = "Kingdom of Castile";
+"Rome.Override.ROMANS_BRUTII_DESCR"                                        = "Zirids\nExcellent medium cavalry and offensive infantry.";
+"Rome.Override.ROMANS_JULII_DESCR"                                         = "Pisa\nWide assortment of infantry but limited cavalry. Access to some Levant crusades units.";  
+"Rome.Override.ROMANS_SCIPII_DESCR"                                        = "Castile\nGood light cavalry and infantry, access to reconquista units";
+"Rome.Override.UI_FACTION_BRUTII_DESCRIPTION"                              = "Zirids\nExcellent medium cavalry and offensive infantry.";
+"Rome.Override.UI_FACTION_JULII_DESCRIPTION"                               = "Pisa\nExcellent militia infantry but limited cavalry.";
+"Rome.Override.UI_FACTION_SCIPII_DESCRIPTION"                              = "Castile\nWide assortment of infantry with excellent cavalry support";
+"Rome.Override.BARBARIAN_INVASION_TITLE" = "The Rise of Knighthood";

@@ -1,0 +1,140 @@
+;AsPaladin / Last Change: July 30, 2006
+
+
+;==========================================================
+
+event historic	year_length
+date	7 summer
+
+event	historic	celestial_globe
+date	9 winter
+
+event historic	palmyra_destroyed
+date	17 summer
+
+event historic	assassins
+date	18 summer
+
+event historic	first_crusade
+date	23 winter
+
+event plague	canterbury_lep
+date	24 summer
+position	58, 125
+
+event historic	onion_dome
+date	41 summer
+
+event historic	burned_stake
+date	46 summer
+
+event	historic	lateran_council1
+date	51 summer
+
+event	historic	religions_sects_book 
+date	55 summer
+
+event historic	earthquake_syria
+date	66 summer
+
+event historic	lateran_council2
+date	67 summer
+
+event historic	the_alexiad
+date	76 summer
+
+event historic	thomas_becket
+date	98 winter
+
+event historic	lateran_council3
+date	107 summer
+
+event historic	first_inquisition
+date	112 summer
+
+event	historic	hanseatic_league
+date	120 summer
+
+event	historic	the_giralda
+date	124 summer
+
+event historic	gesta_hungarorum
+date	128 summer
+
+event historic	fransican_order
+date	139 summer
+
+event historic	magna_carta
+date	143 summer
+
+event historic	lateran_council4
+date	143  winter
+
+event historic	mongol_china
+date	144 summer
+
+event	historic	torre_del_Oro 
+date	148 summer
+
+event historic	samarkand_sacked
+date 148 winter
+
+;================= 1223 High Era? Below =================
+
+event historic	storm_from_the_east
+date	151 summer
+
+event historic	flood_holland
+date	156 summer
+
+event historic	gunpowder_formula
+date	170 summer
+
+event	historic	no_ally	
+date	188 summer
+
+event historic	summa_theologica
+date	198 summer
+
+eveny historic	last_templars
+date	235 winter
+
+event historic	divine_comedy
+date	249 winter
+
+
+;================= 1347 Late Era? Below =================
+
+
+
+; !!! Needs spreading events !!!
+event plague	black_death1
+date	275 winter
+position	98, 51
+position	109, 54
+position	81, 75
+position	79, 57
+position	68, 82
+position	161, 73
+position	162, 69
+position	156, 64
+position	174, 50
+position	185, 83
+position	199, 81
+
+
+;------------------------------------Needs to be Put in Order Below --------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
