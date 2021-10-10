@@ -56105,7 +56105,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 2234297942
+		"checksum": 3678667091
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat1.txt",
@@ -56250,10 +56250,6 @@
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/ingame_maps\/map_thrace.tga",
 		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map.rwm",
-		"checksum": 1462741756
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_fe.tga",
