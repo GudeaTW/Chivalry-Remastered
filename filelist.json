@@ -41156,6 +41156,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/data_controlled_features.json",
+		"checksum": 2565997506
+	},
+	{
 		"filename": "data\/descr_aerial_map_tile_models.txt",
 		"checksum": 572242310
 	},
@@ -41261,7 +41265,7 @@
 	},
 	{
 		"filename": "data\/descr_sm_major_events.txt",
-		"checksum": 3127490521
+		"checksum": 2464361078
 	},
 	{
 		"filename": "data\/descr_sm_resources.txt",
@@ -53757,7 +53761,7 @@
 	},
 	{
 		"filename": "data\/string_overrides\/en.strings.txt",
-		"checksum": 1060263686
+		"checksum": 342305224
 	},
 	{
 		"filename": "data\/terrain\/aerial_map\/tile_models\/river_a\/river_a.cas",
