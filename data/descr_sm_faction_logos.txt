@@ -30,3 +30,5 @@ icon	ui/faction_icons/slave_greek.tga
 icon	ui/faction_icons/slave_egyptian.tga
 icon	ui/faction_icons/slave_eastern.tga
 icon	ui/faction_icons/georgia.tga
+icon	ui/faction_icons/mongol.tga
+icon	ui/faction_icons/bulgaria.tga

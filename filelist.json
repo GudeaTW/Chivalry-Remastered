@@ -3944,6 +3944,14 @@
 		"checksum": 1194319523
 	},
 	{
+		"filename": "data\/ui\/captain banners\/captain_card_bulgaria.tga",
+		"checksum": 3372454187
+	},
+	{
+		"filename": "data\/ui\/captain banners\/captain_card_bulgaria_rebel.tga",
+		"checksum": 95429281
+	},
+	{
 		"filename": "data\/ui\/captain banners\/captain_card_carthage.tga",
 		"checksum": 2400366957
 	},
@@ -3998,6 +4006,14 @@
 	{
 		"filename": "data\/ui\/captain banners\/captain_card_macedon_rebel.tga",
 		"checksum": 3065162983
+	},
+	{
+		"filename": "data\/ui\/captain banners\/captain_card_mongol.tga",
+		"checksum": 1242573648
+	},
+	{
+		"filename": "data\/ui\/captain banners\/captain_card_mongol_rebel.tga",
+		"checksum": 1860162000
 	},
 	{
 		"filename": "data\/ui\/captain banners\/captain_card_numidia.tga",
@@ -4272,6 +4288,10 @@
 		"checksum": 4293330687
 	},
 	{
+		"filename": "data\/ui\/captain banners\/dead\/captain_card_bulgaria.tga",
+		"checksum": 1705461370
+	},
+	{
 		"filename": "data\/ui\/captain banners\/dead\/captain_card_carthage.tga",
 		"checksum": 351434368
 	},
@@ -4302,6 +4322,10 @@
 	{
 		"filename": "data\/ui\/captain banners\/dead\/captain_card_macedon.tga",
 		"checksum": 2521490363
+	},
+	{
+		"filename": "data\/ui\/captain banners\/dead\/captain_card_mongol.tga",
+		"checksum": 3600673552
 	},
 	{
 		"filename": "data\/ui\/captain banners\/dead\/captain_card_numidia.tga",
@@ -13172,6 +13196,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/faction_icons\/bulgaria.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/faction_icons\/carthage.tga",
 		"checksum": "Blacklisted"
 	},
@@ -13201,6 +13229,10 @@
 	},
 	{
 		"filename": "data\/ui\/faction_icons\/macedon.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/faction_icons\/mongol.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -13241,6 +13273,14 @@
 	},
 	{
 		"filename": "data\/ui\/faction_icons\/spain.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/faction_icons\/symbol128_bulgaria.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/faction_icons\/symbol128_mongol.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -18020,6 +18060,266 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/assassin_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/diplomat_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/spy_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/arab_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/arab_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/armoured_spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/bedouin_camels_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/bedouin_camels_merc_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/bedouin_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/berber_camels_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/berber_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/berber_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/berber_lancers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/black_guard_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/bulgarian_bodyguard_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/bulgarian_boyars_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/bulgarian_cuman_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/bulgarian_pronoia_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/bulgarian_spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/bulgarian_swordsmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/crossbowmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/dismounted_sergeants_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/early_merc_knights_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/elite_ghulam_cav_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/feudal_foot_knights_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/feudal_knights_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/ghazi_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/ghazi_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/ghulam_bodyguards_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/ghulam_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/horse_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/jihad_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/levy_spearmen1_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/levy_spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/light_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/merc_knight_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/militia_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/militia_spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/moldavian_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/murabitin_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/muslim_spear_militia_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/muslim_urban_militia_exp_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/muslim_urban_militia_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/naptha_throwers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/nubian_archer_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/nubian_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/peasants_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/saracen_arceri_ziriti_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/saracen_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/saracen_cavalieri_maghrebini_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/saracen_lamtuna_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/saracen_spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/saracen_warriors_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/ship_cog_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/ship_dhow_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/slavic_warband_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/szekely_merc_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/toxotai_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/transilvanian_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/venezian_sailors_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/vlach_tribesmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/wallachian_skirmisher_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/bulgaria\/woodsmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/carthage\/assassin_info.tga",
 		"checksum": "Blacklisted"
 	},
@@ -19797,6 +20097,210 @@
 	},
 	{
 		"filename": "data\/ui\/unit_info\/merc\/woodsmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/assassin_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/diplomat_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/spy_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/anatolian_spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/arab_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/arab_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/bedouin_camels_merc_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/early_didebuls_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/early_merc_knights_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/elite_ghulam_cav_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/ghazi_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/ghazi_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/ghulam_bodyguards_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/ghulam_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/horse_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/kwarazmian_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/levy_spearmen1_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/levy_spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/light_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/merc_knight_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/mongol_bodyguard_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/mongol_foot_archer_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/mongol_heavy_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/mongol_heavy_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/mongol_horse_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/mongol_lancer_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/mongol_mounted_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/mongol_spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/muslim_spear_militia_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/muslim_urban_militia_exp_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/muslim_urban_militia_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/naptha_throwers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/peasants_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/saracen_aghulans_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/saracen_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/saracen_caliph_guard_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/saracen_faris_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/saracen_spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/saracen_warriors_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/seljuk_horse_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/ship_dhow_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/steppe_heavy_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/steppe_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/steppe_light_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/steppe_warrior_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/szekely_merc_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/trebizond_archers_merc_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/turcoman_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mongol\/turcoman_horse_archers_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -23052,6 +23556,266 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/assassin_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/diplomat_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/spy_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/arab_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/arab_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/armoured_spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/bedouin_camels_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/bedouin_camels_merc_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/bedouin_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/berber_camels_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/berber_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/berber_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/berber_lancers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/black_guard_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/bulgarian_bodyguard_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/bulgarian_boyars_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/bulgarian_cuman_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/bulgarian_pronoia_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/bulgarian_spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/bulgarian_swordsmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/crossbowmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/dismounted_sergeants_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/early_merc_knights_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/elite_ghulam_cav_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/feudal_foot_knights_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/feudal_knights_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/ghazi_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/ghazi_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/ghulam_bodyguards_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/ghulam_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/horse_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/jihad_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/levy_spearmen1_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/levy_spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/light_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/merc_knight_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/militia_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/militia_spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/moldavian_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/murabitin_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/muslim_spear_militia_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/muslim_urban_militia_exp_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/muslim_urban_militia_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/naptha_throwers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/nubian_archer_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/nubian_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/peasants_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/saracen_arceri_ziriti_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/saracen_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/saracen_cavalieri_maghrebini_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/saracen_lamtuna_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/saracen_spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/saracen_warriors_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/ship_cog_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/ship_dhow_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/slavic_warband_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/szekely_merc_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/toxotai_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/transilvanian_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/venezian_sailors_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/vlach_tribesmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/wallachian_skirmisher_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/bulgaria\/woodsmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info_classic\/carthage\/assassin_info.tga",
 		"checksum": "Blacklisted"
 	},
@@ -24829,6 +25593,202 @@
 	},
 	{
 		"filename": "data\/ui\/unit_info_classic\/merc\/woodsmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/assassin_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/diplomat_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/spy_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/anatolian_spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/arab_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/arab_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/bedouin_camels_merc_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/early_didebuls_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/early_merc_knights_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/elite_ghulam_cav_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/ghazi_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/ghazi_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/ghulam_bodyguards_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/ghulam_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/horse_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/kwarazmian_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/levy_spearmen1_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/levy_spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/light_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/merc_knight_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/mongol_bodyguard_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/mongol_foot_archer_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/mongol_heavy_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/mongol_heavy_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/mongol_horse_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/mongol_lancer_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/mongol_mounted_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/mongol_spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/muslim_spear_militia_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/muslim_urban_militia_exp_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/muslim_urban_militia_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/naptha_throwers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/peasants_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/saracen_aghulans_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/saracen_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/saracen_caliph_guard_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/saracen_faris_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/saracen_spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/saracen_warriors_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/seljuk_horse_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/ship_dhow_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/steppe_heavy_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/steppe_warrior_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/szekely_merc_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/trebizond_archers_merc_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/turcoman_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/turcoman_horse_archers_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -28188,6 +29148,326 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/bulgaria\/#anatolian_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#andalusian_heavy_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#andalusian_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#arab_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#arab_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#armenian_catapult_merc.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#armoured_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#ballista.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#bedouin_camels.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#bedouin_camels_merc.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#bedouin_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#berber_camels.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#berber_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#berber_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#berber_lancers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#black_guard.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#bulgarian_bodyguard.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#bulgarian_boyars.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#bulgarian_cuman.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#bulgarian_pronoia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#bulgarian_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#bulgarian_swordsmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#catapult.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#catapulta.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#crossbowmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#dismounted_sergeants.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#early_kings_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#early_merc_knights.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#elite_ghulam_cav.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#feudal_foot_knights.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#feudal_knights.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#ghazi_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#ghazi_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#ghulam_bodyguards.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#ghulam_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#horse_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#jihad_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#levy_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#levy_spearmen1.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#light_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#mamluk_heavy_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#merc_knight.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#militia_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#militia_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#moldavian_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#murabitin_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#muslim_spear_militia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#muslim_urban_militia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#muslim_urban_militia_exp.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#naptha_throwers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#nubian_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#nubian_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#peasants.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#saracen_arab_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#saracen_arceri_ziriti.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#saracen_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#saracen_caliph_guard.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#saracen_cavalieri_maghrebini.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#saracen_guardie_nere.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#saracen_lamtuna.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#saracen_schermagliatori_berberi.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#saracen_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#saracen_warriors.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#ship_cog.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#ship_dhow.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#slavic_warband.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#szekely_merc.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#toxotai.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#transilvanian_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#trebuchet.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#turcoman_horse_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#urban_militia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#vlach_tribesmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#wallachian_skirmisher.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/#woodsmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/assassin.tga",
+		"checksum": 1703546102
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/diplomat.tga",
+		"checksum": 3699103648
+	},
+	{
+		"filename": "data\/ui\/units\/bulgaria\/spy.tga",
+		"checksum": 150804495
+	},
+	{
 		"filename": "data\/ui\/units\/carthage\/#archers.tga",
 		"checksum": "Blacklisted"
 	},
@@ -30498,6 +31778,266 @@
 	{
 		"filename": "data\/ui\/units\/mercs\/#woodsmen.tga",
 		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#anatolian_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#arab_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#arab_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#armenian_catapult_merc.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#ballista.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#bedouin_camels_merc.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#bedouin_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#catapult.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#catapulta.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#crossbowmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#early_didebuls.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#early_kings_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#early_merc_knights.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#elite_ghulam_cav.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#ghazi_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#ghazi_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#ghulam_bodyguards.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#ghulam_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#horse_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#kurd_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#kwarazmian_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#levy_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#levy_spearmen1.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#light_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#merc_knight.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#mongol_bodyguard.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#mongol_foot_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#mongol_heavy_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#mongol_heavy_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#mongol_horse_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#mongol_lancer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#mongol_mounted_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#mongol_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#muslim_spear_militia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#muslim_urban_militia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#muslim_urban_militia_exp.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#naptha_throwers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#nubian_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#peasants.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#saracen_aghulans.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#saracen_arab_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#saracen_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#saracen_caliph_guard.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#saracen_daylami_spear.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#saracen_daylami_sword.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#saracen_faris.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#saracen_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#saracen_turcoman_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#saracen_turcoman_light_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#saracen_warriors.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#seljuk_horse_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#ship_dhow.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#steppe_heavy_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#steppe_warrior.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#szekely_merc.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#trebizond_archers_merc.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#trebuchet.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#turcoman_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#turcoman_horse_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#turcoman_horsearchers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/assassin.tga",
+		"checksum": 2933923973
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/diplomat.tga",
+		"checksum": 1352533314
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/spy.tga",
+		"checksum": 1130221298
 	},
 	{
 		"filename": "data\/ui\/units\/numidia\/#archers.tga",
@@ -34672,6 +36212,326 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#anatolian_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#andalusian_heavy_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#andalusian_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#arab_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#arab_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#armenian_catapult_merc.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#armoured_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#ballista.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#bedouin_camels.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#bedouin_camels_merc.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#bedouin_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#berber_camels.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#berber_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#berber_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#berber_lancers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#black_guard.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#bulgarian_bodyguard.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#bulgarian_boyars.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#bulgarian_cuman.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#bulgarian_pronoia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#bulgarian_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#bulgarian_swordsmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#catapult.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#catapulta.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#crossbowmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#dismounted_sergeants.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#early_kings_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#early_merc_knights.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#elite_ghulam_cav.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#feudal_foot_knights.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#feudal_knights.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#ghazi_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#ghazi_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#ghulam_bodyguards.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#ghulam_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#horse_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#jihad_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#levy_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#levy_spearmen1.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#light_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#mamluk_heavy_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#merc_knight.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#militia_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#militia_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#moldavian_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#murabitin_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#muslim_spear_militia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#muslim_urban_militia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#muslim_urban_militia_exp.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#naptha_throwers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#nubian_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#nubian_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#peasants.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#saracen_arab_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#saracen_arceri_ziriti.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#saracen_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#saracen_caliph_guard.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#saracen_cavalieri_maghrebini.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#saracen_guardie_nere.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#saracen_lamtuna.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#saracen_schermagliatori_berberi.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#saracen_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#saracen_warriors.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#ship_cog.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#ship_dhow.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#slavic_warband.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#szekely_merc.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#toxotai.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#transilvanian_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#trebuchet.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#turcoman_horse_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#urban_militia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#vlach_tribesmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#wallachian_skirmisher.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/#woodsmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/assassin.tga",
+		"checksum": 1703546102
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/diplomat.tga",
+		"checksum": 3699103648
+	},
+	{
+		"filename": "data\/ui\/units_classic\/bulgaria\/spy.tga",
+		"checksum": 150804495
+	},
+	{
 		"filename": "data\/ui\/units_classic\/carthage\/#archers.tga",
 		"checksum": "Blacklisted"
 	},
@@ -36982,6 +38842,266 @@
 	{
 		"filename": "data\/ui\/units_classic\/mercs\/#woodsmen.tga",
 		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#anatolian_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#arab_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#arab_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#armenian_catapult_merc.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#ballista.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#bedouin_camels_merc.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#bedouin_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#catapult.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#catapulta.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#crossbowmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#early_didebuls.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#early_kings_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#early_merc_knights.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#elite_ghulam_cav.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#ghazi_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#ghazi_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#ghulam_bodyguards.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#ghulam_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#horse_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#kurd_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#kwarazmian_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#levy_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#levy_spearmen1.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#light_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#merc_knight.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#mongol_bodyguard.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#mongol_foot_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#mongol_heavy_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#mongol_heavy_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#mongol_horse_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#mongol_lancer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#mongol_mounted_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#mongol_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#muslim_spear_militia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#muslim_urban_militia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#muslim_urban_militia_exp.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#naptha_throwers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#nubian_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#peasants.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#saracen_aghulans.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#saracen_arab_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#saracen_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#saracen_caliph_guard.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#saracen_daylami_spear.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#saracen_daylami_sword.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#saracen_faris.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#saracen_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#saracen_turcoman_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#saracen_turcoman_light_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#saracen_warriors.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#seljuk_horse_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#ship_dhow.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#steppe_heavy_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#steppe_warrior.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#szekely_merc.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#trebizond_archers_merc.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#trebuchet.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#turcoman_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#turcoman_horse_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#turcoman_horsearchers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/assassin.tga",
+		"checksum": 2933923973
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/diplomat.tga",
+		"checksum": 1352533314
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/spy.tga",
+		"checksum": 1130221298
 	},
 	{
 		"filename": "data\/ui\/units_classic\/numidia\/#archers.tga",
@@ -40744,14 +42864,6 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/banners\/symbols1_sold.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/banners\/symbols1old.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/banners\/symbols2.tga.dds",
 		"checksum": "Blacklisted"
 	},
@@ -40760,19 +42872,7 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/banners\/symbols2_nold.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/banners\/symbols2_s.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/banners\/symbols2_sold.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/banners\/symbols2old.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -40784,19 +42884,7 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/banners\/symbols3_nold.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/banners\/symbols3_s.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/banners\/symbols3_sold.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/banners\/symbols3old.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -40808,19 +42896,7 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/banners\/symbols4_nold.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/banners\/symbols4_s.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/banners\/symbols4_sold.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/banners\/symbols4old.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -40833,14 +42909,6 @@
 	},
 	{
 		"filename": "data\/banners\/symbols5_s.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/banners\/symbols5_sold.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/banners\/symbols5old.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -41165,7 +43233,7 @@
 	},
 	{
 		"filename": "data\/descr_banners.txt",
-		"checksum": 2599999751
+		"checksum": 1814155005
 	},
 	{
 		"filename": "data\/descr_beliefs.txt",
@@ -41177,7 +43245,7 @@
 	},
 	{
 		"filename": "data\/descr_character.txt",
-		"checksum": 390668256
+		"checksum": 1403934673
 	},
 	{
 		"filename": "data\/descr_cultures.txt",
@@ -41193,7 +43261,7 @@
 	},
 	{
 		"filename": "data\/descr_faction_groups.txt",
-		"checksum": 597007679
+		"checksum": 1382491096
 	},
 	{
 		"filename": "data\/descr_formations.txt",
@@ -41205,7 +43273,7 @@
 	},
 	{
 		"filename": "data\/descr_model_battle.txt",
-		"checksum": 3679606194
+		"checksum": 3123548265
 	},
 	{
 		"filename": "data\/descr_model_battle1.txt",
@@ -41221,15 +43289,15 @@
 	},
 	{
 		"filename": "data\/descr_namelists.txt",
-		"checksum": 1124990717
+		"checksum": 2401924135
 	},
 	{
 		"filename": "data\/descr_names.txt",
-		"checksum": 795253258
+		"checksum": 2224859380
 	},
 	{
 		"filename": "data\/descr_names_lookup.txt",
-		"checksum": 1321882936
+		"checksum": 3910188476
 	},
 	{
 		"filename": "data\/descr_projectile_new.txt",
@@ -41245,11 +43313,11 @@
 	},
 	{
 		"filename": "data\/descr_sm_faction_logos.txt",
-		"checksum": 2647387192
+		"checksum": 1354807423
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 2278266746
+		"checksum": 737953652
 	},
 	{
 		"filename": "data\/descr_sm_factions1.txt",
@@ -41257,7 +43325,7 @@
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
-		"checksum": 1217754756
+		"checksum": 3694918792
 	},
 	{
 		"filename": "data\/descr_sm_factionsold.txt",
@@ -41269,7 +43337,7 @@
 	},
 	{
 		"filename": "data\/descr_sm_resources.txt",
-		"checksum": 2502241411
+		"checksum": 3864209069
 	},
 	{
 		"filename": "data\/descr_sounds.txt",
@@ -41293,7 +43361,7 @@
 	},
 	{
 		"filename": "data\/export_descr_buildings.txt",
-		"checksum": 2128359891
+		"checksum": 3156693537
 	},
 	{
 		"filename": "data\/export_descr_buildings1.txt",
@@ -41305,7 +43373,7 @@
 	},
 	{
 		"filename": "data\/export_descr_unit.txt",
-		"checksum": 4247412095
+		"checksum": 1712267494
 	},
 	{
 		"filename": "data\/export_descr_unit_enums.txt",
@@ -41472,6 +43540,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/loading_screen\/symbols\/symbol128_bulgaria.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/loading_screen\/symbols\/symbol128_carthage.tga",
 		"checksum": "Blacklisted"
 	},
@@ -41505,6 +43577,10 @@
 	},
 	{
 		"filename": "data\/loading_screen\/symbols\/symbol128_macedon.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/loading_screen\/symbols\/symbol128_mongol.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -41601,6 +43677,22 @@
 	},
 	{
 		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_britons_select.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_bulgaria.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_bulgaria_grey.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_bulgaria_roll.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_bulgaria_select.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -41729,6 +43821,22 @@
 	},
 	{
 		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_macedon_select.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_mongol.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_mongol_grey.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_mongol_roll.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_mongol_select.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -41996,6 +44104,14 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/models\/textures\/standard_bulgaria.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models\/textures\/standard_bulgaria_ally.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/models\/textures\/standard_carthage.tga.dds",
 		"checksum": "Blacklisted"
 	},
@@ -42101,6 +44217,22 @@
 	},
 	{
 		"filename": "data\/models\/textures\/standard_macedonia_ally.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models\/textures\/standard_mongol.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models\/textures\/standard_mongol_ally.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models\/textures\/standard_novgorod.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models\/textures\/standard_novgorod_ally.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -55713,7 +57845,7 @@
 	},
 	{
 		"filename": "data\/text\/campaign_descriptions.txt",
-		"checksum": 2242440080
+		"checksum": 3349689550
 	},
 	{
 		"filename": "data\/text\/crusader_epoche_regions_and_settlement_names.txt",
@@ -55721,7 +57853,7 @@
 	},
 	{
 		"filename": "data\/text\/expanded_bi.txt",
-		"checksum": 1503953097
+		"checksum": 275378279
 	},
 	{
 		"filename": "data\/text\/export_vnvs.txt",
@@ -55753,7 +57885,7 @@
 	},
 	{
 		"filename": "data\/text\/names.txt",
-		"checksum": 693021847
+		"checksum": 67402350
 	},
 	{
 		"filename": "data\/text\/quotes.txt",
@@ -56109,7 +58241,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_regions.txt",
-		"checksum": 2560931656
+		"checksum": 1872418649
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_regions1.txt",
@@ -56117,7 +58249,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 3678667091
+		"checksum": 2430192868
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat1.txt",
@@ -56262,10 +58394,6 @@
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/ingame_maps\/map_thrace.tga",
 		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map.rwm",
-		"checksum": 1462741756
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_fe.tga",

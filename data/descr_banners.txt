@@ -102,6 +102,12 @@ rebels_texture		../data/models/textures/standard_egyptian_rebels.tga
 routing_texture		../data/models/textures/standard_routing.tga
 ally_texture		../data/models/textures/standard_egypt_ally.tga
 
+faction				mongol
+standard_texture	../data/models/textures/standard_mongol.tga
+rebels_texture		../data/models/textures/standard_egyptian_rebels.tga
+routing_texture		../data/models/textures/standard_routing.tga
+ally_texture		../data/models/textures/standard_mongol_ally.tga
+
 faction				seleucid
 standard_texture	../data/models/textures/standard_seleucid.tga
 rebels_texture		../data/models/textures/standard_eastern_rebels.tga
@@ -197,4 +203,10 @@ standard_texture	../data/models/textures/standard_georgia.tga
 rebels_texture		../data/models/textures/standard_eastern_rebels.tga
 routing_texture		../data/models/textures/standard_routing.tga
 ally_texture		../data/models/textures/standard_georgia_ally.tga
+
+faction				bulgaria
+standard_texture	../data/models/textures/standard_bulgaria.tga
+rebels_texture		../data/models/textures/standard_eastern_rebels.tga
+routing_texture		../data/models/textures/standard_routing.tga
+ally_texture		../data/models/textures/standard_bulgaria_ally.tga
 

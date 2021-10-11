@@ -85,6 +85,12 @@ strat_model		sm_egypt_general
 battle_model	MTW_general_horde
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
+faction			mongol
+dictionary		2
+strat_model		sm_egypt_general
+battle_model	MTW_general_horde
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
 faction			seleucid
 dictionary		2
 strat_model		sm_greek_general
@@ -224,6 +230,13 @@ battle_model	MTW_general_muslim
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			egypt
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_egypt_lesser_general
+battle_model	MTW_general_horde
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			mongol
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
 strat_model		sm_egypt_lesser_general
@@ -379,6 +392,11 @@ dictionary		2
 strat_card		data/ui/roman/agents/card_spy.tga
 strat_model		spy
 
+faction			mongol
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
 faction			seleucid
 dictionary		2
 strat_card		data/ui/roman/agents/card_spy.tga
@@ -493,6 +511,11 @@ strat_card		data/ui/roman/agents/card_assassin.tga
 strat_model		assassin
 
 faction			egypt
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			mongol
 dictionary		2
 strat_card		data/ui/roman/agents/card_assassin.tga
 strat_model		assassin
@@ -614,6 +637,11 @@ dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
 strat_model		diplomat
 
+faction			mongol
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
 faction			seleucid
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
@@ -726,6 +754,11 @@ strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
 strat_model		merchant
 
 faction			egypt
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant
+
+faction			mongol
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
 strat_model		merchant
@@ -845,6 +878,11 @@ strat_card		data/ui/greek/agents/temp_admiral.tga
 strat_model		macedon_admiral
 
 faction			egypt
+dictionary		2
+strat_card		data/ui/egyptian/agents/temp_admiral.tga
+strat_model		egypt_admiral
+
+faction			mongol
 dictionary		2
 strat_card		data/ui/egyptian/agents/temp_admiral.tga
 strat_model		egypt_admiral

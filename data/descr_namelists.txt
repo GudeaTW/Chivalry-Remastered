@@ -953,6 +953,92 @@
 		],
 	},
 
+	;;georgia
+
+	"georgia_men":
+	{
+		"names":
+		[
+			"Bagrat",
+			"George",
+			"Demetrius",
+			"David",
+			"Yury",
+			"Giorgi",
+			"Constantine",
+			"Michael",
+			"Vakhtang",
+			"Alexandere",
+			"Lasha",
+			"Manuel",
+			"Shergil",
+			"Iadgar",
+			"Joseph",
+			"Kiurike",
+			"Rostom",
+			"Bega",
+			"Vardan",
+			"Tsotne",
+			"Hamada",
+			"Rati",
+			"Simon",
+			"Archill",
+			"Gurgen",
+			"Zakare",
+			"Stepane",
+			"Senekerim",
+			"Avtandil",
+		],
+	},
+
+	"georgia_surnames":
+	{
+		"names":
+		[
+			"Hereti",
+			"Bagrationi",
+			"Kuropalates",
+			"Kakheti",
+			"Vardanisdze",
+			"Marushisdze",
+			"Kakhaberidze",
+			"Tsitsishvili",
+			"Amanelisdze",
+			"Mkhargrdzeli",
+			"Saghiridze",
+			"Tmogveli",
+			"Shervashidze",
+			"Garakanidze",
+			"Dadiani",
+			"Jaqeli",
+			"Palavandishvili",
+			"Javakhishvili",
+			"Chorchaneli",
+			"Surameli",
+			"Gurieli",
+			"Zakarian",
+		],
+	},
+
+	"georgia_women":
+	{
+
+		"names":
+		[
+			"Mariam",
+			"Alda",
+			"Borena",
+			"Helena",
+			"Rusudan",
+			"Tamar",
+			"Theodora",
+			"Natela",
+			"Anna",
+			"Elene",
+			"Nino",
+		],
+	},
+
 	;;thrace
 
 	"seljuk_men":

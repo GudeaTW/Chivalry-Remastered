@@ -20,6 +20,7 @@ faction numidia
 
 group fgroup_fertility_temple
 faction egypt
+faction mongol
 faction germans
 faction romans_julii
 
@@ -32,6 +33,7 @@ faction georgia
 group fgroup_fun_temple
 faction armenia
 faction egypt
+faction mongol
 faction romans_julii
 faction seleucid
 faction georgia
@@ -44,11 +46,13 @@ faction pontus
 group fgroup_justice_temple
 faction carthage
 faction egypt
+faction mongol
 faction gauls
 faction spain
 
 group fgroup_law_temple
 faction egypt
+faction mongol
 faction romans_scipii
 faction scythia
 
@@ -61,6 +65,7 @@ group fgroup_healing_temple
 faction britons
 faction romans_brutii
 faction egypt
+faction mongol
 faction seleucid
 faction georgia
 

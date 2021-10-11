@@ -402,7 +402,7 @@ Abkhazia ; ok
 	georgia
 	Abkhazians
 	255 40 240
-	steppe, armen, main 
+	steppe, armen, georg, main 
 	5
 	4
 	christianity 80 islam 10 pagan 10
@@ -411,7 +411,7 @@ Georgia ; ok
 	seleucid
 	Georgians
 	255 160 120
-	steppe, elite, main, armen
+	steppe, elite, main, armen, georg
 	5
 	4
 	christianity 85 islam 10 pagan 5

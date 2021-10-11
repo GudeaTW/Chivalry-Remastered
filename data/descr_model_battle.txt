@@ -10,7 +10,7 @@ skeleton_scorpion_cart	fs_carriage_ballistae_crew
 pbr_texture				data/models_unit/textures/CTW_bulgarian_standard_pbr.tga
 pbr_texture				georgia, data/models_unit/textures/CTW_georgian_standard_pbr.tga
 pbr_texture				slave, data/models_unit/textures/CTW_georgian_standard_pbr.tga
-texture					romans_brutii, data/models_unit/textures/CTW_bulgarian_standard.tga
+texture					bulgaria, data/models_unit/textures/CTW_bulgarian_standard.tga
 texture					georgia, data/models_unit/textures/CTW_georgian_standard.tga
 texture					slave, data/models_unit/textures/CTW_georgian_standard.tga
 model_flexi_m				data/models_unit/CTW_bulgarian_standard.cas, 40
@@ -27,7 +27,7 @@ skeleton_chariot		fs_chariot_sword
 skeleton_camel			fs_hc_swordsman
 skeleton_scorpion_cart	fs_carriage_ballistae_crew
 pbr_texture				data/models_unit/textures/mounted_bulgarian_standard_pbr.tga
-texture					romans_brutii, data/models_unit/textures/mounted_bulgarian_standard.tga
+texture					bulgaria, data/models_unit/textures/mounted_bulgarian_standard.tga
 model_flexi_m				data/models_unit/mounted_bulgarian_standard.cas, 40
 model_flexi				data/models_unit/mounted_bulgarian_standard.cas, max
 no_variation model_flexi_m				data/models_unit/mounted_bulgarian_standard.cas, 40
@@ -42,7 +42,7 @@ skeleton_chariot		fs_chariot_sword
 skeleton_camel			fs_hc_swordsman
 skeleton_scorpion_cart	fs_carriage_ballistae_crew
 pbr_texture				data/models_unit/textures/mounted_bulgarian_standard_pbr.tga
-texture					romans_brutii, data/models_unit/textures/mounted_bulgarian_standard.tga
+texture					bulgaria, data/models_unit/textures/mounted_bulgarian_standard.tga
 model_flexi_m				data/models_unit/bulg_officer.cas, 40
 model_flexi				data/models_unit/bulg_officer.cas, max
 no_variation model_flexi_m				data/models_unit/bulg_officer.cas, 40
@@ -51,7 +51,7 @@ no_variation model_flexi				data/models_unit/bulg_officer.cas, max
 type				bulg_cuman
 skeleton			fs_hc_archer, fs_hc_swordsman
 pbr_texture			data/models_unit/textures/bulgarian_cuman_light_pbr.tga
-texture				romans_brutii, data/models_unit/textures/bulgarian_cuman_light.tga
+texture				bulgaria, data/models_unit/textures/bulgarian_cuman_light.tga
 model_flexi_m			data/models_unit/MTW_unit_cuman_light.cas, 40
 model_flexi			data/models_unit/MTW_unit_cuman_light.cas, max 
 no_variation model_flexi_m			data/models_unit/MTW_unit_cuman_light.cas, 40 
@@ -558,10 +558,12 @@ no_variation model_flexi			data/models_unit/MTW_unit_light_cavalry.cas, max
 type				steppe_light_cavalry
 skeleton			fs_hc_spearman
 pbr_texture			egypt, data/models_unit/textures/MTW_unit_steppe_cavalry_pbr.tga
+pbr_texture			mongol, data/models_unit/textures/MTW_unit_steppe_cavalry_pbr.tga
 pbr_texture			armenia, data/models_unit/textures/MTW_unit_steppe_cavalry_pbr.tga
 pbr_texture			parthia, data/models_unit/textures/MTW_unit_trapezitae_pbr.tga
 pbr_texture			slave, data/models_unit/textures/MTW_unit_steppe_cavalry_pbr.tga
 texture				egypt, data/models_unit/textures/MTW_unit_steppe_cavalry.tga
+texture				mongol, data/models_unit/textures/MTW_unit_steppe_cavalry.tga
 texture				armenia, data/models_unit/textures/MTW_unit_steppe_cavalry.tga
 texture				parthia, data/models_unit/textures/MTW_unit_trapezitae.TGA
 texture				slave, data/models_unit/textures/MTW_unit_steppe_cavalry.tga
@@ -922,6 +924,7 @@ texture				parthia, data/models_unit/textures/MTW_unit_cuman_horse_archer.tga
 texture				numidia, data/models_unit/textures/MTW_unit_cuman_horse_archer.tga
 texture				germans, data/models_unit/textures/MTW_unit_cuman_horse_archer.tga
 texture				egypt, data/models_unit/textures/MTW_unit_cuman_horse_archer.tga
+texture				mongol, data/models_unit/textures/MTW_unit_cuman_horse_archer.tga
 texture				carthage, data/models_unit/textures/MTW_unit_cuman_horse_archer.tga
 texture				armenia, data/models_unit/textures/MTW_unit_cuman_horse_archer.tga
 model_flexi_m			data/models_unit/MTW_unit_szekely.cas, 40
@@ -933,6 +936,7 @@ type				cuman_horse_archer
 skeleton			fs_hc_archer, fs_hc_swordsman
 pbr_texture			data/models_unit/textures/ung_cumani_pbr.tga
 texture				egypt, data/models_unit/textures/ung_cumani.tga
+texture				mongol, data/models_unit/textures/ung_cumani.tga
 texture				slave, data/models_unit/textures/ung_cumani.tga
 model_flexi_m			data/models_unit/ung_cumani.cas, 40		
 model_flexi			data/models_unit/ung_cumani.cas, max
@@ -943,6 +947,7 @@ type				cuman_archer
 skeleton			fs_archer, fs_swordsman
 pbr_texture			data/models_unit/textures/ung_cumani_pbr.tga
 texture				egypt, data/models_unit/textures/ung_cumani.tga
+texture				mongol, data/models_unit/textures/ung_cumani.tga
 texture				slave, data/models_unit/textures/ung_cumani.tga
 model_flexi_m			data/models_unit/ung_cumani.cas, 40		
 model_flexi			data/models_unit/ung_cumani.cas, max
@@ -1691,6 +1696,7 @@ type				steppe_infantry
 skeleton			fs_archer, fs_swordsman
 pbr_texture			data/models_unit/textures/MTW_unit_steppe_infantry_pbr.tga
 texture				egypt, data/models_unit/textures/MTW_unit_steppe_infantry.tga
+texture				mongol, data/models_unit/textures/MTW_unit_steppe_infantry.tga
 texture				slave, data/models_unit/textures/MTW_unit_steppe_infantry.tga
 model_flexi_m			data/models_unit/MTW_unit_steppe_infantry.cas, 40
 model_flexi			data/models_unit/MTW_unit_steppe_infantry.cas, max
@@ -1701,6 +1707,7 @@ type				steppe_heavy_cavalry
 skeleton			fs_hc_archer, fs_hc_swordsman
 pbr_texture			data/models_unit/textures/MTW_unit_steppe_heavy_cavalry_pbr.tga
 texture				egypt, data/models_unit/textures/MTW_unit_steppe_heavy_cavalry.tga
+texture				mongol, data/models_unit/textures/MTW_unit_steppe_heavy_cavalry.tga
 texture				slave, data/models_unit/textures/MTW_unit_steppe_heavy_cavalry.tga
 texture				thrace, data/models_unit/textures/MTW_unit_steppe_heavy_cavalry.tga
 texture				pontus, data/models_unit/textures/MTW_unit_steppe_heavy_cavalry.tga
@@ -1826,6 +1833,7 @@ texture				parthia, data/models_unit/textures/MTW_unit_horse_archer_steppe.tga
 texture             greek_cities, data/models_unit/textures/MTW_unit_horse_archer_muslim.tga
 texture				armenia, data/models_unit/textures/MTW_unit_seljuk_horse_archer.tga
 texture				egypt, data/models_unit/textures/MTW_unit_horse_archer_steppe.tga
+texture				mongol, data/models_unit/textures/MTW_unit_horse_archer_steppe.tga
 texture             slave, data/models_unit/textures/MTW_unit_horse_archer_muslim.tga
 model_flexi_m         data/models_unit/MTW_unit_seljuk_horse_archer_med.cas, 40
 model_flexi         data/models_unit/MTW_unit_seljuk_horse_archer.cas, max
@@ -1877,9 +1885,9 @@ no_variation model_flexi			data/models_unit/MTW_unit_seljuk_horse_archer.cas, ma
 type				hetaireia
 skeleton			fs_hc_spearman, fs_hc_swordsman
 pbr_texture			data/models_unit/textures/MTW_unit_hetaireia_pbr.tga
-pbr_texture			romans_brutii, data/models_unit/textures/bulgarian_bodyguard_pbr.tga
+pbr_texture			bulgaria, data/models_unit/textures/bulgarian_bodyguard_pbr.tga
 texture				parthia, data/models_unit/textures/MTW_unit_hetaireia.tga
-texture				romans_brutii, data/models_unit/textures/bulgarian_bodyguard.tga
+texture				bulgaria, data/models_unit/textures/bulgarian_bodyguard.tga
 texture				slave, data/models_unit/textures/MTW_unit_hetaireia.tga
 model_flexi_m			data/characters/MTW_unit_hetaireia.cas, 40
 model_flexi			data/characters/MTW_unit_hetaireia.cas, max
@@ -1930,6 +1938,7 @@ texture				gauls, data/models_unit/textures/MTW_unit_didebul_early.tga
 texture				germans, data/models_unit/textures/MTW_unit_didebul_early.tga
 texture				britons, data/models_unit/textures/MTW_unit_didebul_early.tga
 texture				dacia, data/models_unit/textures/MTW_unit_didebul_early.tga
+texture				mongol, data/models_unit/textures/MTW_unit_didebul_early.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_didebul_early.tga
 texture				egypt, data/models_unit/textures/MTW_unit_didebul_early.tga
 texture				armenia, data/models_unit/textures/MTW_unit_didebul_early.tga
@@ -2314,7 +2323,7 @@ no_variation model_flexi			data/models_unit/knizeci_druzina.cas, max
 type				mongol_heavy_lancer
 skeleton			fs_hc_archer, fs_hc_spearman
 pbr_texture			data/models_unit/textures/mongol_bodyguards_pbr.tga
-texture				pontus, data/models_unit/textures/mongol_bodyguards.tga
+texture				mongol, data/models_unit/textures/mongol_bodyguards.tga
 texture				merc, data/models_unit/textures/mongol_light_lancer.tga
 model_flexi_m			data/models_unit/mongol_heavy_lancer.cas, 40
 model_flexi			data/models_unit/mongol_heavy_lancer.cas, max
@@ -2324,7 +2333,7 @@ no_variation model_flexi			data/models_unit/mongol_heavy_lancer.cas, max
 type				mongol_light_lancer
 skeleton			fs_hc_archer, fs_hc_spearman
 pbr_texture			data/models_unit/textures/mongol_light_lancer_pbr.tga
-texture				pontus, data/models_unit/textures/mongol_light_lancer.tga
+texture				mongol, data/models_unit/textures/mongol_light_lancer.tga
 model_flexi_m			data/models_unit/mongol_heavy_lancer.cas, 40
 model_flexi			data/models_unit/mongol_heavy_lancer.cas, max
 no_variation model_flexi_m			data/models_unit/mongol_heavy_lancer.cas, 40
@@ -2347,6 +2356,7 @@ type				cuman_heavy_cavalry
 skeleton			fs_hc_archer, fs_hc_swordsman
 pbr_texture			data/models_unit/textures/MTW_unit_cuman_heavy_cavalry_pbr.tga
 texture				egypt, data/models_unit/textures/MTW_unit_cuman_heavy_cavalry.tga
+texture				mongol, data/models_unit/textures/MTW_unit_cuman_heavy_cavalry.tga
 texture				slave, data/models_unit/textures/MTW_unit_cuman_heavy_cavalry.tga
 model_flexi_m			data/models_unit/MTW_unit_cuman_heavy_cavalry.cas, 40
 model_flexi			data/models_unit/MTW_unit_cuman_heavy_cavalry.cas, max
@@ -2982,6 +2992,7 @@ pbr_texture			data/models_unit/textures/MTW_unit_szekely_pbr.tga
 pbr_texture			egypt, data/models_unit/textures/MTW_unit_cuman_horse_archer_pbr.tga
 texture				carthage, data/models_unit/textures/MTW_unit_szekely.tga
 texture				egypt, data/models_unit/textures/MTW_unit_cuman_horse_archer.tga
+texture				mongol, data/models_unit/textures/MTW_unit_cuman_horse_archer.tga
 texture				slave, data/models_unit/textures/MTW_unit_szekely.tga
 model_flexi_m			data/models_unit/MTW_unit_szekely_med.cas, 40
 model_flexi			data/models_unit/MTW_unit_szekely.cas, max
@@ -3078,6 +3089,7 @@ scale				0.875
 pbr_texture			data/models_unit/textures/MTW_horse_cataphract_pbr.TGA
 texture				thrace, data/models_unit/textures/MTW_horse_cataphract.TGA
 texture				pontus, data/models_unit/textures/MTW_horse_cataphract.TGA
+texture				mongol, data/models_unit/textures/MTW_horse_cataphract.TGA
 texture				slave, data/models_unit/textures/MTW_horse_cataphract.TGA
 texture				parthia, data/models_unit/textures/MTW_horse_cataphract.TGA
 texture				egypt, data/models_unit/textures/MTW_horse_cataphract.TGA
@@ -3593,10 +3605,10 @@ no_variation model_flexi			data/models_unit/BTW_latinikon_tagmata.cas, max
 type				chivalric_mounted_sergeant
 skeleton			fs_hc_spearman
 pbr_texture			data/models_unit/textures/MTW_unit_pronoiarioi_pbr.tga
-pbr_texture			romans_brutii, data/models_unit/textures/bulgarian_pronoia_pbr.tga
+pbr_texture			bulgaria, data/models_unit/textures/bulgarian_pronoia_pbr.tga
 texture				slave, data/models_unit/textures/MTW_unit_pronoiarioi.tga
 texture				parthia, data/models_unit/textures/MTW_unit_pronoiarioi.tga
-texture				romans_brutii, data/models_unit/textures/bulgarian_pronoia.tga
+texture				bulgaria, data/models_unit/textures/bulgarian_pronoia.tga
 model_flexi_m			data/models_unit/MTW_unit_chivalric_sergeant.cas, 40
 model_flexi			data/models_unit/MTW_unit_chivalric_sergeant.cas, max
 no_variation model_flexi_m			data/models_unit/MTW_unit_chivalric_sergeant.cas, 40
@@ -3605,10 +3617,10 @@ no_variation model_flexi			data/models_unit/MTW_unit_chivalric_sergeant.cas, max
 type				bulg_pronoia
 skeleton			fs_hc_spearman
 pbr_texture			data/models_unit/textures/MTW_unit_pronoiarioi_pbr.tga
-pbr_texture			romans_brutii, data/models_unit/textures/bulgarian_pronoia_pbr.tga
+pbr_texture			bulgaria, data/models_unit/textures/bulgarian_pronoia_pbr.tga
 texture				slave, data/models_unit/textures/MTW_unit_pronoiarioi.tga
 texture				parthia, data/models_unit/textures/MTW_unit_pronoiarioi.tga
-texture				romans_brutii, data/models_unit/textures/bulgarian_pronoia.tga
+texture				bulgaria, data/models_unit/textures/bulgarian_pronoia.tga
 model_flexi_m			data/models_unit/CBTW_unit_pronoia_cavalry.cas, 40
 model_flexi			data/models_unit/CBTW_unit_pronoia_cavalry.cas, max
 no_variation model_flexi_m			data/models_unit/CBTW_unit_pronoia_cavalry.cas, 40
@@ -3616,10 +3628,10 @@ no_variation model_flexi			data/models_unit/CBTW_unit_pronoia_cavalry.cas, max
 
 type				bulg_spearman
 skeleton			fs_spearman, fs_medium_swordsman
-pbr_texture			romans_brutii, data/models_unit/textures/bulgarian_spearman_pbr.tga
-texture				parthia, data/models_unit/textures/CBTW_unit_skoutatoi.tga
-texture				romans_brutii, data/models_unit/textures/bulgarian_spearman.tga
-texture				slave, data/models_unit/textures/CBTW_unit_skoutatoi.tga
+pbr_texture			data/models_unit/textures/bulgarian_spearman_pbr.tga
+texture				parthia, data/models_unit/textures/bulgarian_spearman.tga
+texture				bulgaria, data/models_unit/textures/bulgarian_spearman.tga
+texture				slave, data/models_unit/textures/bulgarian_spearman.tga
 model_flexi_m			data/models_unit/bulgarian_spearman.cas, 40
 model_flexi			data/models_unit/bulgarian_spearman.cas, max
 no_variation model_flexi_m			data/models_unit/bulgarian_spearman.cas, 40
@@ -3627,8 +3639,8 @@ no_variation model_flexi			data/models_unit/bulgarian_spearman.cas, max
 
 type				bulg_sword
 skeleton			fs_swordsman
-pbr_texture			romans_brutii, data/models_unit/textures/bulgarian_pronoia_infantry_pbr.tga
-texture				romans_brutii, data/models_unit/textures/bulgarian_pronoia_infantry.tga
+pbr_texture			bulgaria, data/models_unit/textures/bulgarian_pronoia_infantry_pbr.tga
+texture				bulgaria, data/models_unit/textures/bulgarian_pronoia_infantry.tga
 model_flexi_m			data/models_unit/MTW_unit_bulgarian_pronia_infantryman.cas, 40		
 model_flexi			data/models_unit/MTW_unit_bulgarian_pronia_infantryman.cas, max
 no_variation model_flexi_m			data/models_unit/MTW_unit_bulgarian_pronia_infantryman.cas, 40
@@ -3679,7 +3691,7 @@ skeleton			fs_hc_archer, fs_hc_swordsman
 pbr_texture			data/models_unit/textures/mongol_horse_archer_pbr.tga
 pbr_texture			slave, data/models_unit/textures/mongol_horse_archerA_pbr.tga
 pbr_texture			merc, data/models_unit/textures/mongol_horse_archerB_pbr.tga
-texture				pontus, data/models_unit/textures/mongol_horse_archer.tga
+texture				mongol, data/models_unit/textures/mongol_horse_archer.tga
 texture				slave, data/models_unit/textures/mongol_horse_archerA.tga
 texture				merc, data/models_unit/textures/mongol_horse_archerB.tga
 model_flexi_m			data/models_unit/mongol_horse_archer.cas, 40
@@ -3691,7 +3703,7 @@ no_variation model_flexi			data/models_unit/mongol_horse_archer.cas, max
 type				mongol_mounted_archer
 skeleton			fs_hc_archer, fs_hc_swordsman
 pbr_texture			data/models_unit/textures/mongol_medium_horse_archer_pbr.tga
-texture				pontus, data/models_unit/textures/mongol_medium_horse_archer.tga
+texture				mongol, data/models_unit/textures/mongol_medium_horse_archer.tga
 model_flexi_m			data/models_unit/mongol_medium_horse_archer.cas, 40
 model_flexi			data/models_unit/mongol_medium_horse_archer.cas, max 
 no_variation model_flexi_m			data/models_unit/mongol_medium_horse_archer.cas, 40 
@@ -3701,7 +3713,7 @@ no_variation model_flexi			data/models_unit/mongol_medium_horse_archer.cas, max
 type				mongol_foot_archer
 skeleton			fs_archer, fs_swordsman
 pbr_texture			data/models_unit/textures/mongol_horse_archer_pbr.tga
-texture				pontus, data/models_unit/textures/mongol_horse_archer.tga
+texture				mongol, data/models_unit/textures/mongol_horse_archer.tga
 model_flexi_m			data/models_unit/mongol_horse_archer.cas, 40
 model_flexi			data/models_unit/mongol_horse_archer.cas, max 
 no_variation model_flexi_m			data/models_unit/mongol_horse_archer.cas, 40 
@@ -3711,7 +3723,7 @@ no_variation model_flexi			data/models_unit/mongol_horse_archer.cas, max
 type				mongol_heavy_infantry
 skeleton			fs_archer, fs_swordsman
 pbr_texture			data/models_unit/textures/mongol_heavy_infantryman_pbr.tga
-texture				pontus, data/models_unit/textures/mongol_heavy_infantryman.tga
+texture				mongol, data/models_unit/textures/mongol_heavy_infantryman.tga
 model_flexi_m			data/models_unit/mongol_heavy_infantryman.cas, 40		
 model_flexi			data/models_unit/mongol_heavy_infantryman.cas, max
 no_variation model_flexi_m			data/models_unit/mongol_heavy_infantryman.cas, 40
@@ -3721,7 +3733,7 @@ no_variation model_flexi			data/models_unit/mongol_heavy_infantryman.cas, max
 type				mongol_spearman
 skeleton			fs_spearman
 pbr_texture			data/models_unit/textures/mongol_infantryman_pbr.tga
-texture				pontus, data/models_unit/textures/mongol_infantryman.tga
+texture				mongol, data/models_unit/textures/mongol_infantryman.tga
 model_flexi_m			data/models_unit/mongol_infantryman.cas, 40
 model_flexi			data/models_unit/mongol_infantryman.cas, max
 no_variation model_flexi_m			data/models_unit/mongol_infantryman.cas, 40
@@ -3731,7 +3743,7 @@ no_variation model_flexi			data/models_unit/mongol_infantryman.cas, max
 type				mongol_crew
 skeleton			fs_dagger
 pbr_texture			data/models_unit/textures/mongol_horse_archer_pbr.tga
-texture				pontus, data/models_unit/textures/mongol_horse_archer.tga
+texture				mongol, data/models_unit/textures/mongol_horse_archer.tga
 model_flexi_m			data/models_unit/mongol_crew.cas, 40
 model_flexi			data/models_unit/mongol_crew.cas, max 
 no_variation model_flexi_m			data/models_unit/mongol_crew.cas, 40 
@@ -3741,7 +3753,7 @@ type				horse_pony
 skeleton			fs_ranged_horse
 scale				0.875
 pbr_texture			data/models_unit/textures/pony_huns_pbr.tga
-texture				pontus, data/models_unit/textures/pony_huns.tga
+texture				mongol, data/models_unit/textures/pony_huns.tga
 texture				slave, data/models_unit/textures/pony_slaves.tga
 texture				merc, data/models_unit/textures/pony_mercenaries.tga
 ;texture				pontus, data/models_unit/textures/pony_white_huns.tga
@@ -3872,6 +3884,7 @@ skeleton_chariot		fs_chariot_sword
 skeleton_camel			fs_hc_swordsman 
 pbr_texture         		data/models_unit/textures/horde_general_pbr.tga
 texture             		egypt, data/models_unit/textures/horde_general.tga
+texture             		mongol, data/models_unit/textures/horde_general.tga
 model_flexi         		data/models_unit/horde_general.cas, max
 
 type barb_archer

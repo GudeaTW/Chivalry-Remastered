@@ -1891,7 +1891,7 @@ stat_charge_dist 15
 stat_fire_delay  -160000
 stat_food        60, 300
 stat_cost        0, 500, 250, 100, 70, 530
-ownership        slave, egypt
+ownership        slave, egypt, mongol
 
 
 type             steppe heavy cavalry
@@ -1918,7 +1918,7 @@ stat_charge_dist 25
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        1, 1150, 425, 100, 125, 790
-ownership        slave, egypt, thrace, pontus
+ownership        slave, egypt, thrace, pontus, mongol, bulgaria
 
 
 type             steppe infantry
@@ -1944,7 +1944,7 @@ stat_charge_dist 120
 stat_fire_delay  -160000
 stat_food        60, 300
 stat_cost        1, 420, 210, 100, 60, 480
-ownership        slave, egypt
+ownership        slave, egypt, mongol, bulgaria
 
 ; *************************************************************************************************************************************
 ;
@@ -2365,7 +2365,7 @@ stat_charge_dist 25
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        1, 1250, 450, 95, 115, 730
-ownership        slave, seleucid, dacia, romans_julii, gauls, germans, britons, egypt, armenia, parthia, pontus, thrace, greek_cities, georgia
+ownership        slave, seleucid, dacia, romans_julii, gauls, germans, britons, egypt, armenia, parthia, pontus, thrace, greek_cities, georgia, mongol
 
 
 
@@ -2558,7 +2558,7 @@ stat_charge_dist 15
 stat_fire_delay  -100000
 stat_food        60, 300
 stat_cost        0, 450, 225, 70, 80, 590
-ownership        slave, egypt, armenia
+ownership        slave, egypt, armenia, mongol, bulgaria
 
 type             light cavalry
 dictionary       light_cavalry
@@ -2933,7 +2933,7 @@ stat_charge_dist 105
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 320, 200, 100, 36, 250
-ownership        slave, barbarian, carthaginian, armenia, egyptian, greek
+ownership        slave, barbarian, carthaginian, armenia, egyptian, greek, bulgaria
 
 type             saracen archers
 dictionary       saracen_archers
@@ -3389,7 +3389,7 @@ stat_charge_dist 60
 stat_fire_delay  -60000
 stat_food        60, 300
 stat_cost        1, 420, 230, 90, 55, 340
-ownership        slave, carthage, armenia, numidia, romans_senate
+ownership        slave, carthage, armenia, numidia, romans_senate, mongol, bulgaria
 
 type             viking warriors
 dictionary       viking_warriors
@@ -3538,7 +3538,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 250, 125, 30, 35, 210
-ownership        slave, egypt
+ownership        slave, egypt, mongol, bulgaria
 
 ; rebel only
 type             lewnaght
@@ -4033,7 +4033,7 @@ stat_charge_dist 60
 stat_fire_delay  -60000
 stat_food        60, 300
 stat_cost        1, 400, 200, 90, 55, 340
-ownership        egypt, numidia, armenia
+ownership        egypt, numidia, armenia, mongol, bulgaria
 
 ; re-functioned to pool merc only
 type             viking warriors merc
@@ -4637,7 +4637,7 @@ stat_charge_dist 30
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        2, 1950, 600, 130, 150, 800
-ownership        slave, egypt, thrace, pontus
+ownership        slave, egypt, thrace, pontus, mongol
 
 type             knights reconquista
 dictionary       feudal_knights_recon
@@ -5665,7 +5665,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 800, 400, 60, 80, 544
-ownership        slave, carthage, egypt
+ownership        slave, carthage, egypt, mongol
 
 type             szekely2
 dictionary       szekely2     ; Szekely
@@ -5716,7 +5716,7 @@ stat_charge_dist 60
 stat_fire_delay  -60000
 stat_food        60, 300
 stat_cost        1, 400, 200, 80, 110, 300
-ownership        slave, carthage, egypt
+ownership        slave, carthage, egypt, bulgaria, mongol
 
 ; building
 type             genoese crossbowmen
@@ -6306,7 +6306,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 720, 350, 60, 80, 544
-ownership        slave, carthage, egypt
+ownership        slave, carthage, egypt, bulgaria, mongol
 
 type             saxon knights 
 dictionary       sax_knights_early
@@ -6612,7 +6612,7 @@ stat_charge_dist 20
 stat_fire_delay  -160000
 stat_food        60, 300
 stat_cost        2, 850, 400, 100, 125, 830
-ownership        slave, egypt
+ownership        slave, egypt, mongol
 
 type             cuman foot warrior 
 dictionary       cuman_archer
@@ -6637,7 +6637,7 @@ stat_charge_dist 125
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 680, 285, 60, 80, 250
-ownership        slave, egypt
+ownership        slave, egypt, mongol
 
 type             georgian infantry  
 dictionary       arm_peltasti
@@ -7039,7 +7039,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 400, 80, 50, 70, 450
-ownership        slave, gauls, germans, scythia, britons, numidia, romans_scipii, romans_senate, spain, armenia, carthage  
+ownership        slave, gauls, germans, scythia, britons, numidia, romans_scipii, romans_senate, spain, armenia, carthage, bulgaria
 
 
 type             ship dromon
@@ -7254,7 +7254,7 @@ stat_charge_dist 30
 stat_fire_delay  -300000
 stat_food        60, 300
 stat_cost        3, 2000, 400, 105, 155, 880
-ownership        romans_brutii
+ownership        bulgaria
 
 ; *************************************************************************************************************************************
 ;
@@ -7286,7 +7286,7 @@ stat_charge_dist 15
 stat_fire_delay  -170000
 stat_food        60, 300
 stat_cost        1, 600, 300, 110, 55, 570
-ownership        romans_brutii
+ownership        bulgaria
 
 type             bulgarian swordsmen
 dictionary       bulgarian_swordsmen
@@ -7312,7 +7312,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        2, 1100, 450, 70, 90, 550
-ownership        romans_brutii
+ownership        bulgaria
 
 type             bulgarian spearmen
 dictionary       bulgarian_spearmen
@@ -7339,7 +7339,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 800, 300, 70, 80, 510
-ownership        romans_brutii
+ownership        bulgaria
 
 type             kartvelian heavy spearmen
 dictionary       kartvelian_heavy_spearmen
@@ -7418,7 +7418,7 @@ stat_charge_dist 30
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        1, 1250, 500, 100, 130, 840
-ownership        romans_brutii
+ownership        bulgaria
 
 type             mongol bodyguard
 dictionary       mongol_bodyguard
@@ -7444,7 +7444,7 @@ stat_charge_dist 25
 stat_fire_delay  -300000
 stat_food        60, 300
 stat_cost        1, 3700, 100, 110, 132, 830
-ownership        pontus
+ownership        mongol
 
 type             mongol heavy cavalry
 dictionary       mongol_heavy_cavalry
@@ -7470,7 +7470,7 @@ stat_charge_dist 30
 stat_fire_delay  -300000
 stat_food        60, 300
 stat_cost        3, 2000, 400, 110, 132, 830
-ownership        pontus
+ownership        mongol
 
 ; *************************************************************************************************************************************
 ;
@@ -7502,7 +7502,7 @@ stat_charge_dist 15
 stat_fire_delay  -160000
 stat_food        60, 300
 stat_cost        1, 400, 200, 100, 70, 400
-ownership        pontus, slave
+ownership        mongol, slave
 
 
 type             mongol mounted archers
@@ -7529,7 +7529,7 @@ stat_charge_dist 20
 stat_fire_delay  -160000
 stat_food        60, 300
 stat_cost        2, 850, 400, 100, 125, 850
-ownership        pontus
+ownership        mongol
 
 
 type             mongol lancer
@@ -7556,7 +7556,7 @@ stat_charge_dist 25
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        1, 1100, 470, 100, 125, 1100
-ownership        pontus
+ownership        mongol
 
 
 type             mongol foot archer
@@ -7582,7 +7582,7 @@ stat_charge_dist 120
 stat_fire_delay  -160000
 stat_food        60, 300
 stat_cost        1, 420, 210, 100, 60, 480
-ownership        pontus
+ownership        mongol
 
 
 type             mongol spearmen
@@ -7607,7 +7607,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 430, 215, 30, 35, 430
-ownership        pontus
+ownership        mongol
 
 
 type             mongol heavy infantry 
@@ -7633,7 +7633,7 @@ stat_charge_dist 125
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 680, 285, 60, 80, 680
-ownership        pontus
+ownership        mongol
 
 
 type             mongol catapult
@@ -7660,7 +7660,7 @@ stat_charge_dist 140
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1000, 550, 45, 52, 350
-ownership        pontus
+ownership        mongol
 
 
 type             mongol trebuchet
@@ -7687,7 +7687,7 @@ stat_charge_dist 240
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1500, 750, 30, 40, 220
-ownership        pontus
+ownership        mongol
 
 
 type             mongol ballista
@@ -7714,7 +7714,7 @@ stat_charge_dist 190
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 700, 350, 30, 40, 220
-ownership        pontus
+ownership        mongol
 
 
 type             mongol catapulta
@@ -7741,7 +7741,7 @@ stat_charge_dist 170
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1250, 650, 45, 52, 350
-ownership        pontus
+ownership        mongol
 
 ;-------------------------------------------------------------------------------------------
 ; End of added units

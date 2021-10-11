@@ -37,11 +37,11 @@ building core_building
             capability
             {
 			; base			
-			recruit "levy guards"  0 requires factions { barbarian, carthaginian, egyptian, greek, armenia, }
+			recruit "levy guards"  0 requires factions { barbarian, carthaginian, egyptian, greek, armenia, bulgaria, }
 			recruit "phylakes"  0 requires factions { parthia, } and hidden_resource greek
 			recruit "levy guards"  0 requires factions { parthia, } and not hidden_resource greek
 			; nomad
-			recruit "steppe infantry"  0 requires factions { egypt, } and hidden_resource steppe
+			recruit "steppe infantry"  0 requires factions { egypt, mongol, } and hidden_resource steppe
 			
 ; slave:
 			recruit "spearmen"  0 requires factions { slave, }
@@ -94,8 +94,8 @@ building core_building
 			
 			happiness_bonus bonus -1 requires factions { germans, } and hidden_resource boheme or hidden_resource french or hidden_resource pole or hidden_resource magyar or hidden_resource italy
 			happiness_bonus bonus -1 requires factions { britons, } and hidden_resource scot or hidden_resource fland 
-			happiness_bonus bonus -2 requires factions { parthia, seleucid, georgia, } and hidden_resource anatol
-			happiness_bonus bonus -2 requires factions { parthia, carthage, } and hidden_resource steppe
+			happiness_bonus bonus -2 requires factions { parthia, seleucid, georgia, bulgaria, } and hidden_resource anatol
+			happiness_bonus bonus -2 requires factions { parthia, carthage, bulgaria, } and hidden_resource steppe
 			happiness_bonus bonus -1 requires factions { dacia, } and hidden_resource roma
 			happiness_bonus bonus -3 requires factions { barbarian, carthaginian, eastern, egyptian, greek, } and hidden_resource baltic_crusade
 			happiness_bonus bonus -2 requires factions { greek_cities, } and hidden_resource moors
@@ -105,12 +105,12 @@ building core_building
 			law_bonus bonus 1 requires factions { gauls, germans, dacia, britons, } and hidden_resource crus_state
 			law_bonus bonus 1 requires factions { romans_scipii, } and hidden_resource recon
 			law_bonus bonus 2 requires factions { pontus, } and hidden_resource anatol
-			law_bonus bonus 2 requires factions { egypt, } and hidden_resource vlach or hidden_resource trap
+			law_bonus bonus 2 requires factions { egypt, mongol, mongol, } and hidden_resource vlach or hidden_resource trap
 			law_bonus bonus 4 requires factions { thrace, } and hidden_resource abbasid
 			law_bonus bonus 1 requires factions { romans_scipii, } and hidden_resource recon
 			law_bonus bonus -3 requires factions { spain, } and not hidden_resource franks
-			law_bonus bonus -2 requires factions { parthia, } and hidden_resource vlach or hidden_resource kiev or hidden_resource novgo or hidden_resource lith
-			law_bonus bonus -3 requires factions { parthia, seleucid, georgia, } and hidden_resource anatol
+			law_bonus bonus -2 requires factions { parthia, bulgaria, } and hidden_resource vlach or hidden_resource kiev or hidden_resource novgo or hidden_resource lith
+			law_bonus bonus -3 requires factions { parthia, bulgaria, seleucid, georgia, } and hidden_resource anatol
 			law_bonus bonus -3 requires factions { greek_cities, seleucid, georgia, } and hidden_resource abbasid
 			law_bonus bonus -3 requires factions { macedon, } and hidden_resource leon	
 			law_bonus bonus -3 requires factions { macedon, } and hidden_resource franks
@@ -131,7 +131,7 @@ building core_building
 			
 			taxable_income_bonus bonus 10 requires factions { pontus, } and hidden_resource byz or hidden_resource trebizond
 			taxable_income_bonus bonus 25 requires factions { pontus, } and hidden_resource anatol 
-			taxable_income_bonus bonus 10 requires factions { egypt, } and hidden_resource vlach or hidden_resource trap
+			taxable_income_bonus bonus 10 requires factions { egypt, mongol, bulgaria, } and hidden_resource vlach or hidden_resource trap
 			taxable_income_bonus bonus 5 requires factions { seleucid, georgia, } and hidden_resource armen
 			taxable_income_bonus bonus 5 requires factions { gauls, } and hidden_resource burgund
 			taxable_income_bonus bonus 5 requires factions { gauls, } and hidden_resource fland	
@@ -148,9 +148,9 @@ building core_building
 			taxable_income_bonus bonus 2 requires factions { romans_julii, } and hidden_resource italy and hidden_resource main
 			taxable_income_bonus bonus 2 requires factions { pontus, } and hidden_resource turk and hidden_resource main
 			taxable_income_bonus bonus 2 requires factions { thrace, } and hidden_resource turk and hidden_resource main
-			taxable_income_bonus bonus 2 requires factions { armenia, } and hidden_resource steppe and hidden_resource main
+			taxable_income_bonus bonus 2 requires factions { armenia, bulgaria, } and hidden_resource steppe and hidden_resource main
 			taxable_income_bonus bonus 2 requires factions { seleucid, georgia, } and hidden_resource armen and hidden_resource main
-			taxable_income_bonus bonus 2 requires factions { egypt, } and hidden_resource steppe and hidden_resource main
+			taxable_income_bonus bonus 2 requires factions { egypt, mongol, bulgaria, } and hidden_resource steppe and hidden_resource main
 			taxable_income_bonus bonus 2 requires factions { romans_senate, } and hidden_resource boheme and hidden_resource elite
 			taxable_income_bonus bonus 2 requires factions { numidia, } and hidden_resource pole and hidden_resource elite
             }
@@ -162,20 +162,20 @@ building core_building
                 governors_villa
             }
         }
-        governors_villa requires factions { barbarian, carthaginian, eastern, parthia, egyptian, greek, roman, } 
+        governors_villa requires factions { barbarian, carthaginian, eastern, parthia, egyptian, greek, roman, bulgaria, } 
         {
             capability
             {
 
 			; base			
-			recruit "levy guards"  0 requires factions { barbarian, carthaginian, egyptian, greek, armenia, }
+			recruit "levy guards"  0 requires factions { barbarian, carthaginian, egyptian, greek, armenia, bulgaria, }
 			recruit "phylakes"  0 requires factions { parthia, } and hidden_resource greek
 			recruit "levy guards"  0 requires factions { parthia, } and not hidden_resource greek    
 			; nomad
-			recruit "steppe infantry"  0 requires factions { egypt, } and hidden_resource steppe
-			recruit "cuman foot warrior"  1 requires factions { egypt, } and hidden_resource steppe and not hidden_resource forest
-			recruit "cuman mounted warrior"  1 requires factions { egypt, } and hidden_resource steppe and hidden_resource main and not hidden_resource forest
-			recruit "steppe heavy cavalry"  1 requires factions { egypt, } and hidden_resource steppe and hidden_resource elite and not hidden_resource forest
+			recruit "steppe infantry"  0 requires factions { egypt, mongol, bulgaria, } and hidden_resource steppe
+			recruit "cuman foot warrior"  1 requires factions { egypt, mongol, bulgaria, } and hidden_resource steppe and not hidden_resource forest
+			recruit "cuman mounted warrior"  1 requires factions { egypt, mongol, bulgaria, } and hidden_resource steppe and hidden_resource main and not hidden_resource forest
+			recruit "steppe heavy cavalry"  1 requires factions { egypt, mongol, bulgaria, } and hidden_resource steppe and hidden_resource elite and not hidden_resource forest
 			
 ; slave:
 			recruit "spearmen"  0 requires factions { slave, }
@@ -230,7 +230,7 @@ building core_building
 			religious_belief islam 1 requires hidden_resource andalus and hidden_resource elite
 			religious_belief islam 1 requires hidden_resource crus_state
 			religious_belief islam 1 requires factions { macedon, } and hidden_resource andalus
-			religious_belief christianity 1 requires factions { barbarian, carthaginian, eastern, seleucid, georgia, } and hidden_resource euro or hidden_resource armen
+			religious_belief christianity 1 requires factions { barbarian, carthaginian, eastern, seleucid, georgia, bulgaria, } and hidden_resource euro or hidden_resource armen or hidden_resource georg
 			religious_belief christianity 2 requires factions { armenia, } and hidden_resource kiev or hidden_resource novgo
 			religious_belief christianity 2 requires factions { romans_scipii, } and hidden_resource leon
 			
@@ -250,12 +250,12 @@ building core_building
 			happiness_bonus bonus -1 requires factions { seleucid, georgia, } and not hidden_resource armen
 			happiness_bonus bonus -1 requires factions { thrace, } and not hidden_resource turk
 			happiness_bonus bonus -1 requires factions { pontus, } and not hidden_resource turk
-			happiness_bonus bonus -1 requires factions { egypt, } and not hidden_resource steppe
-			happiness_bonus bonus -1 requires factions { parthia, } and not hidden_resource greek and not hidden_resource byz
+			happiness_bonus bonus -1 requires factions { egypt, mongol, } and not hidden_resource steppe
+			happiness_bonus bonus -1 requires factions { parthia, bulgaria, } and not hidden_resource greek and not hidden_resource byz
 			happiness_bonus bonus -2 requires factions { dacia, } and not hidden_resource sicily and not hidden_resource crus_state
 			happiness_bonus bonus -1 requires factions { romans_julii, } and not hidden_resource italy and not hidden_resource crus_state		
-			happiness_bonus bonus -5 requires factions { parthia, seleucid, georgia, } and hidden_resource anatol
-			happiness_bonus bonus -3 requires factions { parthia, carthage, } and hidden_resource steppe
+			happiness_bonus bonus -5 requires factions { parthia, seleucid, georgia, bulgaria, } and hidden_resource anatol
+			happiness_bonus bonus -3 requires factions { parthia, carthage, bulgaria, } and hidden_resource steppe
 			happiness_bonus bonus -3 requires factions { dacia, parthia, } and hidden_resource roma
 			happiness_bonus bonus -5 requires factions { macedon, romans_brutii, } and hidden_resource leon
 			happiness_bonus bonus -5 requires factions { thrace, pontus, } and hidden_resource konst
@@ -266,7 +266,7 @@ building core_building
 			happiness_bonus bonus -3 requires factions { gauls, } and hidden_resource recon or hidden_resource franks
 			law_bonus bonus 1 requires factions { gauls, germans, dacia, britons, } and hidden_resource crus_state
 			law_bonus bonus 1 requires factions { pontus, } and hidden_resource anatol
-			law_bonus bonus 1 requires factions { egypt, } and hidden_resource vlach or hidden_resource trap
+			law_bonus bonus 1 requires factions { egypt, mongol, bulgaria, } and hidden_resource vlach or hidden_resource trap
 			law_bonus bonus 1 requires factions { thrace, } and hidden_resource abbasid
 			law_bonus bonus 1 requires factions { romans_scipii, } and hidden_resource recon
 			happiness_bonus bonus 1 requires factions { dacia, germans, } and hidden_resource sicily			
@@ -275,7 +275,7 @@ building core_building
 			law_bonus bonus -5 requires factions { parthia, seleucid, georgia, } and hidden_resource anatol
 			law_bonus bonus -3 requires factions { greek_cities, seleucid, georgia, } and hidden_resource abbasid			
 			law_bonus bonus -3 requires factions { dacia, parthia, } and hidden_resource roma	
-			law_bonus bonus -3 requires factions { thrace, pontus, } and hidden_resource konst
+			law_bonus bonus -3 requires factions { thrace, pontus, bulgaria, } and hidden_resource konst
 			law_bonus bonus -3 requires factions { macedon, romans_brutii, } and hidden_resource leon
 			law_bonus bonus -3 requires factions { macedon, } and hidden_resource franks
 			law_bonus bonus -3 requires factions { macedon, } and hidden_resource recon
@@ -283,7 +283,7 @@ building core_building
 			law_bonus bonus -5 requires factions { gauls, } and hidden_resource germ or hidden_resource norm
 			law_bonus bonus -3 requires factions { germans, } and hidden_resource french or hidden_resource norm
 			law_bonus bonus -1 requires factions { parthia, } and not hidden_resource greek 
-			law_bonus bonus -1 requires factions { dacia, } and hidden_resource greek
+			law_bonus bonus -1 requires factions { dacia, bulgaria, } and hidden_resource greek
 			law_bonus bonus -1 requires factions { parthia, } and not hidden_resource byz
 			law_bonus bonus -5 requires factions { carthage, } and hidden_resource pole
 			law_bonus bonus -5 requires factions { carthage, } and not hidden_resource magyar
@@ -296,11 +296,11 @@ building core_building
 			taxable_income_bonus bonus 10 requires factions { pontus, } and hidden_resource byz or hidden_resource trebizond
 			taxable_income_bonus bonus 15 requires factions { pontus, } and hidden_resource anatol
 			taxable_income_bonus bonus 15 requires factions { germans, } and hidden_resource loth
-			taxable_income_bonus bonus 10 requires factions { egypt, } and hidden_resource vlach or hidden_resource trap
+			taxable_income_bonus bonus 10 requires factions { egypt, mongol, } and hidden_resource vlach or hidden_resource trap
 			taxable_income_bonus bonus 5 requires factions { seleucid, georgia, } and hidden_resource armen
 			taxable_income_bonus bonus 30 requires factions { thrace, } and hidden_resource abbasid
 			taxable_income_bonus bonus 10 requires factions { romans_scipii, } and hidden_resource recon
-			taxable_income_bonus bonus -50 requires factions { parthia, } and not hidden_resource konst
+			taxable_income_bonus bonus -50 requires factions { parthia, bulgaria, } and not hidden_resource konst
 			taxable_income_bonus bonus -50 requires factions { carthage, } and not hidden_resource magyar
 			taxable_income_bonus bonus -50 requires factions { romans_senate, } and not hidden_resource boheme
 			taxable_income_bonus bonus -40 requires factions { romans_julii, } and not hidden_resource italy
@@ -312,10 +312,10 @@ building core_building
 			taxable_income_bonus bonus 4 requires factions { pontus, } and hidden_resource turk and hidden_resource main
 			taxable_income_bonus bonus 4 requires factions { thrace, } and hidden_resource turk and hidden_resource main
 			taxable_income_bonus bonus 4 requires factions { seleucid, georgia, } and hidden_resource armen and hidden_resource main
-			taxable_income_bonus bonus 4 requires factions { egypt, } and hidden_resource steppe and hidden_resource main
+			taxable_income_bonus bonus 4 requires factions { egypt, mongol, } and hidden_resource steppe and hidden_resource main
 			taxable_income_bonus bonus 4 requires factions { romans_senate, } and hidden_resource boheme and hidden_resource main
 			taxable_income_bonus bonus 4 requires factions { numidia, } and hidden_resource pole and hidden_resource main
-			taxable_income_bonus bonus 4 requires factions { armenia, } and hidden_resource steppe and hidden_resource main
+			taxable_income_bonus bonus 4 requires factions { armenia, bulgaria, } and hidden_resource steppe and hidden_resource main
             }
             construction  4 
             cost  1500 
@@ -325,20 +325,20 @@ building core_building
                 governors_palace
             }
         }
-        governors_palace requires factions { barbarian, carthaginian, eastern, parthia, egyptian, greek, roman, } 
+        governors_palace requires factions { barbarian, carthaginian, eastern, parthia, egyptian, greek, roman, bulgaria, } 
         {
             capability
 	{
 			; base			
-			recruit "levy guards"  0 requires factions { barbarian, carthaginian, egyptian, greek, armenia, }
+			recruit "levy guards"  0 requires factions { barbarian, carthaginian, egyptian, greek, armenia, bulgaria, }
 			recruit "phylakes"  0 requires factions { parthia, } and hidden_resource greek or hidden_resource byz
 			recruit "levy guards"  0 requires factions { parthia, } and not hidden_resource greek and not hidden_resource byz    
 			; nomad
-			recruit "steppe infantry"  0 requires factions { egypt, } and hidden_resource steppe 
-			recruit "cuman foot warrior"  1 requires factions { egypt, } and hidden_resource steppe and not hidden_resource forest
-			recruit "cuman mounted warrior"  1 requires factions { egypt, } and hidden_resource steppe and not hidden_resource forest
-			recruit "steppe heavy cavalry"  1 requires factions { egypt, } and hidden_resource steppe and hidden_resource main and not hidden_resource forest
-			recruit "cuman heavy cavalry c"  1 requires factions { egypt, } and hidden_resource steppe and hidden_resource elite and not hidden_resource forest
+			recruit "steppe infantry"  0 requires factions { egypt, mongol, bulgaria, } and hidden_resource steppe 
+			recruit "cuman foot warrior"  1 requires factions { egypt, mongol, bulgaria, } and hidden_resource steppe and not hidden_resource forest
+			recruit "cuman mounted warrior"  1 requires factions { egypt, mongol, bulgaria, } and hidden_resource steppe and not hidden_resource forest
+			recruit "steppe heavy cavalry"  1 requires factions { egypt, mongol, bulgaria, } and hidden_resource steppe and hidden_resource main and not hidden_resource forest
+			recruit "cuman heavy cavalry c"  1 requires factions { egypt, mongol, } and hidden_resource steppe and hidden_resource elite and not hidden_resource forest
 					
 ; slave:
 			recruit "spearmen"  0 requires factions { slave, }
@@ -397,7 +397,7 @@ building core_building
 			religious_belief islam 1 requires hidden_resource andalus and hidden_resource elite
 			religious_belief islam 1 requires hidden_resource crus_state
 			religious_belief islam 1 requires factions { macedon, } and hidden_resource andalus
-			religious_belief christianity 1 requires factions { barbarian, carthaginian, eastern, seleucid, georgia, } and hidden_resource euro or hidden_resource armen 
+			religious_belief christianity 1 requires factions { barbarian, carthaginian, eastern, seleucid, georgia, bulgaria, } and hidden_resource euro or hidden_resource armen 
 			religious_belief christianity 1 requires factions { armenia, } and hidden_resource kiev or hidden_resource novgo
 			religious_belief christianity 1 requires factions { romans_scipii, } and hidden_resource leon
 			
@@ -417,15 +417,15 @@ building core_building
 			happiness_bonus bonus -1 requires factions { seleucid, georgia, } and not hidden_resource armen
 			happiness_bonus bonus -1 requires factions { thrace, } and not hidden_resource turk
 			happiness_bonus bonus -1 requires factions { pontus, } and not hidden_resource turk
-			happiness_bonus bonus -1 requires factions { egypt, } and not hidden_resource steppe
-			happiness_bonus bonus -1 requires factions { parthia, } and not hidden_resource greek and not hidden_resource byz
+			happiness_bonus bonus -1 requires factions { egypt, mongol, } and not hidden_resource steppe
+			happiness_bonus bonus -1 requires factions { parthia, bulgaria, } and not hidden_resource greek and not hidden_resource byz
 			happiness_bonus bonus -2 requires factions { dacia, } and not hidden_resource sicily and not hidden_resource crus_state
 			happiness_bonus bonus -1 requires factions { romans_julii, } and not hidden_resource italy and not hidden_resource crus_state		
 			happiness_bonus bonus -4 requires factions { dacia, parthia, } and hidden_resource roma
 			happiness_bonus bonus -5 requires factions { thrace, pontus, } and hidden_resource konst
 			happiness_bonus bonus -4 requires factions { macedon, romans_brutii, } and hidden_resource leon
 			happiness_bonus bonus -4 requires factions { parthia, seleucid, georgia, } and hidden_resource anatol
-			happiness_bonus bonus -2 requires factions { parthia, carthage, } and hidden_resource steppe
+			happiness_bonus bonus -2 requires factions { parthia, carthage, bulgaria, } and hidden_resource steppe
 			happiness_bonus bonus -1 requires factions { germans, } and hidden_resource boheme or hidden_resource french or hidden_resource pole or hidden_resource magyar or hidden_resource italy
 			happiness_bonus bonus -2 requires factions { britons, } and hidden_resource scot or hidden_resource fland or hidden_resource french
 			happiness_bonus bonus -2 requires factions { barbarian, carthaginian, eastern, egyptian, greek, } and hidden_resource baltic_crusade
@@ -438,13 +438,13 @@ building core_building
 			law_bonus bonus 1 requires factions { britons, } and hidden_resource ang
 			law_bonus bonus 1 requires factions { germans, } and hidden_resource elite and hidden_resource roma or hidden_resource sicily
 			law_bonus bonus 1 requires factions { romans_scipii, } and hidden_resource recon
-			law_bonus bonus 2 requires factions { egypt, } and hidden_resource vlach or hidden_resource trap
+			law_bonus bonus 2 requires factions { egypt, mongol, } and hidden_resource vlach or hidden_resource trap
 			law_bonus bonus 2 requires factions { pontus, } and hidden_resource anatol
 			law_bonus bonus 1 requires factions { gauls, germans, dacia, britons, } and hidden_resource crus_state
 			law_bonus bonus 3 requires factions { thrace, } and hidden_resource abbasid
 			happiness_bonus bonus 1 requires factions { dacia, germans, } and hidden_resource sicily
 			law_bonus bonus -4 requires factions { carthage, } and not hidden_resource magyar
-			law_bonus bonus -3 requires factions { parthia, } and hidden_resource vlach or hidden_resource kiev or hidden_resource novgo or hidden_resource lith
+			law_bonus bonus -3 requires factions { parthia, bulgaria, } and hidden_resource vlach or hidden_resource kiev or hidden_resource novgo or hidden_resource lith
 			law_bonus bonus -3 requires factions { greek_cities, seleucid, georgia, } and hidden_resource abbasid
 			law_bonus bonus -4 requires factions { greek_cities, } and not hidden_resource fatamid		
 			law_bonus bonus -2 requires factions { spain, } and not hidden_resource franks
@@ -476,7 +476,7 @@ building core_building
 			taxable_income_bonus bonus 5 requires factions { gauls, } and hidden_resource fland
 			taxable_income_bonus bonus 15 requires factions { pontus, } and hidden_resource anatol
 			taxable_income_bonus bonus 10 requires factions { pontus, } and hidden_resource byz or hidden_resource trebizond
-			taxable_income_bonus bonus 15 requires factions { egypt, } and hidden_resource vlach or hidden_resource trap
+			taxable_income_bonus bonus 15 requires factions { egypt, mongol, mongol, } and hidden_resource vlach or hidden_resource trap
             taxable_income_bonus bonus 10 requires factions { armenia, } and hidden_resource kiev
 			taxable_income_bonus bonus 15 requires factions { armenia, } and hidden_resource novgo
             taxable_income_bonus bonus 5 requires factions { britons, } and hidden_resource scot	
@@ -501,7 +501,7 @@ building core_building
 			taxable_income_bonus bonus 4 requires factions { pontus, } and hidden_resource turk and hidden_resource main
 			taxable_income_bonus bonus 4 requires factions { thrace, } and hidden_resource turk and hidden_resource main
 			taxable_income_bonus bonus 4 requires factions { seleucid, georgia, } and hidden_resource armen and hidden_resource main
-			taxable_income_bonus bonus 4 requires factions { egypt, } and hidden_resource steppe and hidden_resource main
+			taxable_income_bonus bonus 4 requires factions { egypt, mongol, mongol, } and hidden_resource steppe and hidden_resource main
 			taxable_income_bonus bonus 4 requires factions { romans_senate, } and hidden_resource boheme and hidden_resource main
 			taxable_income_bonus bonus 4 requires factions { numidia, } and hidden_resource pole and hidden_resource main
 			taxable_income_bonus bonus 4 requires factions { armenia, } and hidden_resource steppe and hidden_resource main
@@ -515,20 +515,20 @@ building core_building
                 proconsuls_palace
             }
         }
-        proconsuls_palace requires factions { barbarian, carthaginian, eastern, parthia, egyptian, greek, roman, } 
+        proconsuls_palace requires factions { barbarian, carthaginian, eastern, parthia, egyptian, greek, roman, bulgaria, } 
         {
             capability
             {
 			; base			
-			recruit "levy guards"  0 requires factions { barbarian, carthaginian, egyptian, greek, armenia, }
+			recruit "levy guards"  0 requires factions { barbarian, carthaginian, egyptian, greek, armenia, bulgaria, }
 			recruit "phylakes"  0 requires factions { parthia, } and hidden_resource greek or hidden_resource byz
 			recruit "levy guards"  0 requires factions { parthia, } and not hidden_resource greek and not hidden_resource byz
 			; nomad
-			recruit "steppe infantry"  0 requires factions { egypt, } and hidden_resource steppe 
-			recruit "cuman foot warrior"  1 requires factions { egypt, } and hidden_resource steppe and not hidden_resource forest 
-			recruit "cuman mounted warrior"  1 requires factions { egypt, } and hidden_resource steppe and not hidden_resource forest
-			recruit "steppe heavy cavalry"  1 requires factions { egypt, } and hidden_resource steppe and not hidden_resource forest
-			recruit "cuman heavy cavalry c"  1 requires factions { egypt, } and hidden_resource steppe and hidden_resource main and not hidden_resource forest
+			recruit "steppe infantry"  0 requires factions { egypt, mongol, bulgaria, } and hidden_resource steppe 
+			recruit "cuman foot warrior"  1 requires factions { egypt, mongol, bulgaria, } and hidden_resource steppe and not hidden_resource forest 
+			recruit "cuman mounted warrior"  1 requires factions { egypt, mongol, bulgaria, } and hidden_resource steppe and not hidden_resource forest
+			recruit "steppe heavy cavalry"  1 requires factions { egypt, mongol, bulgaria, } and hidden_resource steppe and not hidden_resource forest
+			recruit "cuman heavy cavalry c"  1 requires factions { egypt, mongol, bulgaria, } and hidden_resource steppe and hidden_resource main and not hidden_resource forest
 			  
 ; slave:
 			recruit "spearmen"  0 requires factions { slave, }
@@ -612,15 +612,15 @@ building core_building
 			happiness_bonus bonus -1 requires factions { seleucid, georgia, } and not hidden_resource armen
 			happiness_bonus bonus -1 requires factions { thrace, } and not hidden_resource turk
 			happiness_bonus bonus -1 requires factions { pontus, } and not hidden_resource turk
-			happiness_bonus bonus -1 requires factions { egypt, } and not hidden_resource steppe
-			happiness_bonus bonus -1 requires factions { parthia, } and not hidden_resource greek and not hidden_resource byz
+			happiness_bonus bonus -1 requires factions { egypt, mongol, } and not hidden_resource steppe
+			happiness_bonus bonus -1 requires factions { parthia, bulgaria, } and not hidden_resource greek and not hidden_resource byz
 			happiness_bonus bonus -2 requires factions { dacia, } and not hidden_resource sicily and not hidden_resource crus_state
 			happiness_bonus bonus -1 requires factions { romans_julii, } and not hidden_resource italy and not hidden_resource crus_state
 			happiness_bonus bonus -4 requires factions { parthia, seleucid, georgia, } and hidden_resource anatol
-			happiness_bonus bonus -2 requires factions { parthia, } and hidden_resource steppe
+			happiness_bonus bonus -2 requires factions { parthia, bulgaria, } and hidden_resource steppe
 			happiness_bonus bonus -2 requires factions { carthage, } and hidden_resource steppe or hidden_resource greek 
 			happiness_bonus bonus -2 requires factions { dacia, parthia, } and hidden_resource roma
-			happiness_bonus bonus -5 requires factions { thrace, pontus, } and hidden_resource greek
+			happiness_bonus bonus -5 requires factions { thrace, pontus, bulgaria, } and hidden_resource greek
 			happiness_bonus bonus -4 requires factions { macedon, romans_brutii, } and hidden_resource leon
 			happiness_bonus bonus -2 requires factions { barbarian, carthaginian, eastern, egyptian, greek, } and hidden_resource baltic_crusade
 			happiness_bonus bonus -5 requires factions { greek_cities, } and hidden_resource moors
@@ -632,13 +632,13 @@ building core_building
 			law_bonus bonus 1 requires factions { romans_scipii, } and hidden_resource recon
 			law_bonus bonus 2 requires factions { britons, } and hidden_resource ang or hidden_resource norm
 			law_bonus bonus 2 requires factions { pontus, } and hidden_resource anatol
-			law_bonus bonus 2 requires factions { egypt, } and hidden_resource vlach or hidden_resource trap
+			law_bonus bonus 2 requires factions { egypt, mongol, } and hidden_resource vlach or hidden_resource trap
 			law_bonus bonus 2 requires factions { germans, } and hidden_resource germ and hidden_resource main
 			law_bonus bonus 2 requires factions { germans, } and hidden_resource roma or hidden_resource sicily
 			law_bonus bonus 4 requires factions { thrace, } and hidden_resource abbasid
 			happiness_bonus bonus 1 requires factions { dacia, germans, } and hidden_resource sicily
 			law_bonus bonus -2 requires factions { spain, } and not hidden_resource franks
-			law_bonus bonus -2 requires factions { parthia, carthage, } and hidden_resource vlach or hidden_resource kiev or hidden_resource novgo or hidden_resource lith
+			law_bonus bonus -2 requires factions { parthia, carthage, bulgaria, } and hidden_resource vlach or hidden_resource kiev or hidden_resource novgo or hidden_resource lith
 			law_bonus bonus -2 requires factions { germans, } and hidden_resource scandinavia
 			law_bonus bonus -2 requires factions { romans_julii, } and not hidden_resource italy
 			law_bonus bonus -2 requires factions { greek_cities, } and not hidden_resource fatamid
@@ -648,8 +648,8 @@ building core_building
 			law_bonus bonus -2 requires factions { dacia, parthia, } and hidden_resource roma
 			law_bonus bonus -4 requires factions { seleucid, parthia, georgia, } and hidden_resource anatol
 			law_bonus bonus -3 requires factions { seleucid, georgia, } and not hidden_resource armen
-			law_bonus bonus -1 requires factions { parthia, } and not hidden_resource greek 
-			law_bonus bonus -1 requires factions { parthia, } and not hidden_resource byz
+			law_bonus bonus -1 requires factions { parthia, bulgaria, } and not hidden_resource greek 
+			law_bonus bonus -1 requires factions { parthia, bulgaria, } and not hidden_resource byz
 			law_bonus bonus -4 requires factions { carthage, } and hidden_resource pole	
 			law_bonus bonus -2 requires factions { gauls, } and hidden_resource germ or hidden_resource norm
 			law_bonus bonus -2 requires factions { germans, } and hidden_resource french or hidden_resource norm
@@ -674,7 +674,7 @@ building core_building
 			taxable_income_bonus bonus 20 requires factions { armenia, } and hidden_resource novgo
 			taxable_income_bonus bonus 5 requires factions { britons, } and hidden_resource scot
 			taxable_income_bonus bonus 5 requires factions { pontus, } and hidden_resource anatol 
-			taxable_income_bonus bonus 10 requires factions { egypt, } and hidden_resource vlach or hidden_resource trap		
+			taxable_income_bonus bonus 10 requires factions { egypt, mongol, bulgaria, } and hidden_resource vlach or hidden_resource trap		
 			taxable_income_bonus bonus 50 requires factions { thrace, } and hidden_resource abbasid
 			taxable_income_bonus bonus 15 requires factions { romans_scipii, } and hidden_resource recon
 			taxable_income_bonus bonus 5 requires factions { numidia, } and hidden_resource pole
@@ -695,7 +695,7 @@ building core_building
 			taxable_income_bonus bonus 4 requires factions { pontus, } and hidden_resource turk and hidden_resource main
 			taxable_income_bonus bonus 4 requires factions { thrace, } and hidden_resource turk and hidden_resource main
 			taxable_income_bonus bonus 4 requires factions { seleucid, georgia, } and hidden_resource armen and hidden_resource main
-			taxable_income_bonus bonus 4 requires factions { egypt, } and hidden_resource steppe and hidden_resource main
+			taxable_income_bonus bonus 4 requires factions { egypt, mongol, bulgaria, } and hidden_resource steppe and hidden_resource main
 			taxable_income_bonus bonus 4 requires factions { romans_senate, } and hidden_resource boheme and hidden_resource main
 			taxable_income_bonus bonus 4 requires factions { numidia, } and hidden_resource pole and hidden_resource main
 			taxable_income_bonus bonus 4 requires factions { armenia, } and hidden_resource steppe and hidden_resource main
@@ -709,20 +709,20 @@ building core_building
                 imperial_palace
             }
         }
-        imperial_palace requires factions { barbarian, carthaginian, eastern, parthia, egyptian, greek, roman, } 
+        imperial_palace requires factions { barbarian, carthaginian, eastern, parthia, egyptian, greek, roman, bulgaria, } 
         {
             capability
             {
 			; base
-			recruit "levy guards"  0 requires factions { barbarian, carthaginian, egyptian, greek, armenia, }
+			recruit "levy guards"  0 requires factions { barbarian, carthaginian, egyptian, greek, armenia, bulgaria, }
 			recruit "phylakes"  0 requires factions { parthia, } and hidden_resource greek or hidden_resource byz
 			recruit "levy guards"  0 requires factions { parthia, } and not hidden_resource greek and not hidden_resource byz
 			; nomad
-			recruit "steppe infantry"  0 requires factions { egypt, } and hidden_resource steppe 
-			recruit "cuman foot warrior"  1 requires factions { egypt, } and hidden_resource steppe and not hidden_resource forest
-			recruit "cuman mounted warrior"  1 requires factions { egypt, } and hidden_resource steppe and not hidden_resource forest
-			recruit "steppe heavy cavalry"  1 requires factions { egypt, } and hidden_resource steppe and not hidden_resource forest
-			recruit "cuman heavy cavalry c"  1 requires factions { egypt, } and hidden_resource steppe and not hidden_resource forest
+			recruit "steppe infantry"  0 requires factions { egypt, mongol, bulgaria, } and hidden_resource steppe 
+			recruit "cuman foot warrior"  1 requires factions { egypt, mongol, bulgaria, } and hidden_resource steppe and not hidden_resource forest
+			recruit "cuman mounted warrior"  1 requires factions { egypt, mongol, bulgaria, } and hidden_resource steppe and not hidden_resource forest
+			recruit "steppe heavy cavalry"  1 requires factions { egypt, mongol, bulgaria, } and hidden_resource steppe and not hidden_resource forest
+			recruit "cuman heavy cavalry c"  1 requires factions { egypt, mongol, bulgaria, } and hidden_resource steppe and not hidden_resource forest
 			; east-rome capital
 			recruit "varangian guard"  1 requires factions { parthia, } and hidden_resource konst
 			
@@ -809,8 +809,8 @@ building core_building
 			happiness_bonus bonus -1 requires factions { seleucid, georgia, } and not hidden_resource armen
 			happiness_bonus bonus -1 requires factions { thrace, } and not hidden_resource turk
 			happiness_bonus bonus -1 requires factions { pontus, } and not hidden_resource turk
-			happiness_bonus bonus -1 requires factions { egypt, } and not hidden_resource steppe
-			happiness_bonus bonus -1 requires factions { parthia, } and not hidden_resource greek and not hidden_resource byz
+			happiness_bonus bonus -1 requires factions { egypt, mongol, } and not hidden_resource steppe
+			happiness_bonus bonus -1 requires factions { parthia, bulgaria, } and not hidden_resource greek and not hidden_resource byz
 			happiness_bonus bonus -2 requires factions { dacia, } and not hidden_resource sicily and not hidden_resource crus_state
 			happiness_bonus bonus -1 requires factions { romans_julii, } and not hidden_resource italy and not hidden_resource crus_state
             happiness_bonus bonus -3 requires factions { parthia, seleucid, georgia, } and hidden_resource anatol
@@ -828,7 +828,7 @@ building core_building
 			law_bonus bonus 1 requires factions { romans_scipii, } and hidden_resource recon
 			law_bonus bonus 2 requires factions { britons, } and hidden_resource ang or hidden_resource norm
 			law_bonus bonus 2 requires factions { pontus, } and hidden_resource anatol
-			law_bonus bonus 2 requires factions { egypt, } and hidden_resource vlach or hidden_resource trap
+			law_bonus bonus 2 requires factions { egypt, mongol, } and hidden_resource vlach or hidden_resource trap
 			law_bonus bonus 2 requires factions { germans, } and hidden_resource germ and hidden_resource main
 			law_bonus bonus 2 requires factions { germans, } and hidden_resource roma or hidden_resource sicily
 			law_bonus bonus 4 requires factions { thrace, } and hidden_resource abbasid
@@ -871,7 +871,7 @@ building core_building
 			taxable_income_bonus bonus 20 requires factions { armenia, } and hidden_resource novgo
 			taxable_income_bonus bonus 5 requires factions { britons, } and hidden_resource scot
 			taxable_income_bonus bonus 5 requires factions { pontus, } and hidden_resource trebizond or hidden_resource anatol 
-			taxable_income_bonus bonus 5 requires factions { egypt, } and hidden_resource vlach or hidden_resource trap	
+			taxable_income_bonus bonus 5 requires factions { egypt, mongol, bulgaria, } and hidden_resource vlach or hidden_resource trap	
 			taxable_income_bonus bonus 50 requires factions { thrace, } and hidden_resource abbasid
 			taxable_income_bonus bonus 15 requires factions { romans_scipii, } and hidden_resource recon
 			taxable_income_bonus bonus 5 requires factions { numidia, } and hidden_resource pole
@@ -890,7 +890,7 @@ building core_building
 			taxable_income_bonus bonus 5 requires factions { pontus, } and hidden_resource turk and hidden_resource main
 			taxable_income_bonus bonus 5 requires factions { thrace, } and hidden_resource turk and hidden_resource main
 			taxable_income_bonus bonus 5 requires factions { seleucid, georgia, } and hidden_resource armen and hidden_resource main
-			taxable_income_bonus bonus 5 requires factions { egypt, } and hidden_resource steppe and hidden_resource main
+			taxable_income_bonus bonus 5 requires factions { egypt, mongol, bulgaria, } and hidden_resource steppe and hidden_resource main
 			taxable_income_bonus bonus 5 requires factions { romans_senate, } and hidden_resource boheme and hidden_resource main
 			taxable_income_bonus bonus 5 requires factions { numidia, } and hidden_resource pole and hidden_resource main
 			taxable_income_bonus bonus 5 requires factions { armenia, } and hidden_resource steppe and hidden_resource main
@@ -1276,9 +1276,9 @@ building hinterland_basilica_novgo
         {
    			happiness_bonus bonus 2 requires factions { armenia, }
             law_bonus bonus 2 requires factions { armenia,  }
-			population_health_bonus bonus 1 requires factions { germans, romans_senate, numidia, carthage, scythia, armenia, }
+			population_health_bonus bonus 1 requires factions { germans, romans_senate, numidia, carthage, scythia, armenia, bulgaria, }
             religious_belief christianity 2 requires factions { armenia, }
-			trade_base_income_bonus bonus 2 requires factions { germans, romans_senate, numidia, carthage, scythia, armenia, } 
+			trade_base_income_bonus bonus 2 requires factions { germans, romans_senate, numidia, carthage, scythia, armenia, bulgaria, } 
 			
 		}
         construction  36
@@ -1715,7 +1715,7 @@ building knight_buildings
 			recruit "levy spearmen"  0 requires factions { carthage, } and hidden_resource magyar 
 			recruit "levy spearmen"  0 requires factions { barbarian, } and hidden_resource euro
 			recruit "levy spearmen"  0 requires factions { seleucid, georgia, } and hidden_resource armen 
-			recruit "levy spearmen"  0 requires factions { armenia, } and hidden_resource steppe
+			recruit "levy spearmen"  0 requires factions { armenia, bulgaria, } and hidden_resource steppe
 			
 			recruit "feudal sergeants"  0 requires factions { gauls, } and hidden_resource main and hidden_resource french
 			recruit "feudal sergeants"  0 requires factions { germans, } and hidden_resource main and hidden_resource germ and not hidden_resource sax
@@ -1732,7 +1732,7 @@ building knight_buildings
 			recruit "thematic infantry"  0 requires factions { parthia, } and hidden_resource main and hidden_resource greek or hidden_resource latein
 				
 			taxable_income_bonus bonus 5 requires factions { britons, gauls, germans, spain, dacia, romans_scipii, scythia, } 
-			taxable_income_bonus bonus 3 requires factions { romans_senate, numidia, carthage, romans_julii, parthia, greek, egypt, armenia, }
+			taxable_income_bonus bonus 3 requires factions { romans_senate, numidia, carthage, romans_julii, parthia, greek, egypt, mongol, bulgaria, armenia, }
 			
 				}
             construction  3
@@ -1795,7 +1795,7 @@ building knight_buildings
 			recruit "feudal foot knights aor"  1 requires factions { britons, } and hidden_resource elite and hidden_resource engl and not hidden_resource norm
 			
 			taxable_income_bonus bonus 7 requires factions { britons, gauls, germans, romans_senate, numidia, spain, carthage, dacia, romans_scipii, romans_julii, scythia, parthia, } 
-			taxable_income_bonus bonus 5 requires factions { greek, egypt, armenia, }
+			taxable_income_bonus bonus 5 requires factions { greek, egypt, mongol, armenia, bulgaria, }
 			
 				}
             construction  4
@@ -1870,7 +1870,7 @@ building knight_buildings
 				recruit "siculo norman foot knights" 1 requires factions { dacia, } and hidden_resource sicily and hidden_resource main
 				
 				taxable_income_bonus bonus 10 requires factions { britons, romans_senate, numidia, spain, carthage, scythia, romans_julii, dacia, parthia, gauls, germans, } 
-				taxable_income_bonus bonus 7 requires factions { greek, egypt, armenia, }
+				taxable_income_bonus bonus 7 requires factions { greek, egypt, mongol, bulgaria, armenia, }
 				
 				}
             construction  5
@@ -1950,7 +1950,7 @@ building knight_buildings
 				recruit "siculo norman foot knights" 1 requires factions { dacia, } and hidden_resource sicily
 				
 				taxable_income_bonus bonus 15 requires factions { barbarian, parthia, numidia, carthage, } 
-				taxable_income_bonus bonus 10 requires factions { greek, egypt, armenia, }
+				taxable_income_bonus bonus 10 requires factions { greek, egypt, mongol, bulgaria, armenia, }
 				
 				}
             construction  6
@@ -2558,7 +2558,7 @@ building temples
     {
 	religious_belief pagan -1 requires factions { barbarian, eastern, carthaginian, seleucid, georgia, }
 	religious_belief pagan 4 requires factions { slave, }
-	religious_belief pagan 1 requires factions { egypt, }
+	religious_belief pagan 1 requires factions { egypt, mongol, }
 	trade_base_income_bonus bonus 10 requires factions { slave, }
     happiness_bonus bonus 2 requires factions { slave, }
 	happiness_bonus bonus 1 requires hidden_resource roma or hidden_resource konst or hidden_resource novgo or hidden_resource kiev
@@ -3169,9 +3169,9 @@ building provincial_inn
 	    capability
             {
 ; Foot - inexperienced, regular and merc
-        recruit "archers"  0 requires factions { romans_scipii, romans_julii, romans_senate, gauls, britons, spain, dacia, germans, numidia, armenia, carthage, scythia, } 
+        recruit "archers"  0 requires factions { romans_scipii, romans_julii, romans_senate, gauls, britons, spain, dacia, germans, numidia, armenia, bulgaria, carthage, scythia, } 
 		recruit "slavic warband"  0 requires factions { carthage, } and hidden_resource magyar
-		recruit "slavic warband"  0 requires factions { romans_senate, } and hidden_resource slav or hidden_resource boheme
+		recruit "slavic warband"  0 requires factions { romans_senate, bulgaria, } and hidden_resource slav or hidden_resource boheme
 		recruit "woodsmen"  0 requires factions { scythia, germans, numidia, armenia, } and hidden_resource forest	
 		recruit "saxon fyrdmen" 0 requires factions { britons, } and hidden_resource engl
 		recruit "apellidos" 0 requires factions { romans_scipii, spain, } and hidden_resource recon or hidden_resource franks
@@ -3181,13 +3181,13 @@ building provincial_inn
 		recruit "dogheads" 0 requires factions { romans_senate, } and hidden_resource boheme 
 		recruit "riptaristai" 0 requires factions { parthia, } and hidden_resource slav or hidden_resource greek
 		recruit "norman axemen merc" 0 requires factions { britons, } and hidden_resource norm
-        recruit "slavic warband merc"  0 requires factions { egypt, numidia, armenia, } and hidden_resource slav
+        recruit "slavic warband merc"  0 requires factions { egypt, mongol, bulgaria, numidia, armenia, } and hidden_resource slav
 					
 ; Foot- experienced, regular and merc
         recruit "sardinian mercenaries"  1 requires factions { romans_julii, } and hidden_resource sardi
 		recruit "thuringian archers"  1 requires factions { germans, } and hidden_resource thuringian 
-	    recruit "vlach tribesmen"  1 requires factions { egypt, } and hidden_resource vlach
-		recruit "vlach skirmisher"  1 requires factions { egypt, carthage, } and hidden_resource vlach
+	    recruit "vlach tribesmen"  1 requires factions { egypt, mongol, bulgaria, } and hidden_resource vlach
+		recruit "vlach skirmisher"  1 requires factions { egypt, mongol, bulgaria, carthage, } and hidden_resource vlach
 		recruit "italian militia merc"  1 requires factions { germans, gauls, } and hidden_resource italy and hidden_resource elite
 		recruit "italian militia merc"  1 requires factions { spain, germans, gauls, } and hidden_resource sicily and hidden_resource elite
 		recruit "italian militia merc"  1 requires factions { parthia, } and hidden_resource sicily and hidden_resource main 
@@ -3195,16 +3195,16 @@ building provincial_inn
 		recruit "frankish sword merc"  1 requires factions { romans_scipii, } and hidden_resource recon and hidden_resource elite
 		recruit "frankish sword merc"  1 requires factions { spain, } and hidden_resource franks and hidden_resource elite
 		recruit "axe bearer merc"  1 requires factions { romans_julii, carthaginian, } and hidden_resource euro and not hidden_resource main
-		recruit "transilvanian infantry"  1 requires factions { carthage, egypt, } and hidden_resource magyar and hidden_resource elite
+		recruit "transilvanian infantry"  1 requires factions { carthage, egypt, mongol, bulgaria, } and hidden_resource magyar and hidden_resource elite
 		
 ; Cavalry - range and light, regular and merc
-		recruit "seljuk horse archers" 1 requires factions { egypt, } and hidden_resource steppe and not hidden_resource forest 
-		recruit "steppe light cavalry"  1 requires factions { egypt, armenia, } and hidden_resource main and hidden_resource steppe	and not hidden_resource forest
+		recruit "seljuk horse archers" 1 requires factions { egypt, mongol, } and hidden_resource steppe and not hidden_resource forest 
+		recruit "steppe light cavalry"  1 requires factions { egypt, mongol, armenia, bulgaria, } and hidden_resource main and hidden_resource steppe	and not hidden_resource forest
         recruit "light cavalry"  1 requires factions { carthage, } and hidden_resource magyar  
 		recruit "militia cavalry"  1 requires factions { carthage, numidia, } and hidden_resource magyar or hidden_resource pole
 		recruit "klobuki archers"  1 requires factions { armenia, } and hidden_resource elite and hidden_resource steppe and not hidden_resource forest
 		recruit "klobuki archers"  1 requires factions { armenia, } and hidden_resource kiev
-		recruit "cuman horse archers"  1 requires factions { egypt, } and hidden_resource main and hidden_resource steppe and not hidden_resource forest
+		recruit "cuman horse archers"  1 requires factions { egypt, mongol, } and hidden_resource main and hidden_resource steppe and not hidden_resource forest
 		recruit "szekely"  1 requires factions { carthage, } and hidden_resource magyar and hidden_resource main
 		recruit "hobilars"  1 requires factions { britons, } and hidden_resource ang and hidden_resource main
 		recruit "portu militia cavalry" 1 requires factions { romans_scipii, } and hidden_resource portu
@@ -3219,8 +3219,8 @@ building provincial_inn
 		recruit "frankish cavalry" 1 requires factions { gauls, } and hidden_resource french and hidden_resource elite
 		recruit "frankish cavalry" 1 requires factions { spain, } and hidden_resource franks and hidden_resource elite
 				
-		law_bonus bonus -1 requires factions { romans_scipii, romans_julii, germans, gauls, britons, dacia, romans_senate, numidia, carthage, armenia, egypt, scythia, spain, parthia, }
-        happiness_bonus bonus 2	requires factions { romans_scipii, romans_julii, germans, gauls, britons, dacia, romans_senate, numidia, carthage, armenia, egypt, scythia, spain, parthia, }
+		law_bonus bonus -1 requires factions { romans_scipii, romans_julii, germans, gauls, britons, dacia, romans_senate, numidia, carthage, armenia, bulgaria, egypt, mongol, scythia, spain, parthia, }
+        happiness_bonus bonus 2	requires factions { romans_scipii, romans_julii, germans, gauls, britons, dacia, romans_senate, numidia, carthage, armenia, bulgaria, egypt, mongol, scythia, spain, parthia, }
 	    religious_belief islam -1 requires factions { greek, }
 		
             }
@@ -3237,13 +3237,13 @@ building provincial_inn
     capability
     {
 ; Foot - inexperienced, regular and merc	
-        recruit "archers"  0 requires factions { romans_scipii, romans_julii, romans_senate, gauls, britons, spain, dacia, germans, numidia, armenia, carthage, scythia, } 
-		recruit "slavic warband"  0 requires factions { romans_senate, } and hidden_resource slav or hidden_resource boheme
+        recruit "archers"  0 requires factions { romans_scipii, romans_julii, romans_senate, gauls, britons, spain, dacia, germans, numidia, armenia, bulgaria, carthage, scythia, } 
+		recruit "slavic warband"  0 requires factions { romans_senate, bulgaria, } and hidden_resource slav or hidden_resource boheme
 		recruit "woodsmen"  0 requires factions { scythia, germans, numidia, armenia, } and hidden_resource forest	
 		recruit "apellidos" 0 requires factions { romans_scipii, spain, } and hidden_resource recon or hidden_resource franks
         recruit "ribaldi" 0 requires factions { dacia, } and hidden_resource sicily  
 		recruit "ribaldi" 0 requires factions { romans_julii, germans, } and hidden_resource italy
-		recruit "slavic warband merc"  0 requires factions { egypt, numidia, armenia, } and hidden_resource slav
+		recruit "slavic warband merc"  0 requires factions { egypt, mongol, numidia, armenia, bulgaria, } and hidden_resource slav
 		recruit "norman axemen merc" 0 requires factions { britons, } and hidden_resource norm
 		recruit "saxon fyrdmen" 0 requires factions { britons, } and hidden_resource engl
 		
@@ -3251,7 +3251,7 @@ building provincial_inn
 		recruit "hueste"  1 requires factions { romans_scipii, spain, } and hidden_resource recon or hidden_resource franks
 		recruit "riptaristai" 1 requires factions { parthia, } and hidden_resource slav or hidden_resource greek
 		recruit "slavic warband"  1 requires factions { carthage, } and hidden_resource magyar
-		recruit "vlach tribesmen"  1 requires factions { egypt, } and hidden_resource vlach
+		recruit "vlach tribesmen"  1 requires factions { egypt, mongol, } and hidden_resource vlach
 		recruit "dogheads" 1 requires factions { romans_senate, } and hidden_resource boheme
 		recruit "sardinian mercenaries"  1 requires factions { romans_julii, } and hidden_resource sardi 
 		recruit "thuringian archers"  1 requires factions { germans, } and hidden_resource thuringian
@@ -3267,19 +3267,19 @@ building provincial_inn
 		recruit "frankish sword merc"  1 requires factions { romans_julii, germans, gauls, britons, dacia, } and hidden_resource prov and hidden_resource elite 
 		recruit "frankish sword merc"  1 requires factions { romans_scipii, } and hidden_resource recon 
 		recruit "frankish sword merc"  1 requires factions { spain, } and hidden_resource franks 
-		recruit "vlach skirmisher"  1 requires factions { egypt, carthage, } and hidden_resource vlach
-		recruit "moldavian swordsmen"  1 requires factions { carthage, egypt, } and hidden_resource vlach
-		recruit "transilvanian infantry"  1 requires factions { carthage, egypt, } and hidden_resource magyar 
+		recruit "vlach skirmisher"  1 requires factions { egypt, mongol, carthage, } and hidden_resource vlach
+		recruit "moldavian swordsmen"  1 requires factions { carthage, egypt, mongol, } and hidden_resource vlach
+		recruit "transilvanian infantry"  1 requires factions { carthage, egypt, mongol, } and hidden_resource magyar 
 		recruit "archer merc"  1 requires factions { barbarian, carthaginian, } and hidden_resource euro 
 		recruit "axe bearer merc"  1 requires factions { barbarian, carthaginian, } and hidden_resource euro and not hidden_resource elite
 		
 ; Cavalry - range and light, regular and merc
-		recruit "szekely merc"  1 requires factions { parthia, numidia, egypt, armenia, } and hidden_resource slav or hidden_resource vlach or hidden_resource magyar 
+		recruit "szekely merc"  1 requires factions { parthia, numidia, egypt, mongol, armenia, bulgaria, } and hidden_resource slav or hidden_resource vlach or hidden_resource magyar 
 		recruit "szekely merc"  1 requires factions { germans, } and hidden_resource slav 
 		recruit "szekely merc"  1 requires factions { armenia, } and hidden_resource steppe and not hidden_resource forest
-		recruit "seljuk horse archers" 1 requires factions { egypt, thrace, } and hidden_resource steppe and not hidden_resource forest
-		recruit "cuman horse archers"  1 requires factions { egypt, } and hidden_resource steppe 
-		recruit "steppe light cavalry"  1 requires factions { egypt, armenia, } and hidden_resource steppe and not hidden_resource forest	
+		recruit "seljuk horse archers" 1 requires factions { egypt, mongol, thrace, } and hidden_resource steppe and not hidden_resource forest
+		recruit "cuman horse archers"  1 requires factions { egypt, mongol, } and hidden_resource steppe 
+		recruit "steppe light cavalry"  1 requires factions { egypt, mongol, armenia, bulgaria, } and hidden_resource steppe and not hidden_resource forest	
 		recruit "light cavalry"  1 requires factions { carthage, } and hidden_resource magyar  
 		recruit "militia cavalry"  1 requires factions { numidia, carthage, } and hidden_resource pole or hidden_resource magyar
 		recruit "lithuanian cavalry" 1 requires factions { numidia, } and hidden_resource lith
@@ -3302,15 +3302,15 @@ building provincial_inn
 		recruit "frankish cavalry" 1 requires factions { spain, } and hidden_resource franks 
 		; heavy
 		recruit "latinikoi"  2 requires factions { parthia, } and hidden_resource latein and hidden_resource elite
-		recruit "kwarazmian cavalry" 1 requires factions { egypt, } and hidden_resource trap
+		recruit "kwarazmian cavalry" 1 requires factions { egypt, mongol, } and hidden_resource trap
 		recruit "burgundian knights" 1 requires factions { germans, gauls, } and hidden_resource burgund
 		recruit "flemish knights" 1 requires factions { germans, gauls, britons, } and hidden_resource fland
 		recruit "lothringian knights" 1 requires factions { germans, gauls, } and hidden_resource loth
 		recruit "provence knights" 1 requires factions { spain, germans, gauls, dacia, romans_julii, britons, } and hidden_resource prov
 		recruit "saxon knights" 1 requires factions { germans, slave, } and hidden_resource sax
 	
-        law_bonus bonus -1 requires factions { romans_scipii, romans_julii, germans, gauls, britons, dacia, romans_senate, numidia, carthage, armenia, egypt, scythia, spain, parthia, }
-        happiness_bonus bonus 2	requires factions { romans_scipii, romans_julii, germans, gauls, britons, dacia, romans_senate, numidia, carthage, armenia, egypt, scythia, spain, parthia, }
+        law_bonus bonus -1 requires factions { romans_scipii, romans_julii, germans, gauls, britons, dacia, romans_senate, numidia, carthage, armenia, bulgaria, egypt, mongol, scythia, spain, parthia, }
+        happiness_bonus bonus 2	requires factions { romans_scipii, romans_julii, germans, gauls, britons, dacia, romans_senate, numidia, carthage, armenia, bulgaria, egypt, mongol, scythia, spain, parthia, }
 	    religious_belief islam -1 requires factions { greek, }
 		trade_base_income_bonus bonus 2
 		trade_base_income_bonus bonus 2 requires resource pigs   ; = "horses"
@@ -3349,7 +3349,7 @@ building lodging_buildings
 		recruit "zirid archer"  0 requires factions { romans_brutii, macedon, } and hidden_resource moors and hidden_resource main
 		recruit "turcoman archers"  0 requires factions { thrace, pontus, } and hidden_resource turk and not hidden_resource main
 		recruit "arab tribesmen"  0 requires factions { macedon, romans_brutii, thrace, pontus, greek_cities, } and hidden_resource fatamid or hidden_resource syr or hidden_resource abbasid
-		recruit "georgian infantry"  0 requires factions { seleucid, parthia, georgia, } and hidden_resource armen and hidden_resource steppe
+		recruit "georgian infantry"  0 requires factions { seleucid, parthia, georgia, } and hidden_resource georg
 		recruit "turcoman footarchers"  1 requires factions { thrace, pontus, } and hidden_resource turk and hidden_resource main
 		recruit "armenian borderers"  1 requires factions { seleucid, georgia, } and hidden_resource armen and hidden_resource main
 		recruit "armenian foot archers"  1 requires factions { seleucid, georgia, } and hidden_resource armen and hidden_resource main
@@ -3395,14 +3395,14 @@ building lodging_buildings
 		recruit "archers"  0 requires factions { macedon, seleucid, greek_cities, romans_brutii, pontus, } 
         recruit "murabitin infantry"  0 requires factions { macedon, romans_brutii, } and hidden_resource moors 
 		recruit "arab tribesmen"  0 requires factions { macedon, romans_brutii, thrace, pontus, greek_cities, } and hidden_resource fatamid or hidden_resource syr or hidden_resource abbasid
-		recruit "caucasian mountaineers"  1 requires factions { seleucid, georgia, } and hidden_resource armen and not hidden_resource elite
+		recruit "caucasian mountaineers"  1 requires factions { seleucid, georgia, } and hidden_resource armen or hidden_resource georg and not hidden_resource elite
 		recruit "nubian archer"  1 requires factions { greek_cities, } and hidden_resource fatamid 
 		recruit "nubian archer"  1 requires factions { romans_brutii, } and hidden_resource fatamid 
 		recruit "zirid archer"  1 requires factions { romans_brutii, macedon, } and hidden_resource moors 
 		recruit "turcoman archers"  1 requires factions { thrace, pontus, } and hidden_resource turk 
-		recruit "armenian borderers"  1 requires factions { seleucid, } and hidden_resource armen
+		recruit "armenian borderers"  1 requires factions { seleucid, georgia, } and hidden_resource armen
 		recruit "armenian foot archers"  1 requires factions { seleucid, georgia, } and hidden_resource armen 
-		recruit "georgian infantry"  1 requires factions { seleucid, parthia, georgia, } and hidden_resource armen and hidden_resource steppe
+		recruit "georgian infantry"  1 requires factions { seleucid, parthia, georgia, } and hidden_resource georg
 		recruit "turcoman footarchers"  1 requires factions { thrace, pontus, } and hidden_resource turk 
 		recruit "armenian borderers"  1 requires factions { parthia, } and hidden_resource armen 
 		recruit "trebizond archers"  1 requires factions { parthia, seleucid, georgia, } and hidden_resource trebizond
@@ -3414,7 +3414,8 @@ building lodging_buildings
 		recruit "kwarazmian cavalry" 1 requires factions { thrace, pontus, } and hidden_resource trap
 		recruit "seljuk horse archers"  1 requires factions { greek_cities, } and hidden_resource turk and not hidden_resource elite 
 		recruit "seljuk horse archers"  1 requires factions { parthia, } and hidden_resource anatol and not hidden_resource elite
-		recruit "armenian horsearcher"  1 requires factions { seleucid, georgia, } and hidden_resource armen 
+		recruit "armenian horsearcher"  1 requires factions { seleucid, georgia, } and hidden_resource armen and not hidden_resource georg
+		recruit "monaspa horsearcher"  1 requires factions { seleucid, } and hidden_resource georg
 		recruit "early didebuls"  1 requires factions { seleucid, georgia, dacia, romans_julii, gauls, germans, britons, parthia, pontus, thrace, greek_cities, } and hidden_resource armen
 		recruit "aghulans"  1 requires factions { thrace, pontus, } and hidden_resource anatol 
 		recruit "seljuk horse archers"  1 requires factions { thrace, pontus, } and hidden_resource turk  
@@ -3562,7 +3563,7 @@ building armoury_buildings
 	
 		; base 
 		recruit "spearmen"  0 requires factions { barbarian, carthaginian, } and hidden_resource euro
-		recruit "spearmen"  0 requires factions { egypt, armenia, } and hidden_resource steppe 
+		recruit "spearmen"  0 requires factions { egypt, mongol, armenia, bulgaria, } and hidden_resource steppe 
 		recruit "spearmen"  0 requires factions { greek, } and hidden_resource fatamid or hidden_resource turk or hidden_resource moors
 		; slight training
 		recruit "andalusian infantry"  0 requires factions { macedon, } and hidden_resource andalus	and hidden_resource main 
@@ -3580,6 +3581,7 @@ building armoury_buildings
         recruit "maa aor"  1 requires factions { gauls, } and hidden_resource french and hidden_resource main 
 		recruit "russian spearmen" 1 requires factions { armenia, } and hidden_resource novgo or hidden_resource kiev
 		recruit "latin auxiliaries"  1 requires factions { seleucid, } and hidden_resource armen and hidden_resource elite
+		recruit "kartvelian spearmen"  1 requires factions { seleucid, georgia, } and hidden_resource georg and hidden_resource elite
 		recruit "volhynian militia"  1 requires factions { armenia, numidia, } and hidden_resource vol
 		recruit "saracen spearmen"  1 requires factions { greek_cities, romans_brutii, } and hidden_resource elite and hidden_resource fatamid 
 		recruit "saracen spearmen"  1 requires factions { thrace, pontus, } and hidden_resource elite and hidden_resource turk  
@@ -3617,7 +3619,7 @@ building armoury_buildings
 	
 		; base 
 		recruit "spearmen"  0 requires factions { barbarian, carthaginian, } and hidden_resource euro
-		recruit "spearmen"  0 requires factions { egypt, armenia, } and hidden_resource steppe 
+		recruit "spearmen"  0 requires factions { egypt, mongol, armenia, bulgaria, } and hidden_resource steppe 
 		recruit "spearmen"  0 requires factions { greek, } and hidden_resource fatamid or hidden_resource turk or hidden_resource moors
 		; slight training
 		recruit "andalusian infantry"  0 requires factions { macedon, } and hidden_resource andalus	 
@@ -3643,6 +3645,8 @@ building armoury_buildings
 		recruit "armoured spearmen"  1 requires factions { spain, } and hidden_resource franks and hidden_resource elite
 		recruit "russian spearmen" 1 requires factions { armenia, } and hidden_resource novgo or hidden_resource kiev
 		recruit "latin auxiliaries"  1 requires factions { seleucid, } and hidden_resource armen and hidden_resource main
+		recruit "kartvelian spearmen"  1 requires factions { seleucid, georgia, } and hidden_resource georg and hidden_resource main
+		recruit "kartvelian heavy spearmen"  1 requires factions { georgia, } and hidden_resource georg and hidden_resource elite
 		recruit "volhynian militia"  1 requires factions { armenia, numidia, } and hidden_resource vol
 		recruit "saracen spearmen"  1 requires factions { greek_cities, romans_brutii, } and hidden_resource main and hidden_resource fatamid 
 		recruit "saracen spearmen"  1 requires factions { thrace, pontus, } and hidden_resource main and hidden_resource turk  
@@ -3682,7 +3686,7 @@ building armoury_buildings
 			
 		; base 
 		recruit "spearmen"  0 requires factions { barbarian, carthaginian, } and hidden_resource euro
-		recruit "spearmen"  0 requires factions { egypt, armenia, } and hidden_resource steppe 
+		recruit "spearmen"  0 requires factions { egypt, mongol, armenia, bulgaria, } and hidden_resource steppe 
 		recruit "spearmen"  0 requires factions { greek, } and hidden_resource fatamid or hidden_resource turk or hidden_resource moors
 		; slight training
 		recruit "andalusian infantry"  0 requires factions { macedon, } and hidden_resource andalus	and not hidden_resource elite 
@@ -3710,6 +3714,8 @@ building armoury_buildings
 		recruit "armoured spearmen"  1 requires factions { spain, } and hidden_resource franks and hidden_resource main
 		recruit "russian spearmen" 1 requires factions { armenia, } and hidden_resource novgo or hidden_resource kiev 
 		recruit "latin auxiliaries"  1 requires factions { seleucid, } and hidden_resource armen 
+		recruit "kartvelian spearmen"  1 requires factions { seleucid, georgia, } and hidden_resource georg and hidden_resource main
+		recruit "kartvelian heavy spearmen"  1 requires factions { georgia, } and hidden_resource georg and hidden_resource elite
 		recruit "volhynian militia"  1 requires factions { armenia, numidia, } and hidden_resource vol 
 		recruit "saracen spearmen"  1 requires factions { greek_cities, romans_brutii, } and hidden_resource fatamid or hidden_resource crus_state 
 		recruit "saracen spearmen"  1 requires factions { thrace, pontus, } and hidden_resource turk   
@@ -3815,7 +3821,7 @@ building siege_buildings
 				recruit "crossbowmen"  1 requires factions { romans_julii, } and hidden_resource italy or hidden_resource sicily and not hidden_resource roma
 				recruit "crossbowmen"  1 requires factions { macedon, romans_brutii, } and hidden_resource moors or hidden_resource andalus
 				recruit "crossbowmen"  1 requires factions { armenia, } and hidden_resource kiev or hidden_resource novgo 
-				recruit "crossbowmen"  1 requires factions { seleucid, } and hidden_resource armen
+				recruit "crossbowmen"  1 requires factions { seleucid, georgia, } and hidden_resource armen or hidden_resource georg
 				recruit "toxotai"  1 requires factions { parthia, } and hidden_resource greek and not hidden_resource byz
 				recruit "toxotai"  1 requires factions { parthia, } and hidden_resource byz and hidden_resource main
 				recruit "naptha throwers" 1 requires factions { thrace, pontus, parthia, } and hidden_resource turk   
@@ -4061,11 +4067,11 @@ building port_buildings
 				
 				law_bonus bonus -1
 				population_growth_bonus bonus 1
-                trade_fleet 1 requires factions { romans_scipii, romans_senate, gauls, britons, spain, dacia, germans, numidia, armenia, seleucid, georgia, pontus, carthage, scythia, parthia, thrace, macedon, greek_cities, romans_brutii, egypt, } 
+                trade_fleet 1 requires factions { romans_scipii, romans_senate, gauls, britons, spain, dacia, germans, numidia, armenia, bulgaria, seleucid, georgia, pontus, carthage, scythia, parthia, thrace, macedon, greek_cities, romans_brutii, egypt, mongol, } 
 				trade_fleet 1 requires factions { romans_julii, } and not hidden_resource pisa and not hidden_resource genoa 
 				trade_fleet 2 requires factions { romans_julii, } and hidden_resource pisa or hidden_resource genoa 
 				taxable_income_bonus bonus -3 requires factions { parthia, } and hidden_resource pisa or hidden_resource genoa or hidden_resource venezian
-				trade_base_income_bonus bonus 1 requires factions { macedon, greek_cities, romans_brutii, egypt, scythia, numidia, romans_senate, britons, armenia, carthage, parthia, }
+				trade_base_income_bonus bonus 1 requires factions { macedon, greek_cities, romans_brutii, egypt, mongol, scythia, numidia, romans_senate, britons, armenia, bulgaria, carthage, parthia, }
                 trade_base_income_bonus bonus 2 requires factions { thrace, pontus, romans_scipii, dacia, spain, germans, gauls, seleucid, georgia, } 
 				trade_base_income_bonus bonus 3 requires factions { romans_julii, } 
 				trade_base_income_bonus bonus 1 requires resource wild_animals ; = fish
@@ -4101,7 +4107,7 @@ building safe_sea
 				law_bonus bonus 2 requires not hidden_resource crus_state
                 law_bonus bonus 1 requires hidden_resource crus_state
 				trade_fleet 1 requires factions { barbarian, carthaginian, eastern, greek, } 				
-				taxable_income_bonus bonus 2 requires factions { romans_scipii, romans_senate, gauls, britons, spain, dacia, germans, numidia, armenia, seleucid, georgia, pontus, carthage, scythia, parthia, thrace, macedon, greek_cities, romans_brutii, egypt, }
+				taxable_income_bonus bonus 2 requires factions { romans_scipii, romans_senate, gauls, britons, spain, dacia, germans, numidia, armenia, bulgaria, seleucid, georgia, pontus, carthage, scythia, parthia, thrace, macedon, greek_cities, romans_brutii, egypt, mongol, }
 				taxable_income_bonus bonus 2 requires factions { romans_julii, } and not hidden_resource main
 				taxable_income_bonus bonus 4 requires factions { romans_julii, } and hidden_resource main
 				taxable_income_bonus bonus 2 requires factions { seleucid, georgia, } and hidden_resource main
@@ -4135,13 +4141,13 @@ building safe_sea
 				law_bonus bonus 2 requires not hidden_resource crus_state
                 law_bonus bonus 1 requires hidden_resource crus_state
 				trade_fleet 1 requires factions { barbarian, carthaginian, eastern, greek, } 				
-				taxable_income_bonus bonus 3 requires factions { romans_scipii, romans_senate, gauls, britons, spain, dacia, germans, numidia, armenia, seleucid, georgia, pontus, carthage, scythia, parthia, thrace, macedon, greek_cities, romans_brutii, egypt, }
+				taxable_income_bonus bonus 3 requires factions { romans_scipii, romans_senate, gauls, britons, spain, dacia, germans, numidia, armenia, bulgaria, seleucid, georgia, pontus, carthage, scythia, parthia, thrace, macedon, greek_cities, romans_brutii, egypt, mongol, }
 				taxable_income_bonus bonus 3 requires factions { romans_julii, } and not hidden_resource main
 				taxable_income_bonus bonus 5 requires factions { romans_julii, } and hidden_resource main
 				taxable_income_bonus bonus 3 requires factions { seleucid, georgia, } and hidden_resource main
 				
 				recruit "ship dhow"  0  requires factions { thrace, pontus, macedon, greek_cities, romans_brutii, seleucid, georgia, } 
-				recruit "ship cog"  0  requires factions { romans_scipii, romans_senate, gauls, britons, spain, germans, numidia, armenia, carthage, scythia, } 
+				recruit "ship cog"  0  requires factions { romans_scipii, romans_senate, gauls, britons, spain, germans, numidia, armenia, bulgaria, carthage, scythia, } 
 				recruit "ship dromon"  0  requires factions { parthia, } and not hidden_resource konst 
 				recruit "ship dromon"  1  requires factions { parthia, } and hidden_resource konst
 				recruit "ship galley"  1  requires factions { romans_julii, } and hidden_resource pisa or hidden_resource venezian or hidden_resource genoa 
@@ -4202,8 +4208,8 @@ building hinterland_roads
 				trade_base_income_bonus bonus 4 requires factions { parthia, } and hidden_resource konst 
 				trade_base_income_bonus bonus 1 requires factions { parthia, } and hidden_resource main and hidden_resource turk
 				trade_base_income_bonus bonus 1 requires factions { armenia, } and hidden_resource kiev or hidden_resource novgo
-				trade_base_income_bonus bonus 1 requires factions { armenia, egypt, } and hidden_resource steppe and not resource hides
-				trade_base_income_bonus bonus 3 requires factions { armenia, egypt, } and hidden_resource steppe and resource hides
+				trade_base_income_bonus bonus 1 requires factions { armenia, egypt, mongol, } and hidden_resource steppe and not resource hides
+				trade_base_income_bonus bonus 3 requires factions { armenia, egypt, mongol, } and hidden_resource steppe and resource hides
 				
 				}
             construction  10 
@@ -4235,7 +4241,7 @@ building tax_buildings
 		    law_bonus bonus 1
 			taxable_income_bonus bonus 10
 			taxable_income_bonus bonus 10 requires resource silk or resource incense or resource marble
-			taxable_income_bonus bonus 10 requires factions { egypt, } and resource slaves and hidden_resource steppe
+			taxable_income_bonus bonus 10 requires factions { egypt, mongol, } and resource slaves and hidden_resource steppe
 			population_growth_bonus bonus -1
 			
 			recruit "muslim urban militia exp"  1 requires factions { macedon, } and hidden_resource elite and hidden_resource andalus
@@ -4259,8 +4265,8 @@ building tax_buildings
 			taxable_income_bonus bonus 20
 			taxable_income_bonus bonus 20 requires resource silk or resource incense or resource marble
             taxable_income_bonus bonus 10 requires factions { thrace, pontus, } and resource slaves and hidden_resource turk
-			taxable_income_bonus bonus 10 requires factions { egypt, } and resource slaves and hidden_resource steppe
-			taxable_income_bonus bonus 10 requires factions { armenia, } and resource slaves and hidden_resource steppe
+			taxable_income_bonus bonus 10 requires factions { egypt, mongol, } and resource slaves and hidden_resource steppe
+			taxable_income_bonus bonus 10 requires factions { armenia, bulgaria, } and resource slaves and hidden_resource steppe
 			population_growth_bonus bonus -1 
 			happiness_bonus bonus -1
 			
@@ -4438,9 +4444,9 @@ building trading_buildings
 	    capability
             {
 			
-		trade_base_income_bonus bonus 1 requires factions { romans_scipii, germans, gauls, britons, dacia, romans_senate, numidia, carthage, armenia, scythia, spain, egypt, parthia, }
+		trade_base_income_bonus bonus 1 requires factions { romans_scipii, germans, gauls, britons, dacia, romans_senate, numidia, carthage, armenia, bulgaria, scythia, spain, egypt, mongol, parthia, }
 		trade_base_income_bonus bonus 2 requires factions { romans_julii, }
-        happiness_bonus bonus 2 requires factions { romans_scipii, romans_julii, germans, gauls, britons, dacia, romans_senate, numidia, carthage, armenia, scythia, spain, parthia, }
+        happiness_bonus bonus 2 requires factions { romans_scipii, romans_julii, germans, gauls, britons, dacia, romans_senate, numidia, carthage, armenia, bulgaria, scythia, spain, parthia, }
 		law_bonus bonus -1
 		population_growth_bonus bonus 1
 		
@@ -4482,9 +4488,9 @@ building trading_buildings
 	    capability
             {
 			
-		trade_base_income_bonus bonus 2 requires factions { romans_scipii, germans, gauls, britons, dacia, romans_senate, numidia, carthage, armenia, scythia, spain, egypt, parthia, }
+		trade_base_income_bonus bonus 2 requires factions { romans_scipii, germans, gauls, britons, dacia, romans_senate, numidia, carthage, armenia, bulgaria, scythia, spain, egypt, mongol, parthia, }
 		trade_base_income_bonus bonus 3 requires factions { romans_julii, }
-        happiness_bonus bonus 2 requires factions { romans_scipii, romans_julii, germans, gauls, britons, dacia, romans_senate, numidia, carthage, armenia, scythia, spain, parthia, }
+        happiness_bonus bonus 2 requires factions { romans_scipii, romans_julii, germans, gauls, britons, dacia, romans_senate, numidia, carthage, armenia, bulgaria, scythia, spain, parthia, }
 		law_bonus bonus -1
 		population_growth_bonus bonus 1
 		taxable_income_bonus bonus 3
@@ -4593,10 +4599,10 @@ building market_nomadic
 	    capability
         {
 		
-		trade_base_income_bonus bonus 1 requires factions { armenia, }
-		trade_base_income_bonus bonus 2 requires factions { egypt, }
-        happiness_bonus bonus 3 requires factions { egypt, armenia, }
-		law_bonus bonus -1 requires factions { armenia, }
+		trade_base_income_bonus bonus 1 requires factions { armenia, bulgaria, }
+		trade_base_income_bonus bonus 2 requires factions { egypt, mongol, }
+        happiness_bonus bonus 3 requires factions { egypt, mongol, armenia, bulgaria, }
+		law_bonus bonus -1 requires factions { armenia, bulgaria, }
 		population_growth_bonus bonus 2
 		
 		;extra trade boni: all factions

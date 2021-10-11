@@ -4851,26 +4851,22 @@ settlement
 	{
 	 	type hinterland_roads roads
 	}
+	building
+	{
+	 	type temples temple
+	}
 }
 
-character	Thoros, named character, leader, age 45, , x 212, y 90
+character	Giorgi Bagrationi, named character, leader, age 45, , x 212, y 90
 traits Christian 1, Married 1, Royal 1, Leader_Prince 1, Factionleader 1
 ancillaries familyseal
 army
 unit		georgian bg					exp 2 armour 0 weapon_lvl 0
 
-; City: Sis
-; Region: Cilicia
-; --------------------
-character	Smbat, named character, heir, age 18, , x 213, y 90
-traits Christian 1, Royal 1, Leader_Prince 1, Factionheir 1
-ancillaries familyseal
-army
-unit		georgian bg					exp 2 armour 0 weapon_lvl 0
+character_record	Borena, 	female, age 35, alive, 		never_a_leader
+character_record	David Bagrationi, 	male, age 0, alive, 		never_a_leader
 
-character_record	Sofia, 	female, age 35, alive, 		never_a_leader
-
-relative 	Thoros,	Sofia,	Smbat,	end
+relative 	Giorgi Bagrationi,	Borena,	David Bagrationi,	end
 
 ; ---------------------------------------------------------
 ; #########   >>> Independent Factions <<<   #########

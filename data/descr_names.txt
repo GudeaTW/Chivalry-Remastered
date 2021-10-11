@@ -1685,6 +1685,105 @@ faction: seleucid
 		Helena
 		Sofia
 
+;; Georgians
+faction: georgia
+
+	characters
+		Bagrat
+		George
+		Demetrius
+		David
+		Yury
+		Giorgi
+		Constantine
+		Michael
+		Vakhtang
+		Alexandere
+		Lasha
+		Manuel
+		Baidu
+		Iadgar
+		Joseph
+		Kiurike
+		Rostom
+		Bega
+		Vardan
+		Tsotne
+		Grigol
+		Hamada
+		Rati
+		Simon
+		Archill
+		Theodosius
+		Gurgen
+		Zurab
+		Dardin
+		Tamaz
+		Ivane
+		Kakhaber
+		Nikoloz
+		Avtandil
+		Avag
+		Sargis
+		Shergil
+		Andria
+		Grigol
+		Senekerim
+		Tedore
+		Zakare
+		Stepane
+
+
+	surnames
+		Hereti
+		Kakheti
+		Bagrationi
+		Kuropalates
+		Hovhannes
+		Vardanisdze
+		Marushisdze
+		Kakhaberidze
+		Tsitsishvili
+		Amanelisdze
+		Mkhargrdzeli
+		Saghiridze
+		Tmogveli
+		Shervashidze
+		Shaburidze
+		Garakanidze
+		Dadiani
+		Jaqeli
+		Palavandishvili
+		Javakhishvili
+		Chorchaneli
+		Surameli
+		Gurieli
+		Zakarian
+		Hamam
+		Ulu
+		Narin
+
+
+	women
+		Mariam
+		Alda
+		Borena
+		Helena
+		Rusudan
+		Tamar
+		Theodora
+		Palaeologina
+		Althun
+		Esukan
+		Natela
+		Jidga
+		Oljath
+		Anna
+		Elene
+		Nino
+		Maia
+		Guarandukht
+
 ;; The Byzantine Empire
 faction: parthia
 
