@@ -24,9 +24,19 @@
 		
 		;;tooltips for when a religion is creating unrest
 		"unrest tooltip": "CHRISTIAN_UNREST",
+
+		;;what group is this religion a part of
+		"group": "christianity",
 		
 		;;how much extra or less unrest and order should this religion create
-		"unrest multiplier": 1,
+		"unrest multipliers":
+		{
+			;;how much unrest should we create against religions in the same group as us
+			"heretics": 1,
+			
+			;;how much unrest should we create against religions in other groups
+			"heathens": 1,
+		},
 		
 		;;should this religion be hidden at zero presense and influence
 		"hide at zero": false, 
@@ -49,9 +59,19 @@
 		
 		;;tooltips for when a religion is creating unrest
 		"unrest tooltip": "PAGAN_UNREST",
+
+		;;what group is this religion a part of
+		"group": "pagan",
 		
 		;;how much extra or less unrest and order should this religion create
-		"unrest multiplier": 1,
+		"unrest multipliers":
+		{
+			;;how much unrest should we create against religions in the same group as us
+			"heretics": 1,
+			
+			;;how much unrest should we create against religions in other groups
+			"heathens": 1,
+		},
 		
 		;;should this religion be hidden at zero presense and influence
 		"hide at zero": false, 
@@ -74,9 +94,19 @@
 		
 		;;tooltips for when a religion is creating unrest
 		"unrest tooltip": "ISLAM_UNREST",
+
+		;;what group is this religion a part of
+		"group": "islam",
 		
 		;;how much extra or less unrest and order should this religion create
-		"unrest multiplier": 1,
+		"unrest multipliers":
+		{
+			;;how much unrest should we create against religions in the same group as us
+			"heretics": 1,
+			
+			;;how much unrest should we create against religions in other groups
+			"heathens": 1,
+		},
 		
 		;;should this religion be hidden at zero presense and influence
 		"hide at zero": false, 

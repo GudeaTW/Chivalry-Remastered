@@ -19172,6 +19172,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/georgia\/aznavouri_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/georgia\/bedouin_camels_info.tga",
 		"checksum": "Blacklisted"
 	},
@@ -19192,11 +19196,27 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/georgia\/eristavi_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/georgia\/georgian_bg_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/georgia\/high_naxarar_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/ui\/unit_info\/georgia\/horse_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/georgia\/kartvelian_heavy_spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/georgia\/kartvelian_spearmen_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -19213,6 +19233,14 @@
 	},
 	{
 		"filename": "data\/ui\/unit_info\/georgia\/merc_knight_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/georgia\/monaspa_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/georgia\/monaspa_horsearcher_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -24668,6 +24696,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info_classic\/georgia\/aznavouri_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info_classic\/georgia\/bedouin_camels_info.tga",
 		"checksum": "Blacklisted"
 	},
@@ -24688,11 +24720,27 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info_classic\/georgia\/eristavi_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/georgia\/georgian_bg_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info_classic\/georgia\/high_naxarar_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/ui\/unit_info_classic\/georgia\/horse_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/georgia\/kartvelian_heavy_spearmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/georgia\/kartvelian_spearmen_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -24709,6 +24757,14 @@
 	},
 	{
 		"filename": "data\/ui\/unit_info_classic\/georgia\/merc_knight_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/georgia\/monaspa_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/georgia\/monaspa_horsearcher_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -30508,6 +30564,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/georgia\/#aznavouri.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/georgia\/#ballista.tga",
 		"checksum": "Blacklisted"
 	},
@@ -30540,11 +30600,27 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/georgia\/#eristavi.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/georgia\/#georgian_bg.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/georgia\/#high_naxarar.tga",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/ui\/units\/georgia\/#horse_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/georgia\/#kartvelian_heavy_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/georgia\/#kartvelian_spearmen.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -30565,6 +30641,14 @@
 	},
 	{
 		"filename": "data\/ui\/units\/georgia\/#militia_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/georgia\/#monaspa.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/georgia\/#monaspa_horsearcher.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -37572,6 +37656,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units_classic\/georgia\/#aznavouri.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units_classic\/georgia\/#ballista.tga",
 		"checksum": "Blacklisted"
 	},
@@ -37604,11 +37692,27 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units_classic\/georgia\/#eristavi.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/georgia\/#georgian_bg.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units_classic\/georgia\/#high_naxarar.tga",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/ui\/units_classic\/georgia\/#horse_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/georgia\/#kartvelian_heavy_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/georgia\/#kartvelian_spearmen.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -37629,6 +37733,14 @@
 	},
 	{
 		"filename": "data\/ui\/units_classic\/georgia\/#militia_spearmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/georgia\/#monaspa.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/georgia\/#monaspa_horsearcher.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -43237,7 +43349,7 @@
 	},
 	{
 		"filename": "data\/descr_beliefs.txt",
-		"checksum": 3315962887
+		"checksum": 1038435652
 	},
 	{
 		"filename": "data\/descr_campaigns.txt",
@@ -43268,7 +43380,7 @@
 		"checksum": 838535117
 	},
 	{
-		"filename": "data\/descr_formations_ai.txt",
+		"filename": "data\/descr_formations_aibackup.txt",
 		"checksum": 1984152835
 	},
 	{
@@ -43293,11 +43405,11 @@
 	},
 	{
 		"filename": "data\/descr_names.txt",
-		"checksum": 2224859380
+		"checksum": 2780533515
 	},
 	{
 		"filename": "data\/descr_names_lookup.txt",
-		"checksum": 3910188476
+		"checksum": 2714752490
 	},
 	{
 		"filename": "data\/descr_projectile_new.txt",
@@ -43361,7 +43473,7 @@
 	},
 	{
 		"filename": "data\/export_descr_buildings.txt",
-		"checksum": 3156693537
+		"checksum": 205712309
 	},
 	{
 		"filename": "data\/export_descr_buildings1.txt",
@@ -43373,7 +43485,7 @@
 	},
 	{
 		"filename": "data\/export_descr_unit.txt",
-		"checksum": 1712267494
+		"checksum": 379761948
 	},
 	{
 		"filename": "data\/export_descr_unit_enums.txt",
@@ -47661,7 +47773,7 @@
 	},
 	{
 		"filename": "data\/models_unit\/textures\/btw_unit_anatolian_spearman_merc.tga.dds",
-		"checksum": 3119242112
+		"checksum": 3591451686
 	},
 	{
 		"filename": "data\/models_unit\/textures\/btw_unit_anatolian_spearman_merc_pbr.tga.dds",
@@ -47669,7 +47781,7 @@
 	},
 	{
 		"filename": "data\/models_unit\/textures\/btw_unit_early_varangian.tga.dds",
-		"checksum": 3136415219
+		"checksum": 1167316703
 	},
 	{
 		"filename": "data\/models_unit\/textures\/btw_unit_early_varangian.dds",
@@ -47681,7 +47793,7 @@
 	},
 	{
 		"filename": "data\/models_unit\/textures\/btw_unit_mourtatoi.tga.dds",
-		"checksum": 633099025
+		"checksum": 3881151229
 	},
 	{
 		"filename": "data\/models_unit\/textures\/btw_unit_mourtatoi_pbr.tga.dds",
@@ -47717,7 +47829,7 @@
 	},
 	{
 		"filename": "data\/models_unit\/textures\/camel_mercenary.tga.dds",
-		"checksum": 511983268
+		"checksum": 2026494769
 	},
 	{
 		"filename": "data\/models_unit\/textures\/camel_mercenary_pbr.tga.dds",
@@ -47781,7 +47893,7 @@
 	},
 	{
 		"filename": "data\/models_unit\/textures\/cbtw_unit_paramonai.tga.dds",
-		"checksum": 4035451971
+		"checksum": 530182782
 	},
 	{
 		"filename": "data\/models_unit\/textures\/cbtw_unit_paramonai_pbr.tga.dds",
@@ -47789,7 +47901,7 @@
 	},
 	{
 		"filename": "data\/models_unit\/textures\/cbtw_unit_peltastai_enoplioi.tga.dds",
-		"checksum": 2916293458
+		"checksum": 1844422210
 	},
 	{
 		"filename": "data\/models_unit\/textures\/cbtw_unit_peltastai_enoplioi_pbr.tga.dds",
@@ -47948,7 +48060,15 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/models_unit\/textures\/horse_carthage_armour.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/models_unit\/textures\/horse_carthage_armour.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models_unit\/textures\/horse_carthage_armour2.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -47964,11 +48084,19 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/models_unit\/textures\/horse_knight_templar.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/models_unit\/textures\/horse_knight_templar.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/models_unit\/textures\/horse_knight_templar_pbr.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models_unit\/textures\/horse_french_knight.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -48028,11 +48156,19 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/models_unit\/textures\/mtw_citizen_female_europe.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/models_unit\/textures\/mtw_citizen_female_europe.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/models_unit\/textures\/mtw_citizen_female_europe_pbr.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models_unit\/textures\/mtw_citizen_female_muslim.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -48044,6 +48180,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/models_unit\/textures\/mtw_citizen_female_russ.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/models_unit\/textures\/mtw_citizen_female_russ.tga.dds",
 		"checksum": "Blacklisted"
 	},
@@ -48052,7 +48192,19 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/models_unit\/textures\/mtw_general_bulg.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models_unit\/textures\/mtw_general_bulg.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/models_unit\/textures\/mtw_general_european.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models_unit\/textures\/mtw_general_european.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -48120,6 +48272,14 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/models_unit\/textures\/mtw_horse_cataphract.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models_unit\/textures\/mtw_horse_cataphract_mongol.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/models_unit\/textures\/mtw_horse_cataphract_mongol.tga.dds",
 		"checksum": "Blacklisted"
 	},
@@ -48132,6 +48292,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/models_unit\/textures\/mtw_horse_chivalric_knight_castile.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/models_unit\/textures\/mtw_horse_chivalric_knight_castile.tga.dds",
 		"checksum": "Blacklisted"
 	},
@@ -48140,11 +48304,19 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/models_unit\/textures\/mtw_horse_chivalric_knight_france.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/models_unit\/textures\/mtw_horse_chivalric_knight_france.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/models_unit\/textures\/mtw_horse_chivalric_knight_france_pbr.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models_unit\/textures\/mtw_horse_chivalric_knight_poland.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -48192,7 +48364,15 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/models_unit\/textures\/mtw_horse_covered_french.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/models_unit\/textures\/mtw_horse_covered_french_pbr.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models_unit\/textures\/mtw_horse_covered_hospitaller.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -48384,6 +48564,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/models_unit\/textures\/mtw_horse_gothic.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/models_unit\/textures\/mtw_horse_gothic.tga.dds",
 		"checksum": "Blacklisted"
 	},
@@ -48396,11 +48580,19 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/models_unit\/textures\/mtw_horse_knight_hospitaller.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/models_unit\/textures\/mtw_horse_knight_hospitaller_pbr.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/models_unit\/textures\/mtw_horse_knight_templar.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models_unit\/textures\/mtw_horse_knight_templar.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -48960,11 +49152,19 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/models_unit\/textures\/mtw_horse_royal_knight_aragon.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/models_unit\/textures\/mtw_horse_royal_knight_aragon.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/models_unit\/textures\/mtw_horse_royal_knight_aragon_pbr.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models_unit\/textures\/mtw_horse_sipahi.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -48980,6 +49180,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/models_unit\/textures\/mtw_horse_teutonic_knight.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/models_unit\/textures\/mtw_horse_teutonic_knight_pbr.tga.dds",
 		"checksum": "Blacklisted"
 	},
@@ -48989,6 +49193,10 @@
 	},
 	{
 		"filename": "data\/models_unit\/textures\/mtw_lesser_general_rus_kiev_pbr.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models_unit\/textures\/mtw_lesser_general_rus_novgorod.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -53708,6 +53916,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/models_unit\/textures\/mtw_unit_vardariotai.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/models_unit\/textures\/mtw_unit_vardariotai_pbr.tga.dds",
 		"checksum": "Blacklisted"
 	},
@@ -54536,6 +54748,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/models_unit\/textures\/georgian_aznavouri.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/models_unit\/textures\/georgian_aznavouri.tga.dds",
 		"checksum": "Blacklisted"
 	},
@@ -54556,6 +54772,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/models_unit\/textures\/georgian_monaspa_horse_archer.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/models_unit\/textures\/georgian_monaspa_horse_archer.tga.dds",
 		"checksum": "Blacklisted"
 	},
@@ -54565,6 +54785,10 @@
 	},
 	{
 		"filename": "data\/models_unit\/textures\/georgian_monaspa_pbr.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models_unit\/textures\/gothic_knight.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -54624,11 +54848,19 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/models_unit\/textures\/it_milizia_comunale.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/models_unit\/textures\/it_milizia_comunale.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/models_unit\/textures\/it_milizia_comunale_pbr.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models_unit\/textures\/it_milizia_genova.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -54661,6 +54893,10 @@
 	},
 	{
 		"filename": "data\/models_unit\/textures\/jeru_sergeant_pbr.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models_unit\/textures\/kartvelian_heavy_spearman.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -54828,6 +55064,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/models_unit\/textures\/pony_huns.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/models_unit\/textures\/pony_huns.tga.dds",
 		"checksum": "Blacklisted"
 	},
@@ -54836,7 +55076,19 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/models_unit\/textures\/pony_mercenaries.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/models_unit\/textures\/pony_mercenaries.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models_unit\/textures\/pony_mercenaries_pbr.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models_unit\/textures\/pony_slaves.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -54844,7 +55096,19 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/models_unit\/textures\/pony_slaves_pbr.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models_unit\/textures\/pony_white_huns.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/models_unit\/textures\/pony_white_huns.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models_unit\/textures\/pony_white_huns_pbr.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -55894,6 +56158,10 @@
 	{
 		"filename": "data\/string_overrides\/en.strings.txt",
 		"checksum": 342305224
+	},
+	{
+		"filename": "data\/terrain\/aerial_map\/special\/summer\/cultivated.tga.dds",
+		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/terrain\/aerial_map\/tile_models\/river_a\/river_a.cas",
@@ -57869,7 +58137,7 @@
 	},
 	{
 		"filename": "data\/text\/export_units.txt",
-		"checksum": 906340807
+		"checksum": 814889383
 	},
 	{
 		"filename": "data\/text\/export_units1.txt",
@@ -57877,7 +58145,7 @@
 	},
 	{
 		"filename": "data\/text\/imperial_campaign_regions_and_settlement_names.txt",
-		"checksum": 747476112
+		"checksum": 777294570
 	},
 	{
 		"filename": "data\/text\/menu_english.txt",
@@ -57885,7 +58153,7 @@
 	},
 	{
 		"filename": "data\/text\/names.txt",
-		"checksum": 67402350
+		"checksum": 834801085
 	},
 	{
 		"filename": "data\/text\/quotes.txt",
@@ -58241,7 +58509,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_regions.txt",
-		"checksum": 1872418649
+		"checksum": 3684389635
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_regions1.txt",
@@ -58249,7 +58517,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 2430192868
+		"checksum": 1146846618
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat1.txt",
@@ -58337,6 +58605,10 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/ingame_maps\/map_gauls.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/ingame_maps\/map_georgia.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -58465,6 +58737,10 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_regions.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_regions1.tga",
 		"checksum": "Blacklisted"
 	},
 	{

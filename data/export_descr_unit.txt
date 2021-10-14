@@ -2908,7 +2908,7 @@ stat_charge_dist 95
 stat_fire_delay  2
 stat_food        60, 300
 stat_cost        2, 460, 230, 110, 46, 280
-ownership        slave, gauls, germans, scythia, britons, numidia, dacia, romans_scipii, romans_julii, romans_senate, macedon, armenia, spain, seleucid, romans_brutii
+ownership        slave, gauls, germans, scythia, britons, numidia, dacia, romans_scipii, romans_julii, romans_senate, macedon, armenia, spain, seleucid, georgia, romans_brutii
 
 type             archers
 dictionary       archers
@@ -7198,7 +7198,7 @@ stat_charge_dist 15
 stat_fire_delay  -160000
 stat_food        60, 300
 stat_cost        2, 1200, 500, 80, 110, 479
-ownership        slave, georgia
+ownership        slave, georgia, seleucid
 
 
 type             monaspa
@@ -7391,7 +7391,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        2, 500, 250, 70, 75, 500
-ownership        georgia
+ownership        georgia, seleucid
 
 type             bulgarian pronoia
 dictionary       bulgarian_pronoia

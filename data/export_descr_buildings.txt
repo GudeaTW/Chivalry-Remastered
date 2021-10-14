@@ -81,8 +81,8 @@ building core_building
 			trade_base_income_bonus bonus 10 requires factions { slave, }
 			taxable_income_bonus bonus 90 requires factions { slave, }
 			
-			religious_belief pagan 2 requires hidden_resource euro or hidden_resource steppe
-			religious_belief pagan 1 requires not hidden_resource euro and not hidden_resource steppe
+			religious_belief pagan 2 requires hidden_resource steppe
+			religious_belief pagan 1 requires hidden_resource euro
 			religious_belief pagan 3 requires hidden_resource baltic_crusade
 			religious_belief islam 1 requires hidden_resource turk or hidden_resource fatamid or hidden_resource moors
 			religious_belief islam 1 requires hidden_resource andalus and hidden_resource elite
@@ -223,8 +223,8 @@ building core_building
 			trade_base_income_bonus bonus 10 requires factions { slave, }
 			taxable_income_bonus bonus 90 requires factions { slave, }
 			
-			religious_belief pagan 2 requires hidden_resource euro or hidden_resource steppe
-			religious_belief pagan 1 requires not hidden_resource euro and not hidden_resource steppe
+			religious_belief pagan 2 requires hidden_resource steppe
+			religious_belief pagan 1 requires hidden_resource euro
 			religious_belief pagan 3 requires hidden_resource baltic_crusade
 			religious_belief islam 1 requires hidden_resource turk or hidden_resource fatamid or hidden_resource moors
 			religious_belief islam 1 requires hidden_resource andalus and hidden_resource elite
@@ -390,8 +390,8 @@ building core_building
 			trade_base_income_bonus bonus 10 requires factions { slave, }
 			taxable_income_bonus bonus 90 requires factions { slave, }
 			
-			religious_belief pagan 2 requires hidden_resource euro or hidden_resource steppe
-			religious_belief pagan 1 requires not hidden_resource euro and not hidden_resource steppe
+			religious_belief pagan 2 requires hidden_resource steppe
+			religious_belief pagan 1 requires hidden_resource euro
 			religious_belief pagan 3 requires hidden_resource baltic_crusade
 			religious_belief islam 1 requires hidden_resource turk or hidden_resource fatamid or hidden_resource moors
 			religious_belief islam 1 requires hidden_resource andalus and hidden_resource elite
@@ -582,8 +582,8 @@ building core_building
 			trade_base_income_bonus bonus 10 requires factions { slave, }
 			taxable_income_bonus bonus 90 requires factions { slave, }
 			
-			religious_belief pagan 3 requires hidden_resource euro or hidden_resource steppe
-			religious_belief pagan 1 requires not hidden_resource euro and not hidden_resource steppe
+			religious_belief pagan 2 requires hidden_resource steppe
+			religious_belief pagan 1 requires hidden_resource euro
 			religious_belief pagan 3 requires hidden_resource baltic_crusade
 			religious_belief islam 1 requires hidden_resource turk or hidden_resource fatamid or hidden_resource moors
 			religious_belief islam 1 requires hidden_resource andalus and hidden_resource elite
@@ -779,8 +779,7 @@ building core_building
 			trade_base_income_bonus bonus 10 requires factions { slave, }
 			taxable_income_bonus bonus 90 requires factions { slave, }
 			
-			religious_belief pagan 4 requires hidden_resource euro or hidden_resource steppe
-			religious_belief pagan 1 requires not hidden_resource euro and not hidden_resource steppe
+			religious_belief pagan 2 requires hidden_resource euro or hidden_resource steppe
 			religious_belief pagan 3 requires hidden_resource baltic_crusade
 			religious_belief islam 1 requires hidden_resource turk or hidden_resource fatamid or hidden_resource moors
 			religious_belief islam 1 requires hidden_resource andalus and hidden_resource elite
@@ -1097,6 +1096,7 @@ building rights
 			recruit "azaks"  1 requires factions { seleucid, georgia, } and hidden_resource armen 
 			; elite recruitment
 			recruit "naxarar"  1 requires factions { seleucid, georgia, } and hidden_resource armen
+			recruit "eristavi"  1 requires factions { georgia, } and hidden_resource georg
 			recruit "boyars"  1 requires factions { armenia, } and hidden_resource novgo
 			; extra mercs:
 			recruit "early merc knights"  1 requires factions { barbarian, carthaginian, armenia, greek, } 
@@ -3335,13 +3335,13 @@ building lodging_buildings
     icon caravan
     levels lodging caravanserai
     {
-        lodging requires factions { greek, parthia, } and hidden_resource turk or hidden_resource fatamid or hidden_resource moors or hidden_resource andalus
+        lodging requires factions { greek, parthia, } and hidden_resource turk or hidden_resource fatamid or hidden_resource moors or hidden_resource andalus or hidden_resource armen
 		        {
 	    capability
             {
 			
 ; Foot - mercenaries and regular			 
-		recruit "archers"  0 requires factions { macedon, seleucid, greek_cities, romans_brutii, pontus, } 
+		recruit "archers"  0 requires factions { macedon, seleucid, georgia, greek_cities, romans_brutii, pontus, } 
 		recruit "caucasian mountaineers"  0 requires factions { seleucid, georgia, } and hidden_resource armen and not hidden_resource main
         recruit "murabitin infantry"  0 requires factions { macedon, romans_brutii, } and hidden_resource moors 
 		recruit "nubian archer"  0 requires factions { greek_cities, } and hidden_resource fatamid and hidden_resource main
@@ -3352,7 +3352,7 @@ building lodging_buildings
 		recruit "georgian infantry"  0 requires factions { seleucid, parthia, georgia, } and hidden_resource georg
 		recruit "turcoman footarchers"  1 requires factions { thrace, pontus, } and hidden_resource turk and hidden_resource main
 		recruit "armenian borderers"  1 requires factions { seleucid, georgia, } and hidden_resource armen and hidden_resource main
-		recruit "armenian foot archers"  1 requires factions { seleucid, georgia, } and hidden_resource armen and hidden_resource main
+		recruit "armenian foot archers"  1 requires factions { seleucid, } and hidden_resource armen and hidden_resource main
 		recruit "trebizond archers"  1 requires factions { parthia, seleucid, georgia, } and hidden_resource trebizond
 		recruit "mourtatoi"  1 requires factions { parthia, } and hidden_resource main and hidden_resource byz and not hidden_resource trebizond
 		
@@ -3386,7 +3386,7 @@ building lodging_buildings
             caravanserai
         }
     }
-    caravanserai requires factions { greek, parthia, } and hidden_resource main and hidden_resource turk or hidden_resource fatamid or hidden_resource moors
+    caravanserai requires factions { greek, parthia, } and hidden_resource main and hidden_resource turk or hidden_resource fatamid or hidden_resource moors or hidden_resource armen
 		        {
 	    capability
             {
@@ -3589,6 +3589,7 @@ building armoury_buildings
 		recruit "daylami spear"  1 requires factions { thrace, greek_cities, pontus, } and hidden_resource syr 	
 		; medium and heavy swordsmen
 		recruit "armenian infantry"  1 requires factions { seleucid, georgia, } and hidden_resource armen and hidden_resource elite
+		recruit "kartvelian spearmen"  1 requires factions { seleucid, georgia, } and hidden_resource georg
 		recruit "andalusian heavy infantry"  1 requires factions { macedon, } and hidden_resource andalus and hidden_resource elite
 		recruit "berber infantry"  1 requires factions { romans_brutii, macedon, } and hidden_resource moors and hidden_resource elite
 		recruit "saracen warriors"  1 requires factions { thrace, pontus, } and hidden_resource elite and hidden_resource turk
@@ -3645,7 +3646,7 @@ building armoury_buildings
 		recruit "armoured spearmen"  1 requires factions { spain, } and hidden_resource franks and hidden_resource elite
 		recruit "russian spearmen" 1 requires factions { armenia, } and hidden_resource novgo or hidden_resource kiev
 		recruit "latin auxiliaries"  1 requires factions { seleucid, } and hidden_resource armen and hidden_resource main
-		recruit "kartvelian spearmen"  1 requires factions { seleucid, georgia, } and hidden_resource georg and hidden_resource main
+		recruit "kartvelian spearmen"  1 requires factions { seleucid, georgia, } and hidden_resource georg
 		recruit "kartvelian heavy spearmen"  1 requires factions { georgia, } and hidden_resource georg and hidden_resource elite
 		recruit "volhynian militia"  1 requires factions { armenia, numidia, } and hidden_resource vol
 		recruit "saracen spearmen"  1 requires factions { greek_cities, romans_brutii, } and hidden_resource main and hidden_resource fatamid 

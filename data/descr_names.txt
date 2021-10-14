@@ -2657,6 +2657,7 @@ characters
 		Tukush
 		Ugur
 		Kutalmish
+		Nizam
 
 
 	surnames

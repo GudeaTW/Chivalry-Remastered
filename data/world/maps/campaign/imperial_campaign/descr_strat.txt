@@ -605,24 +605,24 @@ faction	seleucid, trader smith
 denari 7500
 settlement
 {
-	level city
-	region Cilicia
+	level town
+	region Cilician
 
 	year_founded 0
-	population 6100
+	population 1500
 	plan_set default_set
 	faction_creator seleucid
 	building
 	{
-		type core_building governors_palace
+		type core_building governors_house
 	}
 	building
 	{
-		type rights city_rights
+	 	type defenses wooden_pallisade
 	}
 	building
 	{
-		type defenses stone_wall
+	 	type temples temple
 	}
 	building
 	{		
@@ -632,13 +632,9 @@ settlement
 	{
 		type temple_christian_church church1
 	}
-	building
-	{
-		type port_buildings port
-	}
 }
 
-character	Reuben Rupenid, named character, leader, age 45, , x 194, y 58
+character	Reuben Rupenid, named character, leader, age 45, , x 191, y 59
 traits Christian 1, Married 1, KingOfArmenia 1, Royal 1, Leader_Prince 1, Factionleader 1
 ancillaries familyseal
 army
@@ -648,12 +644,12 @@ unit		armenian borderers					exp 1 armour 0 weapon_lvl 0
 unit		armenian horsearcher				exp 1 armour 0 weapon_lvl 0
 unit		armenian horsearcher				exp 1 armour 0 weapon_lvl 0
 
-character	Vahram Poggosian, diplomat, age 33, , x 195, y 58
+character	Vahram Poggosian, diplomat, age 33, , x 191, y 58
 
-; City: Sis
-; Region: Cilicia
+; City: Vahka
+; Region: Cilician Gates
 ; --------------------
-character	Gosdatin Rupenid, named character, heir, age 18, , x 195, y 58
+character	Gosdatin Rupenid, named character, heir, age 18, , x 191, y 60
 traits Christian 1, Royal 1, Leader_Prince 1, Factionheir 1
 ancillaries familyseal
 army
@@ -777,6 +773,45 @@ settlement
 settlement
 {
 	level large_town
+	region Akarnania
+
+	year_founded 0
+	population 2200
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+	 	type hinterland_roads roads
+	}
+	building
+	{
+	 	type defenses wooden_wall
+	}
+	building
+	{
+	 	type barracks_buildings barracks
+	}
+	building
+	{
+	 	type temple_christian_church church1
+	}
+	building
+	{
+	 	type temples temple
+	}
+}
+
+settlement
+{
+	level large_town
 	region Makedon
 
 	year_founded 0
@@ -856,6 +891,37 @@ settlement
 {
 	level large_town
 	region Peloponnesos
+
+	year_founded 0
+	population 2100
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+	 	type defenses wooden_wall
+	}
+	building
+	{
+	 	type hinterland_roads roads
+	}
+	building
+	{
+	 	type temples temple
+	}
+}
+
+settlement
+{
+	level large_town
+	region Morea
 
 	year_founded 0
 	population 2100
@@ -1149,7 +1215,14 @@ unit		hoplitai				exp 1 armour 0 weapon_lvl 0
 ; City: Argos
 ; Region: Peloponnesos
 ; --------------------
-character	Manuel, general, age 65, , x 140, y 49
+character	Manuel, general, age 65, , x 140, y 50
+army
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+
+; City: Argos
+; Region: Peloponnesos
+; --------------------
+character	Alexios, general, age 65, , x 138, y 47
 army
 unit		hoplitai				exp 1 armour 0 weapon_lvl 0
 
@@ -1157,6 +1230,14 @@ unit		hoplitai				exp 1 armour 0 weapon_lvl 0
 ; Region: Balkan5
 ; --------------------
 character	Andronikos, general, age 38, , x 153, y 85
+army
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+unit		riptaristai				exp 1 armour 0 weapon_lvl 0
+
+; City: Nikopolis
+; Region: Akarnania
+; --------------------
+character	Isaakios, general, age 38, , x 132, y 54
 army
 unit		hoplitai				exp 1 armour 0 weapon_lvl 0
 unit		riptaristai				exp 1 armour 0 weapon_lvl 0
@@ -1921,10 +2002,41 @@ settlement
 settlement
 {
 	level large_town
+	region Urmia
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator thrace
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks_buildings barracks
+	}
+	building
+	{
+	 	type shrines shrine
+	}
+}
+
+settlement
+{
+	level large_town
 	region Vaspurakan
 
 	year_founded 0
-	population 3000
+	population 2000
 	plan_set default_set
 	faction_creator seleucid
 	building
@@ -1934,6 +2046,60 @@ settlement
 	building
 	{
 		type rights market_rights
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks_buildings barracks
+	}
+	building
+	{
+	 	type shrines shrine
+	}
+}
+
+settlement
+{
+	level large_town
+	region Turuberan
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator seleucid
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks_buildings barracks
+	}
+	building
+	{
+	 	type shrines shrine
+	}
+}
+
+settlement
+{
+	level large_town
+	region Karin
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator thrace
+	building
+	{
+		type core_building governors_villa
 	}
 	building
 	{
@@ -1981,6 +2147,68 @@ settlement
 	building
 	{
 		type law_enforcement_buildings gallows
+	}
+	building
+	{
+	 	type shrines shrine
+	}
+}
+
+settlement
+{
+	level large_town
+	region BasraR
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator thrace
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type temple_islamic_mosque mosque1
+	}
+	building
+	{
+	 	type shrines shrine
+	}
+}
+
+settlement
+{
+	level large_town
+	region Jibal
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator thrace
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type temple_islamic_mosque mosque1
 	}
 	building
 	{
@@ -2066,7 +2294,7 @@ unit		turcoman horsearchers			exp 2 armour 0 weapon_lvl 0
 ; City: Baghdad
 ; Region: Abbassid
 ; --------------------
-character	Balaban Shah, named character, age 27, , x 232, y 58
+character	Balaban Shah, named character, age 27, , x 241, y 51
 traits Muslim 1, Royal 1, Leader_Prince 1, GoodCommander 1
 ancillaries Ameer, familyseal
 army
@@ -2078,14 +2306,23 @@ unit		turcoman archers				exp 1 armour 0 weapon_lvl 0
 unit		saracen spearmen				exp 1 armour 0 weapon_lvl 0
 unit		saracen spearmen				exp 1 armour 0 weapon_lvl 0
 
-; City: 
-; Region: Lesser_Abbassid
+; City: Mosul
+; Region: Jazira
 ; --------------------
 character	Akbatun, general, age 26, , x 228, y 60
 traits Muslim 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 ancillaries Spah_Salar
 army
 unit		ghulam bodyguards c				exp 1 armour 0 weapon_lvl 0
+unit		saracen warriors				exp 1 armour 0 weapon_lvl 0
+unit		turcoman footarchers			exp 1 armour 0 weapon_lvl 0
+
+; City: Basra
+; Region: BasraR
+; --------------------
+character	Murat, general, age 26, , x 253, y 43
+army
+unit		saracen warriors				exp 1 armour 0 weapon_lvl 0
 unit		saracen warriors				exp 1 armour 0 weapon_lvl 0
 unit		turcoman footarchers			exp 1 armour 0 weapon_lvl 0
 
@@ -2124,16 +2361,64 @@ traits Muslim 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		ghulam bodyguards c				exp 1 armour 0 weapon_lvl 0
 unit		turcoman horsearchers			exp 2 armour 0 weapon_lvl 0
+unit		turcoman horsearchers			exp 2 armour 0 weapon_lvl 0
+unit		turcoman horsearchers			exp 2 armour 0 weapon_lvl 0
+unit		turcoman horsearchers			exp 2 armour 0 weapon_lvl 0
+unit		turcoman footarchers			exp 1 armour 0 weapon_lvl 0
 unit		turcoman footarchers			exp 1 armour 0 weapon_lvl 0
 unit		turcoman archers				exp 1 armour 0 weapon_lvl 0
+unit		turcoman archers				exp 1 armour 0 weapon_lvl 0
 
-; City: Maraghah
+; City: Manzikert
+; Region: Turuberan
+; --------------------
+character	Mustafa, general, age 25, , x 221, y 80
+traits Muslim 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
+army
+unit		ghulam bodyguards c				exp 1 armour 0 weapon_lvl 0
+unit		turcoman horsearchers			exp 2 armour 0 weapon_lvl 0
+unit		turcoman horsearchers			exp 2 armour 0 weapon_lvl 0
+unit		turcoman horsearchers			exp 2 armour 0 weapon_lvl 0
+unit		turcoman horsearchers			exp 2 armour 0 weapon_lvl 0
+unit		turcoman footarchers			exp 1 armour 0 weapon_lvl 0
+unit		turcoman footarchers			exp 1 armour 0 weapon_lvl 0
+unit		turcoman archers				exp 1 armour 0 weapon_lvl 0
+unit		turcoman archers				exp 1 armour 0 weapon_lvl 0
+
+; City: Theodosioupolis
+; Region: Karin
+; --------------------
+character	Akbatun, general, age 26, , x 210, y 81
+army
+unit		turcoman horsearchers				exp 1 armour 0 weapon_lvl 0
+unit		saracen warriors				exp 1 armour 0 weapon_lvl 0
+unit		turcoman footarchers			exp 1 armour 0 weapon_lvl 0
+
+; City: Ardabil
 ; Region: Azerbaijan
 ; --------------------
 character	Alpay Tekiner, general, age 25, , x 249, y 80
 traits Muslim 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		ghulam bodyguards c				exp 1 armour 0 weapon_lvl 0
+unit		turcoman horsearchers			exp 2 armour 0 weapon_lvl 0
+unit		turcoman footarchers			exp 1 armour 0 weapon_lvl 0
+
+; City: Tabriz
+; Region: Urmia
+; --------------------
+character	Mustafa, general, age 25, , x 239, y 73
+army
+unit		turcoman horsearchers			exp 2 armour 0 weapon_lvl 0
+unit		turcoman horsearchers			exp 2 armour 0 weapon_lvl 0
+unit		turcoman footarchers			exp 1 armour 0 weapon_lvl 0
+
+; City: Hamadan
+; Region: Jibal
+; --------------------
+character	Alpay, general, age 25, , x 250, y 69
+army
+unit		turcoman horsearchers			exp 2 armour 0 weapon_lvl 0
 unit		turcoman horsearchers			exp 2 armour 0 weapon_lvl 0
 unit		turcoman footarchers			exp 1 armour 0 weapon_lvl 0
 
@@ -2256,6 +2541,37 @@ settlement
 	}
 }
 
+settlement
+{
+	level large_town
+	region Galicia
+
+	year_founded 0
+	population 2150
+	plan_set default_set
+	faction_creator romans_scipii
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type temple_christian_church church1
+	}
+	building
+	{
+	 	type temples temple
+	}
+}
+
 ; City: Burgos
 ; Region: Castille
 ; --------------------
@@ -2288,6 +2604,15 @@ character	Felipe Lerma, general, age 40, , x 10, y 80
 traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit        	early kings cavalry c				exp 1 armour 0 weapon_lvl 0
+unit		militia spearmen				exp 1 armour 0 weapon_lvl 0
+unit		militia spearmen				exp 1 armour 0 weapon_lvl 0
+unit		archers							exp 0 armour 0 weapon_lvl 0
+
+; City: Compostela
+; Region: Galicia
+; --------------------
+character	Garcia, general, age 40, , x 10, y 87
+army
 unit		militia spearmen				exp 1 armour 0 weapon_lvl 0
 unit		militia spearmen				exp 1 armour 0 weapon_lvl 0
 unit		archers							exp 0 armour 0 weapon_lvl 0
@@ -3029,6 +3354,37 @@ settlement
 settlement
 {
 	level large_town
+	region Extremadura
+
+	year_founded 0
+	population 3500
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+	 	type defenses wooden_wall
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type temple_islamic_mosque mosque1
+	}
+}
+
+settlement
+{
+	level large_town
 	region Denia
 
 	year_founded 0
@@ -3100,6 +3456,14 @@ traits Muslim 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 ancillaries office_Vizier
 army
 unit		murabitin bodyguard c			exp 1 armour 0 weapon_lvl 0
+unit		spearmen							exp 0 armour 0 weapon_lvl 0
+
+; City: Badajoz
+; Region: Extremadura
+; --------------------
+character	Hassan, general, age 26, , x 14, y 70
+army
+unit		spearmen			exp 1 armour 0 weapon_lvl 0
 unit		spearmen							exp 0 armour 0 weapon_lvl 0
 
 character_record	Orqina,	female,	age 50,	alive,	never_a_leader
@@ -4367,7 +4731,7 @@ unit		archers								exp 0 armour 0 weapon_lvl 0
 ; City: germany6C
 ; Region: Germany6
 ; --------------------
-character	Sigismund vonHolstein, general, age 42, , x 89, y 139
+character	Sigismund vonHolstein, general, age 42, , x 87, y 136
 traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		early kings cavalry c					exp 1 armour 0 weapon_lvl 0
@@ -4555,10 +4919,33 @@ settlement
 	}
 }
 
+settlement
+{
+	level town
+	region JyllandS
+
+	year_founded 0
+	population 1950
+	plan_set default_set
+	faction_creator scythia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+	 	type temples temple
+	}
+}
+
 ; City: DenmarkC
 ; Region: Denmark
 ; --------------------
-character	Sweyn Estridsen, named character, leader, age 59, , x 95, y 142
+character	Sweyn Estridsen, named character, leader, age 59, , x 95, y 144
 traits Christian 1, Married 1, KingOfDenmark 1, Royal 1, Leader_Prince 1, Factionleader 1
 ancillaries familyseal
 army
@@ -4579,12 +4966,21 @@ unit		viking warriors					exp 0 armour 0 weapon_lvl 0
 
 ; Region: Denmark
 ; --------------------
-character	Frode af_Jylland, general, age 47, , x 89, y 151
+character	Frode af_Jylland, named character, age 47, , x 88, y 151
 traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 ancillaries office_Rigsjarl, familyseal
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
 unit		viking huscarls					exp 1 armour 0 weapon_lvl 0
+unit		viking warriors					exp 0 armour 0 weapon_lvl 0
+
+; Region: JyllandS
+; --------------------
+character	Harald, general, age 47, , x 87, y 141
+army
+unit		viking huscarls					exp 1 armour 0 weapon_lvl 0
+unit		viking warriors					exp 0 armour 0 weapon_lvl 0
+unit		viking warriors					exp 0 armour 0 weapon_lvl 0
 unit		viking warriors					exp 0 armour 0 weapon_lvl 0
 
 ; Sea
@@ -4855,6 +5251,41 @@ settlement
 	{
 	 	type temples temple
 	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level large_town
+	region Mtianeti
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator georgia
+	building
+	{
+	 	type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+	 	type temples temple
+	}
+	building
+	{
+	 	type defenses wooden_wall
+	}
+	building
+	{
+	 	type temple_christian_church church1
+	}
 }
 
 character	Giorgi Bagrationi, named character, leader, age 45, , x 212, y 90
@@ -4862,6 +5293,24 @@ traits Christian 1, Married 1, Royal 1, Leader_Prince 1, Factionleader 1
 ancillaries familyseal
 army
 unit		georgian bg					exp 2 armour 0 weapon_lvl 0
+unit		kartvelian heavy spearmen					exp 1 armour 0 weapon_lvl 0
+unit		kartvelian spearmen					exp 1 armour 0 weapon_lvl 0
+unit		kartvelian spearmen					exp 1 armour 0 weapon_lvl 0
+unit		monaspa					exp 1 armour 0 weapon_lvl 0
+unit		monaspa					exp 1 armour 0 weapon_lvl 0
+unit		monaspa horsearcher				exp 1 armour 0 weapon_lvl 0
+unit		monaspa horsearcher				exp 1 armour 0 weapon_lvl 0
+unit		armenian foot archers				exp 1 armour 0 weapon_lvl 0
+unit		armenian foot archers				exp 1 armour 0 weapon_lvl 0
+
+character	Bagrat, general, age 45, , x 222, y 93
+traits 
+army
+unit		kartvelian spearmen					exp 1 armour 0 weapon_lvl 0
+unit		kartvelian spearmen					exp 1 armour 0 weapon_lvl 0
+unit		armenian foot archers				exp 1 armour 0 weapon_lvl 0
+unit		armenian foot archers				exp 1 armour 0 weapon_lvl 0
+unit		aznavouri					exp 1 armour 0 weapon_lvl 0
 
 character_record	Borena, 	female, age 35, alive, 		never_a_leader
 character_record	David Bagrationi, 	male, age 0, alive, 		never_a_leader
@@ -5480,13 +5929,44 @@ settlement
 
 settlement
 {
+	level large_town
+	region Pamphylia
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type temple_christian_church church1
+	}
+}
+
+settlement
+{
 	level city
 	region Georgia
 
 	year_founded 0
 	population 5600
 	plan_set default_set
-	faction_creator seleucid
+	faction_creator georgia
 	building
 	{
 	 	type core_building governors_palace
@@ -5502,6 +5982,37 @@ settlement
 	building
 	{
 	 	type defenses stone_wall
+	}
+}
+
+settlement
+{
+	level large_town
+	region Kakheti
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator georgia
+	building
+	{
+	 	type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+	 	type temples temple
+	}
+	building
+	{
+	 	type defenses wooden_wall
+	}
+	building
+	{
+	 	type temple_christian_church church1
 	}
 }
 
@@ -5525,6 +6036,60 @@ settlement
 	building
 	{
 	 	type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level large_town
+	region Arran
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator thrace
+	building
+	{
+	 	type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+	 	type shrines shrine
+	}
+	building
+	{
+	 	type defenses wooden_wall
+	}
+}
+
+settlement
+{
+	level large_town
+	region Artsakh
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator seleucid
+	building
+	{
+	 	type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+	 	type temple_christian_church church1
+	}
+	building
+	{
+	 	type defenses wooden_wall
 	}
 }
 
@@ -5838,6 +6403,64 @@ settlement
 settlement
 {
 	level large_town
+	region Kesun
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator seleucid
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+	 	type temple_christian_church church1
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+	 	type shrines shrine
+	}
+}
+
+settlement
+{
+	level large_town
+	region Tsopk
+
+	year_founded 0
+	population 3500
+	plan_set default_set
+	faction_creator thrace
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type temple_islamic_mosque mosque2
+	}
+	building
+	{
+	 	type shrines shrine
+	}
+}
+
+settlement
+{
+	level large_town
 	region Bretagne
 
 	year_founded 0
@@ -5884,10 +6507,37 @@ settlement
 settlement
 {
 	level large_town
-	region Armeniakon
+	region Paphlagonia
 
 	year_founded 0
 	population 2303
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+	 	type temple_christian_church church1
+	}
+	building
+	{
+	 	type defenses wooden_wall
+	}
+}
+
+settlement
+{
+	level large_town
+	region Armeniakon
+
+	year_founded 0
+	population 2000
 	plan_set default_set
 	faction_creator parthia
 	building
@@ -5935,6 +6585,68 @@ settlement
 {
 	level large_town
 	region Kybrrhaiots
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+	 	type port_buildings port
+	}
+	building
+	{
+	 	type defenses wooden_wall
+	}
+	building
+	{
+	 	type barracks_buildings barracks
+	}
+}
+
+settlement
+{
+	level large_town
+	region Optimatoi
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+	 	type port_buildings port
+	}
+	building
+	{
+	 	type defenses wooden_wall
+	}
+	building
+	{
+	 	type barracks_buildings barracks
+	}
+}
+
+settlement
+{
+	level large_town
+	region Abydos
 
 	year_founded 0
 	population 2000
@@ -6194,6 +6906,41 @@ settlement
 
 settlement
 {
+	level city
+	region Cilicia
+
+	year_founded 0
+	population 6100
+	plan_set default_set
+	faction_creator seleucid
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type rights city_rights
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{		
+		type hinterland_roads roads
+	}
+	building
+	{
+		type temple_christian_church church1
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
 	level town
 	region Volin
 
@@ -6237,10 +6984,10 @@ settlement
 settlement
 {
 	level large_town
-	region Abydos
+	region Thrakesion
 
 	year_founded 0
-	population 2000
+	population 3000
 	plan_set default_set
 	faction_creator parthia
 	building
@@ -6285,6 +7032,37 @@ settlement
 	building
 	{
 		type hinterland_crak crak
+	}
+}
+
+settlement
+{
+	level large_town
+	region SidonR
+
+	year_founded 0
+	population 2350
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+	 	type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+	 	type shrines shrine
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+	 	type defenses wooden_wall
 	}
 }
 
@@ -7610,7 +8388,7 @@ unit		archers					exp 1 armour 0 weapon_lvl 0
 
 ; Scandinavia - Gotland
 ; --------------------
-character	sub_faction scythia, Godafrid, general, age 29, , x 114, y 156
+character	sub_faction scythia, Godafrid, general, age 29, , x 114, y 157
 army
 unit		viking huscarls				exp 5 armour 0 weapon_lvl 0
 unit		viking huscarls				exp 2 armour 0 weapon_lvl 0
@@ -7720,8 +8498,27 @@ unit		archers					exp 1 armour 0 weapon_lvl 0
 ; City: Edessa
 ; Region: Edessa
 ; --------------------
-character	sub_faction parthia, Philaretos Brachamios, named character, age 45, , x 211, y 59
+character	sub_faction parthia, Philaretos Brachamios, named character, age 45, , x 211, y 61
 traits GoodCommander 1, Loyal 4, Christian 1
+army
+unit		hetaireia c			exp 1 armour 0 weapon_lvl 0
+unit		early didebuls			exp 1 armour 0 weapon_lvl 0
+unit		early didebuls			exp 1 armour 0 weapon_lvl 0
+unit		psiloi					exp 1 armour 0 weapon_lvl 0
+unit		psiloi					exp 1 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+unit		riptaristai				exp 1 armour 0 weapon_lvl 0
+unit		armenian borderers		exp 1 armour 0 weapon_lvl 0
+unit		armenian borderers		exp 1 armour 0 weapon_lvl 0
+
+; City: Hromkla
+; Region: Kesun
+; --------------------
+character	sub_faction seleucid, Smbat, general, age 45, , x 204, y 63
 army
 unit		hetaireia c			exp 1 armour 0 weapon_lvl 0
 unit		early didebuls			exp 1 armour 0 weapon_lvl 0
@@ -7761,7 +8558,25 @@ unit		armenian borderers		exp 1 armour 0 weapon_lvl 0
 ; City: Nikaia
 ; Region: Upper_Opsician
 ; --------------------
-character	sub_faction parthia, Theodoros Dalassenos, named character, age 29, , x 162, y 69
+character	sub_faction parthia, Theodoros Dalassenos, named character, age 29, , x 162, y 67
+traits GoodCommander 1, Loyal 4, Christian 1
+army
+unit		hetaireia c			exp 1 armour 0 weapon_lvl 0
+unit		thematic cavalry		exp 2 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+unit		riptaristai				exp 1 armour 0 weapon_lvl 0
+unit		riptaristai				exp 1 armour 0 weapon_lvl 0
+unit		psiloi					exp 1 armour 0 weapon_lvl 0
+unit		psiloi					exp 1 armour 0 weapon_lvl 0
+unit		psiloi					exp 1 armour 0 weapon_lvl 0
+
+; City: Nikomedia
+; Region: Optimatoi
+; --------------------
+character	sub_faction parthia, Andronikos, named character, age 29, , x 165, y 73
 traits GoodCommander 1, Loyal 4, Christian 1
 army
 unit		hetaireia c			exp 1 armour 0 weapon_lvl 0
@@ -7777,10 +8592,25 @@ unit		psiloi					exp 1 armour 0 weapon_lvl 0
 unit		psiloi					exp 1 armour 0 weapon_lvl 0
 
 ; City: Sinope
-; Region: Armeniakon
+; Region: Paphlagonia
 ; --------------------
 character	sub_faction parthia, Roussel deBailleul, named character, age 34, , x 185, y 83
 traits GoodCommander 1, Loyal 4, Christian 1
+army
+unit		latinikoi				exp 3 armour 0 weapon_lvl 0
+unit		thematic cavalry		exp 2 armour 0 weapon_lvl 0
+unit		riptaristai				exp 1 armour 0 weapon_lvl 0
+unit		psiloi					exp 1 armour 0 weapon_lvl 0
+unit		psiloi					exp 1 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+
+; City: Amasia
+; Region: Armeniakon
+; --------------------
+character	sub_faction parthia, Isaakios, general, age 34, , x 190, y 76
 army
 unit		latinikoi				exp 3 armour 0 weapon_lvl 0
 unit		thematic cavalry		exp 2 armour 0 weapon_lvl 0
@@ -7796,6 +8626,23 @@ unit		hoplitai				exp 1 armour 0 weapon_lvl 0
 ; Region: Abydos
 ; --------------------
 character	sub_faction parthia, Konstantinos Nicephoritzes, named character, age 43, , x 156, y 54
+traits GoodCommander 1, Loyal 4, Christian 1
+army
+unit		hetaireia c			exp 1 armour 0 weapon_lvl 0
+unit		thematic cavalry		exp 2 armour 0 weapon_lvl 0
+unit		psiloi					exp 1 armour 0 weapon_lvl 0
+unit		psiloi					exp 1 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+unit		riptaristai				exp 1 armour 0 weapon_lvl 0
+
+; City: Philadelphia
+; Region: Thrakesion
+; --------------------
+character	sub_faction parthia, Theodoros, named character, age 43, , x 167, y 57
 traits GoodCommander 1, Loyal 4, Christian 1
 army
 unit		hetaireia c			exp 1 armour 0 weapon_lvl 0
@@ -8197,6 +9044,20 @@ unit		seljuk horse archers				exp 1 armour 0 weapon_lvl 0
 unit		seljuk horse archers				exp 1 armour 0 weapon_lvl 0
 unit		seljuk horse archers				exp 1 armour 0 weapon_lvl 0
 unit		steppe infantry						exp 1 armour 0 weapon_lvl 0
+
+; City: Anazarba
+; Region: Cilicia
+; --------------------
+character	sub_faction seleucid, Thoros, named character, age 18, , x 195, y 58
+traits Christian 1, Loyal 4
+army
+unit		naxarar bodyguard c					exp 2 armour 0 weapon_lvl 0
+unit		hoplitai					exp 1 armour 0 weapon_lvl 0
+unit		hoplitai					exp 1 armour 0 weapon_lvl 0
+unit		trebizond archers				exp 1 armour 0 weapon_lvl 0
+unit		trebizond archers				exp 1 armour 0 weapon_lvl 0
+unit		armenian borderers					exp 1 armour 0 weapon_lvl 0
+unit		armenian borderers					exp 1 armour 0 weapon_lvl 0
 
 character	sub_faction egypt, Genduk, general, age 29, , x 201, y 172
 army
@@ -8729,31 +9590,45 @@ unit		archers							exp 1 armour 0 weapon_lvl 0
 
 ; Abkhazia
 
-; Georgia
-character	sub_faction parthia, Georgios Bardanes, named character, age 27, , x 225, y 91
-traits GoodCommander 1, Loyal 4, Christian 1
+; Kartli - Tbilisi
+character	sub_faction thrace, Kutalmish, named character, age 27, , x 225, y 91
+traits GoodCommander 1, Loyal 4, Muslim 1
 army
-unit		hetaireia c					exp 4 armour 0 weapon_lvl 0
-unit		early didebuls					exp 2 armour 0 weapon_lvl 0
-unit		early didebuls					exp 2 armour 0 weapon_lvl 0
-unit		early didebuls					exp 2 armour 0 weapon_lvl 0
-unit		early didebuls					exp 2 armour 0 weapon_lvl 0
-unit		caucasian mountaineers merc			exp 2 armour 0 weapon_lvl 0
-unit		caucasian mountaineers merc			exp 2 armour 0 weapon_lvl 0
-unit		caucasian mountaineers merc			exp 2 armour 0 weapon_lvl 0
-unit		riptaristai						exp 2 armour 0 weapon_lvl 0
-unit		riptaristai						exp 2 armour 0 weapon_lvl 0
-unit		riptaristai						exp 2 armour 0 weapon_lvl 0
-unit		archers							exp 1 armour 0 weapon_lvl 0
-unit		archers							exp 1 armour 0 weapon_lvl 0
-unit		archers							exp 1 armour 0 weapon_lvl 0
-unit		archers							exp 1 armour 0 weapon_lvl 0
-unit		spearmen						exp 1 armour 0 weapon_lvl 0
-unit		spearmen						exp 1 armour 0 weapon_lvl 0
-unit		spearmen						exp 1 armour 0 weapon_lvl 0
-unit		spearmen						exp 1 armour 0 weapon_lvl 0
+unit		ghulam bodyguards c				exp 1 armour 0 weapon_lvl 0
+unit		seljuk horse archers					exp 2 armour 0 weapon_lvl 0
+unit		seljuk horse archers					exp 2 armour 0 weapon_lvl 0
+unit		seljuk horse archers					exp 2 armour 0 weapon_lvl 0
+unit		seljuk horse archers					exp 2 armour 0 weapon_lvl 0
+unit		saracen warriors				exp 2 armour 0 weapon_lvl 0
+unit		saracen warriors				exp 2 armour 0 weapon_lvl 0
+unit		saracen archers					exp 2 armour 0 weapon_lvl 0
+unit		saracen archers					exp 2 armour 0 weapon_lvl 0
+unit		saracen archers					exp 2 armour 0 weapon_lvl 0
+unit		saracen archers					exp 2 armour 0 weapon_lvl 0
+unit		saracen archers					exp 2 armour 0 weapon_lvl 0
+unit		arab infantry					exp 1 armour 0 weapon_lvl 0
+unit		arab infantry					exp 1 armour 0 weapon_lvl 0
 
-character	sub_faction egypt, Berkei, general, age 29, , x 233, y 108
+; Tsopk - Mayafarkin
+character	sub_faction thrace, Mustafa, named character, age 27, , x 211, y 69
+traits GoodCommander 1, Loyal 4, Muslim 1
+army
+unit		ghulam bodyguards c				exp 1 armour 0 weapon_lvl 0
+unit		seljuk horse archers					exp 2 armour 0 weapon_lvl 0
+unit		seljuk horse archers					exp 2 armour 0 weapon_lvl 0
+unit		seljuk horse archers					exp 2 armour 0 weapon_lvl 0
+unit		seljuk horse archers					exp 2 armour 0 weapon_lvl 0
+unit		kurdish infantry				exp 2 armour 0 weapon_lvl 0
+unit		kurdish infantry				exp 2 armour 0 weapon_lvl 0
+unit		saracen archers					exp 2 armour 0 weapon_lvl 0
+unit		saracen archers					exp 2 armour 0 weapon_lvl 0
+unit		saracen archers					exp 2 armour 0 weapon_lvl 0
+unit		saracen archers					exp 2 armour 0 weapon_lvl 0
+unit		saracen archers					exp 2 armour 0 weapon_lvl 0
+unit		arab infantry					exp 1 armour 0 weapon_lvl 0
+unit		arab infantry					exp 1 armour 0 weapon_lvl 0
+
+character	sub_faction egypt, Berkei, general, age 29, , x 217, y 101
 army
 unit		steppe heavy cavalry			exp 2 armour 0 weapon_lvl 0
 unit		steppe heavy cavalry			exp 2 armour 0 weapon_lvl 0
@@ -8763,22 +9638,36 @@ unit		cuman horse archers				exp 1 armour 0 weapon_lvl 0
 unit		cuman horse archers				exp 1 armour 0 weapon_lvl 0
 
 ; Shirvan
-character	sub_faction seleucid, Hetum, general, age 29, , x 248, y 95
+character	sub_faction thrace, Alpay, general, age 29, , x 248, y 95
 army
-unit		early didebuls					exp 2 armour 0 weapon_lvl 0
-unit		early didebuls					exp 2 armour 0 weapon_lvl 0
-unit		caucasian mountaineers			exp 1 armour 0 weapon_lvl 0
-unit		caucasian mountaineers			exp 1 armour 0 weapon_lvl 0
-unit		caucasian mountaineers			exp 1 armour 0 weapon_lvl 0
-unit		caucasian mountaineers			exp 1 armour 0 weapon_lvl 0
-unit		caucasian mountaineers			exp 1 armour 0 weapon_lvl 0
-unit		caucasian mountaineers			exp 1 armour 0 weapon_lvl 0
-unit		caucasian mountaineers			exp 1 armour 0 weapon_lvl 0
-unit		caucasian mountaineers			exp 1 armour 0 weapon_lvl 0
-unit		caucasian mountaineers			exp 1 armour 0 weapon_lvl 0
-unit		archers							exp 1 armour 0 weapon_lvl 0
-unit		archers							exp 1 armour 0 weapon_lvl 0
-unit		archers							exp 1 armour 0 weapon_lvl 0
+unit		ghulam bodyguards c				exp 1 armour 0 weapon_lvl 0
+unit		seljuk horse archers					exp 2 armour 0 weapon_lvl 0
+unit		seljuk horse archers					exp 2 armour 0 weapon_lvl 0
+unit		seljuk horse archers					exp 2 armour 0 weapon_lvl 0
+unit		seljuk horse archers					exp 2 armour 0 weapon_lvl 0
+unit		saracen archers					exp 2 armour 0 weapon_lvl 0
+unit		saracen archers					exp 2 armour 0 weapon_lvl 0
+unit		saracen archers					exp 2 armour 0 weapon_lvl 0
+unit		saracen archers					exp 2 armour 0 weapon_lvl 0
+unit		saracen archers					exp 2 armour 0 weapon_lvl 0
+unit		arab infantry					exp 1 armour 0 weapon_lvl 0
+unit		arab infantry					exp 1 armour 0 weapon_lvl 0
+
+; Arran
+character	sub_faction thrace, Alp, general, age 29, , x 239, y 87
+army
+unit		ghulam bodyguards c				exp 1 armour 0 weapon_lvl 0
+unit		seljuk horse archers					exp 2 armour 0 weapon_lvl 0
+unit		seljuk horse archers					exp 2 armour 0 weapon_lvl 0
+unit		seljuk horse archers					exp 2 armour 0 weapon_lvl 0
+unit		seljuk horse archers					exp 2 armour 0 weapon_lvl 0
+unit		saracen archers					exp 2 armour 0 weapon_lvl 0
+unit		saracen archers					exp 2 armour 0 weapon_lvl 0
+unit		saracen archers					exp 2 armour 0 weapon_lvl 0
+unit		saracen archers					exp 2 armour 0 weapon_lvl 0
+unit		saracen archers					exp 2 armour 0 weapon_lvl 0
+unit		arab infantry					exp 1 armour 0 weapon_lvl 0
+unit		arab infantry					exp 1 armour 0 weapon_lvl 0
 
 ; Venice
 character	sub_faction romans_julii, Alberto Lanfranchi, named character, age 29, , x 95, y 90
@@ -8829,6 +9718,19 @@ army
 unit		mala druzhina c				exp 2 armour 0 weapon_lvl 0
 unit		russian spearmen				exp 1 armour 0 weapon_lvl 0
 unit		archers				exp 1 armour 0 weapon_lvl 0
+
+; Region: Kakheti
+; -------------------
+character	sub_faction georgia, Ashot, named character, age 25, x 232, y 92
+traits GoodCommander 1, Loyal 4, Christian 1
+army
+unit		georgian bg				exp 2 armour 0 weapon_lvl 0
+unit		kartvelian spearmen				exp 1 armour 0 weapon_lvl 0
+unit		kartvelian spearmen				exp 1 armour 0 weapon_lvl 0
+unit		monaspa horsearcher				exp 1 armour 0 weapon_lvl 0
+unit		monaspa				exp 1 armour 0 weapon_lvl 0
+unit		armenian foot archers				exp 1 armour 0 weapon_lvl 0
+unit		armenian foot archers				exp 1 armour 0 weapon_lvl 0
 
 ; City: Ikonion
 ; Region: Anatolikon
@@ -8909,8 +9811,8 @@ unit		archers						exp 0 armour 0 weapon_lvl 0
 unit		archers						exp 0 armour 0 weapon_lvl 0
 unit		archers						exp 0 armour 0 weapon_lvl 0
 
-; City: Tarsus
-; Region: Tarsos (Seleukia)
+; City: Seleukeia
+; Region: Kilikia Trachea (Seleukia)
 ; --------------------
 character	sub_faction seleucid, Reuben Tavrishetsi, named character, age 44, , x 188, y 51
 traits GoodCommander 1, Loyal 4, Christian 1
@@ -8925,9 +9827,60 @@ unit		caucasian mountaineers		exp 1 armour 0 weapon_lvl 0
 unit		archers						exp 0 armour 0 weapon_lvl 0
 unit		archers						exp 0 armour 0 weapon_lvl 0
 
+; City: Kapan
+; Region: Artsakh and Baghk
+; --------------------
+character	sub_faction seleucid, Senekerim, named character, age 44, , x 232, y 82
+traits GoodCommander 1, Loyal 4, Christian 1
+army
+unit		naxarar bodyguard c			exp 2 armour 0 weapon_lvl 0
+unit		early didebuls				exp 2 armour 0 weapon_lvl 0
+unit		early didebuls				exp 2 armour 0 weapon_lvl 0
+unit		early didebuls				exp 2 armour 0 weapon_lvl 0
+unit		armenian infantry			exp 1 armour 0 weapon_lvl 0
+unit		armenian infantry			exp 1 armour 0 weapon_lvl 0
+unit		armenian borderers			exp 1 armour 0 weapon_lvl 0
+unit		armenian borderers			exp 1 armour 0 weapon_lvl 0
+unit		caucasian mountaineers		exp 1 armour 0 weapon_lvl 0
+unit		caucasian mountaineers		exp 1 armour 0 weapon_lvl 0
+unit		caucasian mountaineers		exp 1 armour 0 weapon_lvl 0
+unit		armenian horsearcher						exp 1 armour 0 weapon_lvl 0
+unit		armenian horsearcher						exp 1 armour 0 weapon_lvl 0
+unit		armenian horsearcher						exp 1 armour 0 weapon_lvl 0
+unit		armenian horsearcher						exp 1 armour 0 weapon_lvl 0
+
+; City: Kalonoros
+; Region: Pamphylia
+; --------------------
+character	sub_faction parthia, Alexios, named character, age 44, , x 180, y 51
+army
+unit		latinikoi				exp 3 armour 0 weapon_lvl 0
+unit		thematic cavalry		exp 2 armour 0 weapon_lvl 0
+unit		riptaristai				exp 1 armour 0 weapon_lvl 0
+unit		psiloi					exp 1 armour 0 weapon_lvl 0
+unit		psiloi					exp 1 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+
 ; Tripoli
 ; --------------------
 character	sub_faction greek_cities, Ahmad Ayyub, named character, age 29, , x 200, y 44
+traits GoodCommander 1, Loyal 4, Muslim 1
+army
+unit		ghulam bodyguards c			exp 3 armour 0 weapon_lvl 0
+unit		saracen warriors			exp 2 armour 0 weapon_lvl 0
+unit		saracen archers				exp 2 armour 0 weapon_lvl 0
+unit		saracen archers				exp 2 armour 0 weapon_lvl 0
+unit		muslim spear militia		exp 1 armour 0 weapon_lvl 0
+unit		muslim spear militia		exp 1 armour 0 weapon_lvl 0
+unit		muslim spear militia		exp 1 armour 0 weapon_lvl 0
+unit		muslim spear militia		exp 1 armour 0 weapon_lvl 0
+
+; Sidon
+; --------------------
+character	sub_faction greek_cities, Ahmad, named character, age 29, , x 199, y 39
 traits GoodCommander 1, Loyal 4, Muslim 1
 army
 unit		ghulam bodyguards c			exp 3 armour 0 weapon_lvl 0

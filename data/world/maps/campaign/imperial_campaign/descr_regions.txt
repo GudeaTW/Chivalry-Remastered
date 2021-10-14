@@ -197,7 +197,7 @@ Iraq ; ok
 	97 113 106
 	turk, main, elite, abbasid 
 	5
-	4
+	5
 	islam 90 pagan 5 christianity 5
 Syria ; ok
 	Dimashq
@@ -231,6 +231,15 @@ Tripoli ; ok
 	greek_cities
 	Syrians
 	42 126 138
+	turk, order, main, genoa, crus_state, fatamid, syr
+	5
+	3
+	islam 50 christianity 45 pagan 5
+SidonR ; ok
+	Sidon
+	greek_cities
+	Syrians
+	234 223 57
 	turk, order, main, genoa, crus_state, fatamid, syr
 	5
 	3
@@ -280,12 +289,21 @@ Cilicia ; ok
 	5
 	4
 	christianity 80 islam 15 pagan 5
+Cilician ; ok
+	Vahka
+	seleucid
+	Kilikian_Armenians
+	240 240 42
+	turk, main, elite, armen
+	5
+	2
+	christianity 85 islam 10 pagan 5
 Seleukeia ; ok
 	Tarsos
 	seleucid
 	Seleukeian_Armenians
 	255 20 240
-	turk, main, genoa, armen
+	turk, main, genoa, armen, harbor
 	5
 	4
 	christianity 80 islam 15 pagan 5
@@ -343,7 +361,7 @@ Bithynia ; ok
 	5
 	4
 	christianity 70 pagan 15 islam 15
-Armeniakon ; ok
+Paphlagonia ; ok
 	Sinope
 	parthia
 	Paphlagonians
@@ -362,7 +380,7 @@ Trebizond ; ok
 	4
 	christianity 65 pagan 15 islam 20
 Azerbaijan ; ok
-	Tabriz
+	Ardabil
 	thrace
 	Azeris
 	45 249 32
@@ -375,7 +393,7 @@ Vaspurakan ; ok
 	seleucid
 	Armenians
 	155 123 72
-	turk, main, armen
+	turk, main, armen, elite
 	5
 	3
 	christianity 55 islam 35 pagan 10
@@ -393,7 +411,7 @@ Armenia ; ok
 	seleucid
 	Armenians
 	255 80 200
-	turk, main, armen
+	turk, main, armen, elite
 	5
 	3
 	christianity 60 islam 30 pagan 10
@@ -402,19 +420,37 @@ Abkhazia ; ok
 	georgia
 	Abkhazians
 	255 40 240
-	steppe, armen, georg, main 
+	steppe, armen, georg, harbor, main, elite 
 	5
 	4
 	christianity 80 islam 10 pagan 10
+Kakheti ; ok
+	Telavi
+	georgia
+	Georgians
+	80 80 31
+	steppe, armen, georg, main, elite 
+	5
+	3
+	christianity 80 islam 10 pagan 10
+Mtianeti ; ok
+	Mtskheta
+	georgia
+	Georgians
+	80 80 28
+	steppe, armen, georg, main, elite 
+	5
+	3
+	christianity 80 islam 10 pagan 10
 Georgia ; ok
 	Tbilisi
-	seleucid
+	georgia
 	Georgians
 	255 160 120
-	steppe, elite, main, armen, georg
+	steppe, elite, main, armen, georg, turk
 	5
 	4
-	christianity 85 islam 10 pagan 5
+	christianity 50 islam 45 pagan 5
 Alania ; ok
 	Samandar 
 	egypt
@@ -1063,12 +1099,12 @@ Sachsen ; ok
 	5
 	5
 	christianity 80 pagan 20
-Holstein ; ok
+JyllandS ; ok
 	Slesvig
-	germans
+	scythia
 	Dithmarscher
 	120 120 200
-	forest, germ, harbor, euro, main, river, sax   
+	forest, scandinavia, germ, harbor, euro, main, river, sax   
 	5
 	5
 	christianity 80 pagan 20
@@ -1487,7 +1523,7 @@ Andalusia ; ok
 	6
 	islam 90 pagan 5 christianity 5
 Portugal ; ok
-	Badajoz ;Lissabon
+	Lisbon ;Lissabon
 	romans_scipii
 	Portuguese
 	13 198 30
@@ -1630,3 +1666,174 @@ Principality_of_Bari ; Apulia
 	5
 	4
 	christianity 95 pagan 5
+Thrakesion ; ok
+	Philadelphia
+	parthia
+	Mysians
+	234 223 59
+	turk, byz
+	5
+	3
+	christianity 75 pagan 25
+Armeniakon ; ok
+	Amasia
+	pontus
+	Paphlagonians
+	30 120 123
+	trebizond, main, turk, byz, anatol
+	5
+	3
+	christianity 50 pagan 5 islam 45
+Pamphylia ; ok
+	Kalonoros
+	pontus
+	Pamphylians
+	30 120 129
+	turk, byz, anatol, armen
+	5
+	3
+	christianity 70 pagan 15 islam 15
+Kesun ; ok
+	Hromkla
+	seleucid
+	Armenians
+	103 103 42
+	turk, crus_state, syr, armen
+	5
+	2
+	christianity 55 islam 40  pagan 5 
+Tsopk ; ok
+	Mayafarkin
+	thrace
+	Turcomans
+	37 120 129
+	turk, main, anatol
+	5
+	3
+	christianity 35 islam 60 pagan 5
+Turuberan ; ok
+	Manzikert
+	seleucid
+	Armenians
+	70 240 190
+	turk, armen
+	5
+	3
+	christianity 45 islam 45 pagan 10
+Optimatoi ; ok
+	Nikomedia
+	parthia
+	Bithynians
+	185 117 8
+	turk, elite, main, byz, anatol
+	5
+	3
+	christianity 70 pagan 15 islam 15
+Akarnania ; ok
+	Nikopolis
+	parthia
+	Hellenes
+	62 65 121
+	euro, greek, italy, main
+	5
+	3
+	christianity 70 pagan 30
+Morea ;ok
+	Mystra
+	parthia
+	Hellenes
+	25 44 252
+	euro, greek, italy, main
+	5
+	3
+	christianity 95 pagan 5
+Karin ; ok
+	Theodosioupolis
+	seleucid
+	Armenians
+	189 248 147
+	turk, main, armen
+	5
+	3
+	christianity 45 islam 45 pagan 10
+Arran ; ok
+	Ganja
+	thrace
+	Caucasian_Muslims
+	33 117 132
+	turk, trap, armen, main
+	5
+	3
+	islam 55 pagan 10 christianity 35
+Urmia ; ok
+	Tabriz
+	thrace
+	Azeris
+	33 117 209
+	turk, trap, main
+	5
+	3
+	islam 55 pagan 10 christianity 35
+Artsakh ; ok
+	Kapan
+	seleucid
+	Armenians
+	69 234 204
+	turk, main, armen
+	5
+	3
+	christianity 90 islam 5 pagan 5
+BasraR ; ok
+    	Basra
+	thrace
+	Ayyubids
+	24 222 194
+	turk, main, elite, abbasid 
+	5
+	4
+	islam 90 pagan 5 christianity 5
+Jibal ; ok
+	Hamadan
+	thrace
+	Azeris
+	255 125 143
+	steppe, turk, main, trap 
+	5
+	3
+	islam 80 pagan 10 christianity 10
+Extremadura ; ok
+	Badajoz
+	romans_scipii
+	Portuguese
+	241 203 246
+	andalus, euro, main, harbor, recon, portu, river  
+	5
+	5
+	islam 55 christianity 40 pagan 5
+Galicia ; ok
+	Compostela
+	romans_scipii
+	Galicians
+	187 191 234
+	leon, harbor, euro, main, elite, recon
+	5
+	3
+	christianity 95 pagan 5
+Holstein ; ok
+	Hamburg
+	germans
+	Saxons
+	109 80 120
+	forest, germ, euro, main, elite, river, sax, chapter, teuton
+	5
+	5
+	christianity 80 pagan 20
+Vastergotland ; ok
+	Skara
+	scythia
+	Svear
+	109 74 154
+	forest, scandinavia, euro, main
+	5
+	3
+	pagan 71 christianity 29 
