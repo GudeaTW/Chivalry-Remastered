@@ -2,7 +2,7 @@
   "romans_julii": 2,
   "romans_brutii": 2,
   "romans_scipii": 1,
-  "egypt": 3,
+  "egypt": 2,
 
   "britons": 1,
   "greek_cities": 1,
@@ -26,5 +26,6 @@
   "bulgaria": 3,
 
   "romans_senate": 3,
+  "pope": 3,
   "slave": -1
 }

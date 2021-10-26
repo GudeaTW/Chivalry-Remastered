@@ -15,7 +15,7 @@ plan
 ;; and generally makes the code logistics more straightforward
 strat
 {
-	buildings		data/models_strat/residences/eastern_large_town_buildings.CAS
+	buildings		data/models_strat/residences/MTW_large_town_russian.CAS
 	default_base	settlement_eastern_level_3
 
 	;;walls and base map overrides
@@ -23,17 +23,17 @@ strat
 	{
 		wooden_pallisade
 		{
-			model	data/models_strat/residences/roman_large_town_wall_1.CAS
+			model	data/models_strat/residences/MTW_palisade2_russian.CAS
 			base	settlement_eastern_walled_level_3
 		}
 		wooden_wall
 		{
-			model	data/models_strat/residences/roman_large_town_wall_2.CAS
+			model	data/models_strat/residences/MTW_stone_wall1_russian.CAS
 			base	settlement_eastern_walled_level_3
 		}
 		stone_wall
 		{
-			model	data/models_strat/residences/eastern_large_town_wall_3.CAS
+			model	data/models_strat/residences/MTW_fortified_wall1_russian.CAS
 			base	settlement_eastern_walled_level_3
 		}
 	}
@@ -43,24 +43,24 @@ strat
 	{
 		fishing_village
 		{
-			land_model	data/models_strat/residences/eastern_fishing_village.CAS
+			land_model	data/models_strat/residences/MTW_fishvillage_muslim.CAS
 			base	port_eastern_level_1
 		}
 		sea_port
 		{
-			land_model	data/models_strat/residences/eastern_port_01_land.CAS
+			land_model	data/models_strat/residences/MTW_port_muslim.CAS
 			sea_model	data/models_strat/residences/eastern_port_01_sea.CAS
 			base	port_eastern_level_2
 		}
 		shipwright
 		{
-			land_model	data/models_strat/residences/eastern_port_02_land.CAS
+			land_model	data/models_strat/residences/MTW_port_muslim.CAS
 			sea_model	data/models_strat/residences/eastern_port_02_sea.CAS
 			base	port_eastern_level_3
 		}
 		dockyard
 		{
-			land_model	data/models_strat/residences/eastern_port_03_land.CAS
+			land_model	data/models_strat/residences/MTW_port_muslim.CAS
 			sea_model	data/models_strat/residences/eastern_port_03_sea.CAS
 			base	port_eastern_level_4
 		}

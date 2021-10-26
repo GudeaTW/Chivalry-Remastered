@@ -2,47 +2,47 @@
 ; RK campaign  
 ;-----------------------------------------------------------------------------------------------------------------
 britons ; England start 6
-hold_regions London
+hold_regions London Jerusalem Tripoli Antioch Sidon Edessa Paris
 take_regions 27
 ;-----------------------------------------------------------------------------------------------------------------
 gauls ; France start 5
-hold_regions Paris
+hold_regions Paris Jerusalem Roma Koeln Antioch Dumyat Tripoli Edessa 
 take_regions 32
 ;-----------------------------------------------------------------------------------------------------------------
 germans ; HRE start 9
-hold_regions Magdeburg 
+hold_regions Magdeburg Roma Jerusalem Tripoli Antioch
 take_regions 34
 ;-----------------------------------------------------------------------------------------------------------------
 romans_scipii ; Castile start 4
-hold_regions Toledo
+hold_regions Toledo Granada Badajoz
 take_regions 19
 ;-----------------------------------------------------------------------------------------------------------------
 romans_senate ; Bohemia start 2
-hold_regions Roma
+hold_regions Roma Koeln Hamburg 
 take_regions 14
 ;-----------------------------------------------------------------------------------------------------------------
 spain ; Aragon start 2
-hold_regions Huesca 
+hold_regions Huesca Granada Badajoz Palma Palermo
 take_regions 18
 ;-----------------------------------------------------------------------------------------------------------------
 carthage ; Hungary start 5
-hold_regions Wien 
+hold_regions Wien Konstantinoupoli
 take_regions 21
 ;-----------------------------------------------------------------------------------------------------------------
 parthia ; Byzantine Empire start 14
-hold_regions Cyzicos  
+hold_regions Cyzicos Sis Jerusalem Roma Manzikert Van Ani Dumyat Granada Vahka Sis Tarsos Kalonoros Antioch
 take_regions 38 
 ;-----------------------------------------------------------------------------------------------------------------
 macedon ; Moors:Almoravids/Almohads/Berbers/Iazighen start 5  
-hold_regions Granada
+hold_regions Granada Toulouse Leon Palermo Palma
 take_regions 23
 ;-----------------------------------------------------------------------------------------------------------------
 thrace ; Turks: Seljuks/Ayyubids start 8  
-hold_regions Baghdad
+hold_regions Baghdad Tbilisi Kutaisi Shamakha Konstantinoupoli Dumyat
 take_regions 32
 ;-----------------------------------------------------------------------------------------------------------------
 greek_cities ; Egypt: Fatimids/Mameluks start 8  
-hold_regions Dumyat
+hold_regions Dumyat Baghdad Ardabil Basra Tabriz
 take_regions 20
 ;-----------------------------------------------------------------------------------------------------------------
 ;pontus ; NowgorodRus start 2 -faction removed- 
@@ -50,43 +50,43 @@ take_regions 20
 ;take_regions 23
 ;-----------------------------------------------------------------------------------------------------------------
 armenia ; KievRus start 4 
-hold_regions Kiev
+hold_regions Kiev Novgorod Pskov Samandar Tmutarakan Konstantinoupoli
 take_regions 34
 ;-----------------------------------------------------------------------------------------------------------------
 egypt ; Cumans/Steppe-People start 3  
-hold_regions Atyrau
+hold_regions Atyrau Ani Konstantinoupoli Kutaisi Tbilisi
 take_regions 30 
 ;-----------------------------------------------------------------------------------------------------------------
 seleucid ; Armenian Cilicia start 2 
-hold_regions Ani
+hold_regions Sis Tarsos Kalonoros Hromkla Edessa Mayafarkin Ani Manzikert Van Kapan Theodosioupolis Antioch
 take_regions 17
 ;-----------------------------------------------------------------------------------------------------------------
 georgia ; Kingdom of Georgia start 1 
-hold_regions Ani
+hold_regions Ani Kapan Telavi Tbilisi Manzikert Van Tabriz Ardabil Shamakha
 take_regions 20
 ;-----------------------------------------------------------------------------------------------------------------
 numidia ; Poland start 4   
-hold_regions Magdeburg
+hold_regions Magdeburg Novgorod Kiev 
 take_regions 23
 ;-----------------------------------------------------------------------------------------------------------------
 dacia ; Norman Sicily start 2 
-hold_regions Palermo
+hold_regions Palermo Antioch Edessa Hromkla Jerusalem Tripoli Sidon
 take_regions 20
 ;-----------------------------------------------------------------------------------------------------------------
 scythia ; Denmark start 3 
-hold_regions London
+hold_regions London Visby Sidon Compostela Rouen
 take_regions 19
 ;-----------------------------------------------------------------------------------------------------------------
 romans_brutii ; Berbers/Zirids start 4  
-hold_regions Palermo
+hold_regions Palermo Roma Granada Cordoba
 take_regions 18
 ;-----------------------------------------------------------------------------------------------------------------
 romans_julii ; Italians/Pisa start 2   
-hold_regions Palma
+hold_regions Palma Jerusalem Antioch Tripoli Edessa Sidon
 take_regions 18
 ;-----------------------------------------------------------------------------------------------------------------
 pontus ; Rum-Turks start 2  
-hold_regions Konstantinoupoli
+hold_regions Konstantinoupoli Theodosioupolis Nikaia Nikopolis Kalonoros Tarsos Vahka Sis Manzikert Van
 take_regions 20
 ;-----------------------------------------------------------------------------------------------------------------
 ;slave ; Independent Nations start 97 

@@ -6,7 +6,7 @@ plan
 ;; and generally makes the code logistics more straightforward
 strat
 {
-	buildings		data/models_strat/residences/roman_large_town_buildings.CAS
+	buildings		data/models_strat/residences/MTW_large_town_russian.CAS
 	default_base	settlement_roman_level_3
 
 	;;walls and base map overrides
@@ -14,17 +14,17 @@ strat
 	{
 		wooden_pallisade
 		{
-			model	data/models_strat/residences/roman_large_town_wall_1.CAS
+			model	data/models_strat/residences/MTW_palisade2_russian.CAS
 			base	settlement_roman_walled_level_3
 		}
 		wooden_wall
 		{
-			model	data/models_strat/residences/roman_large_town_wall_2.CAS
+			model	data/models_strat/residences/MTW_stone_wall1_russian.CAS
 			base	settlement_roman_walled_level_3
 		}
 		stone_wall
 		{
-			model	data/models_strat/residences/greek_large_town_wall_3.CAS
+			model	data/models_strat/residences/MTW_fortified_wall1_russian.CAS
 			base	settlement_roman_walled_level_3
 		}
 	}
@@ -34,31 +34,31 @@ strat
 	{
 		fishing_village
 		{
-			land_model	data/models_strat/residences/roman_fishing_village.CAS
+			land_model	data/models_strat/residences/MTW_fishvillage_muslim.CAS
 			base	port_roman_level_1
 		}
 		sea_port
 		{
-			land_model	data/models_strat/residences/roman_port_01_land.CAS
+			land_model	data/models_strat/residences/MTW_port_muslim.CAS
 			sea_model	data/models_strat/residences/roman_port_01_sea.CAS
 			base	port_roman_level_2
 		}
 		shipwright
 		{
-			land_model	data/models_strat/residences/roman_port_02_land.CAS
+			land_model	data/models_strat/residences/MTW_port_muslim.CAS
 			sea_model	data/models_strat/residences/roman_port_02_sea.CAS
 			base	port_roman_level_3
 		}
 		dockyard
 		{
-			land_model	data/models_strat/residences/roman_port_03_land.CAS
+			land_model	data/models_strat/residences/MTW_port_muslim.CAS
 			sea_model	data/models_strat/residences/roman_port_03_sea.CAS
 			base	port_roman_level_4
 		}
 	}
 }
 target rectangle 		x 40 z 40 rot 0 width 64 height 64
-floor			greek_large_town_underlay.cas greek_large_town_overlay.cas
+floor			roman_large_town_underlay.cas greek_large_town_overlay.cas
 ground_types		roman_large_town_ground.tga -352 -352 352 352
 street_plan 		pathfinding_roman_large_town.cas
 
@@ -192,115 +192,115 @@ greek_granary,		220,		-75.07,	90,	0.5
 greek_granary,		-90.08,		-130.22,	0,	0.5
 greek_granary,		16.974,		197.295,	90,	0.5
 
-greek_tenamentA1_group,	147.67,	108.14,	-90.00,	0.50
-greek_tenamentA2_group,	211.01,	186.16,	175.00,	0.50
-greek_tenamentA3_group,	207.44,	-215.27,	-90.00,	0.50
-greek_tenamentA3_group,	-214.66,	-50.02,	0.00,	0.50
-greek_tenamentA3_group,	50.82,	-115.57,	-90.00,	0.50
-greek_tenamentA1_group,	-110.52,	213.61,	-90.00,	0.50
-greek_tenamentA2_group,	-110.54,	115.95,	-90.00,	0.50
-greek_tenamentA3_group,	-99.75,	43.16,	-90.00,	0.50
-greek_tenamentA3_group,	-43.33,	-206.26,	0.00,	0.50
-greek_tenamentA3_group,	-43.81,	-119.32,	0.00,	0.50
-greek_tenamentA1_group,	-206.21,	-212.72,	-90.00,	0.50
-greek_tenamentA2_group,	141.03,	204.17,	0.00,	0.50
-greek_tenamentA3_group,	-203.8,	154.84,	0,	0.5
+greek_tenamentA_group,	147.67,	108.14,	-90.00,	0.50
+greek_tenamentA_group,	211.01,	186.16,	175.00,	0.50
+greek_tenamentA_group,	207.44,	-215.27,	-90.00,	0.50
+greek_tenamentA_group,	-214.66,	-50.02,	0.00,	0.50
+greek_tenamentA_group,	50.82,	-115.57,	-90.00,	0.50
+greek_tenamentA_group,	-110.52,	213.61,	-90.00,	0.50
+greek_tenamentA_group,	-110.54,	115.95,	-90.00,	0.50
+greek_tenamentA_group,	-99.75,	43.16,	-90.00,	0.50
+greek_tenamentA_group,	-43.33,	-206.26,	0.00,	0.50
+greek_tenamentA_group,	-43.81,	-119.32,	0.00,	0.50
+greek_tenamentA_group,	-206.21,	-212.72,	-90.00,	0.50
+greek_tenamentA_group,	141.03,	204.17,	0.00,	0.50
+greek_tenamentA_group,	-203.8,	154.84,	0,	0.5
 
-greek_tenamentB1,	-226.96,	24.56,	0.00,	0.50
-greek_tenamentB2,	32.04,	103.42,	0.00,	0.50
-greek_tenamentB3,	-95.50,	-25.75,	90.00,	0.50
-greek_tenamentB4,	-30.26,	-56.19,	0.00,	0.50
-greek_tenamentB5,	-95.17,	-93.83,	0.00,	0.50
-greek_tenamentB1,	26.00,	-167.52,	0.00,	0.50
-greek_tenamentB2,	122.08,	-197.68,	0.00,	0.50
-greek_tenamentB3,	193.39,	-160.47,	0.00,	0.50
-greek_tenamentB4,	232.45,	-100.06,	0.00,	0.50
-greek_tenamentB5, 	20.97,	229.26,	0,	0.5
+greek_tenamentB,	-226.96,	24.56,	0.00,	0.50
+greek_tenamentB,	32.04,	103.42,	0.00,	0.50
+greek_tenamentB,	-95.50,	-25.75,	90.00,	0.50
+greek_tenamentB,	-30.26,	-56.19,	0.00,	0.50
+greek_tenamentB,	-95.17,	-93.83,	0.00,	0.50
+greek_tenamentB,	26.00,	-167.52,	0.00,	0.50
+greek_tenamentB,	122.08,	-197.68,	0.00,	0.50
+greek_tenamentB,	193.39,	-160.47,	0.00,	0.50
+greek_tenamentB,	232.45,	-100.06,	0.00,	0.50
+greek_tenamentB, 	20.97,	229.26,	0,	0.5
 
-greek_tenamentC1,	234.00,	-146.92,	90.00,	0.50
-greek_tenamentC2,	-190.99,	-121.32,	-90.00,	0.50
-greek_tenamentC3,	135.99,	-39.76,	90.00,	0.50
-greek_tenamentC4,	-25.98,	71.72,	90.00,	0.50
-greek_tenamentC5,	-47.95,	215.05,	95.00,	0.50
-greek_tenamentC1,	-14.54,	212.35,	90.00,	0.50
-greek_tenamentC2,	214.95,	37.28,	0.00,	0.50
-greek_tenamentC3,	-174.25,	25.83,	180.00,	0.50
-greek_tenamentC4,	-129.14,	-230.50,	180.00,	0.50
-greek_tenamentC5,	25.95,	-215.01,	90.00,	0.50
-greek_tenamentC1,	-216.00,	87.00,	180.00,	0.50
-greek_tenamentC2,	226.61,	107.84,	85.00,	0.50
-greek_tenamentC3,	186.94,	-74.2,	90,	0.5
-greek_tenamentC4,	-134.66,	-180.54,	90,	0.5
+greek_tenamentC,	234.00,	-146.92,	90.00,	0.50
+greek_tenamentC,	-190.99,	-121.32,	-90.00,	0.50
+greek_tenamentC,	135.99,	-39.76,	90.00,	0.50
+greek_tenamentC,	-25.98,	71.72,	90.00,	0.50
+greek_tenamentC,	-47.95,	215.05,	95.00,	0.50
+greek_tenamentC,	-14.54,	212.35,	90.00,	0.50
+greek_tenamentC,	214.95,	37.28,	0.00,	0.50
+greek_tenamentC,	-174.25,	25.83,	180.00,	0.50
+greek_tenamentC,	-129.14,	-230.50,	180.00,	0.50
+greek_tenamentC,	25.95,	-215.01,	90.00,	0.50
+greek_tenamentC,	-216.00,	87.00,	180.00,	0.50
+greek_tenamentC,	226.61,	107.84,	85.00,	0.50
+greek_tenamentC,	186.94,	-74.2,	90,	0.5
+greek_tenamentC,	-134.66,	-180.54,	90,	0.5
 
-greek_tenamentD1,	191.61,	232.57,	95.00,	0.50
-greek_tenamentD2,	48.85,	-230.76,	0.00,	0.50
-greek_tenamentD3,	48.85,	-167.28,	0.00,	0.50
-greek_tenamentD4,	-191.79,	50.42,	90.00,	0.50
-greek_tenamentD5,	145.40,	-201.05,	0.00,	0.50
-greek_tenamentD1,	-96.66,	-47.18,	-90.00,	0.50
-greek_tenamentD2,	-75.49,	-25.33,	0.00,	0.50
-greek_tenamentD3,	-49.28,	56.00,	0.00,	0.50
-greek_tenamentD4,	-52.53,	108.64,	90.00,	0.50
-greek_tenamentD5,	78.49,	25.32,	0.00,	0.50
-greek_tenamentD1,	78.49,	56.84,	0.00,	0.50
-greek_tenamentD2,	135.40,	-74.19,	90.00,	0.50
-greek_tenamentD3,	-171.10,	-137.83,	0.00,	0.50
-greek_tenamentD4,	97.77,	-99.27,	0.00,	0.50
-greek_tenamentD5,	77.71,	-77.35,	90.00,	0.50
-greek_tenamentD1,	24.96,	-77.88,	90.00,	0.50
-greek_tenamentD2,	107.67,	-135.31,	0.00,	0.50
-greek_tenamentD3,	-86.10,	-229.47,	20.00,	0.50
-greek_tenamentD4,	-92.95,	-202.44,	90.00,	0.50
-greek_tenamentD5,	-199.96,	-172.74,	90.00,	0.50
-greek_tenamentD1,	123.40,	156.86,	95.00,	0.50
-greek_tenamentD2,	201.20,	91.07,	0.00,	0.50
-greek_tenamentD3, 	72.75,	189.38,	0,	0.5
-greek_tenamentD4, 	83.04,	184.89,	0,	0.5
-
-
-greek_tenamentE1,	188.63,	242.32,	91.69,	0.50
-greek_tenamentE2,	243.25,	231.55,	1.69,	0.50
-greek_tenamentE1,	54.64,	113.09,	91.69,	0.50
-greek_tenamentE2,	81.15,	91.13,	1.69,	0.50
-greek_tenamentE1,	81.15,	80.36,	1.69,	0.50
-greek_tenamentE2,	-16.86,	108.41,	-178.31,	0.50
-greek_tenamentE1,	-29.92,	108.41,	-178.31,	0.50
-greek_tenamentE2,	-115.40,	-16.73,	91.69,	0.50
-greek_tenamentE1,	-211.74,	-144.57,	91.69,	0.50
-greek_tenamentE2,	-76.49,	-48.12,	91.69,	0.50
-greek_tenamentE1,	-116.43,	-36.39,	91.69,	0.50
-greek_tenamentE2,	49.69,	-77.93,	-173.31,	0.50
-greek_tenamentE1,	97.82,	-125.78,	91.69,	0.50
-greek_tenamentE2,	97.82,	-143.47,	91.69,	0.50
-greek_tenamentE1,	115.15,	146.06,	1.69,	0.50
+greek_tenamentD,	191.61,	232.57,	95.00,	0.50
+greek_tenamentD,	48.85,	-230.76,	0.00,	0.50
+greek_tenamentD,	48.85,	-167.28,	0.00,	0.50
+greek_tenamentD,	-191.79,	50.42,	90.00,	0.50
+greek_tenamentD,	145.40,	-201.05,	0.00,	0.50
+greek_tenamentD,	-96.66,	-47.18,	-90.00,	0.50
+greek_tenamentD,	-75.49,	-25.33,	0.00,	0.50
+greek_tenamentD,	-49.28,	56.00,	0.00,	0.50
+greek_tenamentD,	-52.53,	108.64,	90.00,	0.50
+greek_tenamentD,	78.49,	25.32,	0.00,	0.50
+greek_tenamentD,	78.49,	56.84,	0.00,	0.50
+greek_tenamentD,	135.40,	-74.19,	90.00,	0.50
+greek_tenamentD,	-171.10,	-137.83,	0.00,	0.50
+greek_tenamentD,	97.77,	-99.27,	0.00,	0.50
+greek_tenamentD,	77.71,	-77.35,	90.00,	0.50
+greek_tenamentD,	24.96,	-77.88,	90.00,	0.50
+greek_tenamentD,	107.67,	-135.31,	0.00,	0.50
+greek_tenamentD,	-86.10,	-229.47,	20.00,	0.50
+greek_tenamentD,	-92.95,	-202.44,	90.00,	0.50
+greek_tenamentD,	-199.96,	-172.74,	90.00,	0.50
+greek_tenamentD,	123.40,	156.86,	95.00,	0.50
+greek_tenamentD,	201.20,	91.07,	0.00,	0.50
+greek_tenamentD, 	72.75,	189.38,	0,	0.5
+greek_tenamentD, 	83.04,	184.89,	0,	0.5
 
 
-tree_A,	-143.16,	174.11,	0.00, 1.00
-tree_A,	-104.92,	174.11,	0.00, 1.00
-tree_A,	-69.40,	174.11,	0.00, 1.00
-tree_A,	13.04,		184.121,	0,	1.00
+greek_tenamentE,	188.63,	242.32,	91.69,	0.50
+greek_tenamentE,	243.25,	231.55,	1.69,	0.50
+greek_tenamentE,	54.64,	113.09,	91.69,	0.50
+greek_tenamentE,	81.15,	91.13,	1.69,	0.50
+greek_tenamentE,	81.15,	80.36,	1.69,	0.50
+greek_tenamentE,	-16.86,	108.41,	-178.31,	0.50
+greek_tenamentE,	-29.92,	108.41,	-178.31,	0.50
+greek_tenamentE,	-115.40,	-16.73,	91.69,	0.50
+greek_tenamentE,	-211.74,	-144.57,	91.69,	0.50
+greek_tenamentE,	-76.49,	-48.12,	91.69,	0.50
+greek_tenamentE,	-116.43,	-36.39,	91.69,	0.50
+greek_tenamentE,	49.69,	-77.93,	-173.31,	0.50
+greek_tenamentE,	97.82,	-125.78,	91.69,	0.50
+greek_tenamentE,	97.82,	-143.47,	91.69,	0.50
+greek_tenamentE,	115.15,	146.06,	1.69,	0.50
 
-tree_B,	122.53,	-196.50,	0.00, 1.00
-tree_B,	-92.75,	-241.15,	0.00, 1.00
-tree_B,	-226.76,	-24.68,	0.00, 1.00
-tree_B,	-54.88,	-93.08,	0.00, 1.00
-tree_B,	-42.12,	-74.83,	0.00, 1.00
 
-tree_C,	171.77,	-71.67,	0.00, 1.00
-tree_C,	-242.07,	124.29,	0.00, 1.00
-tree_C,	-204.59,	110.84,	0.00, 1.00
+tree_A,	-143.16,	174.11,	0.00,	1.50
+tree_A,	-104.92,	174.11,	0.00,	1.50
+tree_A,	-69.40,	174.11,	0.00,	1.50
+tree_A,	13.04,		184.121,	0,	1.5
 
-tree_E,	16.63,	-145.03,	0.00, 1.00
-tree_E,	105.83,	-75.83,	0.00, 1.00
-tree_E,	-185.79,	-85.71,	0.00, 1.00
-tree_E,	240.48,	-78.17,	0.00, 1.00
+tree_B,	122.53,	-196.50,	0.00,	1.50
+tree_B,	-92.75,	-241.15,	0.00,	1.50
+tree_B,	-226.76,	-24.68,	0.00,	1.50
+tree_B,	-54.88,	-93.08,	0.00,	1.50
+tree_B,	-42.12,	-74.83,	0.00,	1.50
 
-tree_F,	-57.74,	132.60,	0.00, 1.00
-tree_F,	180.85,	242.21,	0.00, 1.00
-tree_F,	134.36,	146.81,	0.00, 1.00
-tree_F,	-203.59,	223.34,	0.00, 1.00
-tree_F,	97.92,	-78.24,	0,	1.00
-tree_F,	114.26,	-75.33,	0,	1.00
+tree_C,	171.77,	-71.67,	0.00,	1.50
+tree_C,	-242.07,	124.29,	0.00,	1.50
+tree_C,	-204.59,	110.84,	0.00,	1.50
+
+tree_E,	16.63,	-145.03,	0.00,	1.50
+tree_E,	105.83,	-75.83,	0.00,	1.50
+tree_E,	-185.79,	-85.71,	0.00,	1.50
+tree_E,	240.48,	-78.17,	0.00,	1.50
+
+tree_F,	-57.74,	132.60,	0.00,	1.50
+tree_F,	180.85,	242.21,	0.00,	1.50
+tree_F,	134.36,	146.81,	0.00,	1.50
+tree_F,	-203.59,	223.34,	0.00,	1.50
+tree_F,	97.92,	-78.24,	0,	1.5
+tree_F,	114.26,	-75.33,	0,	1.5
 
 
 tree_box,	-143.16,	174.11,	0.00,	0.50
@@ -325,6 +325,6 @@ tree_box,	180.85,	242.21,	0.00,	0.50
 tree_box,	-242.07,	124.29,	0.00,	0.50
 tree_box,	-204.59,	110.84,	0.00,	0.50
 tree_box,	-203.59,	223.34,	0.00,	0.50
-tree_box,	13.04,	184.121,	0,	0.50
+tree_box,	13.04,	184.121,	0,	0.5
 
 	}

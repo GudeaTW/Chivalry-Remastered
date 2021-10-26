@@ -187,12 +187,14 @@ type				italian_city_militia
 skeleton			fs_medium_spearman
 pbr_texture			romans_julii, data/models_unit/textures/MTW_unit_italian_militia_rebel_pbr.tga
 pbr_texture			dacia, data/models_unit/textures/MTW_unit_italian_militia_papal_pbr.tga
+pbr_texture			pope, data/models_unit/textures/MTW_unit_italian_militia_papal_pbr.tga
 pbr_texture			slave, data/models_unit/textures/MTW_unit_italian_militia_rebel_pbr.tga
 pbr_texture			germans, data/models_unit/textures/MTW_unit_italian_militia_papal_pbr.tga
 pbr_texture			gauls, data/models_unit/textures/MTW_unit_italian_militia_rebel_pbr.tga
 pbr_texture			britons, data/models_unit/textures/MTW_unit_italian_militia_rebel_pbr.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_italian_militia_rebel.tga
 texture				dacia, data/models_unit/textures/MTW_unit_italian_militia_papal.tga
+texture				pope, data/models_unit/textures/MTW_unit_italian_militia_papal.tga
 texture				slave, data/models_unit/textures/MTW_unit_italian_militia_rebel.tga
 texture				germans, data/models_unit/textures/MTW_unit_italian_militia_papal.tga
 texture				gauls, data/models_unit/textures/MTW_unit_italian_militia_rebel.tga
@@ -261,11 +263,13 @@ no_variation model_flexi			data/models_unit/MTW_unit_caucasian_mountaineer_merc.
 type				ribaldi
 skeleton			fs_swordsman
 pbr_texture			romans_julii, data/models_unit/textures/MTW_unit_ribaldi_papal_pbr.tga
+pbr_texture			pope, data/models_unit/textures/MTW_unit_ribaldi_papal_pbr.tga
 pbr_texture			romans_senate, data/models_unit/textures/MTW_unit_ribaldi_papal_pbr.tga
 pbr_texture			slave, data/models_unit/textures/MTW_unit_ribaldi_pbr.tga
 pbr_texture			dacia, data/models_unit/textures/MTW_unit_ribaldi_pbr.tga
 pbr_texture			germans, data/models_unit/textures/MTW_unit_ribaldi_pbr.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_ribaldi_papal.tga
+texture				pope, data/models_unit/textures/MTW_unit_ribaldi_papal.tga
 texture				romans_senate, data/models_unit/textures/MTW_unit_ribaldi_papal.tga
 texture				slave, data/models_unit/textures/MTW_unit_ribaldi.tga
 texture				dacia, data/models_unit/textures/MTW_unit_ribaldi.tga
@@ -355,6 +359,7 @@ no_variation model_flexi			data/models_unit/MTW_unit_fanatic.CAS, max
 type				feudal_foot_knight
 skeleton			fs_medium_swordsman
 pbr_texture			romans_julii, data/models_unit/textures/MTW_unit_feudal_knight_pisa_pbr.tga
+pbr_texture			pope, data/models_unit/textures/MTW_unit_feudal_knight_papal_pbr.tga
 pbr_texture			romans_brutii, data/models_unit/textures/MTW_unit_feudal_knight_jerusalem_pbr.tga
 pbr_texture			romans_scipii, data/models_unit/textures/MTW_unit_feudal_knight_castille_pbr.tga
 pbr_texture			romans_senate, data/models_unit/textures/MTW_unit_feudal_knight_boh_pbr.tga
@@ -368,6 +373,7 @@ pbr_texture			scythia, data/models_unit/textures/MTW_unit_feudal_knight_denmark_
 pbr_texture			spain, data/models_unit/textures/MTW_unit_feudal_knight_aragon_pbr.tga
 pbr_texture			slave, data/models_unit/textures/MTW_unit_feudal_knight_rebel_pbr.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_feudal_knight_pisa.tga
+texture				pope, data/models_unit/textures/MTW_unit_feudal_knight_papal.tga
 texture				romans_brutii, data/models_unit/textures/MTW_unit_feudal_knight_jerusalem.tga
 texture				romans_scipii, data/models_unit/textures/MTW_unit_feudal_knight_castille.tga
 texture				romans_senate, data/models_unit/textures/MTW_unit_feudal_knight_boh.tga
@@ -479,6 +485,7 @@ texture		        numidia, data/models_unit/textures/it_briganti.tga
 texture		        scythia, data/models_unit/textures/it_briganti.tga
 texture		        romans_senate, data/models_unit/textures/it_briganti.tga
 texture		        romans_julii, data/models_unit/textures/it_briganti.tga
+texture		        pope, data/models_unit/textures/it_briganti.tga
 texture		        slave, data/models_unit/textures/it_briganti.tga
 model_flexi_m			data/models_unit/it_briganti.cas, 40		
 model_flexi			data/models_unit/it_briganti.cas, max
@@ -575,6 +582,7 @@ no_variation model_flexi			data/models_unit/MTW_unit_steppe_cavalry.cas, max
 type				mounted_sergeant
 skeleton			fs_hc_spearman
 pbr_texture			romans_julii, data/models_unit/textures/MTW_unit_mounted_sergeant_boh_pbr.tga
+pbr_texture			pope, data/models_unit/textures/MTW_unit_mounted_sergeant_papal_pbr.tga
 pbr_texture			romans_brutii, data/models_unit/textures/MTW_unit_mounted_sergeant_jerusalem_pbr.tga
 pbr_texture			romans_scipii, data/models_unit/textures/MTW_unit_mounted_sergeant_castille_pbr.tga
 pbr_texture			romans_senate, data/models_unit/textures/MTW_unit_mounted_sergeant_boh_pbr.tga
@@ -588,6 +596,7 @@ pbr_texture			scythia, data/models_unit/textures/MTW_unit_mounted_sergeant_denma
 pbr_texture			spain, data/models_unit/textures/MTW_unit_mounted_sergeant_aragon_pbr.tga
 pbr_texture			slave, data/models_unit/textures/MTW_unit_mounted_sergeant_rebel_pbr.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_mounted_sergeant_boh.tga
+texture				pope, data/models_unit/textures/MTW_unit_mounted_sergeant_papal.tga
 texture				romans_brutii, data/models_unit/textures/MTW_unit_mounted_sergeant_jerusalem.tga
 texture				romans_scipii, data/models_unit/textures/MTW_unit_mounted_sergeant_castille.tga
 texture				romans_senate, data/models_unit/textures/MTW_unit_mounted_sergeant_boh.tga
@@ -665,6 +674,7 @@ texture				scythia, data/models_unit/textures/MTW_unit_axeman_denmark.tga
 texture				slave, data/models_unit/textures/MTW_unit_axeman_rebel.tga
 texture				gauls, data/models_unit/textures/MTW_unit_axeman_rebel.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_axeman_rebel.tga
+texture				pope, data/models_unit/textures/MTW_unit_axeman_rebel.tga
 model_flexi_m			data/models_unit/MTW_unit_axeman.cas, 40
 model_flexi			data/models_unit/MTW_unit_axeman.cas, max
 no_variation model_flexi_m			data/models_unit/MTW_unit_axeman.cas, 40
@@ -674,6 +684,7 @@ type				peasant
 skeleton			fs_spearman
 pbr_texture			data/models_unit/textures/MTW_unit_peasant_poland_pbr.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_peasant_poland.tga
+texture				pope, data/models_unit/textures/MTW_unit_peasant_papal.tga
 texture				romans_brutii, data/models_unit/textures/MTW_unit_peasant_egypt.tga
 texture				romans_scipii, data/models_unit/textures/MTW_unit_peasant_castille.tga
 texture				romans_senate, data/models_unit/textures/MTW_unit_peasant_poland.tga
@@ -703,6 +714,7 @@ type				spearman
 skeleton			fs_spearman
 pbr_texture			data/models_unit/textures/MTW_unit_spearman_poland_pbr.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_spearman_poland.tga
+texture				pope, data/models_unit/textures/MTW_unit_spearman_papal.tga
 texture				romans_brutii, data/models_unit/textures/MTW_unit_spearman_egypt.tga
 texture				romans_scipii, data/models_unit/textures/MTW_unit_spearman_castille.tga
 texture				romans_senate, data/models_unit/textures/MTW_unit_spearman_poland.tga
@@ -745,6 +757,7 @@ no_variation model_flexi         data/models_unit/MTW_unit_andalusian_infantry.c
 type				feudal_sergeants
 skeleton			fs_spearman
 pbr_texture			romans_julii, data/models_unit/textures/MTW_unit_feudal_sergeant_papal_pbr.tga
+pbr_texture			pope, data/models_unit/textures/MTW_unit_feudal_sergeant_papal_pbr.tga
 pbr_texture			romans_brutii, data/models_unit/textures/MTW_unit_feudal_sergeant_jerusalem_pbr.tga
 pbr_texture			romans_scipii, data/models_unit/textures/MTW_unit_feudal_sergeant_castille_pbr.tga
 pbr_texture			romans_senate, data/models_unit/textures/MTW_unit_feudal_sergeant_papal_pbr.tga
@@ -758,6 +771,7 @@ pbr_texture			scythia, data/models_unit/textures/MTW_unit_feudal_sergeant_denmar
 pbr_texture			spain, data/models_unit/textures/MTW_unit_feudal_sergeant_aragon_pbr.tga
 pbr_texture			slave, data/models_unit/textures/MTW_unit_feudal_sergeant_rebel_pbr.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_feudal_sergeant_papal.tga
+texture				pope, data/models_unit/textures/MTW_unit_feudal_sergeant_papal.tga
 texture				romans_brutii, data/models_unit/textures/MTW_unit_feudal_sergeant_jerusalem.tga
 texture				romans_scipii, data/models_unit/textures/MTW_unit_feudal_sergeant_castille.tga
 texture				romans_senate, data/models_unit/textures/MTW_unit_feudal_sergeant_papal.tga
@@ -802,6 +816,7 @@ no_variation model_flexi			data/models_unit/MTW_unit_kings_huscarl.cas, max
 type				armoured_spearman
 skeleton			fs_medium_spearman
 pbr_texture			romans_julii, data/models_unit/textures/MTW_unit_feudal_menatarms_pisa_pbr.TGA
+pbr_texture			pope, data/models_unit/textures/MTW_unit_feudal_menatarms_papal_pbr.TGA
 pbr_texture			romans_brutii, data/models_unit/textures/MTW_unit_crusader_infantry_jerusalem_pbr.TGA
 pbr_texture			britons, data/models_unit/textures/MTW_unit_feudal_menatarms_england_pbr.TGA
 pbr_texture			dacia, data/models_unit/textures/MTW_unit_feudal_menatarms_sicily_pbr.TGA
@@ -816,6 +831,7 @@ pbr_texture			romans_senate, data/models_unit/textures/MTW_unit_feudal_menatarms
 pbr_texture			slave, data/models_unit/textures/MTW_unit_feudal_menatarms_rebel_pbr.TGA
 pbr_texture			carthage, data/models_unit/textures/MTW_unit_feudal_menatarms_hungary_pbr.TGA
 texture				romans_julii, data/models_unit/textures/MTW_unit_feudal_menatarms_pisa.TGA
+texture				pope, data/models_unit/textures/MTW_unit_feudal_menatarms_papal.TGA
 ;texture				romans_brutii, data/models_unit/textures/MTW_unit_crusader_infantry_jerusalem.TGA ; kept for record only
 texture				romans_scipii, data/models_unit/textures/MTW_unit_frankish_mercenary_castille.tga ; as officer! 
 texture				britons, data/models_unit/textures/MTW_unit_feudal_menatarms_england.tga
@@ -1195,6 +1211,7 @@ no_variation model_flexi			data/models_unit/MTW_unit_fonsado.cas, max
 type				dismounted_sergeant
 skeleton			fs_spearman
 pbr_texture			romans_julii, data/models_unit/textures/MTW_unit_dismounted_sergeant_boh_pbr.tga
+pbr_texture			pope, data/models_unit/textures/MTW_unit_dismounted_sergeant_papal_pbr.tga
 pbr_texture			merc, data/models_unit/textures/MTW_unit_dismounted_sergeant_jerusalem_pbr.tga
 pbr_texture			romans_scipii, data/models_unit/textures/MTW_unit_dismounted_sergeant_castille_pbr.tga
 pbr_texture			romans_senate, data/models_unit/textures/MTW_unit_dismounted_sergeant_boh_pbr.tga
@@ -1208,6 +1225,7 @@ pbr_texture			scythia, data/models_unit/textures/MTW_unit_dismounted_sergeant_de
 pbr_texture			spain, data/models_unit/textures/MTW_unit_dismounted_sergeant_aragon_pbr.tga
 pbr_texture			slave, data/models_unit/textures/MTW_unit_dismounted_sergeant_rebel_pbr.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_dismounted_sergeant_boh.tga
+texture				pope, data/models_unit/textures/MTW_unit_dismounted_sergeant_papal.tga
 texture				merc, data/models_unit/textures/MTW_unit_dismounted_sergeant_jerusalem.tga
 texture				romans_scipii, data/models_unit/textures/MTW_unit_dismounted_sergeant_castille.tga
 texture				romans_senate, data/models_unit/textures/MTW_unit_dismounted_sergeant_boh.tga
@@ -1293,6 +1311,7 @@ no_variation model_flexi			data/models_unit/MTW_unit_royal_knight_early.cas, max
 type				urban_militia
 skeleton			fs_2handed
 pbr_texture			romans_julii, data/models_unit/textures/MTW_unit_urban_militia_poland_pbr.tga
+pbr_texture			pope, data/models_unit/textures/MTW_unit_urban_militia_papal_pbr.tga
 pbr_texture			romans_brutii, data/models_unit/textures/MTW_unit_urban_militia_pbr.tga
 pbr_texture			romans_scipii, data/models_unit/textures/MTW_unit_urban_militia_castille_pbr.tga
 pbr_texture			romans_senate, data/models_unit/textures/MTW_unit_urban_militia_poland_pbr.tga
@@ -1305,6 +1324,7 @@ pbr_texture			scythia, data/models_unit/textures/MTW_unit_urban_militia_denmark_
 pbr_texture			spain, data/models_unit/textures/MTW_unit_urban_militia_aragon_pbr.tga
 pbr_texture			slave, data/models_unit/textures/MTW_unit_urban_militia_rebel_pbr.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_urban_militia_poland.tga
+texture				pope, data/models_unit/textures/MTW_unit_urban_militia_papal.tga
 texture				romans_brutii, data/models_unit/textures/MTW_unit_urban_militia.tga
 texture				romans_scipii, data/models_unit/textures/MTW_unit_urban_militia_castille.tga
 texture				romans_senate, data/models_unit/textures/MTW_unit_urban_militia_poland.tga
@@ -1366,6 +1386,7 @@ type				italian_city_militia_exp
 skeleton			fs_medium_spearman
 pbr_texture			data/models_unit/textures/MTW_unit_italian_militia_rebel_pbr.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_italian_militia_rebel.tga
+texture				pope, data/models_unit/textures/MTW_unit_italian_militia_rebel.tga
 texture				romans_senate, data/models_unit/textures/MTW_unit_italian_militia_rebel.tga
 texture				dacia, data/models_unit/textures/MTW_unit_italian_militia_rebel.tga
 texture				slave, data/models_unit/textures/MTW_unit_italian_militia_rebel.tga
@@ -1401,6 +1422,7 @@ type				elite_feudal_foot_knight
 skeleton			fs_medium_swordsman
 pbr_texture			data/models_unit/textures/MTW_unit_feudal_knight_elite_pbr.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_feudal_knight_elite.tga
+texture				pope, data/models_unit/textures/MTW_unit_feudal_knight_elite.tga
 texture				romans_brutii, data/models_unit/textures/MTW_unit_feudal_knight_elite.tga
 texture				romans_scipii, data/models_unit/textures/MTW_unit_feudal_knight_elite.tga
 texture				romans_senate, data/models_unit/textures/MTW_unit_feudal_knight_elite.tga
@@ -1523,6 +1545,7 @@ no_variation model_flexi			data/models_unit/MTW_unit_norman_spearman_med_old.cas
 type 			feudal_foot_standard_lesser
 skeleton 		fs_standard_bearer
 pbr_texture 		romans_julii, data/models_unit/textures/MTW_officer_lesser_feudal_standard_pisa_pbr.tga
+pbr_texture 		pope, data/models_unit/textures/MTW_officer_lesser_feudal_standard_crusader_pbr.tga
 pbr_texture 		romans_scipii, data/models_unit/textures/MTW_officer_lesser_feudal_standard_castile_pbr.tga
 pbr_texture 		romans_senate, data/models_unit/textures/MTW_officer_lesser_feudal_standard_bohemia_pbr.tga
 pbr_texture 		britons, data/models_unit/textures/MTW_officer_lesser_feudal_standard_england_pbr.tga
@@ -1535,6 +1558,7 @@ pbr_texture 		scythia, data/models_unit/textures/MTW_officer_lesser_feudal_stand
 pbr_texture 		spain, data/models_unit/textures/MTW_officer_lesser_feudal_standard_aragon_pbr.tga
 pbr_texture 		slave, data/models_unit/textures/MTW_officer_lesser_feudal_standard_rebel_pbr.tga
 texture 		romans_julii, data/models_unit/textures/MTW_officer_lesser_feudal_standard_pisa.tga
+texture 		pope, data/models_unit/textures/MTW_officer_lesser_feudal_standard_crusader.tga
 texture 		romans_scipii, data/models_unit/textures/MTW_officer_lesser_feudal_standard_castile.tga
 texture 		romans_senate, data/models_unit/textures/MTW_officer_lesser_feudal_standard_bohemia.tga
 texture 		britons, data/models_unit/textures/MTW_officer_lesser_feudal_standard_england.tga
@@ -1849,6 +1873,7 @@ texture				romans_julii, data/models_unit/textures/MTW_horse_light_teutons.TGA
 texture				romans_brutii, data/models_unit/textures/MTW_horse_light_egypt.TGA
 texture				romans_scipii, data/models_unit/textures/MTW_horse_light_castille.TGA
 texture				romans_senate, data/models_unit/textures/MTW_horse_light_papal.TGA
+texture				pope, data/models_unit/textures/MTW_horse_light_papal.TGA
 texture				armenia, data/models_unit/textures/MTW_horse_light_kiev.TGA
 texture				britons, data/models_unit/textures/MTW_horse_light_england.TGA
 texture				carthage, data/models_unit/textures/MTW_horse_light_hungary.TGA
@@ -1960,6 +1985,7 @@ texture				romans_julii, data/models_unit/textures/MTW_horse_general_teutons.TGA
 texture				romans_brutii, data/models_unit/textures/MTW_horse_general_egypt.TGA
 texture				romans_scipii, data/models_unit/textures/MTW_horse_general_castille.TGA
 texture				romans_senate, data/models_unit/textures/MTW_horse_general_papal.TGA
+texture				pope, data/models_unit/textures/MTW_horse_general_papal.TGA
 texture				armenia, data/models_unit/textures/MTW_horse_general_kiev.TGA
 texture				britons, data/models_unit/textures/MTW_horse_general_england.TGA
 texture				carthage, data/models_unit/textures/MTW_horse_general_hungary.TGA
@@ -1986,6 +2012,7 @@ no_variation model_flexi			data/models_unit/MTW_horse_warhorse.cas, max
 type				feudal_knight_bg
 skeleton			fs_hc_spearman, fs_hc_swordsman
 pbr_texture			romans_julii, data/models_unit/textures/MTW_unit_feudal_knight_pisa_pbr.tga
+pbr_texture			pope, data/models_unit/textures/MTW_unit_feudal_knight_papal_pbr.tga
 pbr_texture			romans_scipii, data/models_unit/textures/MTW_unit_feudal_knight_castille_pbr.tga
 pbr_texture			britons, data/models_unit/textures/MTW_unit_feudal_knight_england_pbr.tga
 pbr_texture			carthage, data/models_unit/textures/MTW_unit_feudal_knight_hungary_pbr.tga
@@ -1995,6 +2022,7 @@ pbr_texture			scythia, data/models_unit/textures/MTW_unit_feudal_knight_denmark_
 pbr_texture			spain, data/models_unit/textures/MTW_unit_feudal_knight_aragon_pbr.tga
 pbr_texture			slave, data/models_unit/textures/MTW_unit_feudal_knight_rebel_pbr.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_feudal_knight_pisa.tga
+texture				pope, data/models_unit/textures/MTW_unit_feudal_knight_papal.tga
 texture				romans_scipii, data/models_unit/textures/MTW_unit_feudal_knight_castille.tga
 texture				britons, data/models_unit/textures/MTW_unit_feudal_knight_england.tga
 texture				carthage, data/models_unit/textures/MTW_unit_feudal_knight_hungary.tga
@@ -2011,6 +2039,7 @@ no_variation model_flexi			data/models_unit/fknight.cas, max
 type 			feudal_mounted_standard
 skeleton 		fs_hc_swordsman
 pbr_texture 		romans_julii, data/models_unit/textures/MTW_officer_mounted_feudal_standard_pisa_pbr.tga
+pbr_texture 		pope, data/models_unit/textures/MTW_officer_mounted_feudal_standard_crusader_pbr.tga
 pbr_texture 		romans_scipii, data/models_unit/textures/MTW_officer_mounted_feudal_standard_castile_pbr.tga
 pbr_texture 		romans_senate, data/models_unit/textures/MTW_officer_mounted_feudal_standard_bohemia_pbr.tga
 pbr_texture 		britons, data/models_unit/textures/MTW_officer_mounted_feudal_standard_england_pbr.tga
@@ -2023,6 +2052,7 @@ pbr_texture 		scythia, data/models_unit/textures/MTW_officer_mounted_feudal_stan
 pbr_texture 		spain, data/models_unit/textures/MTW_officer_mounted_feudal_standard_aragon_pbr.tga
 pbr_texture 		slave, data/models_unit/textures/MTW_officer_mounted_feudal_standard_rebel_pbr.tga
 texture 		romans_julii, data/models_unit/textures/MTW_officer_mounted_feudal_standard_pisa.tga
+texture 		pope, data/models_unit/textures/MTW_officer_mounted_feudal_standard_crusader.tga
 texture 		romans_scipii, data/models_unit/textures/MTW_officer_mounted_feudal_standard_castile.tga
 texture 		romans_senate, data/models_unit/textures/MTW_officer_mounted_feudal_standard_bohemia.tga
 texture 		britons, data/models_unit/textures/MTW_officer_mounted_feudal_standard_england.tga
@@ -2044,15 +2074,16 @@ skeleton			fs_hc_spearman, fs_hc_swordsman ; fs_hc_lancer
 pbr_texture			data/models_unit/textures/MTW_unit_knight_siculo_norman_noble_pbr.tga
 texture				dacia, data/models_unit/textures/MTW_unit_knight_siculo_norman_noble.tga
 texture				slave, data/models_unit/textures/MTW_unit_knight_siculo_norman_noble.tga
-model_flexi_m		data/models_unit/MTW_unit_knight_hospitaller_early_med.cas, 40
+model_flexi_m		data/models_unit/MTW_unit_knight_hospitaller_early.cas, 40
 model_flexi		data/models_unit/MTW_unit_knight_hospitaller_early.cas, max
-no_variation model_flexi_m		data/models_unit/MTW_unit_knight_hospitaller_early_med.cas, 40
+no_variation model_flexi_m		data/models_unit/MTW_unit_knight_hospitaller_early.cas, 40
 no_variation model_flexi		data/models_unit/MTW_unit_knight_hospitaller_early.cas, max
 
 
 type 			feudal_mounted_lesser_standard
 skeleton 		fs_hc_swordsman
 pbr_texture 		romans_julii, data/models_unit/textures/MTW_officer_mounted_feudal_lesser_standard_pisa_pbr.tga
+pbr_texture 		pope, data/models_unit/textures/MTW_officer_mounted_feudal_lesser_standard_crusader_pbr.tga
 pbr_texture 		romans_scipii, data/models_unit/textures/MTW_officer_mounted_feudal_lesser_standard_castile_pbr.tga
 pbr_texture 		romans_senate, data/models_unit/textures/MTW_officer_mounted_feudal_lesser_standard_bohemia_pbr.tga
 pbr_texture 		britons, data/models_unit/textures/MTW_officer_mounted_feudal_lesser_standard_england_pbr.tga
@@ -2065,6 +2096,7 @@ pbr_texture 		scythia, data/models_unit/textures/MTW_officer_mounted_feudal_less
 pbr_texture 		spain, data/models_unit/textures/MTW_officer_mounted_feudal_lesser_standard_aragon_pbr.tga
 pbr_texture 		slave, data/models_unit/textures/MTW_officer_mounted_feudal_lesser_standard_rebel_pbr.tga
 texture 		romans_julii, data/models_unit/textures/MTW_officer_mounted_feudal_lesser_standard_pisa.tga
+texture 		pope, data/models_unit/textures/MTW_officer_mounted_feudal_lesser_standard_crusader.tga
 texture 		romans_scipii, data/models_unit/textures/MTW_officer_mounted_feudal_lesser_standard_castile.tga
 texture 		romans_senate, data/models_unit/textures/MTW_officer_mounted_feudal_lesser_standard_bohemia.tga
 texture 		britons, data/models_unit/textures/MTW_officer_mounted_feudal_lesser_standard_england.tga
@@ -2157,6 +2189,7 @@ pbr_texture			data/models_unit/textures/MTW_unit_genoese_sailors_pbr.tga
 pbr_texture			parthia, data/models_unit/textures/MTW_unit_toxotai_pbr.tga
 texture				parthia, data/models_unit/textures/MTW_unit_toxotai.tga 
 texture				romans_julii, data/models_unit/textures/MTW_unit_genoese_sailors.tga
+texture				pope, data/models_unit/textures/MTW_unit_genoese_sailors.tga
 texture				dacia, data/models_unit/textures/MTW_unit_genoese_sailors.tga
 texture				germans, data/models_unit/textures/MTW_unit_genoese_sailors.tga
 texture				gauls, data/models_unit/textures/MTW_unit_genoese_sailors.tga
@@ -2183,6 +2216,7 @@ pbr_texture			data/models_unit/textures/MTW_unit_venetian_sailors_pbr.tga
 pbr_texture			slave, data/models_unit/textures/MTW_unit_peltastai_pbr.tga
 texture				parthia, data/models_unit/textures/MTW_unit_venetian_sailors.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_venetian_sailors.tga
+texture				pope, data/models_unit/textures/MTW_unit_venetian_sailors.tga
 texture				germans, data/models_unit/textures/MTW_unit_venetian_sailors.tga
 texture				gauls, data/models_unit/textures/MTW_unit_venetian_sailors.tga
 texture				britons, data/models_unit/textures/MTW_unit_venetian_sailors.tga
@@ -2211,6 +2245,7 @@ pbr_texture			data/models_unit/textures/MTW_unit_italian_knight_pbr.tga
 pbr_texture			dacia, data/models_unit/textures/MTW_unit_italian_knight_sicily_pbr.tga
 pbr_texture			germans, data/models_unit/textures/MTW_unit_italian_knight_sicily_pbr.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_italian_knight.tga
+texture				pope, data/models_unit/textures/MTW_unit_italian_knight.tga
 texture				gauls, data/models_unit/textures/MTW_unit_italian_knight.tga
 texture				britons, data/models_unit/textures/MTW_unit_italian_knight.tga
 texture				dacia, data/models_unit/textures/MTW_unit_italian_knight_sicily.tga
@@ -2427,6 +2462,7 @@ no_variation model_flexi			data/models_unit/MTW_unit_viking_axeman.cas, max
 type 			feudal_foot_standard
 skeleton 		fs_standard_bearer
 pbr_texture 		romans_julii, data/models_unit/textures/MTW_officer_feudal_standard_pisa_pbr.tga
+pbr_texture 		pope, data/models_unit/textures/MTW_officer_feudal_standard_crusaders_pbr.tga
 pbr_texture 		romans_scipii, data/models_unit/textures/MTW_officer_feudal_standard_castile_pbr.tga
 pbr_texture 		britons, data/models_unit/textures/MTW_officer_feudal_standard_england_pbr.tga
 pbr_texture 		dacia, data/models_unit/textures/MTW_officer_feudal_standard_sicily_pbr.tga
@@ -2440,6 +2476,7 @@ pbr_texture 		romans_senate, data/models_unit/textures/MTW_officer_feudal_standa
 pbr_texture 		slave, data/models_unit/textures/MTW_officer_feudal_standard_rebel_pbr.tga
 pbr_texture 		carthage, data/models_unit/textures/MTW_officer_feudal_standard_Hungary_pbr.tga
 texture 		romans_julii, data/models_unit/textures/MTW_officer_feudal_standard_pisa.tga
+texture 		pope, data/models_unit/textures/MTW_officer_feudal_standard_crusaders.tga
 texture 		romans_scipii, data/models_unit/textures/MTW_officer_feudal_standard_castile.tga
 texture 		britons, data/models_unit/textures/MTW_officer_feudal_standard_england.tga
 texture 		dacia, data/models_unit/textures/MTW_officer_feudal_standard_sicily.tga
@@ -2503,6 +2540,7 @@ type				merc_knight
 skeleton			fs_hc_spearman, fs_hc_swordsman ; fs_hc_lancer
 pbr_texture			data/models_unit/textures/MTW_unit_royal_knight_early_rebel_pbr.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_royal_knight_early_rebel.tga
+texture				pope, data/models_unit/textures/MTW_unit_royal_knight_early_rebel.tga
 texture				romans_brutii, data/models_unit/textures/MTW_unit_royal_knight_early_rebel.tga
 texture				romans_scipii, data/models_unit/textures/MTW_unit_royal_knight_early_rebel.tga
 texture				romans_senate, data/models_unit/textures/MTW_unit_royal_knight_early_rebel.tga
@@ -2532,6 +2570,7 @@ type				siege_crew
 skeleton			fs_dagger
 pbr_texture			data/models_unit/textures/MTW_unit_peasant_teutons_pbr.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_peasant_teutons.tga
+texture				pope, data/models_unit/textures/MTW_unit_peasant_papal.tga
 texture				romans_brutii, data/models_unit/textures/MTW_unit_peasant_egypt.tga
 texture				romans_scipii, data/models_unit/textures/MTW_unit_peasant_castille.tga
 texture				romans_senate, data/models_unit/textures/MTW_unit_peasant.tga
@@ -2644,6 +2683,7 @@ type				early_merc_knight
 skeleton			fs_hc_spearman, fs_hc_swordsman
 pbr_texture			data/models_unit/textures/MTW_unit_feudal_knight_poland_old_pbr.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_feudal_knight_poland_old.tga
+texture				pope, data/models_unit/textures/MTW_unit_feudal_knight_poland_old.tga
 texture				romans_brutii, data/models_unit/textures/MTW_unit_feudal_knight_poland_old.tga
 texture				romans_scipii, data/models_unit/textures/MTW_unit_feudal_knight_poland_old.tga
 texture				romans_senate, data/models_unit/textures/MTW_unit_feudal_knight_poland_old.tga
@@ -2760,6 +2800,7 @@ scale				0.875
 pbr_texture			data/models_unit/textures/MTW_horse_medium_teutons_pbr.TGA
 texture				data/models_unit/textures/MTW_horse_brown_saddle.TGA
 texture				romans_julii, data/models_unit/textures/MTW_horse_medium_teutons.TGA
+texture				pope, data/models_unit/textures/MTW_horse_medium_teutons.TGA
 texture				romans_brutii, data/models_unit/textures/MTW_horse_medium_egypt.TGA
 texture				romans_scipii, data/models_unit/textures/MTW_horse_medium_castille.TGA
 texture				romans_senate, data/models_unit/textures/MTW_horse_medium_poland.TGA		
@@ -2830,6 +2871,7 @@ no_variation model_flexi			data/models_unit/MTW_unit_generic_feudal_knight.cas, 
 type				feudal_knight
 skeleton			fs_hc_spearman, fs_hc_swordsman
 pbr_texture			romans_julii, data/models_unit/textures/MTW_unit_feudal_knight_pisa_pbr.tga
+pbr_texture			pope, data/models_unit/textures/MTW_unit_feudal_knight_papal_pbr.tga
 pbr_texture			romans_scipii, data/models_unit/textures/MTW_unit_feudal_knight_castille_pbr.tga
 pbr_texture			romans_senate, data/models_unit/textures/MTW_unit_feudal_knight_boh_pbr.tga
 pbr_texture			britons, data/models_unit/textures/MTW_unit_feudal_knight_england_pbr.tga
@@ -2842,6 +2884,7 @@ pbr_texture			scythia, data/models_unit/textures/MTW_unit_feudal_knight_denmark_
 pbr_texture			spain, data/models_unit/textures/MTW_unit_feudal_knight_aragon_pbr.tga
 pbr_texture			slave, data/models_unit/textures/MTW_unit_feudal_knight_rebel_pbr.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_feudal_knight_pisa.tga
+texture				pope, data/models_unit/textures/MTW_unit_feudal_knight_papal.tga
 texture				romans_scipii, data/models_unit/textures/MTW_unit_feudal_knight_castille.tga
 texture				romans_senate, data/models_unit/textures/MTW_unit_feudal_knight_boh.tga
 texture				britons, data/models_unit/textures/MTW_unit_feudal_knight_england.tga
@@ -2896,6 +2939,7 @@ texture				romans_julii, data/models_unit/textures/MTW_horse_ranged_teutons.TGA
 texture				romans_brutii, data/models_unit/textures/MTW_horse_ranged_egypt.TGA
 texture				romans_scipii, data/models_unit/textures/MTW_horse_ranged_castille.TGA
 texture				romans_senate, data/models_unit/textures/MTW_horse_ranged_papal.TGA
+texture				pope, data/models_unit/textures/MTW_horse_ranged_papal.TGA
 texture				armenia, data/models_unit/textures/MTW_horse_ranged_kiev.TGA
 texture				britons, data/models_unit/textures/MTW_horse_ranged_england.TGA
 texture				carthage, data/models_unit/textures/MTW_horse_ranged_hungary.TGA
@@ -2923,6 +2967,7 @@ type				crossbowman
 skeleton			fs_crossbowman, fs_dagger
 pbr_texture			data/models_unit/textures/MTW_unit_xbowman_papal_pbr.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_xbowman_papal.tga
+texture				pope, data/models_unit/textures/MTW_unit_xbowman_papal.tga
 texture				romans_brutii, data/models_unit/textures/MTW_unit_xbowman_moors.tga
 texture				romans_scipii, data/models_unit/textures/MTW_unit_xbowman_castille.tga
 texture				romans_senate, data/models_unit/textures/MTW_unit_xbowman_poland.tga
@@ -2961,6 +3006,7 @@ type				archer
 skeleton			fs_archer, fs_dagger
 pbr_texture			data/models_unit/textures/MTW_unit_archer_poland_pbr.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_archer_poland.tga
+texture				pope, data/models_unit/textures/MTW_unit_archer_papal.tga
 texture				romans_brutii, data/models_unit/textures/MTW_unit_archer_egypt.tga
 texture				romans_scipii, data/models_unit/textures/MTW_unit_archer_castille.tga
 texture				romans_senate, data/models_unit/textures/MTW_unit_archer_poland.tga
@@ -3003,10 +3049,12 @@ type				sicilian_guardsmen
 skeleton			fs_crossbowman, fs_dagger
 pbr_texture			dacia, data/models_unit/textures/MTW_unit_siculo_norman_guardsmen_pbr.tga
 pbr_texture			romans_julii, data/models_unit/textures/MTW_unit_italian_crossbow_ital_pbr.tga
+pbr_texture			pope, data/models_unit/textures/MTW_unit_italian_crossbow_ital_pbr.tga
 pbr_texture			merc, data/models_unit/textures/MTW_unit_italian_crossbow_merc_pbr.tga
 pbr_texture			slave, data/models_unit/textures/MTW_unit_italian_crossbow_ital_pbr.tga
 texture				dacia, data/models_unit/textures/MTW_unit_siculo_norman_guardsmen.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_italian_crossbow_ital.tga
+texture				pope, data/models_unit/textures/MTW_unit_italian_crossbow_ital.tga
 texture				merc, data/models_unit/textures/MTW_unit_italian_crossbow_merc.tga
 texture				slave, data/models_unit/textures/MTW_unit_italian_crossbow_ital.tga
 model_flexi_m			data/models_unit/MTW_unit_high_xbowman.cas, 40
@@ -3018,11 +3066,13 @@ type				peltastai
 skeleton			fs_javelinman, fs_swordsman
 pbr_texture			spain, data/models_unit/textures/MTW_unit_venetian_sailors_pbr.tga
 pbr_texture			romans_julii, data/models_unit/textures/MTW_unit_sardi_warrior_pbr.tga
+pbr_texture			pope, data/models_unit/textures/MTW_unit_sardi_warrior_pbr.tga
 pbr_texture			dacia, data/models_unit/textures/MTW_unit_siculo_greek_marines_pbr.tga
 pbr_texture			slave, data/models_unit/textures/MTW_unit_peltastai_pbr.tga
 pbr_texture			merc, data/models_unit/textures/MTW_unit_peltastai_pbr.tga
 texture				spain, data/models_unit/textures/MTW_unit_venetian_sailors.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_sardi_warrior.tga
+texture				pope, data/models_unit/textures/MTW_unit_sardi_warrior.tga
 texture				dacia, data/models_unit/textures/MTW_unit_siculo_greek_marines.tga
 texture				slave, data/models_unit/textures/MTW_unit_peltastai.tga
 texture				merc, data/models_unit/textures/MTW_unit_peltastai.tga
@@ -3040,6 +3090,7 @@ texture				romans_julii, data/models_unit/textures/MTW_horse_general_teutons.TGA
 texture				romans_brutii, data/models_unit/textures/MTW_horse_general_egypt.TGA
 texture				romans_scipii, data/models_unit/textures/MTW_horse_general_castille.TGA
 texture				romans_senate, data/models_unit/textures/MTW_horse_general_papal.TGA
+texture				pope, data/models_unit/textures/MTW_horse_general_papal.TGA
 texture				armenia, data/models_unit/textures/MTW_horse_general_kiev.TGA
 texture				britons, data/models_unit/textures/MTW_horse_general_england.TGA
 texture				carthage, data/models_unit/textures/MTW_horse_general_hungary.TGA
@@ -3152,6 +3203,7 @@ type				trebizond_archer
 skeleton			fs_archer, fs_swordsman
 pbr_texture			parthia, data/models_unit/textures/MTW_unit_trebizond_archer_pbr.tga
 pbr_texture			romans_julii, data/models_unit/textures/MTW_unit_pisan_sailors_pbr.tga
+pbr_texture			pope, data/models_unit/textures/MTW_unit_pisan_sailors_pbr.tga
 pbr_texture			dacia, data/models_unit/textures/MTW_unit_pisan_sailors_pbr.tga
 pbr_texture			germans, data/models_unit/textures/MTW_unit_pisan_sailors_pbr.tga
 pbr_texture			gauls, data/models_unit/textures/MTW_unit_pisan_sailors_pbr.tga
@@ -3160,6 +3212,7 @@ pbr_texture			seleucid, data/models_unit/textures/MTW_unit_trebizond_archer_pbr.
 pbr_texture			slave, data/models_unit/textures/MTW_unit_trebizond_archer_pbr.tga
 texture				parthia, data/models_unit/textures/MTW_unit_trebizond_archer.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_pisan_sailors.tga
+texture				pope, data/models_unit/textures/MTW_unit_pisan_sailors.tga
 texture				dacia, data/models_unit/textures/MTW_unit_pisan_sailors.tga
 texture				germans, data/models_unit/textures/MTW_unit_pisan_sailors.tga
 texture				gauls, data/models_unit/textures/MTW_unit_pisan_sailors.tga
@@ -3264,6 +3317,7 @@ type				militia_spearmen
 skeleton			fs_spearman
 pbr_texture			data/models_unit/textures/MTW_unit_militia_spearmen_papal_pbr.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_militia_spearmen_papal.tga
+texture				pope, data/models_unit/textures/MTW_unit_militia_spearmen_papal.tga
 texture				romans_brutii, data/models_unit/textures/MTW_unit_militia_spearmen_jerusalem.tga
 texture				romans_scipii, data/models_unit/textures/MTW_unit_militia_spearmen_castille.tga
 texture				romans_senate, data/models_unit/textures/MTW_unit_militia_spearmen_papal.tga
@@ -3290,6 +3344,7 @@ texture				britons, data/models_unit/textures/MTW_unit_feudal_knight_rebel.tga
 texture				numidia, data/models_unit/textures/MTW_unit_feudal_knight_rebel.tga
 texture				romans_scipii, data/models_unit/textures/MTW_unit_feudal_knight_rebel.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_feudal_knight_rebel.tga
+texture				pope, data/models_unit/textures/MTW_unit_feudal_knight_rebel.tga
 texture				romans_senate, data/models_unit/textures/MTW_unit_feudal_knight_rebel.tga
 texture				spain, data/models_unit/textures/MTW_unit_feudal_knight_rebel.tga
 texture				carthage, data/models_unit/textures/MTW_unit_feudal_knight_rebel.tga
@@ -3536,6 +3591,7 @@ type				levy_spearman
 skeleton			fs_spearman
 pbr_texture			data/models_unit/textures/MTW_unit_levy_spearman_poland_pbr.tga
 texture				romans_julii, data/models_unit/textures/MTW_unit_levy_spearman_poland.tga
+texture				pope, data/models_unit/textures/MTW_unit_levy_spearman_papal.tga
 texture				romans_brutii, data/models_unit/textures/MTW_unit_levy_spearman_egypt.tga
 texture				romans_scipii, data/models_unit/textures/MTW_unit_levy_spearman_castille.tga
 texture				romans_senate, data/models_unit/textures/MTW_unit_levy_spearman_poland.tga
@@ -3771,6 +3827,7 @@ texture				romans_julii, data/models_unit/textures/MTW_horse_medium_teutons.TGA
 texture				romans_brutii, data/models_unit/textures/MTW_horse_medium_egypt.TGA
 texture				romans_scipii, data/models_unit/textures/MTW_horse_medium_castille.TGA
 texture				romans_senate, data/models_unit/textures/MTW_horse_medium_papal.TGA
+texture				pope, data/models_unit/textures/MTW_horse_medium_papal.TGA
 texture				armenia, data/models_unit/textures/MTW_horse_medium_kiev.TGA
 texture				britons, data/models_unit/textures/MTW_horse_medium_england.TGA
 texture				carthage, data/models_unit/textures/MTW_horse_medium_hungary.TGA
@@ -3803,6 +3860,7 @@ skeleton_elephant		fs_forest_elephant_rider
 skeleton_chariot		fs_chariot_sword
 skeleton_camel			fs_hc_swordsman
 pbr_texture			romans_julii, data/models_unit/textures/gener_pisa_pbr.TGA
+pbr_texture			pope, data/models_unit/textures/general_Crusaders_pbr.TGA
 pbr_texture			romans_scipii, data/models_unit/textures/gener_cast_pbr.TGA
 pbr_texture			romans_senate, data/models_unit/textures/gener_bohe_pbr.TGA
 pbr_texture			britons, data/models_unit/textures/gener_brits_pbr.TGA
@@ -3818,6 +3876,7 @@ pbr_texture			spain, data/models_unit/textures/gener_arag_pbr.TGA
 pbr_texture			slave, data/models_unit/textures/gener_rebel_pbr.TGA
 pbr_texture			mercenary, data/models_unit/textures/gener_rebel_pbr.TGA
 texture				romans_julii, data/models_unit/textures/gener_pisa.TGA
+texture				pope, data/models_unit/textures/general_Crusaders.TGA
 texture				romans_scipii, data/models_unit/textures/gener_cast.TGA
 texture				romans_senate, data/models_unit/textures/gener_bohe.TGA
 texture				britons, data/models_unit/textures/gener_brits.TGA

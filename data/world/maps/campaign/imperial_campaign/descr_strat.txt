@@ -30,6 +30,7 @@ end
 unlockable 
 end
 nonplayable
+	pope
 	slave	
 end
 
@@ -431,7 +432,7 @@ resource	wine,	1,	177, 96
 ; #########   >>> Comune di Pisa - Italians <<<   #########
 ; ---------------------------------------------------------
 
-faction	romans_julii, trader smith
+faction	romans_julii, trader_smith
 denari	10000
 settlement
 {
@@ -561,7 +562,7 @@ unit		ribaldi							exp 0 armour 0 weapon_lvl 0
 
 character	Goffredo, named character, heir, age 25, , x 88, y 77
 traits Christian 1, Royal 1, Leader_Prince 1, Factionheir 1
-ancillaries office_Spoleto, familyseal
+ancillaries familyseal
 army
 unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
 unit		crossbowmen						exp 1 armour 0 weapon_lvl 0
@@ -576,7 +577,7 @@ unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
 unit		crossbowmen						exp 1 armour 0 weapon_lvl 0
 unit		militia spearmen				exp 1 armour 0 weapon_lvl 0
 
-character	Pietro Corsini, general, age 29, , x 81, y 75
+character	Pietro Corsini, named character, age 29, , x 81, y 75
 traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
@@ -601,7 +602,7 @@ relative 	Boniface diToscana,		Matilda,	end
 ; #########   >>> Armenian Cilicia <<<   #########
 ; ---------------------------------------------------------
 
-faction	seleucid, trader smith
+faction	seleucid, religious_stalin
 denari 7500
 settlement
 {
@@ -669,7 +670,7 @@ relative 	Reuben Rupenid,	Sofia,	Gosdatin Rupenid,	end
 ; #########   >>> The Byzantine Empire <<<   #########
 ; ---------------------------------------------------------
 
-faction	parthia, religious henry
+faction	parthia, balanced_henry
 denari 1500
 
 settlement
@@ -1162,6 +1163,14 @@ settlement
 	}
 }
 
+; --------------------
+; dies per script
+character	Romanos, named character, age 99, , x 160, y 73
+traits Christian 1, Married 1, Royal 1, Leader_Prince 1
+ancillaries familyseal
+army
+unit		hetaireia c				exp 1 armour 0 weapon_lvl 0
+
 ; City: Byzantion
 ; Region: ByzantionP
 ; --------------------
@@ -1252,7 +1261,7 @@ unit		tzakones				exp 1 armour 0 weapon_lvl 0
 ; City: Cherson
 ; Region: 
 ; --------------------
-character	Loukas Bulgaroctonos, general, age 34, , x 175, y 95
+character	Loukas Bulgaroctonos, named character, age 34, , x 175, y 95
 traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 ancillaries Etairiarches, familyseal
 army
@@ -1288,11 +1297,13 @@ unit		szekely merc			exp 1 armour 0 weapon_lvl 0
 unit		psiloi					exp 1 armour 0 weapon_lvl 0
 unit		hoplitai				exp 1 armour 0 weapon_lvl 0
 
+character_record	Eudokia,	female, age 58, alive, never_a_leader
 character_record	Maria,		female, age 18, alive, never_a_leader
 character_record	Mariam,		female, age 17, alive, never_a_leader
 character_record	Eirene, 	female, age 16, alive, never_a_leader
-character_record	Anna, 		female, age 16, alive, never_a_leader
+character_record	Anna, 		female, age 15, alive, never_a_leader
 
+relative 	Romanos,				Eudokia,	Maria,	Mariam,	Eirene,	Anna,	end
 relative 	Isaakios Komnenos,		Maria,		end
 relative 	Michael Doukas,			Mariam,		end
 relative 	Alexios Komnenos,		Eirene,		end
@@ -1302,7 +1313,7 @@ relative 	Nikeforos Bryennios,	Anna,		end
 ; #########   >>> Aragon <<<   #########
 ; ---------------------------------------------------------
 
-faction	spain, fortified henry 
+faction	spain, fortified_henry 
 denari 7500
 settlement
 {
@@ -1408,7 +1419,7 @@ relative 	Garcia Navarra,	Constancia,	end
 ; #########   >>> Kingdom of Sicily <<<   #########
 ; ---------------------------------------------------------
 
-faction	dacia, bureaucrat napoleon 
+faction	dacia, bureaucrat_napoleon 
 denari 7500
 settlement
 {
@@ -1522,6 +1533,11 @@ settlement
 ; Region: Normandie - d'Hauteville Dynasty
 ; --------------------
 ; dies per script
+character	Tancredi, named character, age 77, , x 48, y 116
+traits Christian 1, Royal 1, Leader_Prince 1, Married 1
+ancillaries familyseal
+army
+unit		siculo norman nobles c				exp 1 armour 0 weapon_lvl 0
 
 ; Now Siculo-Norman: d'Altavilla
 
@@ -1581,6 +1597,7 @@ army
 unit		ship galley				exp 1 armour 0 weapon_lvl 0
 unit		ship galley				exp 1 armour 0 weapon_lvl 0
 
+character_record	Fressenda, 			female, age 69, alive, never_a_leader
 character_record	Sichelgaita, 		female, age 48, alive, never_a_leader
 character_record	Giuditta, 			female, age 37, alive, never_a_leader
 character_record	Emma, 				female, age 36, alive, never_a_leader
@@ -1588,6 +1605,7 @@ character_record	Matilda, 			female, age 35, alive, never_a_leader
 character_record	Boemundo Altavilla, male, 	age 15, alive, never_a_leader
 character_record	Ruggiero Altavilla, male, 	age 13, alive, never_a_leader
 
+relative 	Tancredi,				Fressenda,		Sichelgaita,		Giuditta,	Emma,	Matilda,	end
 relative 	Roberto Altavilla,		Sichelgaita,	end
 relative 	Ruggero Altavilla,		Giuditta,		Boemundo Altavilla,	Ruggiero Altavilla,	end
 relative 	Enrico Peralta,			Emma,			end
@@ -1597,7 +1615,7 @@ relative 	Guido Ventimiglia,		Matilda,		end
 ; #########   >>> England <<<   #########
 ; ---------------------------------------------------------
 
-faction	britons, sailor smith 
+faction	britons, sailor_smith 
 denari 10000
 settlement
 {
@@ -1816,7 +1834,7 @@ character	Walter Becket, diplomat, age 33, , x 57, y 117
 ; City: ScottDownC
 ; Region: ScottDown
 ; --------------------
-character	Richard deVere, general, age 23, , x 53, y 147
+character	Richard deVere, named character, age 23, , x 53, y 147
 traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 ancillaries office_LHC
 army
@@ -1826,7 +1844,7 @@ unit		norman mercenaries						exp 1 armour 0 weapon_lvl 0
 ; City: LondonupC
 ; Region: Londonup
 ; --------------------
-character	George deBeauchamp, general, age 29, , x 53, y 136
+character	George deBeauchamp, named character, age 29, , x 53, y 136
 traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 ancillaries office_LordChancellor
 army
@@ -1836,7 +1854,7 @@ unit		norman mercenaries						exp 1 armour 0 weapon_lvl 0
 ; City: Canterbury
 ; Region: Kent
 ; --------------------
-character	Roger Bourchier, general, age 40, , x 58, y 126
+character	Roger Bourchier, named character, age 40, , x 58, y 126
 traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		early kings cavalry c					exp 1 armour 0 weapon_lvl 0
@@ -1845,7 +1863,7 @@ unit		norman mercenaries						exp 1 armour 0 weapon_lvl 0
 ; City: Winchester
 ; Region: Wessex
 ; --------------------
-character	Henry Montfort, general, age 35, , x 47, y 126
+character	Henry Montfort, named character, age 35, , x 47, y 126
 traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		early kings cavalry c					exp 1 armour 0 weapon_lvl 0
@@ -1861,7 +1879,7 @@ relative 	William,	Matilda,	Robert,	Rufus,	Henry,	end
 ; ---------------------------------------------------------
 ; Grand-Seljuks
 
-faction	thrace, craftsman genghis
+faction	thrace, religious_genghis
 denari 22500
 settlement
 {
@@ -1939,16 +1957,16 @@ settlement
 
 settlement
 {
-	level large_town
+	level town
 	region Armenia
 
 	year_founded 0
-	population 3500
+	population 1000
 	plan_set default_set
 	faction_creator seleucid
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_house
 	}
 	building
 	{
@@ -1958,14 +1976,6 @@ settlement
 	{
 		type defenses wooden_wall
 	}
-	building
-	{
-		type barracks_buildings barracks
-	}
-	building
-	{
-	 	type shrines shrine
-	}
 }
 
 settlement
@@ -1974,7 +1984,7 @@ settlement
 	region Azerbaijan
 
 	year_founded 0
-	population 3800
+	population 2000
 	plan_set default_set
 	faction_creator thrace
 	building
@@ -2032,16 +2042,16 @@ settlement
 
 settlement
 {
-	level large_town
+	level town
 	region Vaspurakan
 
 	year_founded 0
-	population 2000
+	population 1000
 	plan_set default_set
 	faction_creator seleucid
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_house
 	}
 	building
 	{
@@ -2055,24 +2065,20 @@ settlement
 	{
 		type barracks_buildings barracks
 	}
-	building
-	{
-	 	type shrines shrine
-	}
 }
 
 settlement
 {
-	level large_town
+	level town
 	region Turuberan
 
 	year_founded 0
-	population 2000
+	population 1000
 	plan_set default_set
 	faction_creator seleucid
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_house
 	}
 	building
 	{
@@ -2090,16 +2096,16 @@ settlement
 
 settlement
 {
-	level large_town
+	level town
 	region Karin
 
 	year_founded 0
-	population 2000
+	population 1000
 	plan_set default_set
 	faction_creator thrace
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_house
 	}
 	building
 	{
@@ -2108,10 +2114,6 @@ settlement
 	building
 	{
 		type barracks_buildings barracks
-	}
-	building
-	{
-	 	type shrines shrine
 	}
 }
 
@@ -2121,7 +2123,7 @@ settlement
 	region Jazira
 
 	year_founded 0
-	population 4001
+	population 2500
 	plan_set default_set
 	faction_creator thrace
 	building
@@ -2160,7 +2162,7 @@ settlement
 	region BasraR
 
 	year_founded 0
-	population 2500
+	population 2000
 	plan_set default_set
 	faction_creator thrace
 	building
@@ -2191,7 +2193,7 @@ settlement
 	region Jibal
 
 	year_founded 0
-	population 2500
+	population 2000
 	plan_set default_set
 	faction_creator thrace
 	building
@@ -2208,10 +2210,6 @@ settlement
 	}
 	building
 	{
-		type temple_islamic_mosque mosque1
-	}
-	building
-	{
 	 	type shrines shrine
 	}
 }
@@ -2222,7 +2220,7 @@ settlement
 	region Palestina
 
 	year_founded 0
-	population 7900
+	population 6000
 	plan_set default_set
 	faction_creator thrace
 	building
@@ -2256,6 +2254,10 @@ settlement
 	building
 	{
 		type hinterland_sepulchre sepulchre
+	}
+	building
+	{
+		type temple_islamic_mosque mosque1
 	}
 }
 
@@ -2309,7 +2311,7 @@ unit		saracen spearmen				exp 1 armour 0 weapon_lvl 0
 ; City: Mosul
 ; Region: Jazira
 ; --------------------
-character	Akbatun, general, age 26, , x 228, y 60
+character	Akbatun, named character, age 26, , x 228, y 60
 traits Muslim 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 ancillaries Spah_Salar
 army
@@ -2328,7 +2330,7 @@ unit		turcoman footarchers			exp 1 armour 0 weapon_lvl 0
 
 ; Jerusalem
 ; --------------------
-character	Murat Avci, general, age 25, , x 202, y 32
+character	Murat Avci, named character, age 25, , x 202, y 32
 traits Muslim 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 ancillaries office_Vizier
 army
@@ -2343,7 +2345,7 @@ unit		turcoman archers				exp 1 armour 0 weapon_lvl 0
 
 ; Region: Tikrit
 ; --------------------
-character	Akalp Dinseven, general, age 25, , x 200, y 57
+character	Akalp Dinseven, named character, age 25, , x 200, y 57
 traits Muslim 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		ghulam bodyguards c				exp 1 armour 0 weapon_lvl 0
@@ -2356,7 +2358,7 @@ unit		turcoman archers				exp 1 armour 0 weapon_lvl 0
 ; City: Erevan
 ; Region: Armenia
 ; --------------------
-character	Ali Komutan, general, age 25, , x 224, y 87
+character	Ali Komutan, named character, age 25, , x 224, y 87
 traits Muslim 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		ghulam bodyguards c				exp 1 armour 0 weapon_lvl 0
@@ -2372,7 +2374,7 @@ unit		turcoman archers				exp 1 armour 0 weapon_lvl 0
 ; City: Manzikert
 ; Region: Turuberan
 ; --------------------
-character	Mustafa, general, age 25, , x 221, y 80
+character	Mustafa, named character, age 25, , x 221, y 80
 traits Muslim 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		ghulam bodyguards c				exp 1 armour 0 weapon_lvl 0
@@ -2388,7 +2390,7 @@ unit		turcoman archers				exp 1 armour 0 weapon_lvl 0
 ; City: Theodosioupolis
 ; Region: Karin
 ; --------------------
-character	Akbatun, general, age 26, , x 210, y 81
+character	Ali, general, age 26, , x 210, y 81
 army
 unit		turcoman horsearchers				exp 1 armour 0 weapon_lvl 0
 unit		saracen warriors				exp 1 armour 0 weapon_lvl 0
@@ -2397,7 +2399,7 @@ unit		turcoman footarchers			exp 1 armour 0 weapon_lvl 0
 ; City: Ardabil
 ; Region: Azerbaijan
 ; --------------------
-character	Alpay Tekiner, general, age 25, , x 249, y 80
+character	Alpay Tekiner, named character, age 25, , x 249, y 80
 traits Muslim 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		ghulam bodyguards c				exp 1 armour 0 weapon_lvl 0
@@ -2407,7 +2409,7 @@ unit		turcoman footarchers			exp 1 armour 0 weapon_lvl 0
 ; City: Tabriz
 ; Region: Urmia
 ; --------------------
-character	Mustafa, general, age 25, , x 239, y 73
+character	Melik, general, age 25, , x 239, y 73
 army
 unit		turcoman horsearchers			exp 2 armour 0 weapon_lvl 0
 unit		turcoman horsearchers			exp 2 armour 0 weapon_lvl 0
@@ -2430,7 +2432,7 @@ relative 	Melik Shah,	Fatma,	Mahmud Shah,	Balaban Shah,	end
 ; #########   >>> Castile <<<   #########
 ; ---------------------------------------------------------
 
-faction	romans_scipii, religious napoleon
+faction	romans_scipii, religious_napoleon
 denari 9000
 settlement
 {
@@ -2576,6 +2578,11 @@ settlement
 ; Region: Castille
 ; --------------------
 ; dies per script
+character	Fernando Navarra, named character, age 56, , x 32, y 84
+traits Christian 1, Married 1, Royal 1, Leader_Prince 1
+ancillaries familyseal
+army
+unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
 
 character	Alfonso Navarra, named character, leader, age 32, , x 31, y 83
 traits Christian 1, KingOfCastile 1, Married 1, Royal 1, Leader_Prince 1, Factionleader 1
@@ -2600,7 +2607,7 @@ unit		archers							exp 0 armour 0 weapon_lvl 0
 ; City: Guimaraes
 ; Region: Portucalense
 ; --------------------
-character	Felipe Lerma, general, age 40, , x 10, y 80
+character	Felipe Lerma, named character, age 40, , x 10, y 80
 traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit        	early kings cavalry c				exp 1 armour 0 weapon_lvl 0
@@ -2620,7 +2627,7 @@ unit		archers							exp 0 armour 0 weapon_lvl 0
 ; Near:
 ; Region: Province_of_Toledo
 ; --------------------
-character	Rodrigo DiazdeVivar, general, age 33, , x 27, y 78
+character	Rodrigo DiazdeVivar, named character, age 33, , x 27, y 78
 traits Christian 1, Unroyal 1, GoodCommander 2, Non_Royal_Courtmember 1
 ancillaries office_Castile
 army
@@ -2632,15 +2639,18 @@ unit		militia spearmen				exp 1 armour 0 weapon_lvl 0
 unit		archers							exp 0 armour 0 weapon_lvl 0
 unit		archers							exp 0 armour 0 weapon_lvl 0
 
+character_record	Sancha, 	female, age 42, alive, never_a_leader
+character_record	Uracca, 	female, age 21, alive, never_a_leader
 character_record	Agnes, 		female, age 20, alive, never_a_leader
 
-relative 	Alfonso Navarra,	Agnes,	Garcia Navarra, end
+relative 	Fernando Navarra,	Sancha,	Alfonso Navarra,	Garcia Navarra,	Uracca,	end
+relative 	Alfonso Navarra,	Agnes,	end
 
 ; ---------------------------------------------------------
 ; #########   >>> Zirids / Berbers <<<   #########
 ; ---------------------------------------------------------
 
-faction	romans_brutii, trader henry
+faction	romans_brutii, religious_napoleon
 denari	7500
 settlement
 {
@@ -2787,7 +2797,7 @@ relative 	Tamim alZiri,	Amina,		Yahya alZiri,	Fatimah,	end
 ; #########   >>> France <<<   #########
 ; ---------------------------------------------------------
 
-faction	gauls, balanced smith
+faction	gauls, balanced_smith
 denari 9000
 settlement
 {
@@ -2963,6 +2973,19 @@ settlement
 ; City: France4C
 ; Region: France4
 ; --------------------
+; dies per script
+character	R0bert Capet, named character, age 100, , x 48, y 101
+traits Christian 1, Married 1, Royal 1, Leader_Prince 1
+ancillaries familyseal
+army
+unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
+
+; dies per script
+character	Henri Capet, named character, age 64, , x 49, y 102
+traits Christian 1, Married 1, Royal 1, Leader_Prince 1
+ancillaries familyseal
+army
+unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
 
 character	Philippe Capet, named character, leader, age 19, , x 60, y 112
 traits Christian 1, Married 1, KingOfFrance 1, Royal 1, Leader_Prince 1, Factionleader 1
@@ -2994,7 +3017,7 @@ army
 unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
 unit		militia spearmen				exp 0 armour 0 weapon_lvl 0
 
-character	Bernard deBlois, general, age 28, , x 59, y 94
+character	Bernard deBlois, named character, age 28, , x 59, y 94
 traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 ancillaries office_Constable, familyseal
 army
@@ -3003,16 +3026,20 @@ unit		militia spearmen				exp 0 armour 0 weapon_lvl 0
 unit		militia spearmen				exp 0 armour 0 weapon_lvl 0
 unit		archers							exp 0 armour 0 weapon_lvl 0
 
+character_record	Constance, 		female, age 86, dead, 	never_a_leader
+character_record	Matilda, 		female, age 38, alive, 	never_a_leader
 character_record	Berthe, 		female, age 17, alive, 	never_a_leader
 character_record	Louis Capet, 	male, 	age 1, 	alive, 	never_a_leader
 
+relative 	R0bert Capet,	Constance,	Henri Capet, 	Robert Capet, Eudes Capet, end
+relative 	Henri Capet,	Matilda,	Philippe Capet, Hugues Capet, end
 relative 	Philippe Capet,	Berthe,		Louis Capet, 	end
 
 ; ---------------------------------------------------------
 ; #########   >>> Hungary <<<   #########
 ; ---------------------------------------------------------
 
-faction	carthage, balanced henry
+faction	carthage, balanced_henry
 denari 1500
 settlement
 {
@@ -3042,6 +3069,10 @@ settlement
 	building
 	{
 	 	type temple_christian_church church1
+	}
+	building
+	{
+	 	type temples temple
 	}
 }
 
@@ -3092,6 +3123,10 @@ settlement
 	building
 	{
 	 	type defenses wooden_wall
+	}
+	building
+	{
+	 	type temples temple
 	}
 }
 
@@ -3144,6 +3179,12 @@ settlement
 ; City: germany14C
 ; Region: Germany14
 ; --------------------
+; dies per script
+character	Vazul Arpad, named character, age 96, , x 117, y 102
+traits Christian 1, Married 1, Royal 1, Leader_Prince 1
+ancillaries familyseal
+army
+unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
 
 character	Salamon Arpad, named character, leader, age 20, , x 116, y 100
 traits Christian 1, Married 1, KingOfHungaria 1, Royal 1, Leader_Prince 1, Factionleader 1
@@ -3196,6 +3237,7 @@ ancillaries familyseal
 army
 unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
 
+character_record	Katun,		female, age 90, dead,	never_a_leader
 character_record	Anastasia, 	female, age 50, alive, 	never_a_leader
 character_record	Richeza,	female, age 45, alive, 	never_a_leader
 character_record	Zsofia, 	female, age 28, alive, 	never_a_leader
@@ -3204,6 +3246,7 @@ character_record	Judit,	 	female, age 18, alive, 	never_a_leader
 character_record	Kalman Arpad,	male, age 5, alive, never_a_leader
 character_record	Almos Arpad,	male, age 4, alive, never_a_leader
 
+relative 	Vazul Arpad, 	Katun, 		Andras Arpad, 	Bela Arpad, 	end
 relative 	Andras Arpad, 	Anastasia, 	Salamon Arpad, 	end
 relative 	Bela Arpad, 	Richeza, 	Laszlo Arpad, 	Geza Arpad, 	Lambert Arpad, Ilona, end
 relative	Geza Arpad, 	Zsofia, 	Kalman Arpad, 	Almos Arpad, 	end
@@ -3213,7 +3256,7 @@ relative 	Salamon Arpad, 	Judit, 		end
 ; #########   >>> The Moors <<<   #########
 ; ---------------------------------------------------------
 
-faction	macedon, religious smith
+faction	macedon, religious_smith
 denari 7500
 settlement
 {
@@ -3475,7 +3518,7 @@ relative 	Yusef,	Orqina,	Ali,	end
 ; ---------------------------------------------------------
 ; Rum-Seljuks
 
-faction	pontus, craftsman genghis
+faction	pontus, religious_genghis
 denari 25000
 settlement
 {
@@ -3485,7 +3528,7 @@ settlement
 	year_founded 0
 	population 6550
 	plan_set default_set
-	faction_creator parthia
+	faction_creator pontus
 	building
 	{
 	 	type core_building governors_palace
@@ -3509,6 +3552,10 @@ settlement
 	building
 	{
 		type law_enforcement_buildings gallows
+	}
+	building
+	{
+		type temple_islamic_mosque mosque1
 	}
 }
 
@@ -3544,6 +3591,10 @@ settlement
 	building
 	{
 		type law_enforcement_buildings gallows
+	}
+	building
+	{
+		type temple_islamic_mosque mosque1
 	}
 }
 
@@ -3628,7 +3679,7 @@ relative	Aytigin KilijArslan,	Fatma,		end
 ; #########   >>> The Horde <<<   #########
 ; ---------------------------------------------------------
 
-faction	egypt, comfortable genghis 
+faction	egypt, balanced_genghis 
 denari 10000
 settlement
 {
@@ -3770,7 +3821,7 @@ unit		steppe light cavalry				exp 2 armour 0 weapon_lvl 0
 
 ;Itil
 ; --------------------
-character	Menglai, general, age 32, , x 212, y 122
+character	Menglai, named character, age 32, , x 212, y 122
 traits Pagan 1, Unroyal 1, GoodCommander 2, Non_Royal_Courtmember 1
 army
 unit		cuman heavy cavalry c				exp 2 armour 0 weapon_lvl 0
@@ -3778,7 +3829,7 @@ unit		cuman horse archers					exp 2 armour 0 weapon_lvl 0
 unit		steppe light cavalry				exp 2 armour 0 weapon_lvl 0
 
 ; Suceava, Moldavia
-character	Batuban, general, age 29, , x 148, y 106
+character	Batuban, named character, age 29, , x 148, y 106
 traits Pagan 1, Unroyal 1, GoodCommander 2, Non_Royal_Courtmember 1
 army
 unit		cuman heavy cavalry c				exp 2 armour 0 weapon_lvl 0
@@ -3795,7 +3846,7 @@ relative 	Asep,	Chagla,		Tugor,	end
 ; #########   >>> Bohemia <<<   #########
 ; ---------------------------------------------------------
 
-faction	romans_senate, craftsman smith
+faction	romans_senate, craftsman_smith
 denari 5000
 settlement
 {
@@ -3888,7 +3939,7 @@ relative 	Vratislav Premyslid,	Swatawa,	Bretislav Premyslid,	Judith,	Boleslav Pr
 ; #########   >>> Poland <<<   #########
 ; ---------------------------------------------------------
 
-faction	numidia, religious henry
+faction	numidia, religious_henry
 denari 6000
 settlement
 {
@@ -4026,6 +4077,13 @@ settlement
 ; Region: Slask
 ; --------------------
 ; dies per script
+character	Kazimierz Piast, named character, age 57, , x 112, y 122
+traits Christian 1, Married 1, Royal 1, Leader_Prince 1
+ancillaries familyseal
+army
+unit		mala druzhina c						exp 1 armour 0 weapon_lvl 0
+unit		archers								exp 0 armour 0 weapon_lvl 0
+unit		archers								exp 0 armour 0 weapon_lvl 0
 
 character	Niegoslaw Wykowski, diplomat, age 33, , x 121, y 116
 
@@ -4052,25 +4110,110 @@ unit		archers								exp 0 armour 0 weapon_lvl 0
 ; City: Poznan
 ; Region: Welkopolska
 ; --------------------
-character	Leszek Jagiello, general, age 26, , x 110, y 128
+character	Leszek Jagiello, named character, age 26, , x 110, y 128
 traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		mala druzhina pole c						exp 1 armour 0 weapon_lvl 0
 unit		archers								exp 0 armour 0 weapon_lvl 0
 
+character_record	Dobroniega, 	female, age 56, alive, never_a_leader
+character_record	Swietoslawa, 	female, age 28, alive, never_a_leader
 character_record	Wiaczeslawa, 	female, age 26, alive, never_a_leader
 character_record	Przeclawa, 		female, age 25, alive, never_a_leader
 character_record	Mieszko Piast, 	male, 	age 3, 	alive, never_a_leader
 character_record	Zbigniew Piast, male, 	age 2, 	alive, never_a_leader
 
+relative 	Kazimierz Piast,	Dobroniega,	Boleslaw Piast,	Wladyslaw Piast,	Swietoslawa,	end
 relative 	Boleslaw Piast,		Wiaczeslawa,				Mieszko Piast,		end
 relative 	Wladyslaw Piast,	Przeclawa,					Zbigniew Piast,		end
+
+; ---------------------------------------------------------
+; #########   >>> The Papal States - The Pope <<<   #########
+; ---------------------------------------------------------
+
+faction	pope, comfortable_napoleon
+denari 5000
+
+settlement
+{
+	level large_city
+	region Papal-States
+
+	year_founded 0
+	population 11500
+	plan_set default_set
+	faction_creator pope
+	building
+	{
+	 	type core_building proconsuls_palace
+	}
+	building
+	{
+		type rights bigcity_rights
+	}
+	building
+	{
+		type barracks_buildings barracks
+	}
+	building
+	{
+		type law_enforcement_buildings dungeons
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+	 	type defenses stone_wall
+	}
+	building
+	{
+	 	type hinterland_roads roads
+	}
+	building
+	{
+		type temple_christian_church church3
+	}
+	building
+	{
+		type hinterland_basilica_rome basilica_rome
+	}
+	building
+	{
+	 	type temples temple
+	}
+}
+
+; Roma (Papal States)
+; --------------------
+character	Gregorio, named character, age 49, , x 95, y 71
+traits Christian 1, Pious 3, Unroyal 1, Non_Royal_Courtmember 1, Married 1
+ancillaries office_Pope, familyseal
+army
+unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
+unit		italian city militia				exp 1 armour 0 weapon_lvl 0
+unit		italian city militia				exp 1 armour 0 weapon_lvl 0
+unit		italian city militia				exp 1 armour 0 weapon_lvl 0
+unit		italian city militia				exp 1 armour 0 weapon_lvl 0
+unit		italian city militia				exp 1 armour 0 weapon_lvl 0
+unit		italian city militia				exp 1 armour 0 weapon_lvl 0
+unit		militia spearmen					exp 0 armour 0 weapon_lvl 0
+unit		militia spearmen					exp 0 armour 0 weapon_lvl 0
+unit		militia spearmen					exp 0 armour 0 weapon_lvl 0
+unit		archers								exp 0 armour 0 weapon_lvl 0
+unit		archers								exp 0 armour 0 weapon_lvl 0
+unit		archers								exp 0 armour 0 weapon_lvl 0
+
+character_record	Phillipa derWelfer,	female,	age 21,	alive,	never_a_leader
+
+relative 	Gregorio,					Phillipa derWelfer,				end
 
 ; ---------------------------------------------------------
 ; #########   >>> Egypt <<<   #########
 ; ---------------------------------------------------------
 
-faction	greek_cities, trader henry
+faction	greek_cities, trader_henry
 denari 8500
 settlement
 {
@@ -4316,7 +4459,7 @@ unit		muslim spear militia			exp 0 armour 0 weapon_lvl 0
 ; City: Al_Iskandirya
 ; Region: Egypt
 ; --------------------
-character	Gawhar abuSharaf, general, age 40, , x 203, y 15
+character	Gawhar abuSharaf, named character, age 40, , x 203, y 15
 traits Muslim 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		ghulam bodyguards c				exp 1 armour 0 weapon_lvl 0
@@ -4325,7 +4468,7 @@ unit		muslim spear militia			exp 0 armour 0 weapon_lvl 0
 ; City: Al_Qahira
 ; Region: Arcadia
 ; --------------------
-character	Muhammad abuBadis, general, age 34, , x 189, y 22
+character	Muhammad abuBadis, named character, age 34, , x 189, y 22
 traits Muslim 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 ancillaries office_Kadi
 army
@@ -4335,7 +4478,7 @@ unit		muslim spear militia			exp 0 armour 0 weapon_lvl 0
 ; City: Siwah
 ; Region: Libya
 ; --------------------
-character	Adil abuSalim, general, age 27, , x 186, y 11
+character	Adil abuSalim, named character, age 27, , x 186, y 11
 traits Muslim 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		ghulam bodyguards c				exp 1 armour 0 weapon_lvl 0
@@ -4344,7 +4487,7 @@ unit		muslim spear militia			exp 0 armour 0 weapon_lvl 0
 ; City: Paraetonium
 ; Region: Marmora
 ; --------------------
-character	Ala abuOmar, general, age 26, , x 192, y 1
+character	Ala abuOmar, named character, age 26, , x 192, y 1
 traits Muslim 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		ghulam bodyguards c				exp 1 armour 0 weapon_lvl 0
@@ -4353,7 +4496,7 @@ unit		muslim spear militia			exp 0 armour 0 weapon_lvl 0
 ; City: Damascus
 ; Region: Syria
 ; --------------------
-character	Abbas alMustali, general, age 25, , x 206, y 37
+character	Abbas alMustali, named character, age 25, , x 206, y 37
 traits Muslim 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 ancillaries office_Vizier
 army
@@ -4369,7 +4512,7 @@ relative 	alMustansir alFatimiyyun,	Fatimah,	alMustali alFatimiyyun,	end
 ; #########   >>> The Holy Roman Empire <<<   #########
 ; ---------------------------------------------------------
 
-faction	germans, fortified napoleon
+faction	germans, balanced_mao
 denari 10000
 
 settlement            
@@ -4632,63 +4775,17 @@ settlement
 	}
 }
 
-settlement
-{
-	level large_city
-	region Papal-States
-
-	year_founded 0
-	population 11500
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-	 	type core_building proconsuls_palace
-	}
-	building
-	{
-		type rights bigcity_rights
-	}
-	building
-	{
-		type barracks_buildings barracks
-	}
-	building
-	{
-		type law_enforcement_buildings dungeons
-	}
-	building
-	{
-		type port_buildings port
-	}
-	building
-	{
-	 	type defenses stone_wall
-	}
-	building
-	{
-	 	type hinterland_roads roads
-	}
-	building
-	{
-		type temple_christian_church church3
-	}
-	building
-	{
-		type hinterland_basilica_rome basilica_rome
-	}
-	building
-	{
-	 	type temples temple
-	}
-}
-
 ; City: Magdeburg
 ; Region: Sachsen
 ; --------------------
 ; moved to rebel Sachsen
 
 ; dies per script
+character	'Heinrich, named character, age 91, , x 75, y 109 
+traits Christian 1, Married 1, Royal 1, Leader_Prince 1
+ancillaries familyseal
+army
+unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
 
 character	Adalbert vonLothringen, diplomat, age 33, , x 75, y 110
 
@@ -4731,7 +4828,7 @@ unit		archers								exp 0 armour 0 weapon_lvl 0
 ; City: germany6C
 ; Region: Germany6
 ; --------------------
-character	Sigismund vonHolstein, general, age 42, , x 87, y 136
+character	Sigismund vonHolstein, named character, age 42, , x 87, y 136
 traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		early kings cavalry c					exp 1 armour 0 weapon_lvl 0
@@ -4741,7 +4838,7 @@ unit		archers								exp 0 armour 0 weapon_lvl 0
 ; City: germany7C
 ; Region: Germany7
 ; --------------------
-character	Herrmann vonOsterreich, general, age 22, , x 111, y 105
+character	Herrmann vonOsterreich, named character, age 22, , x 111, y 105
 traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		early kings cavalry c					exp 1 armour 0 weapon_lvl 0
@@ -4762,7 +4859,7 @@ unit		archers								exp 0 armour 0 weapon_lvl 0
 ; City: Würzburg
 ; Region: 
 ; --------------------
-character	Ludwig vonFranken, general, age 48, , x 87, y 116
+character	Ludwig vonFranken, named character, age 48, , x 87, y 116
 traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
@@ -4771,7 +4868,7 @@ unit		archers								exp 0 armour 0 weapon_lvl 0
 
 ; Italy - Verona
 ; --------------------
-character	Folco diVerona, general, age 29, , x 91, y 91
+character	Folco diVerona, named character, age 29, , x 91, y 91
 traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
@@ -4785,29 +4882,9 @@ unit		crossbowmen							exp 0 armour 0 weapon_lvl 0
 unit		archers								exp 0 armour 0 weapon_lvl 0
 unit		archers								exp 0 armour 0 weapon_lvl 0
 
-; Roma (Papal States)
-; --------------------
-character	Gregorio, named character, age 49, , x 95, y 71
-traits Christian 1, Pious 3, Unroyal 1, Non_Royal_Courtmember 1, Married 1
-ancillaries office_Pope, familyseal
-army
-unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
-unit		italian city militia				exp 1 armour 0 weapon_lvl 0
-unit		italian city militia				exp 1 armour 0 weapon_lvl 0
-unit		italian city militia				exp 1 armour 0 weapon_lvl 0
-unit		italian city militia				exp 1 armour 0 weapon_lvl 0
-unit		italian city militia				exp 1 armour 0 weapon_lvl 0
-unit		italian city militia				exp 1 armour 0 weapon_lvl 0
-unit		militia spearmen					exp 0 armour 0 weapon_lvl 0
-unit		militia spearmen					exp 0 armour 0 weapon_lvl 0
-unit		militia spearmen					exp 0 armour 0 weapon_lvl 0
-unit		archers								exp 0 armour 0 weapon_lvl 0
-unit		archers								exp 0 armour 0 weapon_lvl 0
-unit		archers								exp 0 armour 0 weapon_lvl 0
-
+character_record	Maria, 					female, age 68, alive,	never_a_leader
 character_record	Cunigunda, 				female, age 38, alive,	never_a_leader
 character_record	Hildegarde, 			female, age 37, alive,	never_a_leader
-character_record	Phillipa derWelfer, 	female, age 21, dead,	never_a_leader
 character_record	Berthe, 				female, age 19, alive,	never_a_leader
 character_record	Maria vonStaufen, 		female, age 17, alive,	never_a_leader
 character_record	Adelheid vonStaufen, 	female, age 3, 	alive,	never_a_leader
@@ -4818,17 +4895,17 @@ character_record	'Welf derWelfer, 		male, 	age 1, 	alive,	never_a_leader
 character_record	Heinrick Salier, 		male, 	age 0, 	alive,	never_a_leader
 character_record	Heinrik derWelfer, 		male, 	age 0, 	alive,	never_a_leader
 
-relative 	Welf derWelfer,				Cunigunda,	Phillipa derWelfer,	'Welf derWelfer,	Heinrik derWelfer,		end
+relative 	'Heinrich,		Maria,		Cunigunda,	Hildegarde,			Berthe,					end
+relative 	Welf derWelfer,				Cunigunda,	'Welf derWelfer,	Heinrik derWelfer,		end
 relative 	Friedrik vonStaufen,		Hildegarde,	Maria vonStaufen,	Adelheid vonStaufen,	Friedrich vonStaufen,	end
 relative 	Heinrich Salier,			Berthe,		Agnes,				Heinrick Salier,		end
-relative 	Gregorio,					Phillipa derWelfer,				end
 relative 	Herrmann vonLothringen,		Maria vonStaufen,				Peter vonLothringen,	end
 
 ; ---------------------------------------------------------
 ; #########   >>> Denmark <<<   #########
 ; ---------------------------------------------------------
 
-faction	scythia, sailor smith
+faction	scythia, sailor_smith
 denari 7500
 settlement
 {
@@ -4902,7 +4979,7 @@ settlement
 	region Jylland
 
 	year_founded 0
-	population 1950
+	population 1500
 	plan_set default_set
 	faction_creator scythia
 	building
@@ -4925,7 +5002,7 @@ settlement
 	region JyllandS
 
 	year_founded 0
-	population 1950
+	population 1500
 	plan_set default_set
 	faction_creator scythia
 	building
@@ -4966,7 +5043,7 @@ unit		viking warriors					exp 0 armour 0 weapon_lvl 0
 
 ; Region: Denmark
 ; --------------------
-character	Frode af_Jylland, named character, age 47, , x 88, y 151
+character	Frode af_Jylland, named character, age 47, , x 89, y 151
 traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 ancillaries office_Rigsjarl, familyseal
 army
@@ -4999,7 +5076,7 @@ relative 	Sweyn Estridsen,	Thyra,	Harald Estridsen,	end
 ; #########   >>> Kiev Rus <<<   #########
 ; ---------------------------------------------------------
 
-faction	armenia, trader henry
+faction	armenia, balanced_henry
 denari 12500
 settlement
 {
@@ -5216,7 +5293,7 @@ relative 	Sviatopolk Rurikovich,	Anastasia,	Vyacheslav Rurikovich,	Anna,					end
 ; #########   >>> Kingdom of Georgia <<<   #########
 ; ---------------------------------------------------------
 
-faction	georgia, trader smith
+faction	georgia, religious_caesar
 denari 7500
 settlement
 {
@@ -5224,7 +5301,7 @@ settlement
 	region Abkhazia
 
 	year_founded 0
-	population 3500
+	population 4500
 	plan_set default_set
 	faction_creator georgia
 	building
@@ -5303,9 +5380,10 @@ unit		monaspa horsearcher				exp 1 armour 0 weapon_lvl 0
 unit		armenian foot archers				exp 1 armour 0 weapon_lvl 0
 unit		armenian foot archers				exp 1 armour 0 weapon_lvl 0
 
-character	Bagrat, general, age 45, , x 222, y 93
-traits 
+character	Bagrat Mkhargrdzeli, named character, age 40, , x 222, y 93
+traits Christian 1, Unroyal 1
 army
+unit		georgian bg					exp 2 armour 0 weapon_lvl 0
 unit		kartvelian spearmen					exp 1 armour 0 weapon_lvl 0
 unit		kartvelian spearmen					exp 1 armour 0 weapon_lvl 0
 unit		armenian foot archers				exp 1 armour 0 weapon_lvl 0
@@ -5321,7 +5399,7 @@ relative 	Giorgi Bagrationi,	Borena,	David Bagrationi,	end
 ; #########   >>> Independent Factions <<<   #########
 ; ---------------------------------------------------------
 
-faction	slave, balanced napoleon
+faction	slave, balanced_napoleon
 denari 999999
 
 settlement
@@ -5902,7 +5980,7 @@ settlement
 	region Seleukeia
 
 	year_founded 0
-	population 4900
+	population 3000
 	plan_set default_set
 	faction_creator seleucid
 	building
@@ -5916,10 +5994,6 @@ settlement
 	building
 	{
 		type defenses wooden_wall
-	}
-	building
-	{
-		type port_buildings port
 	}
 	building
 	{
@@ -5950,48 +6024,17 @@ settlement
 	}
 	building
 	{
-		type port_buildings port
-	}
-	building
-	{
 		type temple_christian_church church1
 	}
 }
 
 settlement
 {
-	level city
+	level large_town
 	region Georgia
 
 	year_founded 0
-	population 5600
-	plan_set default_set
-	faction_creator georgia
-	building
-	{
-	 	type core_building governors_palace
-	}
-	building
-	{
-		type rights city_rights
-	}
-	building
-	{
-	 	type temple_christian_church church1
-	}
-	building
-	{
-	 	type defenses stone_wall
-	}
-}
-
-settlement
-{
-	level large_town
-	region Kakheti
-
-	year_founded 0
-	population 2000
+	population 3000
 	plan_set default_set
 	faction_creator georgia
 	building
@@ -6004,15 +6047,30 @@ settlement
 	}
 	building
 	{
+	 	type defenses wooden_wall
+	}
+}
+
+settlement
+{
+	level town
+	region Kakheti
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator georgia
+	building
+	{
+	 	type core_building governors_house
+	}
+	building
+	{
 	 	type temples temple
 	}
 	building
 	{
 	 	type defenses wooden_wall
-	}
-	building
-	{
-	 	type temple_christian_church church1
 	}
 }
 
@@ -6230,6 +6288,33 @@ settlement
 	building
 	{
 		type safe_sea safe_sea
+	}
+}
+
+settlement
+{
+	level large_town
+	region Province_of_Benevento
+
+	year_founded 0
+	population 3205
+	plan_set default_set
+	faction_creator dacia
+	building
+	{
+	 	type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+	 	type defenses wooden_wall
+	}
+	building
+	{
+		type barracks_buildings barracks
 	}
 }
 
@@ -7708,6 +7793,29 @@ settlement
 settlement
 {
 	level town
+	region Vastergotland
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator scythia
+	building
+	{
+	 	type core_building governors_house
+	}
+	building
+	{
+	 	type temples temple
+	}
+	building
+	{
+	 	type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
 	region Perejaslavl
 
 	year_founded 0
@@ -8124,6 +8232,31 @@ unit		crossbowmen				exp 1 armour 0 weapon_lvl 0
 unit		archers					exp 0 armour 0 weapon_lvl 0
 unit		archers					exp 0 armour 0 weapon_lvl 0
 
+; Italy - Perugia
+; --------------------
+character	sub_faction romans_julii, Uberto, named character, age 29, , x 101, y 74
+traits GoodCommander 1, Loyal 4, Christian 1
+army
+unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
+unit		italian knights				exp 2 armour 0 weapon_lvl 0
+unit		italian knights				exp 1 armour 0 weapon_lvl 0
+unit		italian city militia			exp 1 armour 0 weapon_lvl 0
+unit		italian city militia			exp 1 armour 0 weapon_lvl 0
+unit		italian city militia			exp 1 armour 0 weapon_lvl 0
+unit		italian city militia			exp 1 armour 0 weapon_lvl 0
+unit		italian city militia			exp 1 armour 0 weapon_lvl 0
+unit		italian city militia			exp 1 armour 0 weapon_lvl 0
+unit		ribaldi					exp 1 armour 0 weapon_lvl 0
+unit		ribaldi					exp 1 armour 0 weapon_lvl 0
+unit		ribaldi					exp 1 armour 0 weapon_lvl 0
+unit		ribaldi					exp 1 armour 0 weapon_lvl 0
+unit		crossbowmen				exp 1 armour 0 weapon_lvl 0
+unit		crossbowmen				exp 1 armour 0 weapon_lvl 0
+unit		crossbowmen				exp 1 armour 0 weapon_lvl 0
+unit		crossbowmen				exp 1 armour 0 weapon_lvl 0
+unit		archers					exp 0 armour 0 weapon_lvl 0
+unit		archers					exp 0 armour 0 weapon_lvl 0
+
 ; Italy - Lombardia
 ; --------------------
 character	sub_faction romans_julii, Lamberto Obertenghi, named character, age 29, , x 83, y 91
@@ -8389,6 +8522,26 @@ unit		archers					exp 1 armour 0 weapon_lvl 0
 ; Scandinavia - Gotland
 ; --------------------
 character	sub_faction scythia, Godafrid, general, age 29, , x 114, y 157
+army
+unit		viking huscarls				exp 5 armour 0 weapon_lvl 0
+unit		viking huscarls				exp 2 armour 0 weapon_lvl 0
+unit		viking warriors				exp 1 armour 0 weapon_lvl 0
+unit		viking warriors				exp 1 armour 0 weapon_lvl 0
+unit		viking warriors				exp 1 armour 0 weapon_lvl 0
+unit		viking warriors				exp 1 armour 0 weapon_lvl 0
+unit		viking warriors				exp 1 armour 0 weapon_lvl 0
+unit		viking warriors				exp 1 armour 0 weapon_lvl 0
+unit		viking warriors				exp 1 armour 0 weapon_lvl 0
+unit		viking warriors				exp 1 armour 0 weapon_lvl 0
+unit		viking warriors				exp 1 armour 0 weapon_lvl 0
+unit		woodsmen				exp 1 armour 0 weapon_lvl 0
+unit		woodsmen				exp 1 armour 0 weapon_lvl 0
+unit		archers					exp 0 armour 0 weapon_lvl 0
+unit		archers					exp 0 armour 0 weapon_lvl 0
+
+; Scandinavia - Vastergotland
+; --------------------
+character	sub_faction scythia, Sigifrid, general, age 29, , x 99, y 161
 army
 unit		viking huscarls				exp 5 armour 0 weapon_lvl 0
 unit		viking huscarls				exp 2 armour 0 weapon_lvl 0
@@ -9048,7 +9201,7 @@ unit		steppe infantry						exp 1 armour 0 weapon_lvl 0
 ; City: Anazarba
 ; Region: Cilicia
 ; --------------------
-character	sub_faction seleucid, Thoros, named character, age 18, , x 195, y 58
+character	sub_faction parthia, Thoros, named character, age 18, , x 195, y 58
 traits Christian 1, Loyal 4
 army
 unit		naxarar bodyguard c					exp 2 armour 0 weapon_lvl 0
@@ -9830,7 +9983,7 @@ unit		archers						exp 0 armour 0 weapon_lvl 0
 ; City: Kapan
 ; Region: Artsakh and Baghk
 ; --------------------
-character	sub_faction seleucid, Senekerim, named character, age 44, , x 232, y 82
+character	sub_faction seleucid, Senekerim, named character, age 44, , x 232, y 83
 traits GoodCommander 1, Loyal 4, Christian 1
 army
 unit		naxarar bodyguard c			exp 2 armour 0 weapon_lvl 0
@@ -9927,213 +10080,215 @@ unit		spearmen					exp 0 armour 0 weapon_lvl 0
 ;------------------------------Campaign-Start-Relations----------------------------------------
 
 ;--------------------------------Independent nations-------------------------------------------
-;core_attitudes 			slave,				600				britons, gauls, spain, germans, scythia, macedon, parthia, romans_senate, greek_cities, thrace, numidia, armenia, romans_scipii, pontus, carthage, seleucid, egypt, romans_brutii, dacia
+core_attitudes 			slave,				600		britons, gauls, georgia, spain, germans, scythia, macedon, parthia, romans_senate, greek_cities, thrace, numidia, armenia, romans_scipii, pontus, carthage, seleucid, egypt, romans_brutii, dacia
 ;--------------------------------England----------------------------------------------------------
-;core_attitudes 			britons,			600 	        slave
-;core_attitudes 			britons,			570 	        greek_cities, thrace, macedon, pontus
-;core_attitudes 			britons,			550 	        romans_brutii 	        
-;core_attitudes 			britons,			300 	        scythia, gauls
-;core_attitudes 			britons,			100 	        parthia, seleucid, egypt 
-;core_attitudes 			britons,			0 	            romans_senate, armenia, romans_julii           
-;core_attitudes 			britons,			-600            germans, dacia, spain, romans_scipii, numidia, carthage  
+core_attitudes 			britons,			600 	        slave
+core_attitudes 			britons,			570 	        greek_cities, thrace, macedon, pontus
+core_attitudes 			britons,			550 	        romans_brutii 	        
+core_attitudes 			britons,			300 	        scythia, gauls
+core_attitudes 			britons,			100 	        parthia, seleucid, egypt, georgia 
+core_attitudes 			britons,			0 	            romans_senate, armenia, romans_julii           
+core_attitudes 			britons,			-600            germans, dacia, spain, romans_scipii, numidia, carthage  
 ;------------------------------France-------------------------------------------------------------
-;core_attitudes 			gauls,				600 	        slave
-;core_attitudes 			gauls,				590 	        greek_cities, thrace, macedon, romans_brutii, pontus	         
-;core_attitudes 			gauls,				100 	        germans
-;core_attitudes 			gauls,				0 	            romans_senate, armenia, britons, parthia, seleucid, egypt
-;core_attitudes 			gauls,				-300 	        dacia, romans_julii
-;core_attitudes 			gauls,				-600 	        romans_scipii, scythia, numidia, carthage, spain
+core_attitudes 			gauls,				600 	        slave
+core_attitudes 			gauls,				590 	        greek_cities, thrace, macedon, romans_brutii, pontus	         
+core_attitudes 			gauls,				100 	        germans
+core_attitudes 			gauls,				0		romans_senate, armenia, britons, parthia, seleucid, egypt, georgia
+core_attitudes 			gauls,				-300 	        dacia, romans_julii
+core_attitudes 			gauls,				-600 	        romans_scipii, scythia, numidia, carthage, spain
 ;-----------------------------Aragon--------------------------------------------------------------
-;core_attitudes 			spain,				600 	        slave
-;core_attitudes 			spain,				570 	        macedon
-;core_attitudes 			spain,			    550 	        greek_cities, thrace, romans_brutii, pontus,
-;core_attitudes 			spain,				200 	        seleucid, egypt 
-;core_attitudes 			spain,				0 	            armenia,  romans_senate, dacia, parthia, romans_julii
-;core_attitudes 			spain,				-550 	        germans, scythia, numidia, carthage
-;core_attitudes 			spain,				-600 	        romans_scipii, gauls, britons, germans
+core_attitudes 			spain,				600 	        slave
+core_attitudes 			spain,				570 	        macedon
+core_attitudes 			spain,			    	550 	        greek_cities, thrace, romans_brutii, pontus,
+core_attitudes 			spain,				200 	        seleucid, egypt, georgia
+core_attitudes 			spain,				0 	            armenia,  romans_senate, dacia, parthia, romans_julii
+core_attitudes 			spain,				-550 	        germans, scythia, numidia, carthage
+core_attitudes 			spain,				-600 	        romans_scipii, gauls, britons, germans
 ;-------------------------------HRE---------------------------------------------------------------
-;core_attitudes 			germans,			600 	        slave
-;core_attitudes 			germans,			570 	        thrace, greek_cities, pontus
-;core_attitudes 	        germans,			550             romans_brutii, macedon 	        
-;core_attitudes 	        germans,			250 	        gauls, dacia, romans_julii  
-;core_attitudes 			germans,			200 	        egypt
-;core_attitudes 			germans,			100 	        numidia, scythia, parthia, seleucid
-;core_attitudes 			germans,			0 	            armenia
-;core_attitudes 			germans,			-500 	        carthage   
-;core_attitudes 			germans,			-550 	        romans_scipii, spain, britons
-;core_attitudes 			germans,			-600 	        romans_senate
-;-----------------------------Danmark-------------------------------------------------------------
-;core_attitudes 			scythia,			600 	        slave
-;core_attitudes 			scythia,			550             macedon, greek_cities, thrace, romans_brutii, pontus
-;core_attitudes 			scythia,			400 	        britons, numidia 
-;core_attitudes 			scythia,			300 	        germans 
-;core_attitudes 			scythia,			100 	        parthia, carthage, seleucid, egypt
-;core_attitudes 			scythia,			0 	            romans_senate
-;core_attitudes 			scythia,			-500 	        gauls, romans_scipii, spain, dacia, romans_julii
-;core_attitudes 			scythia,			-550 	        armenia
+core_attitudes			germans,			600 	        slave
+core_attitudes			germans,			570 	        thrace, greek_cities, pontus
+core_attitudes			germans,			550             romans_brutii, macedon 	        
+core_attitudes			germans,			250 	        gauls, dacia, romans_julii  
+core_attitudes			germans,			200 	        egypt
+core_attitudes			germans,			100 	        numidia, scythia, parthia, seleucid, georgia
+core_attitudes			germans,			0		armenia
+core_attitudes			germans,			-500 	        carthage   
+core_attitudes			germans,			-550 	        romans_scipii, spain, britons
+core_attitudes			germans,			-600 	        romans_senate
+;-----------------------------Denmark-------------------------------------------------------------
+core_attitudes			scythia,			600 	        slave
+core_attitudes 			scythia,			550             macedon, greek_cities, thrace, romans_brutii, pontus
+core_attitudes 			scythia,			400 	        britons, numidia 
+core_attitudes 			scythia,			300 	        germans 
+core_attitudes 			scythia,			100 	        parthia, carthage, seleucid, egypt, georgia
+core_attitudes 			scythia,			0 	            romans_senate
+core_attitudes 			scythia,			-500 	        gauls, romans_scipii, spain, dacia, romans_julii
+core_attitudes 			scythia,			-550 	        armenia
 ;----------------------------Moors/Almohads-------------------------------------------------------
-;core_attitudes 			macedon,			600 	        slave
-;core_attitudes 			macedon,			590 	        spain, romans_scipii 				
-;core_attitudes 			macedon,			300 	        romans_brutii, gauls, dacia, romans_julii
-;core_attitudes 			macedon,			100 	        scythia, numidia, carthage, romans_senate, 
-;core_attitudes 			macedon,			0 	            parthia, armenia, seleucid, egypt, pontus
-;core_attitudes 			macedon,			-300 	        greek_cities, thrace
+core_attitudes 			macedon,			600 	        slave
+core_attitudes 			macedon,			590 	        spain, romans_scipii 				
+core_attitudes 			macedon,			300 	        romans_brutii, gauls, dacia, romans_julii
+core_attitudes 			macedon,			100 	        scythia, numidia, carthage, romans_senate, 
+core_attitudes 			macedon,			0 	            parthia, armenia, seleucid, egypt, pontus, georgia
+core_attitudes 			macedon,			-300 	        greek_cities, thrace
 ;----------------------------Byzantium------------------------------------------------------------ 
-;core_attitudes 			parthia,			600 	        slave
-;core_attitudes 			parthia,			450 	        thrace
-;core_attitudes 			parthia,			400 	        pontus
-;core_attitudes 			parthia,			350 	        carthage, dacia
-;core_attitudes 			parthia,			300 	        greek_cities, macedon, romans_brutii 
-;core_attitudes 			parthia,			100 	        romans_scipii, britons, germans, numidia, scythia, spain, gauls
-;core_attitudes 			parthia,			0 	            egypt, romans_senate
-;core_attitudes 			parthia,			-100            armenia
-;core_attitudes 			parthia,			-200            seleucid
-;core_attitudes 			parthia,			-300            romans_julii
+core_attitudes 			parthia,			600 	        slave
+core_attitudes 			parthia,			450 	        thrace
+core_attitudes 			parthia,			400 	        pontus, seleucid, georgia
+core_attitudes 			parthia,			350 	        carthage, dacia
+core_attitudes 			parthia,			300 	        greek_cities, macedon, romans_brutii, armenia 
+core_attitudes 			parthia,			100 	        romans_scipii, britons, germans, numidia, scythia, spain, gauls
+core_attitudes 			parthia,			0 	            egypt, romans_senate, romans_julii
 ;----------------------------Bohemia--------------------------------------------------------------
-;core_attitudes 			romans_senate,		600 	        slave
-;core_attitudes 			romans_senate,		550 	        egypt, macedon, thrace, greek_cities, romans_brutii, pontus
-;core_attitudes 			romans_senate,		100 	        numidia
-;core_attitudes 			romans_senate,		0 	            scythia, britons, gauls, spain, carthage, romans_scipii, dacia, parthia, romans_julii
-;core_attitudes 			romans_senate,		-100 	        armenia, seleucid 
-;core_attitudes 			romans_senate,		-600            germans
+core_attitudes 			romans_senate,		600		slave
+core_attitudes 			romans_senate,		550 	        egypt, macedon, thrace, greek_cities, romans_brutii, pontus
+core_attitudes 			romans_senate,		100 	        numidia
+core_attitudes 			romans_senate,		0 	            scythia, britons, gauls, spain, carthage, romans_scipii, dacia, parthia, romans_julii
+core_attitudes 			romans_senate,		-100 	        armenia, seleucid, georgia, germans
 ;----------------------------Egypt/Fatamids-------------------------------------------------------
-;core_attitudes 			greek_cities,		600             slave	
-;core_attitudes 			greek_cities,		590        	    britons, gauls, germans, dacia, romans_julii  
-;core_attitudes 			greek_cities,		500             romans_brutii, thrace 
-;core_attitudes 			greek_cities,		100             pontus, carthage, romans_senate, spain, scythia, numidia, romans_scipii
-;core_attitudes 			greek_cities,		0 	            egypt, seleucid, carthage 
-;core_attitudes 			greek_cities,		-50 	        armenia, parthia
-;core_attitudes 			greek_cities,		-300 	        macedon
+core_attitudes 			greek_cities,		600		slave	
+core_attitudes 			greek_cities,		590        	    britons, gauls, germans, dacia, romans_julii, seleucid, georgia, romans_brutii, thrace
+core_attitudes 			greek_cities,		100             pontus, carthage, romans_senate, spain, scythia, numidia, romans_scipii
+core_attitudes 			greek_cities,		0 	            egypt, carthage 
+core_attitudes 			greek_cities,		-50 	        armenia, parthia
+core_attitudes 			greek_cities,		-300 	        macedon
 ;----------------------------Turks/Grand-Seljuks--------------------------------------------------------
-;core_attitudes 			thrace,				600 	        slave
-;core_attitudes 			thrace,				590             greek_cities, carthage, parthia
-;core_attitudes 			thrace,				550	            britons, gauls, germans, dacia, romans_julii  
-;core_attitudes 			thrace,				490             seleucid, scythia, romans_scipii, spain, romans_senate, numidia
-;core_attitudes 			thrace,				100 	        egypt, armenia 
-;core_attitudes 			thrace,				-500	        pontus, macedon
-;core_attitudes 			thrace,				-600	        romans_brutii
+core_attitudes 			thrace,				600 	        slave
+core_attitudes 			thrace,				590             greek_cities, carthage, parthia, seleucid, georgia
+core_attitudes 			thrace,				550	            britons, gauls, germans, dacia, romans_julii  
+core_attitudes 			thrace,				490             scythia, romans_scipii, spain, romans_senate, numidia
+core_attitudes 			thrace,				100 	        egypt, armenia 
+core_attitudes 			thrace,				-500	        pontus, macedon
+core_attitudes 			thrace,				-600	        romans_brutii
 ;-------------------------------Poland------------------------------------------------------------
-;core_attitudes 			numidia,			600 	        slave
-;core_attitudes 			numidia,			550             romans_senate, scythia
-;core_attitudes 			numidia,			490 	        macedon, greek_cities, thrace, romans_brutii, pontus, egypt
-;core_attitudes 			numidia,			300             armenia, egypt 
-;core_attitudes 			numidia,			0 	            carthage, seleucid
-;core_attitudes 			numidia,			-100 	        parthia, dacia, romans_julii
-;core_attitudes 			numidia,			-550 	        germans, britons, gauls, spain, romans_scipii
+core_attitudes 			numidia,			600 	        slave
+core_attitudes 			numidia,			550             romans_senate, scythia
+core_attitudes 			numidia,			490 	        macedon, greek_cities, thrace, romans_brutii, pontus, egypt
+core_attitudes 			numidia,			300             armenia, egypt 
+core_attitudes 			numidia,			0 	            carthage, seleucid, georgia
+core_attitudes 			numidia,			-100 	        parthia, dacia, romans_julii
+core_attitudes 			numidia,			-550 	        germans, britons, gauls, spain, romans_scipii
 ;-------------------------------KievRus-----------------------------------------------------------
-;core_attitudes 			armenia,			600 	        slave
-;core_attitudes 			armenia,			575 	        egypt
-;core_attitudes 			armenia,			550 	        thrace
-;core_attitudes 			armenia,			540             macedon, greek_cities, romans_brutii, carthage
-;core_attitudes 			armenia,			250 	        numidia,  
-;core_attitudes 			armenia,			150 	        scythia, romans_senate 
-;core_attitudes 			armenia,			-100            parthia, seleucid
-;core_attitudes 			armenia,			-200 	        britons, gauls, spain, germans, romans_scipii, dacia, romans_julii
+core_attitudes 			armenia,			600 	        slave
+core_attitudes 			armenia,			575 	        egypt
+core_attitudes 			armenia,			550 	        thrace
+core_attitudes 			armenia,			540             macedon, greek_cities, romans_brutii, carthage
+core_attitudes 			armenia,			250 	        numidia,  
+core_attitudes 			armenia,			150 	        scythia, romans_senate 
+core_attitudes 			armenia,			-100            parthia, seleucid, georgia
+core_attitudes 			armenia,			-200 	        britons, gauls, spain, germans, romans_scipii, dacia, romans_julii
 ;--------------------------------Castile----------------------------------------------------------
-;core_attitudes 			romans_scipii,		600 	        slave
-;core_attitudes 			romans_scipii,		590 	        macedon
-;core_attitudes 			romans_scipii,		570 	        greek_cities, thrace, romans_brutii, pontus, egypt	        
-;core_attitudes 			romans_scipii,		0 	        	parthia, numidia, armenia, carthage, seleucid
-;core_attitudes 			romans_scipii,		-550         	scythia, romans_senate, dacia, romans_julii, britons, gauls       	                 
-;core_attitudes 			romans_scipii,		-600         	spain, germans
+core_attitudes 			romans_scipii,		600 	        slave
+core_attitudes 			romans_scipii,		590 	        macedon
+core_attitudes 			romans_scipii,		570 	        greek_cities, thrace, romans_brutii, pontus, egypt	        
+core_attitudes 			romans_scipii,		0 	        	parthia, numidia, armenia, carthage, seleucid, georgia
+core_attitudes 			romans_scipii,		-550         	scythia, romans_senate, dacia, romans_julii, britons, gauls       	                 
+core_attitudes 			romans_scipii,		-600         	spain, germans
 ;--------------------------------Hungaria---------------------------------------------------------
-;core_attitudes 			carthage,			600 	        slave 
-;core_attitudes 			carthage,			590 	        thrace 
-;core_attitudes 			carthage,			570 	        egypt
-;core_attitudes 			carthage,			550             parthia, pontus, macedon, greek_cities, romans_brutii	        
-;core_attitudes 			carthage,			200 	        numidia, armenia, seleucid
-;core_attitudes 			carthage,			190 	        romans_senate
-;core_attitudes 			carthage,			-150            germans, dacia, romans_julii
-;core_attitudes 			carthage,			-600 	        britons, gauls, spain, scythia, romans_scipii
+core_attitudes 			carthage,			600 	        slave 
+core_attitudes 			carthage,			590 	        thrace 
+core_attitudes 			carthage,			570 	        egypt
+core_attitudes 			carthage,			550             parthia, pontus, macedon, greek_cities, romans_brutii	        
+core_attitudes 			carthage,			200 	        numidia, armenia, seleucid
+core_attitudes 			carthage,			190 	        romans_senate
+core_attitudes 			carthage,			-150            germans, dacia, romans_julii, georgia
+core_attitudes 			carthage,			-600 	        britons, gauls, spain, scythia, romans_scipii
 ;---------------------------------Armenia-Cilicia-------------------------------------------------
-;core_attitudes 			seleucid,			600 	        slave
-;core_attitudes 			seleucid,			350 	        thrace
-;core_attitudes 			seleucid,			300 	        romans_brutii, greek_cities, macedon, pontus         
-;core_attitudes 			seleucid,			100 	        egypt 
-;core_attitudes 			seleucid,			0 	            spain, romans_scipii, carthage, scythia, romans_senate, numidia
-;core_attitudes 			seleucid,			-200            parthia 
-;core_attitudes 			seleucid,			-400            britons, gauls, germans, dacia, romans_julii, armenia
+core_attitudes 			seleucid,			600 	        slave
+core_attitudes 			seleucid,			550 	        thrace, parthia, pontus
+core_attitudes 			seleucid,			300 	        romans_brutii, greek_cities, macedon         
+core_attitudes 			seleucid,			100 	        egypt 
+core_attitudes 			seleucid,			0 	            spain, romans_scipii, carthage, scythia, romans_senate, numidia
+core_attitudes 			seleucid,			-400            britons, gauls, germans, dacia, romans_julii, armenia, georgia
 ;-------------------------------Steppe Hordes-----------------------------------------------------
-;core_attitudes 			egypt,				600 	        slave
-;core_attitudes 			egypt,				570 	        armenia
-;core_attitudes 			egypt,				550 	        carthage
-;core_attitudes 			egypt,				500             numidia, thrace, pontus
-;core_attitudes 			egypt,				100 	        romans_senate, greek_cities, seleucid 
-;core_attitudes 			egypt,				0               britons, gauls, spain, germans, scythia, macedon, romans_scipii, romans_brutii, dacia, romans_julii, parthia
+core_attitudes 			egypt,				600 	        slave
+core_attitudes 			egypt,				570 	        armenia, georgia
+core_attitudes 			egypt,				550 	        carthage
+core_attitudes 			egypt,				500             numidia, thrace, pontus
+core_attitudes 			egypt,				100 	        romans_senate, greek_cities, seleucid 
+core_attitudes 			egypt,				0               britons, gauls, spain, germans, scythia, macedon, romans_scipii, romans_brutii, dacia, romans_julii, parthia
 ;---------------------------------Sicily/Normans--------------------------------------------------
-;core_attitudes 			dacia,				600 	        slave 	        
-;core_attitudes 			dacia,				590 	        thrace, pontus, romans_brutii, greek_cities, macedon
-;core_attitudes 			dacia,				300 	        parthia                      	
-;core_attitudes 			dacia,				0 	            egypt 
-;core_attitudes 			dacia,				-100 	        romans_julii, germans
-;core_attitudes 			dacia,				-300 	        carthage, scythia, numidia, armenia, seleucid, romans_senate, spain, romans_scipii
-;core_attitudes 			dacia,				-600 	        britons, gauls
+core_attitudes 			dacia,				600 	        slave 	        
+core_attitudes 			dacia,				590 	        thrace, pontus, romans_brutii, greek_cities, macedon
+core_attitudes 			dacia,				300 	        parthia                      	
+core_attitudes 			dacia,				0		egypt 
+core_attitudes 			dacia,				-100 	        romans_julii, germans
+core_attitudes 			dacia,				-300 	        carthage, scythia, numidia, armenia, seleucid, romans_senate, spain, romans_scipii, georgia
+core_attitudes 			dacia,				-600 	        britons, gauls
 ;--------------------------------Italians/Pisa----------------------------------------------------
-;core_attitudes 			romans_julii,		600 	        slave 
-;core_attitudes 			romans_julii,		590 	        romans_brutii, macedon 
-;core_attitudes 			romans_julii,		550 	        greek_cities, thrace, pontus           
-;core_attitudes 			romans_julii,		50 	        	germans, dacia
-;core_attitudes 			romans_julii,		0               egypt
-;core_attitudes 			romans_julii,		-500            scythia, numidia, armenia, romans_senate, carthage, seleucid, gauls, britons, spain, romans_scipii
-;core_attitudes 			romans_julii,		-600 	        parthia 
+core_attitudes 			romans_julii,		600 	        slave 
+core_attitudes 			romans_julii,		590 	        romans_brutii, macedon 
+core_attitudes 			romans_julii,		550 	        greek_cities, thrace, pontus, egypt           
+core_attitudes 			romans_julii,		50 	        	germans, dacia
+core_attitudes 			romans_julii,		-500            scythia, numidia, armenia, romans_senate, carthage, seleucid, gauls, britons, spain, romans_scipii, georgia
+core_attitudes 			romans_julii,		-600 	        parthia 
 ;--------------------------------Berbers/Zirids---------------------------------------------------
-;core_attitudes 			romans_brutii,		600 	    	slave 
-;core_attitudes 			romans_brutii,		550            	romans_julii, spain, romans_scipii, dacia
-;core_attitudes 			romans_brutii,		500            	romans_senate, carthage, gauls, germans, britons 
-;core_attitudes 			romans_brutii,		490           	greek_cities
-;core_attitudes 			romans_brutii,		200           	macedon 
-;core_attitudes 			romans_brutii,		0 	          	scythia, numidia, armenia, pontus, seleucid, egypt
-;core_attitudes 			romans_brutii,		-600 	    	thrace 
+core_attitudes 			romans_brutii,		600 	    	slave 
+core_attitudes 			romans_brutii,		550            	romans_julii, spain, romans_scipii, dacia
+core_attitudes 			romans_brutii,		500            	romans_senate, carthage, gauls, germans, britons 
+core_attitudes 			romans_brutii,		490           	greek_cities
+core_attitudes 			romans_brutii,		200           	macedon 
+core_attitudes 			romans_brutii,		0 	          	scythia, numidia, armenia, pontus, seleucid, egypt, georgia
+core_attitudes 			romans_brutii,		-600 	    	thrace 
 ;----------------------------Turks/Rum-Seljuks--------------------------------------------------------
-;core_attitudes 			pontus,				600 	        slave
-;core_attitudes 			pontus,				590             parthia, britons, gauls, germans, dacia, romans_julii
-;core_attitudes 			pontus,				550	            carthage, scythia, romans_scipii, spain, romans_senate, numidia  
-;core_attitudes 			pontus,				300             egypt, armenia
-;core_attitudes 			pontus,				100 	        greek_cities, seleucid
-;core_attitudes 			pontus,				0	        	thrace 
-;core_attitudes 			pontus,				-600	        macedon, romans_brutii    
+core_attitudes 			pontus,				600 	        slave
+core_attitudes 			pontus,				590             parthia, britons, gauls, germans, dacia, romans_julii, georgia, seleucid
+core_attitudes 			pontus,				550	            carthage, scythia, romans_scipii, spain, romans_senate, numidia 
+core_attitudes 			pontus,				300             egypt, armenia
+core_attitudes 			pontus,				100 	        greek_cities
+core_attitudes 			pontus,				0	        	thrace 
+core_attitudes 			pontus,				-600	        macedon, romans_brutii  
+;---------------------------------Georgia-------------------------------------------------
+core_attitudes 			georgia,			600 	        slave
+core_attitudes 			georgia,			550 	        thrace, parthia, pontus
+core_attitudes 			georgia,			300 	        romans_brutii, greek_cities, macedon         
+core_attitudes 			georgia,			100 	        egypt 
+core_attitudes 			georgia,			0 	            spain, romans_scipii, carthage, scythia, romans_senate, numidia, parthia
+core_attitudes 			georgia,			-400            britons, gauls, germans, dacia, romans_julii, armenia, seleucid  
 ;--------------------------------End Core_attitudes-----------------------------------------------
 ; Diplomatic start-status:
-;faction_relationships 	spain, 			at_war_with		slave, macedon
-;faction_relationships 	spain, 			allied_to 		romans_scipii, gauls, romans_julii, germans
-;faction_relationships 	romans_scipii, 	at_war_with 	slave, macedon
-;faction_relationships 	romans_scipii, 	allied_to 		spain, gauls, dacia, germans, romans_julii
-;faction_relationships 	gauls, 			at_war_with 	slave
-;faction_relationships 	gauls, 			allied_to 		romans_scipii, spain, parthia, germans, britons
-;faction_relationships 	britons, 		at_war_with 	slave
-;faction_relationships 	britons, 		allied_to 		dacia, gauls
-;faction_relationships 	dacia, 			at_war_with 	slave, parthia, greek_cities
-;faction_relationships 	dacia, 			allied_to 		gauls, spain, britons, seleucid, carthage
-;faction_relationships 	romans_julii, 	at_war_with 	slave, macedon
-;faction_relationships 	romans_julii, 	allied_to 		parthia, spain, romans_scipii, seleucid, dacia
-;faction_relationships 	germans, 		at_war_with 	slave
-;faction_relationships 	germans, 		allied_to 		romans_senate, scythia, romans_scipii, spain, parthia, gauls
-;faction_relationships 	scythia, 		at_war_with 	slave
-;faction_relationships 	scythia, 		allied_to 		germans
-;faction_relationships 	romans_senate, 	at_war_with 	slave
-;faction_relationships 	romans_senate, 	allied_to 		germans
-;faction_relationships 	numidia, 		at_war_with 	slave
-;faction_relationships 	numidia, 		allied_to 		armenia
-;faction_relationships 	carthage, 		at_war_with 	slave
-;faction_relationships 	carthage, 		allied_to 		dacia
-;faction_relationships 	armenia, 		at_war_with 	slave, egypt
-;faction_relationships 	armenia, 		allied_to 		numidia
-;faction_relationships 	egypt, 			at_war_with 	slave, armenia
-;faction_relationships 	parthia, 		at_war_with 	slave, thrace, dacia, pontus
-;faction_relationships 	parthia, 		allied_to 		romans_julii, germans, gauls
-;faction_relationships 	seleucid, 		at_war_with 	slave
-;faction_relationships 	seleucid, 		allied_to 		romans_julii, dacia
-;faction_relationships 	pontus, 		at_war_with 	slave, parthia
-;faction_relationships 	pontus, 		allied_to 		thrace
-;faction_relationships 	thrace, 		at_war_with 	slave, greek_cities, parthia
-;faction_relationships 	thrace, 		allied_to 		romans_brutii, pontus
-;faction_relationships 	greek_cities, 	at_war_with 	slave, thrace, dacia, romans_brutii
-;faction_relationships 	greek_cities, 	allied_to 		macedon
-;faction_relationships 	romans_brutii, 	at_war_with 	slave, greek_cities
-;faction_relationships 	romans_brutii, 	allied_to 		thrace
-;faction_relationships 	macedon, 		at_war_with 	slave, romans_scipii, spain
-;faction_relationships 	macedon, 		allied_to 		greek_cities
+faction_relationships 	spain, 			at_war_with		slave, macedon
+faction_relationships 	spain, 			allied_to 		romans_scipii, gauls, romans_julii, germans
+faction_relationships 	romans_scipii, 	at_war_with 	slave, macedon
+faction_relationships 	romans_scipii, 	allied_to 		spain, gauls, dacia, germans, romans_julii
+faction_relationships 	gauls, 			at_war_with 	slave
+faction_relationships 	gauls, 			allied_to 		romans_scipii, spain, parthia, germans, britons
+faction_relationships 	britons, 		at_war_with 	slave
+faction_relationships 	britons, 		allied_to 		dacia, gauls
+faction_relationships 	dacia, 			at_war_with 	slave, parthia, greek_cities
+faction_relationships 	dacia, 			allied_to 		gauls, spain, britons, carthage
+faction_relationships 	romans_julii, 	at_war_with 	slave, macedon
+faction_relationships 	romans_julii, 	allied_to 		parthia, spain, romans_scipii, seleucid, dacia
+faction_relationships 	germans, 		at_war_with 	slave
+faction_relationships 	germans, 		allied_to 		romans_senate, scythia, romans_scipii, spain, parthia, gauls
+faction_relationships 	scythia, 		at_war_with 	slave
+faction_relationships 	scythia, 		allied_to 		germans
+faction_relationships 	romans_senate, 	at_war_with 	slave
+faction_relationships 	romans_senate, 	allied_to 		germans
+faction_relationships 	numidia, 		at_war_with 	slave
+faction_relationships 	numidia, 		allied_to 		armenia
+faction_relationships 	carthage, 		at_war_with 	slave
+faction_relationships 	carthage, 		allied_to 		dacia
+faction_relationships 	armenia, 		at_war_with 	slave, egypt
+faction_relationships 	armenia, 		allied_to 		numidia
+faction_relationships 	egypt, 			at_war_with 	slave, armenia
+faction_relationships 	parthia, 		at_war_with 	slave, thrace, dacia, pontus
+faction_relationships 	parthia, 		allied_to 		romans_julii, germans, gauls
+faction_relationships 	seleucid, 		at_war_with 	slave, parthia, thrace, pontus
+faction_relationships 	seleucid, 		allied_to 		georgia
+faction_relationships 	pontus, 		at_war_with 	slave, parthia, seleucid, georgia
+faction_relationships 	pontus, 		allied_to 		thrace
+faction_relationships 	thrace, 		at_war_with 	slave, greek_cities, parthia, seleucid, georgia
+faction_relationships 	thrace, 		allied_to 		romans_brutii, pontus
+faction_relationships 	greek_cities, 	at_war_with 	slave, thrace, dacia, romans_brutii
+faction_relationships 	greek_cities, 	allied_to 		macedon
+faction_relationships 	romans_brutii, 	at_war_with 	slave, greek_cities, dacia
+faction_relationships 	romans_brutii, 	allied_to 		thrace
+faction_relationships 	macedon, 		at_war_with 	slave, romans_scipii, spain
+faction_relationships 	macedon, 		allied_to 		greek_cities
+faction_relationships 	georgia, 		at_war_with 	slave, thrace, pontus
+faction_relationships 	georgia, 		allied_to 		parthia, seleucid
 ; Campaign start-script:
-;script
-;chivalry_startup_script.txt
+script
+chivalry_startup_script.txt
 ; End of file

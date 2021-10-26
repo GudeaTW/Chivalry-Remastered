@@ -36,11 +36,11 @@
 				[ "close", "average", "clear", "crushing", ],
 
 			"factions":
-				[ "all", "-barbarian", ],
+				[ "barbarian", "eastern", "carthaginian", ],
 
 			"sounds":
 			[
-				"data/sounds/music/edgen_ctw_victory.opus",
+				"data/sounds/music/EuroWin.opus",
 				{
 				},
 			],
@@ -54,11 +54,11 @@
 				[ "close", "average", "clear", "crushing", ],
 
 			"factions":
-				[ "barbarian", ],
+				[ "greek", "egyptian", ],
 
 			"sounds":
 			[
-				"data/sounds/music/edgen_vtw_victory.opus",
+				"data/sounds/music/ArabWin.opus",
 				{
 				},
 			],
@@ -72,11 +72,29 @@
 				[ "close", "average", "clear", "crushing", ],
 
 			"factions":
-				[ "all", ],
+				[ "barbarian", "eastern", "carthaginian", ],
 
 			"sounds":
 			[
 				"data/sounds/music/edgen_ctw_defeat.opus",
+				{
+				},
+			],
+		},
+		{
+			;;was the battle a win, loss, draw or unresolved
+			"result": "lose",
+
+			;;what levels of success or failure should this music play for
+			"success types":
+				[ "close", "average", "clear", "crushing", ],
+
+			"factions":
+				[ "greek", "egyptian", ],
+
+			"sounds":
+			[
+				"data/sounds/music/ArabLose.opus",
 				{
 				},
 			],

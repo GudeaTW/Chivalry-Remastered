@@ -13,7 +13,22 @@
 			"loyalty":  false,
 			"religion": true,
 			
-			"rebel merchants": true,
+			"rebel merchants": false,
+		},
+	},
+	{
+		;;title is the panel header, menu is the menu button test, folder is the folder with data/world/maps/campaign to use
+		"menu": "UI_FERAL_LP_CAMPAIGN2",
+		"title": "UI_FERAL_CAMPAIGN2",
+		"folder": "crusader_epoche",
+		
+		"features":
+		{
+			;; JNF 2021-06-14 - Loyalty should work, religion is slightly borked pending refactor but it should enable/disable the UI perfectly fine
+			"loyalty":  false,
+			"religion": true,
+			
+			"rebel merchants": false,
 		},
 	},
 ],

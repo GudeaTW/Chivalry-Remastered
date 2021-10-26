@@ -5,7 +5,7 @@ plan
 ;; and generally makes the code logistics more straightforward
 strat
 {
-	buildings		data/models_strat/residences/barb_village.CAS
+	buildings		data/models_strat/residences/MTW_estate.CAS
 	default_base	settlement_barbarian_level_1
 
 	;;walls and base map overrides
@@ -18,67 +18,87 @@ strat
 	{
 		fishing_village
 		{
-			land_model	data/models_strat/residences/barb_fishing_village.CAS
+			land_model	data/models_strat/residences/MTW_fishvillage.CAS
 			base	port_barbarian_level_1
 		}
 		sea_port
 		{
-			land_model	data/models_strat/residences/barb_port_01_land.CAS
+			land_model	data/models_strat/residences/MTW_port.CAS
 			sea_model	data/models_strat/residences/barb_port_01_sea.CAS
 			base	port_barbarian_level_2
 		}
 		shipwright
 		{
-			land_model	data/models_strat/residences/barb_port_02_land.CAS
+			land_model	data/models_strat/residences/roman_port_02_land.CAS
 			sea_model	data/models_strat/residences/barb_port_02_sea.CAS
 			base	port_barbarian_level_3
 		}
 		dockyard
 		{
-			land_model	data/models_strat/residences/barb_port_03_land.CAS
+			land_model	data/models_strat/residences/roman_port_03_land.CAS
 			sea_model	data/models_strat/residences/barb_port_03_sea.CAS
 			base	port_barbarian_level_4
 		}
 	}
 }
-target 				rectangle x 7 z 1 rot 0 width 32 height 32
-floor				barb_village_underlay.CAS	barb_village_overlay.CAS
-ground_types			barb_village_ground.tga -224 -224 224 224
-street_plan			barb_village_pathfinding.CAS
-borders				barb_village_limits.CAS
+	target 		rectangle x -18 z 17 rot 0 width 20 height 30
+	floor		CTW_underlay_estate.CAS CTW_overlay_estate.CAS 	
+	street_plan	CTW_path_estate.cas
+	borders		barb_village_limits.CAS
+	{
+	}
+	ctw_we_landlords_house,		-5,	15,	0.00,	0.00
+	ctw_we_well,			-18,	17,	90.00,	0.00
 
-barbarian_long_house,	-40.37,	-39.74,	-35.00,	16.00
-tree_A,	-10.82,	77.27,	62.00,	16.00
-tree_A,	-57.26,	-26.13,	114.00,	16.00
-tree_A,	38.16,	-29.22,	-170.00,	16.00
-barbarian_round_house_large,	-41.39,	1.36,	-102.50,	16.00
-barbarian_round_house_large,	36.77,	-47.65,	-179.50,	16.00
-barbarian_round_house_large,	118.22,	-181.39,	30.50,	0.00
-barbarian_round_house_large,	-57.37,	16.87,	84.50,	16.00
-barbarian_round_house_small,	187.23,	124.33,	99.00,	0.00
-pile_of_logs,	20.75,	58.28,	9.00,	16.00
-bush_A,	193.82,	123.83,	99.00,	0.00
-bush_A,	-20.49,	24.66,	-110.00,	16.00
-barbarian_round_house_small,	-60.94,	-0.99,	-139.50,	15.61
-barbarian_round_house_small,	29.13,	59.69,	102.50,	16.00
-bush_A,	52.39,	-27.51,	20.00,	16.00
-tree_A,	-34.38,	19.32,	140.00,	16.00
-paddock,	-21.28,	64.03,	-56.00,	16.00
-barbarian_round_house_large,	50.20,	31.40,	-94.50,	16.00
-tree_A,	-37.81,	68.76,	-170.00,	16.00
-tree_A,	42.24,	48.58,	167.00,	16.00
-tree_A,	34.11,	24.22,	-170.00,	16.00
-tree_A,	63.36,	-17.70,	-170.00,	16.00
-tree_A,	24.05,	-67.58,	66.00,	16.00
-tree_A,	-32.40,	-65.92,	-64.00,	16.00
-tree_A,	-16.58,	-22.66,	-124.00,	16.00
-pile_of_logs,	61.68,	31.13,	9.00,	16.00
-pile_of_logs,	47.47,	-42.77,	9.00,	16.00
-pile_of_logs,	-48.66,	-22.41,	9.00,	16.00
-pile_of_logs,	-71.05,	16.70,	9.00,	16.00
-barbarian_round_house_large,	199.64,	114.00,	-166.50,	0.00
-tree_A,	204.61,	131.75,	-170.00,	0.00
-barbarian_round_house_large,	-190.52,	-22.51,	-158.50,	0.00
-tree_A,	-175.63,	-22.30,	112.00,	0.00
-barb_village_fences,	0,	0,	0,	0
+	;ctw_we_barn,			-45,	50,	100.00,	0.00
+
+	ctw_we_barn,			48,	45,	-20.00,	0.00
+
+	;ctw_we_small_house_wood,	-50,	-52,	180.00,	0.00
+	;ctw_we_small_house_wood,	-25,	-55,	90.00,	0.00
+	;ctw_we_small_house_wood,	-52,	110,	180.00,	0.00
+
+	;ctw_we_well,			-42,	-38,	0.00,	0.00
+
+	;ctw_we_small_house_wood_2,	-49,	10,	-85.00,	0.00
+	;ctw_we_small_house_wood,	-49,	-5,	95.00,	0.00
+	;ctw_we_small_house_wood_2,	-49,	-20,	95.00,	0.00
+	;ctw_we_small_house_wood_2,	-25,	100,	-20.00,	0.00
+	ctw_we_small_house_wood_2,	-10,	-15,	15.00,	0.00
+
+	ctw_we_blacksmith,		25,	15,	90.00,	0.00
+
+	ctw_we_stables,			45,	-5,	135.00,	0.00
+
+	;ctw_we_fence,			-14,	-59,	180.00,	0.00
+	;ctw_we_fence,			-14,	-49,	180.00,	0.00
+	;ctw_we_fence,			-10,	-41,	135.00,	0.00
+	;ctw_we_fence,			-1,	-37,	90.00,	0.00
+	;ctw_we_fence,			9,	-37,	90.00,	0.00
+	;ctw_we_fence,			16,	-40,	45.00,	0.00
+
+	ctw_we_haystack,			-25,	-42,	0.00,	0.00
+	ctw_we_haystack,			-20,	-38,	45.00,	0.00
+
+	hay_field_square,		-200	-200,	0.00,	0.00
+	ctw_we_mill,			-200	-250,	90.00,	0.00
+	ctw_we_small_house_wood,		-250,	-210,	180.00,	0.00
+	ctw_we_haystack,			-240,	-240,	45.00,	0.00
+
+	hay_field_long_ploughed,	-400,	-50,	-90.00,	0.00
+	ctw_we_haystack,			-400,	-65,	0.00,	0.00
+	ctw_we_haystack,			-410,	-69,	-45.00,	0.00
+	ctw_we_small_house_wood_2,		-410,	-45,	-10.00,	0.00
+
+	ctw_we_mill,			240	20,	135.00	0.00
+
+	hay_field_new_128_64,		200,	60,	-90.00,	0.00
+
+	hay_field_small_ploughed,	300,	-80,	0.00,	0.00
+	ctw_we_small_house_wood,		320,	-100,	90.00,	0.00
+	tree_E,				300,	-80,	0.00,	0
+
+	tree_E,				-150,	-60,	45.00,	0
+	tree_E,				-210,	80,	90.00,	0
+
 }

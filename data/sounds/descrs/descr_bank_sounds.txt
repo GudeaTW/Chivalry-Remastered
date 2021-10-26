@@ -1080,8 +1080,6 @@ include "sounds/descrs/banks/descr_soundbank_message_events.txt"
 ;;    ],
 ;;  },
 
-include "sounds/descrs/banks/descr_soundbank_battle_notifications.txt"
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                               cursor                               ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -1589,5 +1587,4 @@ include "sounds/descrs/banks/descr_soundbank_stratmap_object.txt"
 ;;      ;;uses voice indexes
 ;;    ],
 ;;  },
-
-include "sounds/descrs/banks/descr_soundbank_prebattle_speech.txt"
+;;

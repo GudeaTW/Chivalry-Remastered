@@ -50,7 +50,7 @@
 
 			;;the factions that this entry is valid for
 			"factions":
-				[ "roman", ],
+				[ "barbarian", ],
 
 			"sounds":
 			[
@@ -58,12 +58,62 @@
 				"data/sounds/music/witches.opus",
 				"data/sounds/music/Euro_Strat_Summer_2.opus",
 				"data/sounds/music/april.opus",
-				"data/sounds/music/Euro_Strat_Winter_2.opus",
 				"data/sounds/music/weep.opus",
 				"data/sounds/music/pavanjd.opus",
 				"data/sounds/music/camp_song1.opus",
 				"data/sounds/music/camp_song2.opus",
 				"data/sounds/music/fujaravlado.opus",
+				{
+					"Volume": 60,				;;the volume of the sample as a percentage of the base file's
+				},
+			],
+		},
+		{
+			;;the music state these tracks are tied to
+			"state": "stratmap_summer",
+
+			;;the factions that this entry is valid for
+			"factions":
+				[ "eastern", "carthaginian", ],
+
+			"sounds":
+			[
+				"data/sounds/music/Euro_Strat_Summer_1.opus",
+				"data/sounds/music/Euro_Strat_Summer_2.opus",
+				{
+					"Volume": 60,				;;the volume of the sample as a percentage of the base file's
+				},
+			],
+		},
+		{
+			;;the music state these tracks are tied to
+			"state": "stratmap_summer",
+
+			;;the factions that this entry is valid for
+			"factions":
+				[ "greek", ],
+
+			"sounds":
+			[
+				"data/sounds/music/ArabStratSummer1.opus",
+				"data/sounds/music/ArabStratSummer2.opus",
+				{
+					"Volume": 60,				;;the volume of the sample as a percentage of the base file's
+				},
+			],
+		},
+		{
+			;;the music state these tracks are tied to
+			"state": "stratmap_summer",
+
+			;;the factions that this entry is valid for
+			"factions":
+				[ "egyptian", ],
+
+			"sounds":
+			[
+				"data/sounds/music/ArabStratSummer1.opus",
+				"data/sounds/music/ArabStratSummer2.opus",
 				{
 					"Volume": 60,				;;the volume of the sample as a percentage of the base file's
 				},
@@ -80,8 +130,6 @@
 			"sounds":
 			[
 				"data/sounds/music/edgen_ctw_05.opus",
-				"data/sounds/music/al6_enemy.opus",
-				"data/sounds/music/edgen_kandk_mindens_quest.opus",
 				{
 					"Volume": 90,				;;the volume of the sample as a percentage of the base file's
 				},
@@ -176,30 +224,10 @@
 
 			;;the factions that this entry is valid for
 			"factions":
-				[ "barbarian", ],
+				[ "all", ],
 
 			"sounds":
 			[
-				"data/sounds/music/Campaign4-Lonely_Strategos.opus",
-				"data/sounds/music/Campaign2-Melancholy.opus",
-				"data/sounds/music/Campaign1-Autumn.opus",
-				"data/sounds/music/Intro_Barbarian.opus",
-				{
-					"Volume": 65,				;;the volume of the sample as a percentage of the base file's
-				},
-			],
-		},
-		{
-			;;the music state these tracks are tied to
-			"state": "city",
-
-			;;the factions that this entry is valid for
-			"factions":
-				[ "all", "-roman", "-barbarian", ],
-
-			"sounds":
-			[
-				"data/sounds/music/menu_song1.opus",
 				"data/sounds/music/camp_song1.opus",
 				"data/sounds/music/camp_song2.opus",
 				"data/sounds/music/witches.opus",
@@ -213,17 +241,16 @@
 		},
 		{
 			;;the music state these tracks are tied to
-			"state": "stratmap_summer",
+			"state": "stratmap_winter",
 
 			;;the factions that this entry is valid for
 			"factions":
-				[ "barbarian", ],
+				[ "barbarian", "eastern", "carthaginian", ],
 
 			"sounds":
 			[
-				"data/sounds/music/Euro_Strat_Summer_1.opus",
-				"data/sounds/music/Euro_Strat_Summer_2.opus",
-				"data/sounds/music/Euro_Strat_Winter_2.opus",
+				"data/sounds/music/EuroStratWinter1.opus",
+				"data/sounds/music/EuroStratWinter2.opus",
 				{
 					"Volume": 60,				;;the volume of the sample as a percentage of the base file's
 				},
@@ -231,17 +258,16 @@
 		},
 		{
 			;;the music state these tracks are tied to
-			"state": "stratmap_summer",
+			"state": "stratmap_winter",
 
 			;;the factions that this entry is valid for
 			"factions":
-				[ "all", "-roman", "-barbarian", ],
+				[ "greek", "egyptian", ],
 
 			"sounds":
 			[
-				"data/sounds/music/Euro_Strat_Summer_1.opus",
-				"data/sounds/music/Euro_Strat_Summer_2.opus",
-				"data/sounds/music/april.opus",
+				"data/sounds/music/ArabStratWinter1.opus",
+				"data/sounds/music/ArabStratWinter2.opus",
 				{
 					"Volume": 60,				;;the volume of the sample as a percentage of the base file's
 				},
@@ -265,43 +291,6 @@
 		},
 		{
 			;;the music state these tracks are tied to
-			"state": "stratmap_winter",
-
-			;;the factions that this entry is valid for
-			"factions":
-				[ "roman", "barbarian", ],
-
-			"sounds":
-			[
-				"data/sounds/music/Euro_Strat_Summer_1.opus",
-				"data/sounds/music/weep.opus",
-				{
-					"Volume": 60,				;;the volume of the sample as a percentage of the base file's
-				},
-			],
-		},
-		{
-			;;the music state these tracks are tied to
-			"state": "stratmap_winter",
-
-			;;the factions that this entry is valid for
-			"factions":
-				[ "all", "-roman", "-barbarian", ],
-
-			"sounds":
-			[
-				"data/sounds/music/Euro_Strat_Summer_1.opus",
-				"data/sounds/music/Euro_Strat_Summer_2.opus",
-				"data/sounds/music/Euro_Strat_Winter_2.opus",
-				"data/sounds/music/weep.opus",
-				"data/sounds/music/witches.opus",
-				{
-					"Volume": 60,				;;the volume of the sample as a percentage of the base file's
-				},
-			],
-		},
-		{
-			;;the music state these tracks are tied to
 			"state": "postbattle_scroll",
 
 			;;the factions that this entry is valid for
@@ -310,7 +299,7 @@
 
 			"sounds":
 			[
-				"data/sounds/music/edgen_ctw_05.opus",
+				"data/sounds/music/EuroWin.opus",
 				{
 				},
 			],

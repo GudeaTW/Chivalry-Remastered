@@ -364,6 +364,25 @@ model_flexi			data/models_strat/MTW_cog.cas, max
 no_variation model_flexi			data/models_strat/MTW_cog.cas, max
 
 
+;type sm_barb_general
+;skeleton			strat_named_with_army
+;scale				0.7
+;male
+;body Default
+;angry_face no
+;medieval_features no
+;tired Tired
+;aged 0.00
+;pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
+;texture data/characters/textures/MTW_campmap_soldiers_england.TGA
+;texture dacia, data/characters/textures/MTW_campmap_soldiers_sicily.TGA
+;texture gauls, data/characters/textures/MTW_campmap_soldiers_france.TGA
+;texture germans, data/characters/textures/MTW_campmap_soldiers_hre.TGA
+;texture scythia, data/characters/textures/MTW_campmap_soldiers_denmark.TGA
+;texture spain, data/characters/textures/MTW_campmap_soldiers_aragon.TGA
+;model_flexi data/models_strat/MTW_campmap_leader.cas, max
+;no_variation model_flexi data/models_strat/MTW_campmap_leader.cas, max
+
 type sm_barb_general
 skeleton			strat_named_with_army
 scale				0.7
@@ -374,15 +393,43 @@ medieval_features no
 tired Tired
 aged 0.00
 pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
-texture data/characters/textures/MTW_campmap_soldiers_england.TGA
-texture dacia, data/characters/textures/MTW_campmap_soldiers_sicily.TGA
-texture gauls, data/characters/textures/MTW_campmap_soldiers_france.TGA
-texture germans, data/characters/textures/MTW_campmap_soldiers_hre.TGA
-texture scythia, data/characters/textures/MTW_campmap_soldiers_denmark.TGA
-texture spain, data/characters/textures/MTW_campmap_soldiers_aragon.TGA
-model_flexi data/models_strat/MTW_campmap_leader.cas, max
-no_variation model_flexi data/models_strat/MTW_campmap_leader.cas, max
+texture data/models_strat/textures/gener_brits.TGA
+texture dacia, data/models_strat/textures/gener_sic.TGA
+texture gauls, data/models_strat/textures/gener_france.TGA
+texture germans, data/models_strat/textures/gener_hre.TGA
+texture scythia, data/models_strat/textures/gener_denm.TGA
+texture spain, data/models_strat/textures/gener_arag.TGA
+texture seleucid, data/models_strat/textures/gener_arm.TGA
+texture romans_julii, data/models_strat/textures/gener_pisa.TGA
+texture romans_scipii, data/models_strat/textures/gener_cast.TGA
+texture carthage, data/models_strat/textures/gener_hung.TGA
+texture georgia, data/models_strat/textures/gener_geo.TGA
+texture numidia, data/models_strat/textures/gener_pola.TGA
+texture romans_senate, data/models_strat/textures/gener_bohe.TGA
+texture parthia, data/models_strat/textures/gener_byz.TGA
+texture slave, data/models_strat/textures/gener_rebel.TGA
+model_flexi data/models_strat/early_general.cas, max
+no_variation model_flexi data/models_strat/early_general.cas, max
 
+
+;type sm_barb_lesser_general
+;skeleton			strat_named_with_army
+;scale				0.7
+;male
+;body Athletic
+;angry_face no
+;medieval_features no
+;tired No
+;aged 0.00
+;pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
+;texture data/characters/textures/MTW_campmap_soldiers_england.TGA
+;texture dacia, data/characters/textures/MTW_campmap_soldiers_sicily.TGA
+;texture gauls, data/characters/textures/MTW_campmap_soldiers_france.TGA
+;texture germans, data/characters/textures/MTW_campmap_soldiers_hre.TGA
+;texture scythia, data/characters/textures/MTW_campmap_soldiers_denmark.TGA
+;texture spain, data/characters/textures/MTW_campmap_soldiers_aragon.TGA
+;model_flexi data/models_strat/MTW_campmap_soldiers.cas, max
+;no_variation model_flexi data/models_strat/MTW_campmap_soldiers.cas, max
 
 type sm_barb_lesser_general
 skeleton			strat_named_with_army
@@ -394,50 +441,57 @@ medieval_features no
 tired No
 aged 0.00
 pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
-texture data/characters/textures/MTW_campmap_soldiers_england.TGA
-texture dacia, data/characters/textures/MTW_campmap_soldiers_sicily.TGA
-texture gauls, data/characters/textures/MTW_campmap_soldiers_france.TGA
-texture germans, data/characters/textures/MTW_campmap_soldiers_hre.TGA
-texture scythia, data/characters/textures/MTW_campmap_soldiers_denmark.TGA
-texture spain, data/characters/textures/MTW_campmap_soldiers_aragon.TGA
-model_flexi data/models_strat/MTW_campmap_soldiers.cas, max
-no_variation model_flexi data/models_strat/MTW_campmap_soldiers.cas, max
+texture data/models_strat/textures/gener_brits.TGA
+texture dacia, data/models_strat/textures/gener_sic.TGA
+texture gauls, data/models_strat/textures/gener_france.TGA
+texture germans, data/models_strat/textures/gener_hre.TGA
+texture scythia, data/models_strat/textures/gener_denm.TGA
+texture spain, data/models_strat/textures/gener_arag.TGA
+texture seleucid, data/models_strat/textures/gener_arm.TGA
+texture romans_julii, data/models_strat/textures/gener_pisa.TGA
+texture romans_scipii, data/models_strat/textures/gener_cast.TGA
+texture carthage, data/models_strat/textures/gener_hung.TGA
+texture georgia, data/models_strat/textures/gener_geo.TGA
+texture numidia, data/models_strat/textures/gener_pola.TGA
+texture romans_senate, data/models_strat/textures/gener_bohe.TGA
+texture parthia, data/models_strat/textures/gener_byz.TGA
+texture slave, data/models_strat/textures/gener_rebel.TGA
+model_flexi data/models_strat/early_general.cas, max
+no_variation model_flexi data/models_strat/early_general.cas, max
 
 
-type sm_carthage_general
-skeleton			strat_named_with_army
-scale				0.7
-male
-body Default
-angry_face no
-medieval_features no
-tired VeryTired
-aged 0.00
-pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
-pbr_texture numidia, data/characters/textures/MTW_campmap_soldiers_pbr.TGA
-pbr_texture spain, data/characters/textures/MTW_campmap_soldiers_pbr.TGA
-texture data/characters/textures/MTW_campmap_soldiers_hungary.TGA
-texture numidia, data/characters/textures/MTW_campmap_soldiers_poland.TGA
-texture spain, data/characters/textures/MTW_campmap_soldiers_aragon.TGA
-model_flexi data/models_strat/MTW_campmap_leader.cas, max
-no_variation model_flexi data/models_strat/MTW_campmap_leader.cas, max
+;type sm_carthage_general
+;skeleton			strat_named_with_army
+;scale				0.7
+;male
+;body Default
+;angry_face no
+;medieval_features no
+;tired VeryTired
+;aged 0.00
+;pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
+;texture data/characters/textures/gener_hung.TGA
+;texture numidia, data/characters/textures/gener_pola.TGA
+;texture spain, data/characters/textures/general_Aragon.TGA
+;model_flexi data/models_strat/early_general.cas, max
+;no_variation model_flexi data/models_strat/early_general.cas, max
 
 
-type sm_carthage_lesser_general
-skeleton			strat_named_with_army
-scale				0.7
-male
-body Default
-angry_face no
-medieval_features no
-tired VeryTired
-aged 0.00
-pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
-texture data/characters/textures/MTW_campmap_soldiers_hungary.TGA
-texture numidia, data/characters/textures/MTW_campmap_soldiers_poland.TGA
-texture spain, data/characters/textures/MTW_campmap_soldiers_aragon.TGA
-model_flexi data/models_strat/MTW_campmap_soldiers.cas, max
-no_variation model_flexi data/models_strat/MTW_campmap_soldiers.cas, max
+;type sm_carthage_lesser_general
+;skeleton			strat_named_with_army
+;scale				0.7
+;male
+;body Default
+;angry_face no
+;medieval_features no
+;tired VeryTired
+;aged 0.00
+;pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
+;texture data/characters/textures/general_Hungary.TGA
+;texture numidia, data/characters/textures/general_Poland.TGA
+;texture spain, data/characters/textures/general_Aragon.TGA
+;model_flexi data/models_strat/early_general.cas, max
+;no_variation model_flexi data/models_strat/early_general.cas, max
 
 
 type sm_eastern_general
@@ -450,11 +504,9 @@ medieval_features no
 tired No
 aged 0.00
 pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
-texture data/characters/textures/MTW_campmap_soldiers_kiev.TGA
-texture parthia, data/characters/textures/MTW_campmap_soldiers_byzantium.TGA
-texture thrace, data/characters/textures/MTW_campmap_soldiers_novgorod.TGA
-model_flexi data/models_strat/MTW_campmap_leader.cas, max
-no_variation model_flexi data/models_strat/MTW_campmap_leader.cas, max
+texture data/models_strat/textures/MTW_general_rus_kiev.TGA
+model_flexi data/models_strat/MTW_general_rus.cas, max
+no_variation model_flexi data/models_strat/MTW_general_rus.cas, max
 
 type sm_eastern_lesser_general
 skeleton			strat_named_with_army
@@ -466,11 +518,9 @@ medieval_features no
 tired No
 aged 0.00
 pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
-texture data/characters/textures/MTW_campmap_soldiers_kiev.TGA
-texture parthia, data/characters/textures/MTW_campmap_soldiers_byzantium.TGA
-texture thrace, data/characters/textures/MTW_campmap_soldiers_novgorod.TGA
-model_flexi data/models_strat/MTW_campmap_soldiers.cas, max
-no_variation model_flexi data/models_strat/MTW_campmap_soldiers.cas, max
+texture data/models_strat/textures/MTW_general_rus_kiev.TGA
+model_flexi data/models_strat/MTW_general_rus.cas, max
+no_variation model_flexi data/models_strat/MTW_general_rus.cas, max
 
 
 type sm_egypt_general
@@ -483,9 +533,9 @@ medieval_features no
 tired No
 aged 0.00
 pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
-texture data/characters/textures/data/models_strat/textures/MTW_campmap_soldiers_horde.TGA
-model_flexi data/models_strat/MTW_campmap_steppe_leader.cas, max
-no_variation model_flexi data/models_strat/MTW_campmap_steppe_leader.cas, max
+texture egypt, data/models_strat/textures/horde_general.TGA
+model_flexi data/models_strat/horde_general.cas, max
+no_variation model_flexi data/models_strat/horde_general.cas, max
 
 
 type sm_egypt_lesser_general
@@ -498,9 +548,9 @@ medieval_features no
 tired Tired
 aged 0.00
 pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
-texture data/characters/textures/MTW_campmap_soldiers_horde.TGA
-model_flexi data/models_strat/MTW_campmap_steppe_army.cas, max
-no_variation model_flexi data/models_strat/MTW_campmap_steppe_army.cas, max
+texture egypt, data/models_strat/textures/horde_general.TGA
+model_flexi data/models_strat/horde_general.cas, max
+no_variation model_flexi data/models_strat/horde_general.cas, max
 
 
 type sm_greek_general
@@ -513,12 +563,13 @@ medieval_features no
 tired No
 aged 0.00
 pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
-texture data/characters/textures/MTW_campmap_soldiers_egypt.TGA
-texture macedon, data/characters/textures/MTW_campmap_soldiers_moors.TGA
-texture seleucid, data/characters/textures/MTW_campmap_soldiers_teutons.TGA
-texture pontus, data/characters/textures/MTW_campmap_soldiers_turks.TGA
-model_flexi data/models_strat/MTW_campmap_leader.cas, max
-no_variation model_flexi data/models_strat/MTW_campmap_leader.cas, max
+texture romans_brutii, data/models_strat/textures/MTW_general_muslim_turks.TGA
+texture macedon, data/models_strat/textures/MTW_general_muslim_turks.TGA
+texture pontus, data/models_strat/textures/MTW_general_muslim_turks.TGA
+texture thrace, data/models_strat/textures/MTW_general_muslim_turks.TGA
+texture greek_cities, data/models_strat/textures/MTW_general_muslim_turks.TGA
+model_flexi data/models_strat/MTW_general_muslim.cas, max
+no_variation model_flexi data/models_strat/MTW_general_muslim.cas, max
 
 
 type sm_greek_lesser_general
@@ -531,78 +582,79 @@ medieval_features no
 tired VeryTired
 aged 0.00
 pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
-texture data/characters/textures/MTW_campmap_soldiers_egypt.TGA
-texture macedon, data/characters/textures/MTW_campmap_soldiers_moors.TGA
-texture seleucid, data/characters/textures/MTW_campmap_soldiers_teutons.TGA
-texture pontus, data/characters/textures/MTW_campmap_soldiers_turks.TGA
-model_flexi data/models_strat/MTW_campmap_soldiers.cas, max
-no_variation model_flexi data/models_strat/MTW_campmap_soldiers.cas, max
+texture romans_brutii, data/models_strat/textures/MTW_general_muslim_turks.TGA
+texture macedon, data/models_strat/textures/MTW_general_muslim_turks.TGA
+texture pontus, data/models_strat/textures/MTW_general_muslim_turks.TGA
+texture thrace, data/models_strat/textures/MTW_general_muslim_turks.TGA
+texture greek_cities, data/models_strat/textures/MTW_general_muslim_turks.TGA
+model_flexi data/models_strat/MTW_general_muslim.cas, max
+no_variation model_flexi data/models_strat/MTW_general_muslim.cas, max
 
 
-type sm_rebel_general
-skeleton			strat_named_with_army
-scale				0.7
-male
-body Athletic
-angry_face no
-medieval_features no
-tired VeryTired
-aged 0.00
-pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
-texture data/characters/textures/MTW_campmap_soldiers_rebel.TGA
-model_flexi data/models_strat/MTW_campmap_leader.cas, max
-no_variation model_flexi data/models_strat/MTW_campmap_leader.cas, max
+;type sm_rebel_general
+;skeleton			strat_named_with_army
+;scale				0.7
+;male
+;body Athletic
+;angry_face no
+;medieval_features no
+;tired VeryTired
+;aged 0.00
+;pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
+;texture data/characters/textures/MTW_campmap_soldiers_rebel.TGA
+;model_flexi data/models_strat/MTW_campmap_leader.cas, max
+;no_variation model_flexi data/models_strat/MTW_campmap_leader.cas, max
 
 
-type sm_rebel_lesser_general
-skeleton			strat_named_with_army
-scale				0.7
-male
-body Default
-angry_face no
-medieval_features no
-tired No
-aged 0.00
-pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
-texture data/characters/textures/MTW_campmap_soldiers_rebel.TGA
-model_flexi data/models_strat/MTW_campmap_soldiers.cas, max
-no_variation model_flexi data/models_strat/MTW_campmap_soldiers.cas, max
+;type sm_rebel_lesser_general
+;skeleton			strat_named_with_army
+;scale				0.7
+;male
+;body Default
+;angry_face no
+;medieval_features no
+;tired No
+;aged 0.00
+;pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
+;texture data/characters/textures/MTW_campmap_soldiers_rebel.TGA
+;model_flexi data/models_strat/MTW_campmap_soldiers.cas, max
+;no_variation model_flexi data/models_strat/MTW_campmap_soldiers.cas, max
 
 
-type sm_roman_general
-skeleton			strat_named_with_army
-scale				0.7
-male
-body Default
-angry_face no
-medieval_features no
-tired No
-aged 0.00
-pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
-texture data/characters/textures/MTW_campmap_soldiers_jerusalem.TGA
-texture romans_julii, data/characters/textures/MTW_campmap_soldiers_teutons.TGA
-texture romans_scipii, data/characters/textures/MTW_campmap_soldiers_hungary.TGA
-texture romans_senate, data/characters/textures/MTW_campmap_soldiers_papal.TGA
-model_flexi data/models_strat/MTW_campmap_leader.cas, max
-no_variation model_flexi data/models_strat/MTW_campmap_leader.cas, max
+;type sm_roman_general
+;skeleton			strat_named_with_army
+;scale				0.7
+;male
+;body Default
+;angry_face no
+;medieval_features no
+;tired No
+;aged 0.00
+;pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
+;texture data/characters/textures/MTW_campmap_soldiers_jerusalem.TGA
+;texture romans_julii, data/characters/textures/MTW_campmap_soldiers_teutons.TGA
+;texture romans_scipii, data/characters/textures/MTW_campmap_soldiers_hungary.TGA
+;texture romans_senate, data/characters/textures/MTW_campmap_soldiers_papal.TGA
+;model_flexi data/models_strat/MTW_campmap_leader.cas, max
+;no_variation model_flexi data/models_strat/MTW_campmap_leader.cas, max
 
 
-type sm_roman_lesser_general
-skeleton			strat_named_with_army
-scale				0.7
-male
-body Default
-angry_face no
-medieval_features no
-tired No
-aged 0.00
-pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
-texture data/characters/textures/MTW_campmap_soldiers_jerusalem.TGA
-texture romans_julii, data/characters/textures/MTW_campmap_soldiers_teutons.TGA
-texture romans_scipii, data/characters/textures/MTW_campmap_soldiers_hungary.TGA
-texture romans_senate, data/characters/textures/MTW_campmap_soldiers_papal.TGA
-model_flexi data/models_strat/MTW_campmap_soldiers.cas, max
-no_variation model_flexi data/models_strat/MTW_campmap_soldiers.cas, max
+;type sm_roman_lesser_general
+;skeleton			strat_named_with_army
+;scale				0.7
+;male
+;body Default
+;angry_face no
+;medieval_features no
+;tired No
+;aged 0.00
+;pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
+;texture data/characters/textures/MTW_campmap_soldiers_jerusalem.TGA
+;texture romans_julii, data/characters/textures/MTW_campmap_soldiers_teutons.TGA
+;texture romans_scipii, data/characters/textures/MTW_campmap_soldiers_hungary.TGA
+;texture romans_senate, data/characters/textures/MTW_campmap_soldiers_papal.TGA
+;model_flexi data/models_strat/MTW_campmap_soldiers.cas, max
+;no_variation model_flexi data/models_strat/MTW_campmap_soldiers.cas, max
 
 
 

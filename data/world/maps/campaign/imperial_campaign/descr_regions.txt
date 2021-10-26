@@ -273,7 +273,7 @@ Edessa ; ok
 	christianity 55 islam 40  pagan 5 
 Antioch ; ok
 	Antioch
-	seleucid
+	parthia
 	Orthodox_Christians
 	84 186 107
 	turk, harbor, main, elite, genoa, crus_state, fatamid, armen
@@ -282,7 +282,7 @@ Antioch ; ok
 	christianity 55 islam 35  pagan 10 
 Cilicia ; ok
 	Sis
-	seleucid
+	parthia
 	Kilikian_Armenians
 	255 20 200
 	turk, harbor, main, elite, genoa, armen
@@ -291,7 +291,7 @@ Cilicia ; ok
 	christianity 80 islam 15 pagan 5
 Cilician ; ok
 	Vahka
-	seleucid
+	parthia
 	Kilikian_Armenians
 	240 240 42
 	turk, main, elite, armen
@@ -300,7 +300,7 @@ Cilician ; ok
 	christianity 85 islam 10 pagan 5
 Seleukeia ; ok
 	Tarsos
-	seleucid
+	parthia
 	Seleukeian_Armenians
 	255 20 240
 	turk, main, genoa, armen, harbor
@@ -411,7 +411,7 @@ Armenia ; ok
 	seleucid
 	Armenians
 	255 80 200
-	turk, main, armen, elite
+	turk, main, armen, georg, elite
 	5
 	3
 	christianity 60 islam 30 pagan 10
@@ -776,7 +776,7 @@ Peloponnesos ;ok
 	3
 	christianity 95 pagan 5
 Hellas ; ok
-    Athina
+    	Athina
 	parthia
 	Hellenes
 	120 200 60
@@ -1029,7 +1029,7 @@ Toscana ; ok
 	christianity 95 pagan 5
 Papal-States ; ok            
 	Roma
-	romans_julii
+	pope
 	Laziali
 	52 13 198
 	italy, main, roma, euro, elite, river, chapter
@@ -1686,7 +1686,7 @@ Armeniakon ; ok
 	christianity 50 pagan 5 islam 45
 Pamphylia ; ok
 	Kalonoros
-	pontus
+	parthia
 	Pamphylians
 	30 120 129
 	turk, byz, anatol, armen
@@ -1713,7 +1713,7 @@ Tsopk ; ok
 	christianity 35 islam 60 pagan 5
 Turuberan ; ok
 	Manzikert
-	seleucid
+	thrace
 	Armenians
 	70 240 190
 	turk, armen
@@ -1749,7 +1749,7 @@ Morea ;ok
 	christianity 95 pagan 5
 Karin ; ok
 	Theodosioupolis
-	seleucid
+	thrace
 	Armenians
 	189 248 147
 	turk, main, armen

@@ -39,7 +39,7 @@
 		},
 		
 		;;should this religion be hidden at zero presense and influence
-		"hide at zero": false, 
+		"hide at zero": true, 
 	},
 	"pagan":
 	{
@@ -74,7 +74,7 @@
 		},
 		
 		;;should this religion be hidden at zero presense and influence
-		"hide at zero": false, 
+		"hide at zero": truee, 
 	},
 	"islam":
 	{
@@ -109,6 +109,6 @@
 		},
 		
 		;;should this religion be hidden at zero presense and influence
-		"hide at zero": false, 
+		"hide at zero": truee, 
 	},
 ],

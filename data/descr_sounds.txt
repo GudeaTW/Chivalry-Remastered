@@ -10,7 +10,7 @@
 	;;although it might break if you actually use cultures, factions or climates anywhere
 
 	"culture hash": 1491507650,
-	"faction hash": 276565519,
+	"faction hash": 276565524,
 	"climate hash": 943180804,
 },
 

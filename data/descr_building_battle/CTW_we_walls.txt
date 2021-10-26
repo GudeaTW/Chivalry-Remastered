@@ -1,0 +1,1166 @@
+; Chivalry Total War
+
+
+
+
+
+; ************************************************************ EUROPEAN LEVEL 0 WOODEN WALLS *******************************************************
+
+
+
+	chiv_wooden_gateway
+	{
+		full_health 10
+		localised_name gateway
+		level
+		{
+			min_health 0
+			battle_stats
+			item		chiv_wooden_gateway
+			physical_info	info_walls/wooden_wall_short_gateway_info.CAS
+		}
+	}
+
+	chiv_wooden_wall_straight
+	{
+		full_health 125
+		localised_name wall
+		level
+		{
+			min_health 75
+			battle_stats
+			item		chiv_wooden_wall_straight
+			physical_info	info_walls/wooden_wall_short_straight_info.CAS
+		}
+		transition ; undamaged to damaged
+		{
+			duration 1
+			physical_switch 1
+			item chiv_wooden_wall_straight_damaged_static
+			{
+				0 enable
+				0 dust_anim 1 0.6 2 2 0 3
+				1 disable
+			}
+		}
+		level
+		{
+			min_health 1
+			battle_stats
+			item		chiv_wooden_wall_straight_damaged_static chiv_wooden_wall_straight_damaged_remains
+			physical_info	info_walls/wooden_wall_short_straight_damaged_info.CAS
+		}
+		transition ; damaged to destroyed
+		{
+			duration 1
+			kill_zone 5 wooden_wall_short_straight_destroyed_kill_zone_05.CAS
+			physical_switch 1
+			item chiv_wooden_wall_straight_destroyed_static
+			{
+				0 enable
+				0 dust_anim 1 0.6 2 2 0 3
+				1 disable
+			}
+		}
+		level
+		{
+			min_health 0
+			battle_stats
+			item		chiv_wooden_wall_straight_destroyed_static wooden_short_straight_destroyed_remains
+			physical_info	info_walls/wooden_wall_short_straight_destroyed_info.CAS
+		}
+	}
+
+	chiv_wooden_wall_joiner_straight
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats
+			item		chiv_wooden_wall_joiner_straight
+			physical_info	info_walls/wooden_wall_short_joiner_straight_info.CAS
+		}
+	}
+
+	chiv_wooden_wall_watchtower
+	{
+		full_health 60
+		localised_name tower
+		level
+		{
+			min_health 1
+			battle_stats
+			item		wooden_short_watchtower
+			physical_info	info_walls/wooden_wall_short_watchtower_info.CAS
+		}
+		transition ; undamaged to destroyed
+		{
+			duration 120
+			physical_switch 30
+			item wooden_short_watchtower_destroyed_static
+			{
+				0 enable
+				120 disable
+			}
+			item wooden_short_watchtower_destroyed_anim
+			{
+				0 enable
+				0 anim 50 0 5
+				0 dust_anim 30 0.6 2 2 0 3
+				70 fade 50 1 0
+				120 disable
+			}
+			item wooden_short_watchtower_destroyed_remains
+			{
+			70 enable
+			120 disable
+			}
+		}
+		level
+		{
+			min_health 0
+			battle_stats
+			item		wooden_short_watchtower_destroyed_static wooden_short_watchtower_destroyed_remains
+			physical_info	info_walls/wooden_wall_short_watchtower_destroyed_info.CAS
+		}
+	}
+
+	chiv_wooden_wall_joiner_diagonal
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats
+			item		chiv_wooden_wall_joiner_diagonal
+			physical_info	info_walls/wooden_wall_short_joiner_diagonal_info.CAS
+		}
+	}
+
+	chiv_wooden_wall_joiner_internal_left
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats
+			item		chiv_wooden_wall_joiner_internal_left
+			physical_info	info_walls/wooden_wall_short_joiner_internal_left_info.CAS
+		}
+	}
+
+	chiv_wooden_wall_joiner_internal_right
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats
+			item		chiv_wooden_wall_joiner_internal_right
+			physical_info	info_walls/wooden_wall_short_joiner_internal_right_info.CAS
+		}
+	}
+
+	chiv_wooden_wall_joiner_external_right
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats
+			item		chiv_wooden_wall_joiner_external_right
+			physical_info	info_walls/wooden_wall_short_joiner_external_right_info.CAS
+		}
+	}
+
+	chiv_wooden_wall_joiner_external_left
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats
+			item		chiv_wooden_wall_joiner_external_left
+			physical_info	info_walls/wooden_wall_short_joiner_external_left_info.CAS
+		}
+	}
+
+	chiv_wooden_wall_internal_corner
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats
+			item		chiv_wooden_wall_internal_corner
+			physical_info	info_walls/wooden_wall_short_ic_info.CAS
+		}
+	}
+
+	chiv_wooden_wall_external_corner
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats
+			item		chiv_wooden_wall_external_corner
+			physical_info	info_walls/wooden_wall_short_ec_info.CAS
+		}
+	}
+
+	chiv_wooden_wall_internal_corner_watchtower
+	{
+		full_health 60
+		localised_name tower
+		level
+		{
+			min_health 1
+			battle_stats
+			item		wooden_short_internal_corner_watchtower
+			physical_info	info_walls/wooden_wall_short_ic_watchtower_info.CAS
+		}
+		transition ; undamaged to destroyed
+		{
+			duration 120
+			physical_switch 30
+			item wooden_short_internal_corner_watchtower_destroyed_static
+			{
+				0 enable
+				120 disable
+			}
+			item wooden_short_internal_corner_watchtower_destroyed_anim
+			{
+				0 enable
+				0 anim 50 0 5
+				0 dust_anim 30 0.6 2 2 0 3
+				70 fade 50 1 0
+				120 disable
+			}
+			item wooden_short_internal_corner_watchtower_destroyed_remains
+			{
+				70 enable
+				120 disable
+			}
+		}
+		level
+		{
+			min_health 0
+			battle_stats
+			item		wooden_short_internal_corner_watchtower_destroyed_static wooden_short_internal_corner_watchtower_destroyed_remains
+			physical_info	info_walls/wooden_wall_short_ic_watchtower_destroyed_info.CAS
+		}
+	}
+
+	chiv_wooden_wall_external_corner_watchtower
+	{
+		full_health 60
+		localised_name tower
+		level
+		{
+			min_health 1
+			battle_stats
+			item		wooden_short_external_corner_watchtower
+			physical_info	info_walls/wooden_wall_short_ec_watchtower_info.CAS
+		}
+		transition ; undamaged to destroyed
+		{
+			duration 120
+			physical_switch 30
+			item wooden_short_external_corner_watchtower_destroyed_static
+			{
+				0 enable
+				120 disable
+			}
+			item wooden_short_external_corner_watchtower_destroyed_anim
+			{
+				0 enable
+				0 anim 50 0 5
+				0 dust_anim 30 0.6 2 2 0 3
+				70 fade 50 1 0
+				120 disable
+			}
+			item wooden_short_external_corner_watchtower_destroyed_remains
+			{
+				70 enable
+				120 disable
+			}
+		}
+		level
+		{
+			min_health 0
+			battle_stats
+			item		wooden_short_external_corner_watchtower_destroyed_static wooden_short_external_corner_watchtower_destroyed_remains
+			physical_info	info_walls/wooden_wall_short_ec_watchtower_destroyed_info.CAS
+		}
+	}
+
+
+
+
+
+
+; ************************************************************ EUROPEAN LEVEL 1 STONE WALLS *******************************************************
+
+
+
+
+	chiv_stone_gateway
+	{
+		full_health 10
+		localised_name gateway
+		level
+		{
+			min_health 0
+			battle_stats
+			item		chiv_stone_gateway
+			physical_info	info_walls/wood_wall_tall_gateway_info.CAS
+		}
+	}
+
+	chiv_stone_wall_straight
+	{
+		full_health 250
+		localised_name wall
+		level
+		{
+			min_health 150
+			battle_stats
+			item		chiv_stone_wall_straight
+			physical_info	info_walls/wood_wall_tall_straight_info.CAS
+		}
+		transition ; undamaged to damaged
+		{
+			duration 1
+			physical_switch 1
+			item chiv_stone_wall_straight_damaged_static
+			{
+				0 enable
+				0 dust_anim 30 0.6 2 2 0 3
+				1 disable
+			}
+		}
+		level
+		{
+			min_health 1
+			battle_stats
+			item		chiv_stone_wall_straight_damaged_static chiv_stone_wall_straight_damaged_remains
+			physical_info	info_walls/wood_wall_tall_straight_damaged_info.CAS
+		}
+		transition ; damaged to destroyed
+		{
+			duration 1
+			kill_zone 5 wood_wall_tall_straight_destroyed_kill_zone_05.CAS
+			physical_switch 1
+			item wooden_tall_straight_destroyed_static
+			{
+				0 enable
+				0 dust_anim 30 0.6 2 2 0 3
+				1 disable
+			}
+		}
+		level
+		{
+			min_health 0
+			battle_stats
+			item		chiv_stone_wall_straight_destroyed_static chiv_stone_wall_straight_destroyed_remains
+			physical_info	info_walls/wood_wall_tall_straight_destroyed_info.CAS
+		}
+	}
+
+	chiv_stone_wall_joiner_straight
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats
+			item		chiv_stone_wall_joiner_straight
+			physical_info	info_walls/wood_wall_tall_joiner_straight_info.CAS
+		}
+	}
+
+	chiv_stone_wall_watchtower
+	{
+		full_health 250
+		localised_name wall
+		level
+		{
+			min_health 150
+			battle_stats
+			item		chiv_stone_wall_straight
+			physical_info	info_walls/wood_wall_tall_straight_info.CAS
+		}
+		transition ; undamaged to damaged
+		{
+			duration 1
+			physical_switch 1
+			item chiv_stone_wall_straight_damaged_static
+			{
+				0 enable
+				0 dust_anim 30 0.6 2 2 0 3
+				1 disable
+			}
+		}
+		level
+		{
+			min_health 1
+			battle_stats
+			item		chiv_stone_wall_straight_damaged_static chiv_stone_wall_straight_damaged_remains
+			physical_info	info_walls/wood_wall_tall_straight_damaged_info.CAS
+		}
+		transition ; damaged to destroyed
+		{
+			duration 1
+			kill_zone 5 wood_wall_tall_straight_destroyed_kill_zone_05.CAS
+			physical_switch 1
+			item wooden_tall_straight_destroyed_static
+			{
+				0 enable
+				0 dust_anim 30 0.6 2 2 0 3
+				1 disable
+			}
+		}
+		level
+		{
+			min_health 0
+			battle_stats
+			item		chiv_stone_wall_straight_destroyed_static chiv_stone_wall_straight_destroyed_remains
+			physical_info	info_walls/wood_wall_tall_straight_destroyed_info.CAS
+		}
+	}
+
+	chiv_stone_wall_joiner_diagonal
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats
+			item		wooden_tall_joiner_diagonal
+			physical_info	info_walls/wood_wall_tall_joiner_diagonal_info.CAS
+		}
+	}
+
+	chiv_stone_wall_joiner_internal_left
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats
+			item		wooden_tall_joiner_internal_left
+			physical_info	info_walls/wood_wall_tall_joiner_internal_left_info.CAS
+		}
+	}
+
+	chiv_stone_wall_joiner_internal_right
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats
+			item		wooden_tall_joiner_internal_right
+			physical_info	info_walls/wood_wall_tall_joiner_internal_right_info.CAS
+		}
+	}
+
+	chiv_stone_wall_joiner_external_right
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats
+			item		chiv_stone_wall_joiner_external_right
+			physical_info	info_walls/wood_wall_tall_joiner_external_right_info.CAS
+		}
+	}
+
+	chiv_stone_wall_internal_corner
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats
+			item		wooden_tall_internal_corner
+			physical_info	info_walls/wood_wall_tall_ic_info.CAS
+		}
+	}
+
+	chiv_stone_wall_joiner_external_left
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats
+			item		chiv_stone_wall_joiner_external_left
+			physical_info	info_walls/wood_wall_tall_joiner_external_left_info.CAS
+		}
+	}
+
+	chiv_stone_wall_external_corner
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats
+			item		chiv_stone_wall_external_corner
+			physical_info	info_walls/wood_wall_tall_ec_info.CAS
+		}
+	}
+
+	chiv_stone_wall_internal_corner_watchtower
+	{
+		full_health 125
+		localised_name tower
+		level
+		{
+			min_health 1
+			battle_stats
+			item		wooden_tall_internal_corner_watchtower
+			physical_info	info_walls/wood_wall_tall_ic_watchtower_info.CAS
+		}
+		transition ; undamaged to destroyed
+		{
+			duration 120
+			physical_switch 30
+			item wooden_tall_internal_corner_watchtower_destroyed_static
+			{
+				0 enable
+				120 disable
+			}
+			item wooden_tall_internal_corner_watchtower_destroyed_anim
+			{
+				0 enable
+				0 anim 50 0 5
+				0 dust_anim 30 0.6 2 2 0 3
+				70 fade 50 1 0
+				120 disable
+			}
+			item wooden_tall_internal_corner_watchtower_destroyed_remains
+			{
+				70 enable
+				120 disable
+			}
+		}
+		level
+		{
+			min_health 0
+			battle_stats
+			item		wooden_tall_internal_corner_watchtower_destroyed_static wooden_tall_internal_corner_watchtower_destroyed_remains
+			physical_info	none ; !!!info_walls/wood_wall_tall_ic_watchtower_destroyed_info.CAS
+		}
+	}
+
+	chiv_stone_wall_external_corner_watchtower
+	{
+		full_health 10
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats
+			item		chiv_stone_wall_external_corner
+			physical_info	info_walls/wood_wall_tall_ec_info.CAS
+		}
+	}
+
+; ************************************************************ EUROPEAN LEVEL 2 STONE WALLS *******************************************************
+
+	chiv_castle_gateway
+	{
+		full_health 500
+		battle_stats flammability_none impact_damage_low
+		localised_name gateway
+		level
+		{
+			min_health 1
+			item		chiv_castle_gateway
+			physical_info	info_walls/info_roman_town_gateway.cas
+			spot_fx		spot_fx_roman_town_gate.CAS
+		}
+		transition ; undamaged to collapsed
+		{
+			duration 120
+			physical_switch 0
+			item chiv_castle_gateway
+			{
+				0 enable
+				0 dust_anim 90 4 2 2 0 3
+				120 disable
+			}
+			;item roman_town_gateway_collapse_anim
+			;{
+			;	0 enable
+			;	0 anim 0 0 6
+			;	120 disable
+			;}
+		}
+		level
+		{
+			min_health 0
+			item		chiv_castle_gateway
+			physical_info	info_walls/info_roman_town_gateway.cas 
+;			spot_fx		spot_fx_roman_town_gate.CAS
+		}
+	}
+
+	chiv_castle_wall_joiner_straight
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats flammability_none impact_damage_low
+			item		chiv_castle_wall_joiner_straight
+			physical_info	info_walls/info_roman_town_wall_joiner_straight.cas
+		}
+	}
+
+	roman_town_wall_joiner_diagonal
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats flammability_none impact_damage_low
+			item		roman_town_wall_joiner_diagonal
+			physical_info	info_walls/info_roman_town_wall_joiner_diagonal.cas
+		}
+	}
+
+	roman_town_wall_external_corner
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats flammability_none impact_damage_low
+			item		roman_town_wall_external_corner
+			physical_info	info_walls/info_roman_town_wall_external_corner.cas
+		}
+	}
+
+	chiv_castle_wall_joiner_external_right
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats flammability_none impact_damage_low
+			item		chiv_castle_wall_joiner_external_right
+			physical_info	info_walls/info_roman_town_wall_joiner_external_right.cas
+		}
+	}
+
+
+	chiv_castle_wall_joiner_external_left
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats flammability_none impact_damage_low
+			item		chiv_castle_wall_joiner_external_left
+			physical_info	info_walls/info_roman_town_wall_joiner_external_left.cas
+		}
+	}
+
+	roman_town_wall_joiner_internal_right
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats flammability_none impact_damage_low
+			item		roman_town_wall_joiner_internal_right
+			physical_info	info_walls/info_roman_town_wall_joiner_internal_right.cas
+		}
+	}
+
+
+	roman_town_wall_joiner_internal_left
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats flammability_none impact_damage_low
+			item		roman_town_wall_joiner_internal_left
+			physical_info	info_walls/info_roman_town_wall_joiner_internal_left.cas
+		}
+	}
+
+	roman_town_wall_internal_corner
+	{
+		full_health 10
+		battle_stats flammability_none impact_damage_none
+		localised_name wall
+		level
+		{
+			min_health 0
+			battle_stats flammability_none impact_damage_low
+			item		roman_town_wall_internal_corner
+			physical_info	info_walls/info_roman_town_wall_internal_corner.cas
+		}
+	}
+
+
+
+; ******** wall and tower animations
+; ******** Kill zones go after duration line in transition scripts.  You can have 
+; ******** as many as you like.  Defined as 'kill_zone <tick> <cas>',
+; ******** eg 'kill_zone 20 my_kill_zone.cas', root directory is models_building/kill_zone.
+; Params for dust_anim command:
+; 	<start_tick> dust_anim <duration_ticks> <size> <quantity> <frequency> <start_anim_time> <end_anim_time>
+; Starting from start_tick, until start_tick + duration_ticks, every 'frequency' ticks this will add
+; 'quantity' dust clouds of radius 'size', at positions determined by the positions of geometries at the
+; appropriate time in the animation.  It picks geometries at random, and the time in the animation is
+; defined separately - ie it doesn't have to be the current positions, so you can create dust late or 
+; early if it looks wrong.
+; Wall damage:  collapse in five seconds, hold for two, then fade out over five.
+
+	chiv_castle_wall_straight
+	{
+		full_health 1000
+		battle_stats flammability_none impact_damage_low
+		localised_name wall
+		level
+		{
+			min_health 801
+			battle_stats flammability_none impact_damage_low
+			item		chiv_castle_wall_straight
+			physical_info	info_walls/info_roman_town_wall_straight.cas
+		}
+		transition ; undamaged to small damage
+		{
+			duration 120
+			; Kill zone files are numbered by frame - at 20fps, this is twice the tick.
+			; We add the zones in just before the kill time.
+			kill_zone 1 roman_town_wall_small_damage_kill_zone_40.cas
+			kill_zone 1 roman_town_wall_small_damage_kill_zone_50.cas
+			kill_zone 1 roman_town_wall_small_damage_kill_zone_55.cas
+			kill_zone 1 roman_town_wall_small_damage_kill_zone_70.cas
+			; Physical switch should come after the last kill zone
+			physical_switch 40
+			item chiv_castle_wall_small_damadge
+			{
+				0 enable
+				120 disable
+			;}
+			;item roman_town_wall_small_damage_anim
+			;{
+			;	0 enable
+			;	0 anim 50 0 5
+			;	0 dust_anim 30 0.6 2 2 0 3
+			;	70 fade 50 1 0
+			;	120 disable
+			}
+			item chiv_castle_wall_small_damadge_remains
+			{
+				0 enable
+				120 disable
+			}
+		}
+		level
+		{
+			min_health 601
+			battle_stats flammability_none impact_damage_low
+			item		chiv_castle_wall_small_damadge chiv_castle_wall_small_damadge_remains
+			physical_info	info_walls/roman_town_wall_small_damage_info.cas
+		}
+		transition ; small damage to more damage
+		{
+			duration 120
+			kill_zone 1 roman_town_wall_more_damage_kill_zone_36.cas
+			kill_zone 1 roman_town_wall_more_damage_kill_zone_50.cas
+			kill_zone 1 roman_town_wall_more_damage_kill_zone_53.cas
+			physical_switch 30
+			item chiv_castle_wall_more_damadge
+			{
+				0 enable
+				120 disable
+			;}
+			;item roman_town_wall_more_damage_anim
+			;{
+			;	0 enable
+			;	0 anim 50 0 5
+			;	0 dust_anim 30 0.6 2 2 0 3
+			;	70 fade 50 1 0
+			;	120 disable
+			}
+			item chiv_castle_wall_small_damadge_remains
+			{
+				0 enable
+				1 disable
+			}
+			item chiv_castle_wall_more_damadge_remains
+			{
+				0 enable
+				120 disable
+			}
+		}
+		level
+		{
+			min_health 401
+			battle_stats flammability_none impact_damage_low
+			item		chiv_castle_wall_more_damadge chiv_castle_wall_more_damadge_remains
+			physical_info	info_walls/roman_town_wall_more_damage_info.cas
+		}
+		transition ; more damage to platform collapse
+		{
+			duration 120
+			kill_platform 0 roman_town_wall_platform_collapse_kill_zone_01p.cas
+			kill_platform 0 roman_town_wall_platform_collapse_kill_zone_02p.cas
+			kill_platform 0 roman_town_wall_platform_collapse_kill_zone_03p.cas
+			kill_platform 1 roman_town_wall_platform_collapse_kill_zone_04p.cas
+			kill_zone 1 roman_town_wall_platform_collapse_kill_zone_20.cas
+			kill_zone 1 roman_town_wall_platform_collapse_kill_zone_28.cas
+			kill_zone 1 roman_town_wall_platform_collapse_kill_zone_32.cas
+			kill_zone 1 roman_town_wall_platform_collapse_kill_zone_38.cas
+			kill_platform 1 roman_town_wall_platform_collapse_kill_zone_39p.cas
+			kill_zone 1 roman_town_wall_platform_collapse_kill_zone_40.cas
+			kill_zone 1 roman_town_wall_platform_collapse_kill_zone_41.cas
+			kill_zone 1 roman_town_wall_platform_collapse_kill_zone_42.cas
+			kill_platform 1 roman_town_wall_platform_collapse_kill_zone_43p.cas
+			kill_zone 1 roman_town_wall_platform_collapse_kill_zone_45.cas
+			kill_zone 1 roman_town_wall_platform_collapse_kill_zone_48.cas
+			kill_platform 1 roman_town_wall_platform_collapse_kill_zone_50p.cas
+			kill_zone 1 roman_town_wall_platform_collapse_kill_zone_53.cas
+			kill_zone 1 roman_town_wall_platform_collapse_kill_zone_60.cas
+			kill_platform 1 roman_town_wall_platform_collapse_kill_zone_61p.cas
+			kill_zone 1 roman_town_wall_platform_collapse_kill_zone_62.cas
+			kill_zone 1 roman_town_wall_platform_collapse_kill_zone_69.cas
+			kill_zone 1 roman_town_wall_platform_collapse_kill_zone_75.cas
+			physical_switch 30
+			item chiv_castle_wall_collapse
+			{
+				0 enable
+				120 disable
+			;}
+			;item roman_town_wall_platform_collapse_anim
+			;{
+			;	0 enable
+			;	0 anim 50 0 5
+			;	0 dust_anim 30 0.6 2 2 0 3
+			;	70 fade 50 1 0
+			;	120 disable
+			}
+			item chiv_castle_wall_more_damadge_remains
+			{
+				0 enable
+				1 disable
+			}
+			item chiv_castle_wall_collapse_remains
+			{
+				0 enable
+				120 disable
+			}
+		}
+		level
+		{
+			min_health 201
+			battle_stats flammability_none impact_damage_low
+			item		chiv_castle_wall_collapse chiv_castle_wall_collapse_remains
+			physical_info	info_walls/roman_town_wall_platform_collapse_info.cas
+		}
+		transition ; platform collapse to major collapse
+		{
+			duration 120
+			kill_platform 0 roman_town_wall_major_collapse_kill_zone_01p.cas
+			kill_platform 0 roman_town_wall_major_collapse_kill_zone_02p.cas
+			kill_zone 1 roman_town_wall_major_collapse_kill_zone_10.cas
+			kill_platform 1 roman_town_wall_major_collapse_kill_zone_15p.cas
+			kill_zone 1 roman_town_wall_major_collapse_kill_zone_20.cas
+			kill_zone 1 roman_town_wall_major_collapse_kill_zone_22.cas
+			kill_zone 1 roman_town_wall_major_collapse_kill_zone_26.cas
+			kill_zone 1 roman_town_wall_major_collapse_kill_zone_28.cas
+			kill_zone 1 roman_town_wall_major_collapse_kill_zone_29.cas
+			kill_platform 1 roman_town_wall_major_collapse_kill_zone_31p.cas
+			kill_zone 1 roman_town_wall_major_collapse_kill_zone_33.cas
+			kill_zone 1 roman_town_wall_major_collapse_kill_zone_38.cas
+			kill_zone 1 roman_town_wall_major_collapse_kill_zone_43.cas
+			kill_zone 1 roman_town_wall_major_collapse_kill_zone_44.cas
+			kill_zone 1 roman_town_wall_major_collapse_kill_zone_55.cas
+			physical_switch 13
+			item chiv_castle_wall_major_collapse
+			{
+				0 enable
+				120 disable
+			;}
+			;item roman_town_wall_major_collapse_anim
+			;{
+			;	0 enable
+			;	0 anim 50 0 5
+			;	0 dust_anim 30 0.6 2 2 0 3
+			;	70 fade 50 1 0
+			;	120 disable
+			}
+			item chiv_castle_wall_collapse_remains
+			{
+				0 enable
+				1 disable
+			}
+			item chiv_castle_wall_major_collapse_remains
+			{
+				0 enable
+				120 disable
+			}
+		}
+		level
+		{
+			min_health 1
+			battle_stats flammability_none impact_damage_low
+			item		chiv_castle_wall_major_collapse chiv_castle_wall_major_collapse_remains
+			physical_info	info_walls/roman_town_wall_major_collapse_info.cas
+		}
+		transition ; major collapse to final major collapse
+		{
+			duration 120
+			kill_zone 1 roman_town_wall_final_major_collapse_kill_zone_21.cas
+			kill_zone 1 roman_town_wall_final_major_collapse_kill_zone_25.cas
+			kill_zone 1 roman_town_wall_final_major_collapse_kill_zone_26.cas
+			kill_zone 1 roman_town_wall_final_major_collapse_kill_zone_28.cas
+			kill_zone 1 roman_town_wall_final_major_collapse_kill_zone_30.cas
+			kill_zone 1 roman_town_wall_final_major_collapse_kill_zone_40.cas
+			kill_zone 1 roman_town_wall_final_major_collapse_kill_zone_43.cas
+			kill_zone 1 roman_town_wall_final_major_collapse_kill_zone_46.cas
+			physical_switch 30
+			item chiv_castle_wall_final_collapse
+			{
+				0 enable
+				120 disable
+			;}
+			;item roman_town_wall_final_major_collapse_anim
+			;{
+			;	0 enable
+			;	0 anim 50 0 5
+			;	0 dust_anim 30 0.6 2 2 0 3
+			;	70 fade 50 1 0
+			;	120 disable
+			}
+			item chiv_castle_wall_major_collapse_remains
+			{
+			; Fade out the old central rubble too this time...
+				0 enable
+				70 fade 50 1 0
+				120 disable
+			}
+			item chiv_castle_wall_final_collapse_remains
+			{
+				0 enable
+				120 disable
+			}
+		}
+		level
+		{
+			min_health 0
+			battle_stats flammability_none impact_damage_low
+			item		chiv_castle_wall_final_collapse chiv_castle_wall_final_collapse_remains
+			physical_info	info_walls/roman_town_wall_final_major_collapse_info.cas
+		}
+	}
+
+
+	chiv_castle_wall_watchtower
+	{
+		full_health 250
+		battle_stats flammability_none impact_damage_low
+		localised_name tower
+		level
+		{
+			min_health 161
+			battle_stats flammability_none impact_damage_low
+			item		chiv_castle_wall_watchtower
+			physical_info	info_walls/info_roman_town_wall_watchtower.cas
+		}
+		transition ; undamaged to destroyed
+		{
+			duration 120
+			physical_switch 30
+			item chiv_castle_wall_watchtower
+			{
+				0 enable
+				120 disable
+			}
+		}
+		level
+		{
+			min_health 0
+			battle_stats flammability_none impact_damage_low
+			item		chiv_castle_wall_watchtower
+			physical_info	info_walls/info_roman_town_wall_watchtower.cas
+		}
+	}
+
+	chiv_castle_wall_external_corner_watchtower
+	{
+		full_health 250
+		battle_stats flammability_none impact_damage_low
+		localised_name tower
+		level
+		{
+			min_health 161
+			battle_stats flammability_none impact_damage_low
+			item		chiv_castle_wall_external_corner_watchtower
+			physical_info	info_walls/info_roman_town_external_corner_watchtower.cas
+		}
+		transition ; undamaged to destroyed
+		{
+			duration 120
+			physical_switch 30
+			item chiv_castle_wall_external_corner_watchtower
+			{
+				0 enable
+				120 disable
+			}
+		}
+		level
+		{
+			min_health 0
+			battle_stats flammability_none impact_damage_low
+			item		chiv_castle_wall_external_corner_watchtower
+			physical_info	info_walls/info_roman_town_external_corner_watchtower.cas
+		}
+	}
+
+	roman_town_internal_corner_watchtower
+	{
+		full_health 250
+		battle_stats flammability_none impact_damage_low
+		localised_name tower
+		level
+		{
+			min_health 161
+			battle_stats flammability_none impact_damage_low
+			item		roman_town_internal_corner_watchtower
+			physical_info	info_walls/info_roman_town_internal_corner_watchtower.cas
+		}
+		transition ; undamaged to small damage
+		{
+			duration 120
+			physical_switch 30
+			item roman_town_tower_ic_small_damage
+			{
+				0 enable
+				120 disable
+			}
+			item roman_town_tower_ic_small_damage_anim
+			{
+				0 enable
+				0 anim 50 0 5
+				0 dust_anim 30 0.6 2 2 0 3
+				70 fade 50 1 0
+				120 disable
+			}
+		}
+		level
+		{
+			min_health 101
+			battle_stats flammability_none impact_damage_low
+			item		roman_town_tower_ic_small_damage
+			physical_info	info_walls/info_roman_town_internal_corner_watchtower.cas
+		}
+		transition ; small damage to more damage
+		{
+			duration 120
+			physical_switch 30
+			item roman_town_tower_ic_more_damage
+			{
+				0 enable
+				120 disable
+			}
+			item roman_town_tower_ic_more_damage_anim
+			{
+				0 enable
+				0 anim 50 0 5
+				0 dust_anim 30 0.6 2 2 0 3
+				70 fade 50 1 0
+				120 disable
+			}
+		}
+		level
+		{
+			min_health 1
+			battle_stats flammability_none impact_damage_low
+			item		roman_town_tower_ic_more_damage
+			physical_info	info_walls/info_roman_town_internal_corner_watchtower.cas
+		}
+		transition ; more damage to collapse
+		{
+			duration 120
+			physical_switch 30
+			item roman_town_tower_ic_collapse
+			{
+				0 enable
+				120 disable
+			}
+			item roman_town_tower_ic_collapse_anim
+			{
+				0 enable
+				0 anim 50 0 5
+				0 dust_anim 30 0.6 2 2 0 3
+				70 fade 50 1 0
+				120 disable
+			}
+		}
+		level
+		{
+			min_health 0
+			battle_stats flammability_none impact_damage_low
+			item		roman_town_tower_ic_collapse
+			physical_info	info_walls/roman_town_tower_ic_collapse_info.cas
+		}
+	}

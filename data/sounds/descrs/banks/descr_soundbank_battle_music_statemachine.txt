@@ -76,11 +76,213 @@
 		{
 			;;the factions that the player can be playing as
 			"player factions":
+				[ "barbarian", ],
+
+			;;the factions that the player can be fighting against
+			"enemy factions":
+				[ "barbarian", "eastern", "carthaginian", ],
+
+			;;the id of this state
+			"ID": "tension",
+
+			;;is this sound high priority and how long should it wait before forcing a transition if so
+			"high priority": false,
+			"max change delay": 0,
+
+			;;the states that this can transition from
+			"from states":
+			[
+			],
+
+			;;the restrictions that should be checked before the battle to confirm this track is valid (same as prebattle speech)
+			"battle restrictions":
+			[
+			],
+
+			;;the restrictions that dictate when this track is valid to transition to
+			"transition restrictions":
+			[
+			],
+
+			"sounds":
+			[
+				"data/sounds/music/EuroTension1.opus",
+				"data/sounds/music/EuroTension2.opus",
+				"data/sounds/music/EuroTension3.opus",
+				"data/sounds/music/VikingTension.opus",
+				{
+				},
+			],
+		},
+		{
+			;;the factions that the player can be playing as
+			"player factions":
+				[ "eastern", "carthaginian", ],
+
+			;;the factions that the player can be fighting against
+			"enemy factions":
+				[ "barbarian", "eastern", "carthaginian", ],
+
+			;;the id of this state
+			"ID": "tension",
+
+			;;is this sound high priority and how long should it wait before forcing a transition if so
+			"high priority": false,
+			"max change delay": 0,
+
+			;;the states that this can transition from
+			"from states":
+			[
+			],
+
+			;;the restrictions that should be checked before the battle to confirm this track is valid (same as prebattle speech)
+			"battle restrictions":
+			[
+			],
+
+			;;the restrictions that dictate when this track is valid to transition to
+			"transition restrictions":
+			[
+			],
+
+			"sounds":
+			[
+				"data/sounds/music/EuroTension1.opus",
+				"data/sounds/music/EuroTension2.opus",
+				"data/sounds/music/EuroTension3.opus",
+				{
+				},
+			],
+		},
+		{
+			;;the factions that the player can be playing as
+			"player factions":
+				[ "greek", "egyptian", ],
+
+			;;the factions that the player can be fighting against
+			"enemy factions":
+				[ "greek", "egyptian", ],
+
+			;;the id of this state
+			"ID": "tension",
+
+			;;is this sound high priority and how long should it wait before forcing a transition if so
+			"high priority": false,
+			"max change delay": 0,
+
+			;;the states that this can transition from
+			"from states":
+			[
+			],
+
+			;;the restrictions that should be checked before the battle to confirm this track is valid (same as prebattle speech)
+			"battle restrictions":
+			[
+			],
+
+			;;the restrictions that dictate when this track is valid to transition to
+			"transition restrictions":
+			[
+			],
+
+			"sounds":
+			[
+				"data/sounds/music/ArabTension1.opus",
+				"data/sounds/music/ArabTension2.opus",
+				"data/sounds/music/ArabTension3.opus",
+				{
+				},
+			],
+		},
+		{
+			;;the factions that the player can be playing as
+			"player factions":
+				[ "greek", "egyptian", ],
+
+			;;the factions that the player can be fighting against
+			"enemy factions":
+				[ "barbarian", "eastern", "carthaginian", ],
+
+			;;the id of this state
+			"ID": "tension",
+
+			;;is this sound high priority and how long should it wait before forcing a transition if so
+			"high priority": false,
+			"max change delay": 0,
+
+			;;the states that this can transition from
+			"from states":
+			[
+			],
+
+			;;the restrictions that should be checked before the battle to confirm this track is valid (same as prebattle speech)
+			"battle restrictions":
+			[
+			],
+
+			;;the restrictions that dictate when this track is valid to transition to
+			"transition restrictions":
+			[
+			],
+
+			"sounds":
+			[
+				"data/sounds/music/EuroTension1.opus",
+				"data/sounds/music/EuroTension2.opus",
+				"data/sounds/music/EuroTension3.opus",
+				{
+				},
+			],
+		},
+		{
+			;;the factions that the player can be playing as
+			"player factions":
 				[ "all", ],
 
 			;;the factions that the player can be fighting against
 			"enemy factions":
+				[ "roman", ],
+
+			;;the id of this state
+			"ID": "tension",
+
+			;;is this sound high priority and how long should it wait before forcing a transition if so
+			"high priority": false,
+			"max change delay": 0,
+
+			;;the states that this can transition from
+			"from states":
+			[
+			],
+
+			;;the restrictions that should be checked before the battle to confirm this track is valid (same as prebattle speech)
+			"battle restrictions":
+			[
+			],
+
+			;;the restrictions that dictate when this track is valid to transition to
+			"transition restrictions":
+			[
+			],
+
+			"sounds":
+			[
+				"data/sounds/music/battle_prepare.opus",
+				"data/sounds/music/Gregorian.opus",
+				"data/sounds/music/edgen_ctw_05.opus",
+				"data/sounds/music/edgen_ctw_building.opus",
+				{
+				},
+			],
+		},
+		{
+			;;the factions that the player can be playing as
+			"player factions":
 				[ "all", ],
+
+			;;the factions that the player can be fighting against
+			"enemy factions":
+				[ "roman", ],
 
 			;;the id of this state
 			"ID": "mobilise",
@@ -117,11 +319,206 @@
 			[
 				"data/sounds/music/edgen_ctw_battle_02.opus",
 				"data/sounds/music/edgen_ctw_building2.opus",
-				"data/sounds/music/Military_Music_of_Turkey.opus",
 				"data/sounds/music/edgen_ctw_battle_03.opus",
 				"data/sounds/music/battle_prepare.opus",
 				"data/sounds/music/edgen_ctw_05.opus",
 				"data/sounds/music/edgen_ctw_building.opus",
+				{
+				},
+			],
+		},
+		{
+			;;the factions that the player can be playing as
+			"player factions":
+				[ "barbarian", "eastern", "carthaginian", ],
+
+			;;the factions that the player can be fighting against
+			"enemy factions":
+				[ "barbarian", "eastern", "carthaginian", ],
+
+			;;the id of this state
+			"ID": "mobilise",
+
+			;;is this sound high priority and how long should it wait before forcing a transition if so
+			"high priority": false,
+			"max change delay": 0,
+
+			;;the states that this can transition from
+			"from states":
+			[
+				"tension",
+			],
+
+			;;the restrictions that should be checked before the battle to confirm this track is valid (same as prebattle speech)
+			"battle restrictions":
+			[
+			],
+
+			;;the restrictions that dictate when this track is valid to transition to
+			"transition restrictions":
+			[
+				"battle state":
+				{
+					"string": "the battle is past the deployment phase",
+				},
+				"unit states":
+				{
+					"string": ">0.0% of units in our army that are present are in the state moving",
+				},
+			],
+
+			"sounds":
+			[
+				"data/sounds/music/EuroMobilize1.opus",
+				"data/sounds/music/EuroMobilize2.opus",
+				"data/sounds/music/EuroMobilize3.opus",
+				{
+				},
+			],
+		},
+		{
+			;;the factions that the player can be playing as
+			"player factions":
+				[ "greek", "egyptian", ],
+
+			;;the factions that the player can be fighting against
+			"enemy factions":
+				[ "greek", "egyptian", ],
+
+			;;the id of this state
+			"ID": "mobilise",
+
+			;;is this sound high priority and how long should it wait before forcing a transition if so
+			"high priority": false,
+			"max change delay": 0,
+
+			;;the states that this can transition from
+			"from states":
+			[
+				"tension",
+			],
+
+			;;the restrictions that should be checked before the battle to confirm this track is valid (same as prebattle speech)
+			"battle restrictions":
+			[
+			],
+
+			;;the restrictions that dictate when this track is valid to transition to
+			"transition restrictions":
+			[
+				"battle state":
+				{
+					"string": "the battle is past the deployment phase",
+				},
+				"unit states":
+				{
+					"string": ">0.0% of units in our army that are present are in the state moving",
+				},
+			],
+
+			"sounds":
+			[
+				"data/sounds/music/ArabMobilize1.opus",
+				"data/sounds/music/ArabMobilize2.opus",
+				"data/sounds/music/ArabMobilize3.opus",
+				{
+				},
+			],
+		},
+		{
+			;;the factions that the player can be playing as
+			"player factions":
+				[ "barbarian", "eastern", "carthaginian", ],
+
+			;;the factions that the player can be fighting against
+			"enemy factions":
+				[ "greek", "egyptian", ],
+
+			;;the id of this state
+			"ID": "mobilise",
+
+			;;is this sound high priority and how long should it wait before forcing a transition if so
+			"high priority": false,
+			"max change delay": 0,
+
+			;;the states that this can transition from
+			"from states":
+			[
+				"tension",
+			],
+
+			;;the restrictions that should be checked before the battle to confirm this track is valid (same as prebattle speech)
+			"battle restrictions":
+			[
+			],
+
+			;;the restrictions that dictate when this track is valid to transition to
+			"transition restrictions":
+			[
+				"battle state":
+				{
+					"string": "the battle is past the deployment phase",
+				},
+				"unit states":
+				{
+					"string": ">0.0% of units in our army that are present are in the state moving",
+				},
+			],
+
+			"sounds":
+			[
+				"data/sounds/music/ArabMobilize1.opus",
+				"data/sounds/music/ArabMobilize2.opus",
+				"data/sounds/music/ArabMobilize3.opus",
+				{
+				},
+			],
+		},
+		{
+			;;the factions that the player can be playing as
+			"player factions":
+				[ "greek", "egyptian", ],
+
+			;;the factions that the player can be fighting against
+			"enemy factions":
+				[ "barbarian", "eastern", "carthaginian", ],
+
+			;;the id of this state
+			"ID": "mobilise",
+
+			;;is this sound high priority and how long should it wait before forcing a transition if so
+			"high priority": false,
+			"max change delay": 0,
+
+			;;the states that this can transition from
+			"from states":
+			[
+				"tension",
+			],
+
+			;;the restrictions that should be checked before the battle to confirm this track is valid (same as prebattle speech)
+			"battle restrictions":
+			[
+			],
+
+			;;the restrictions that dictate when this track is valid to transition to
+			"transition restrictions":
+			[
+				"battle state":
+				{
+					"string": "the battle is past the deployment phase",
+				},
+				"unit states":
+				{
+					"string": ">0.0% of units in our army that are present are in the state moving",
+				},
+			],
+
+			"sounds":
+			[
+				"data/sounds/music/EuroMobilize1.opus",
+				"data/sounds/music/EuroMobilize2.opus",
+				"data/sounds/music/EuroMobilize3.opus",
 				{
 				},
 			],
@@ -178,7 +575,7 @@
 
 			;;the factions that the player can be fighting against
 			"enemy factions":
-				[ "all", ],
+				[ "roman", ],
 
 			;;the id of this state
 			"ID": "battle",
@@ -212,6 +609,190 @@
 			[
 				"data/sounds/music/battle_engaged.opus",
 				"data/sounds/music/edgen_kandk_mindens_quest.opus",
+				{
+				},
+			],
+		},
+		{
+			;;the factions that the player can be playing as
+			"player factions":
+				[ "barbarian", "eastern", "carthaginian", ],
+
+			;;the factions that the player can be fighting against
+			"enemy factions":
+				[ "barbarian", "eastern", "carthaginian", ],
+
+			;;the id of this state
+			"ID": "battle",
+
+			;;is this sound high priority and how long should it wait before forcing a transition if so
+			"high priority": false,
+			"max change delay": 0,
+
+			;;the states that this can transition from
+			"from states":
+			[
+				"mobilise",
+				"tension",
+			],
+
+			;;the restrictions that should be checked before the battle to confirm this track is valid (same as prebattle speech)
+			"battle restrictions":
+			[
+			],
+
+			;;the restrictions that dictate when this track is valid to transition to
+			"transition restrictions":
+			[
+				"unit states":
+				{
+					"string": ">0.0% of units in our army that are present are in the state fighting",
+				},
+			],
+
+			"sounds":
+			[
+				"data/sounds/music/EuroBattle1.opus",
+				"data/sounds/music/EuroBattle2.opus",
+				"data/sounds/music/EuroBattle3.opus",
+				{
+				},
+			],
+		},
+		{
+			;;the factions that the player can be playing as
+			"player factions":
+				[ "greek", "egyptian", ],
+
+			;;the factions that the player can be fighting against
+			"enemy factions":
+				[ "greek", "egyptian", ],
+
+			;;the id of this state
+			"ID": "battle",
+
+			;;is this sound high priority and how long should it wait before forcing a transition if so
+			"high priority": false,
+			"max change delay": 0,
+
+			;;the states that this can transition from
+			"from states":
+			[
+				"mobilise",
+				"tension",
+			],
+
+			;;the restrictions that should be checked before the battle to confirm this track is valid (same as prebattle speech)
+			"battle restrictions":
+			[
+			],
+
+			;;the restrictions that dictate when this track is valid to transition to
+			"transition restrictions":
+			[
+				"unit states":
+				{
+					"string": ">0.0% of units in our army that are present are in the state fighting",
+				},
+			],
+
+			"sounds":
+			[
+				"data/sounds/music/ArabBattle1.opus",
+				"data/sounds/music/ArabBattle2.opus",
+				"data/sounds/music/ArabBattle3.opus",
+				{
+				},
+			],
+		},
+		{
+			;;the factions that the player can be playing as
+			"player factions":
+				[ "barbarian", "eastern", "carthaginian", ],
+
+			;;the factions that the player can be fighting against
+			"enemy factions":
+				[ "greek", "egyptian", ],
+
+			;;the id of this state
+			"ID": "battle",
+
+			;;is this sound high priority and how long should it wait before forcing a transition if so
+			"high priority": false,
+			"max change delay": 0,
+
+			;;the states that this can transition from
+			"from states":
+			[
+				"mobilise",
+				"tension",
+			],
+
+			;;the restrictions that should be checked before the battle to confirm this track is valid (same as prebattle speech)
+			"battle restrictions":
+			[
+			],
+
+			;;the restrictions that dictate when this track is valid to transition to
+			"transition restrictions":
+			[
+				"unit states":
+				{
+					"string": ">0.0% of units in our army that are present are in the state fighting",
+				},
+			],
+
+			"sounds":
+			[
+				"data/sounds/music/ArabBattle1.opus",
+				"data/sounds/music/ArabBattle2.opus",
+				"data/sounds/music/ArabBattle3.opus",
+				{
+				},
+			],
+		},
+		{
+			;;the factions that the player can be playing as
+			"player factions":
+				[ "greek", "egyptian", ],
+
+			;;the factions that the player can be fighting against
+			"enemy factions":
+				[ "barbarian", "eastern", "carthaginian", ],
+
+			;;the id of this state
+			"ID": "battle",
+
+			;;is this sound high priority and how long should it wait before forcing a transition if so
+			"high priority": false,
+			"max change delay": 0,
+
+			;;the states that this can transition from
+			"from states":
+			[
+				"mobilise",
+				"tension",
+			],
+
+			;;the restrictions that should be checked before the battle to confirm this track is valid (same as prebattle speech)
+			"battle restrictions":
+			[
+			],
+
+			;;the restrictions that dictate when this track is valid to transition to
+			"transition restrictions":
+			[
+				"unit states":
+				{
+					"string": ">0.0% of units in our army that are present are in the state fighting",
+				},
+			],
+
+			"sounds":
+			[
+				"data/sounds/music/EuroBattle1.opus",
+				"data/sounds/music/EuroBattle2.opus",
+				"data/sounds/music/EuroBattle3.opus",
 				{
 				},
 			],

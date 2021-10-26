@@ -51,7 +51,13 @@ wage_base		200
 
 faction			romans_julii
 dictionary		15
-strat_model		sm_roman_general
+strat_model		sm_barb_general
+battle_model	MTW_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			pope
+dictionary		15
+strat_model		sm_barb_general
 battle_model	MTW_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
@@ -63,13 +69,13 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			romans_scipii
 dictionary		15
-strat_model		sm_roman_general
+strat_model		sm_barb_general
 battle_model	MTW_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			romans_senate
 dictionary		15
-strat_model		sm_roman_general
+strat_model		sm_barb_general
 battle_model	MTW_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
@@ -93,25 +99,25 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			seleucid
 dictionary		2
-strat_model		sm_greek_general
+strat_model		sm_barb_general
 battle_model	MTW_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			georgia
 dictionary		2
-strat_model		sm_greek_general
+strat_model		sm_barb_general
 battle_model	MTW_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			carthage
 dictionary		1
-strat_model		sm_carthage_general
+strat_model		sm_barb_general
 battle_model	MTW_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			parthia
 dictionary		2
-strat_model		sm_eastern_general
+strat_model		sm_barb_general
 battle_model	MTW_general_byz
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
@@ -159,7 +165,7 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			numidia
 dictionary		2
-strat_model		sm_carthage_general
+strat_model		sm_barb_general
 battle_model	MTW_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
@@ -183,7 +189,7 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			slave
 dictionary		2
-strat_model		sm_rebel_general
+strat_model		sm_barb_general
 battle_model	MTW_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
@@ -197,7 +203,14 @@ wage_base		0
 faction			romans_julii
 dictionary		15
 strat_card		data/ui/roman/portraits/captain_card_julii.tga
-strat_model		sm_roman_lesser_general
+strat_model		sm_barb_lesser_general
+battle_model	MTW_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			pope
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_barb_lesser_general
 battle_model	MTW_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
@@ -211,14 +224,14 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 faction			romans_scipii
 dictionary		15
 strat_card		data/ui/roman/portraits/captain_card_julii.tga
-strat_model		sm_roman_lesser_general
+strat_model		sm_barb_lesser_general
 battle_model	MTW_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			romans_senate
 dictionary		15
 strat_card		data/ui/roman/portraits/captain_card_julii.tga
-strat_model		sm_roman_lesser_general
+strat_model		sm_barb_lesser_general
 battle_model	MTW_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
@@ -246,28 +259,28 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 faction			seleucid
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
-strat_model		sm_greek_lesser_general
+strat_model		sm_barb_lesser_general
 battle_model	MTW_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			georgia
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
-strat_model		sm_greek_lesser_general
+strat_model		sm_barb_lesser_general
 battle_model	MTW_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			carthage
 dictionary		1
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
-strat_model		sm_carthage_lesser_general
+strat_model		sm_barb_lesser_general
 battle_model	MTW_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			parthia
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
-strat_model		sm_eastern_lesser_general
+strat_model		sm_barb_lesser_general
 battle_model	MTW_general_byz
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
@@ -323,7 +336,7 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 faction			numidia
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
-strat_model		sm_carthage_lesser_general
+strat_model		sm_barb_lesser_general
 battle_model	MTW_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
@@ -351,7 +364,7 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 faction			slave
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
-strat_model		sm_rebel_lesser_general
+strat_model		sm_barb_lesser_general
 battle_model	MTW_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
@@ -363,6 +376,11 @@ actions			moving_normal, spying
 wage_base		100
 
 faction			romans_julii
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			pope
 dictionary		15
 strat_card		data/ui/roman/agents/card_spy.tga
 strat_model		spy
@@ -490,6 +508,11 @@ dictionary		15
 strat_card		data/ui/roman/agents/card_assassin.tga
 strat_model		assassin
 
+faction			pope
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
 faction			romans_brutii
 dictionary		15
 strat_card		data/ui/roman/agents/card_assassin.tga
@@ -608,6 +631,11 @@ actions			moving_normal, diplomacy, bribe
 wage_base		50
 
 faction			romans_julii
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			pope
 dictionary		15
 strat_card		data/ui/roman/agents/card_diplo_rome.tga
 strat_model		diplomat
@@ -733,6 +761,11 @@ dictionary		15
 strat_card		data/ui/roman/agents/card_diplo_rome.tga
 strat_model		merchant
 
+faction			pope
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
 faction			romans_brutii
 dictionary		15
 strat_card		data/ui/roman/agents/card_diplo_rome.tga
@@ -853,6 +886,11 @@ actions			moving_normal, quick_sail, blockade, disembark, exchange
 wage_base		50
 
 faction			romans_julii
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			pope
 dictionary		15
 strat_card		data/ui/roman/agents/temp_admiral.tga
 strat_model		julii_admiral

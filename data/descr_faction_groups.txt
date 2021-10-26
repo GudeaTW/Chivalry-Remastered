@@ -1,5 +1,6 @@
 group fgroup_romans
 faction romans_julii
+faction pope
 faction romans_brutii
 faction romans_scipii
 faction romans_senate
@@ -23,6 +24,7 @@ faction egypt
 faction mongol
 faction germans
 faction romans_julii
+faction pope
 
 group fgroup_forge_temple
 faction dacia
@@ -35,6 +37,7 @@ faction armenia
 faction egypt
 faction mongol
 faction romans_julii
+faction pope
 faction seleucid
 faction georgia
 faction thrace
@@ -60,6 +63,7 @@ group fgroup_leadership_temple
 faction armenia
 faction greek_cities
 faction romans_julii
+faction pope
 
 group fgroup_healing_temple
 faction britons

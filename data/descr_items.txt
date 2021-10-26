@@ -1,0 +1,450 @@
+;	
+;	This file contains the item model linkages; it gets parsed on application 
+;	startup but is not otherwise referred to. The data format is thus:
+;
+;	;						indicates a comment ;-)
+;							
+;	type					indicates a new model type, must be followed by id name string (phrase)
+;	model_rigid				indicates a new model in the lod series, must be followed by file name with path and lod 
+;								range in m (no range supplied means maximum range - last mode including sprite)
+;
+;								all mesh model lods must be supplied in order, smallest distance (highest detail) first
+;
+
+; spot items
+include di_spot_items.txt
+
+include di_slot_fillers.txt
+
+include di_wooden_walls.txt
+include di_walls_roman.txt
+include di_walls_greek.txt
+include di_walls_eastern.txt
+include di_walls_egyptian.txt
+include di_walls_barbarian.txt
+
+include di_nicks_roman_buildings.txt
+include di_nicks_egyptian_buildings.txt
+include di_nicks_greek_buildings.txt
+include di_nicks_eastern_buildings.txt
+
+include di_barbarian_buildings.txt
+
+include di_wonders.txt
+include di_foliage.txt
+
+include di_kevins_buildings.txt
+include di_bens_buildings.txt
+include di_andrews_buildings.txt
+include di_pauls_buildings.txt
+include di_johns_buildings.txt
+include di_joss_buildings.txt
+
+include di_roads.txt
+
+include di_animals.txt
+
+include di_gates.txt
+
+include di_ambient.txt
+
+include di_lorenzo_romehd.txt
+
+
+type			scale_soldier
+lod
+max_distance	200
+model_rigid		scale_soldier_high.cas
+
+
+type			rubble_20x20
+lod
+max_distance	2000
+model_rigid		rubble.cas
+
+
+type			construction_site_48x32
+lod
+max_distance	4000
+model_rigid		construction_48x32_high.CAS
+
+type			construction_site_112x64
+lod
+max_distance	4000
+model_rigid		construction_112x64_high.CAS
+
+type			construction_site_160x128
+lod
+max_distance	4000
+model_rigid		construction_160x128_high.CAS
+
+;;;;;;;;;;;CHIVALRY ITEMS;;;;;;;;;;;;;;
+type		ctw_we_haystack 
+lod
+max_distance	4000.0
+model_rigid	ctw_we_haystack.cas 
+
+type		ctw_we_well 
+lod
+max_distance	4000.0
+model_rigid	ctw_we_well.cas 
+
+type		ctw_we_small_house_wood 
+lod
+max_distance	4000.0
+model_rigid	ctw_we_small_house_wood.cas 
+
+type		ctw_we_small_house_wood_2 
+lod
+max_distance	4000.0
+model_rigid	ctw_we_small_house_wood_2.cas 
+
+type		ctw_we_blacksmith
+lod
+max_distance	4000.0
+model_rigid	ctw_we_blacksmith.cas 
+
+type		ctw_we_barn 
+lod
+max_distance	4000.0
+model_rigid	ctw_we_barn.cas 
+
+type		ctw_we_mill 
+lod
+max_distance	4000.0
+model_rigid	ctw_we_mill.cas 
+
+type		ctw_we_stables
+lod
+max_distance	4000.0
+model_rigid	ctw_we_stables.cas 
+
+type		ctw_we_motte 
+lod
+max_distance	4000.0
+model_rigid	ctw_we_motte.cas 
+
+type		ctw_we_landlords_house 
+lod
+max_distance	4000.0
+model_rigid	ctw_we_landlords_house.cas
+
+type		ctw_we_fence
+lod
+max_distance	4000.0
+model_rigid	ctw_we_fence.cas  
+
+
+type		ctw_we_church1
+lod
+max_distance	4000.0
+model_rigid	ctw_we_church_1.cas 
+
+
+type		ctw_we_construction
+lod
+max_distance	4000.0
+model_rigid	ctw_we_construction.cas
+
+type		ctw_we_construction_2
+lod
+max_distance	4000.0
+model_rigid	ctw_we_construction_2.cas  
+
+type		ctw_we_donjon
+lod
+max_distance	4000.0
+model_rigid	ctw_we_donjon.cas
+
+type		ctw_we_barracks
+lod
+max_distance	4000.0
+model_rigid	ctw_we_barracks.cas
+
+type		ctw_gallows
+lod
+max_distance	4000.0
+model_rigid	ctw_we_gallows.cas
+
+type		ctw_we_keep
+lod
+max_distance	4000.0
+model_rigid	ctw_we_keep.cas
+
+type		ctw_we_large_house_stone
+lod
+max_distance	4000.0
+model_rigid	ctw_we_large_house_stone.cas
+
+type		ctw_we_large_house_wood
+lod
+max_distance	4000.0
+model_rigid	ctw_we_large_house_wood.cas
+
+type		ctw_we_wall_house
+lod
+max_distance	4000.0
+model_rigid	ctw_we_wall_house.cas
+
+type		ctw_we_wall_house_2
+lod
+max_distance	4000.0
+model_rigid	ctw_we_wall_house_2.cas
+
+type		ctw_we_armoury
+lod
+max_distance	4000.0
+model_rigid	ctw_we_armoury.cas
+
+type		ctw_we_siege
+lod
+max_distance	4000.0
+model_rigid	ctw_we_siege.cas
+
+type		ctw_we_catapult
+lod
+max_distance	4000.0
+model_rigid	ctw_we_catapult.cas
+
+type		ctw_we_tax_office
+lod
+max_distance	4000.0
+model_rigid	ctw_we_tax_office.cas
+
+type		ctw_we_monastery
+lod
+max_distance	4000.0
+model_rigid	ctw_we_monastery.cas
+
+;;;;;;;;;;;;;CHIVALRY WALLS;;;;;;;;;;;;;;;;;;
+type		chiv_wooden_gateway 
+lod
+max_distance	4000.0
+model_rigid	wooden_wall_short_gateway.cas 
+
+type		chiv_wooden_wall_straight 
+lod
+max_distance	4000.0
+model_rigid	wooden_wall_short_straight.cas 
+
+type		chiv_wooden_wall_straight_damaged_static 
+lod
+max_distance	4000.0
+model_rigid	wooden_wall_short_straight_damaged_static.cas 
+
+type		chiv_wooden_wall_straight_damaged_remains 
+lod
+max_distance	4000.0
+model_rigid	wooden_wall_short_straight_damaged_remains.cas 
+
+type		chiv_wooden_wall_straight_destroyed_static 
+lod
+max_distance	4000.0
+model_rigid	wooden_wall_short_straight_destroyed_static.cas 
+
+type		chiv_wooden_wall_straight_destroyed_remains 
+lod
+max_distance	4000.0
+model_rigid	wooden_wall_short_straight_destroyed_remains.cas 
+
+type		chiv_wooden_wall_joiner_straight  
+lod
+max_distance	4000.0
+model_rigid	wooden_wall_short_joiner_straight.cas 
+
+type		chiv_wooden_wall_joiner_diagonal 
+lod
+max_distance	4000.0
+model_rigid	wooden_wall_short_joiner_diagonal.cas 
+
+type		chiv_wooden_wall_joiner_internal_left 
+lod
+max_distance	4000.0
+model_rigid	wooden_wall_short_joiner_internal_left.cas 
+
+type		chiv_wooden_wall_joiner_internal_right  
+lod
+max_distance	4000.0
+model_rigid	wooden_wall_short_joiner_internal_right.cas 
+
+type		chiv_wooden_wall_joiner_external_right  
+lod
+max_distance	4000.0
+model_rigid	wooden_wall_short_joiner_external_right.cas 
+
+type		chiv_wooden_wall_joiner_external_left 
+lod
+max_distance	4000.0
+model_rigid	wooden_wall_short_joiner_external_left.cas 
+
+type		chiv_wooden_wall_internal_corner 
+lod
+max_distance	4000.0
+model_rigid	wooden_wall_short_internal_corner.cas 
+
+type		chiv_wooden_wall_external_corner 
+lod
+max_distance	4000.0
+model_rigid	wooden_wall_short_external_corner.cas 
+
+;;;;;;;;;;;;;;CHIV STONE WALLS;;;;;;;;;;;;;;;;;
+type		chiv_stone_gateway
+lod
+max_distance	4000.0
+model_rigid	wooden_tall_gateway.cas 
+
+type		chiv_stone_wall_straight 
+lod
+max_distance	4000.0
+model_rigid	wooden_tall_straight.cas
+
+type		chiv_stone_wall_joiner_straight
+lod
+max_distance	4000.0
+model_rigid	wooden_tall_joiner_straight.cas  
+
+type		chiv_stone_wall_straight_damaged_static 
+lod
+max_distance	4000.0
+model_rigid	wooden_tall_straight_damaged_static.cas 
+
+type		chiv_stone_wall_straight_damaged_remains 
+lod
+max_distance	4000.0
+model_rigid	wooden_tall_straight_damaged_remains.cas 
+
+type		chiv_stone_wall_straight_destroyed_static 
+lod
+max_distance	4000.0
+model_rigid	wooden_tall_straight_destroyed_static.cas 
+
+type		chiv_stone_wall_straight_destroyed_remains 
+lod
+max_distance	4000.0
+model_rigid	wooden_tall_straight_destroyed_remains.cas 
+
+type		chiv_stone_wall_joiner_external_right 
+lod
+max_distance	4000.0
+model_rigid	wooden_tall_joiner_external_right.cas 
+
+type		chiv_stone_wall_joiner_external_left 
+lod
+max_distance	4000.0
+model_rigid	wooden_tall_joiner_external_left.cas 
+
+type		chiv_stone_wall_external_corner 
+lod
+max_distance	4000.0
+model_rigid	wooden_tall_external_corner.cas 
+
+;;;;;;;;;;;;;;CHIV castle WALLS;;;;;;;;;;;;;;;;;
+type		chiv_castle_gateway
+lod
+max_distance	4000.0
+model_rigid	castle_gateway.cas 
+
+type		chiv_castle_wall_straight 
+lod
+max_distance	4000.0
+model_rigid	castle_wall_straight.cas
+
+type		chiv_castle_wall_joiner_straight
+lod
+max_distance	4000.0
+model_rigid	castle_wall_joiner_straight.cas  
+
+type		chiv_castle_wall_joiner_external_right 
+lod
+max_distance	4000.0
+model_rigid	castle_wall_joiner_external_right.cas 
+
+type		chiv_castle_wall_joiner_external_left
+lod
+max_distance	4000.0
+model_rigid	castle_wall_joiner_external_left.cas 
+
+type		chiv_castle_wall_watchtower
+lod
+max_distance	4000.0
+model_rigid	castle_wall_watchtower.cas 
+
+type		chiv_castle_wall_external_corner_watchtower
+lod
+max_distance	4000.0
+model_rigid	castle_wall_external_corner_watchtower.cas
+
+type		ctw_castle_innerwall_1
+lod
+max_distance	4000.0
+model_rigid	ctw_castle_innerwall_1.cas
+
+type		ctw_castle_innerwall_2
+lod
+max_distance	4000.0
+model_rigid	ctw_castle_innerwall_2.cas
+
+type		ctw_castle_innerwall_3
+lod
+max_distance	4000.0
+model_rigid	ctw_castle_innerwall_3.cas
+
+type		ctw_castle_innerwall_4
+lod
+max_distance	4000.0
+model_rigid	ctw_castle_innerwall_4.cas
+
+type		ctw_castle_innerwall_5
+lod
+max_distance	4000.0
+model_rigid	ctw_castle_innerwall_5.cas
+
+type		chiv_castle_wall_small_damadge
+lod
+max_distance	4000.0
+model_rigid	castle_wall_small_damadge.cas
+
+type		chiv_castle_wall_more_damadge
+lod
+max_distance	4000.0
+model_rigid	castle_wall_more_damadge.cas
+
+type		chiv_castle_wall_collapse
+lod
+max_distance	4000.0
+model_rigid	castle_wall_collapse.cas
+
+type		chiv_castle_wall_major_collapse
+lod
+max_distance	4000.0
+model_rigid	castle_wall_major_collapse.cas
+
+type		chiv_castle_wall_final_collapse
+lod
+max_distance	4000.0
+model_rigid	castle_wall_final_collapse.cas
+
+type		chiv_castle_wall_small_damadge_remains
+lod
+max_distance	4000.0
+model_rigid	castle_wall_small_damadge_remains.cas
+
+type		chiv_castle_wall_more_damadge_remains
+lod
+max_distance	4000.0
+model_rigid	castle_wall_more_damadge_remains.cas
+
+type		chiv_castle_wall_collapse_remains
+lod
+max_distance	4000.0
+model_rigid	castle_wall_collapse_remains.cas
+
+type		chiv_castle_wall_major_collapse_remains
+lod
+max_distance	4000.0
+model_rigid	castle_wall_major_collapse_remains.cas
+
+type		chiv_castle_wall_final_collapse_remains
+lod
+max_distance	4000.0
+model_rigid	castle_wall_final_collapse_remains.cas

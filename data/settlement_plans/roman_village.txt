@@ -6,7 +6,7 @@ plan
 ;; and generally makes the code logistics more straightforward
 strat
 {
-	buildings		data/models_strat/residences/roman_village_buildings.CAS
+	buildings		data/models_strat/residences/MTW_village_muslim.CAS
 	default_base	settlement_roman_level_1
 
 	;;walls and base map overrides

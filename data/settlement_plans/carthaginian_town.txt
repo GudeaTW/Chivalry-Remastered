@@ -6,7 +6,7 @@ plan
 ;; and generally makes the code logistics more straightforward
 strat
 {
-	buildings		data/models_strat/residences/eastern_town_buildings.CAS
+	buildings		data/models_strat/residences/MTW_motte.CAS
 	default_base	settlement_roman_level_2
 
 	;;walls and base map overrides
@@ -14,17 +14,17 @@ strat
 	{
 		wooden_pallisade
 		{
-			model	data/models_strat/residences/roman_town_wall_1.CAS
+			model	data/models_strat/residences/MTW_bailey.CAS
 			base	settlement_roman_walled_level_2
 		}
 		wooden_wall
 		{
-			model	data/models_strat/residences/roman_town_wall_2.CAS
+			model	data/models_strat/residences/MTW_stone_wall_europe.CAS
 			base	settlement_roman_walled_level_2
 		}
 		stone_wall
 		{
-			model	data/models_strat/residences/eastern_town_wall_3.CAS
+			model	data/models_strat/residences/MTW_fortified_wall_europe.CAS
 			base	settlement_roman_walled_level_2
 		}
 	}
@@ -34,24 +34,24 @@ strat
 	{
 		fishing_village
 		{
-			land_model	data/models_strat/residences/eastern_fishing_village.CAS
+			land_model	data/models_strat/residences/MTW_fishvillage.CAS
 			base	port_eastern_level_1
 		}
 		sea_port
 		{
-			land_model	data/models_strat/residences/eastern_port_01_land.CAS
+			land_model	data/models_strat/residences/MTW_port.CAS
 			sea_model	data/models_strat/residences/eastern_port_01_sea.CAS
 			base	port_eastern_level_2
 		}
 		shipwright
 		{
-			land_model	data/models_strat/residences/eastern_port_02_land.CAS
+			land_model	data/models_strat/residences/roman_port_02_land.CAS
 			sea_model	data/models_strat/residences/eastern_port_02_sea.CAS
 			base	port_eastern_level_3
 		}
 		dockyard
 		{
-			land_model	data/models_strat/residences/eastern_port_03_land.CAS
+			land_model	data/models_strat/residences/roman_port_03_land.CAS
 			sea_model	data/models_strat/residences/eastern_port_03_sea.CAS
 			base	port_eastern_level_4
 		}
