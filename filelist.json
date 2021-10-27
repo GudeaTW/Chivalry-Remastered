@@ -29924,6 +29924,22 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/cuman_archer_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/cuman_heavy_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/cuman_horse_archer_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/cuman_horse_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info_classic\/mongol\/early_didebuls_info.tga",
 		"checksum": "Blacklisted"
 	},
@@ -29973,6 +29989,10 @@
 	},
 	{
 		"filename": "data\/ui\/unit_info_classic\/mongol\/merc_knight_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/moldavian_infantry_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -30068,11 +30088,23 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/steppe_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/steppe_light_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info_classic\/mongol\/steppe_warrior_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/ui\/unit_info_classic\/mongol\/szekely_merc_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/transilvanian_infantry_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -30085,6 +30117,14 @@
 	},
 	{
 		"filename": "data\/ui\/unit_info_classic\/mongol\/turcoman_horse_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/vlach_tribesmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/mongol\/wallachian_skirmisher_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -31849,6 +31889,10 @@
 	},
 	{
 		"filename": "data\/ui\/unit_info_classic\/seleucid\/horse_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/seleucid\/kartvelian_spearmen_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -36396,6 +36440,22 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/mongol\/#cuman_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#cuman_heavy_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#cuman_horse_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#cuman_horse_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/mongol\/#early_didebuls.tga",
 		"checksum": "Blacklisted"
 	},
@@ -36452,7 +36512,15 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/mongol\/#manguday_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/mongol\/#merc_knight.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#moldavian_infantry.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -36572,11 +36640,27 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/mongol\/#steppe_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#steppe_light_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/mongol\/#steppe_warrior.tga",
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/mongol\/#szekely2.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/mongol\/#szekely_merc.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#transilvanian_infantry.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -36600,16 +36684,24 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/mongol\/#vlach_tribesmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mongol\/#wallachian_skirmisher.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/mongol\/assassin.tga",
-		"checksum": 2933923973
+		"checksum": 1955023714
 	},
 	{
 		"filename": "data\/ui\/units\/mongol\/diplomat.tga",
-		"checksum": 1352533314
+		"checksum": 3961357766
 	},
 	{
 		"filename": "data\/ui\/units\/mongol\/spy.tga",
-		"checksum": 1130221298
+		"checksum": 621234125
 	},
 	{
 		"filename": "data\/ui\/units\/numidia\/#archers.tga",
@@ -38601,6 +38693,10 @@
 	},
 	{
 		"filename": "data\/ui\/units\/seleucid\/#horse_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/seleucid\/#kartvelian_spearmen.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -43872,6 +43968,22 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units_classic\/mongol\/#cuman_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#cuman_heavy_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#cuman_horse_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#cuman_horse_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units_classic\/mongol\/#early_didebuls.tga",
 		"checksum": "Blacklisted"
 	},
@@ -43928,7 +44040,15 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units_classic\/mongol\/#manguday_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units_classic\/mongol\/#merc_knight.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#moldavian_infantry.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -44048,11 +44168,27 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units_classic\/mongol\/#steppe_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#steppe_light_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units_classic\/mongol\/#steppe_warrior.tga",
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units_classic\/mongol\/#szekely2.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units_classic\/mongol\/#szekely_merc.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#transilvanian_infantry.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -44076,16 +44212,24 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units_classic\/mongol\/#vlach_tribesmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/mongol\/#wallachian_skirmisher.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units_classic\/mongol\/assassin.tga",
-		"checksum": 2933923973
+		"checksum": 1955023714
 	},
 	{
 		"filename": "data\/ui\/units_classic\/mongol\/diplomat.tga",
-		"checksum": 1352533314
+		"checksum": 3961357766
 	},
 	{
 		"filename": "data\/ui\/units_classic\/mongol\/spy.tga",
-		"checksum": 1130221298
+		"checksum": 621234125
 	},
 	{
 		"filename": "data\/ui\/units_classic\/numidia\/#archers.tga",
@@ -46077,6 +46221,10 @@
 	},
 	{
 		"filename": "data\/ui\/units_classic\/seleucid\/#horse_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/seleucid\/#kartvelian_spearmen.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -49149,7 +49297,7 @@
 	},
 	{
 		"filename": "data\/descr_beliefs.txt",
-		"checksum": 1038435652
+		"checksum": 4221788673
 	},
 	{
 		"filename": "data\/descr_building_battle.txt",
@@ -49329,7 +49477,7 @@
 	},
 	{
 		"filename": "data\/descr_sounds.txt",
-		"checksum": 3320979919
+		"checksum": 249393573
 	},
 	{
 		"filename": "data\/descr_sounds_advice.txt",
@@ -74332,6 +74480,14 @@
 		"checksum": 3912250904
 	},
 	{
+		"filename": "data\/sounds\/events.dat",
+		"checksum": 2294633297
+	},
+	{
+		"filename": "data\/sounds\/events.idx",
+		"checksum": 1105821657
+	},
+	{
 		"filename": "data\/sounds\/interface\/deselect.mp3",
 		"checksum": "Blacklisted"
 	},
@@ -77909,7 +78065,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map.rwm",
-		"checksum": 1245756497
+		"checksum": 2673492972
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_fe.tga",
