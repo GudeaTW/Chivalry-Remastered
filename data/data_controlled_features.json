@@ -1,5 +1,5 @@
 {
   "opaque_black_fow": false,
-  "region_name_in_tags": false,
+  "region_name_in_tags": true,
   "public_order_bonuses": false
 }
