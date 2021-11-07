@@ -26,10 +26,13 @@ playable
 	romans_julii
 	romans_brutii
 	georgia
+	dani
+	pech
 end
 unlockable 
 end
 nonplayable
+	bulgaria
 	pope
 	slave	
 end
@@ -433,6 +436,7 @@ resource	wine,	1,	177, 96
 ; ---------------------------------------------------------
 
 faction	romans_julii, trader_smith
+ai_do_not_attack_faction pope
 denari	10000
 settlement
 {
@@ -457,7 +461,7 @@ settlement
 	}
 	building
 	{
-		type temple_christian_church church2
+		type temple_catholic_church church2
 	}
 	building
 	{
@@ -479,24 +483,20 @@ settlement
 
 settlement
 {
-	level large_town
+	level town
 	region Corsica
 
 	year_founded 0
-	population 2050
+	population 1500
 	plan_set default_set
 	faction_creator romans_julii
 	building
 	{
-	 	type core_building governors_villa
+	 	type core_building governors_house
 	}
 	building
 	{
 	 	type defenses wooden_wall
-	}
-	building
-	{
-		type port_buildings port
 	}
 	building
 	{
@@ -546,7 +546,7 @@ settlement
 ; Italy - Toscana
 ; --------------------
 character	Gottifredo, named character, leader, age 45, , x 88, y 78
-traits		Christian 1, CountOfPisa 1, Married 1, Royal 1, Leader_Prince 1, Factionleader 1
+traits		Catholic 1, CountOfPisa 1, Married 1, Royal 1, Leader_Prince 1, Factionleader 1
 ancillaries office_Consul, familyseal
 army
 unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
@@ -561,7 +561,7 @@ unit		ribaldi							exp 0 armour 0 weapon_lvl 0
 unit		ribaldi							exp 0 armour 0 weapon_lvl 0
 
 character	Goffredo, named character, heir, age 25, , x 88, y 77
-traits Christian 1, Royal 1, Leader_Prince 1, Factionheir 1
+traits Catholic 1, Royal 1, Leader_Prince 1, Factionheir 1
 ancillaries familyseal
 army
 unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
@@ -570,7 +570,7 @@ unit		militia spearmen				exp 1 armour 0 weapon_lvl 0
 unit		ribaldi							exp 0 armour 0 weapon_lvl 0
 
 character	Boniface diToscana, named character, age 24, , x 79, y 57
-traits Christian 1, Married 1, Unroyal 1, GoodCommander 1, High_Woman 1, Royal_Courtmember 1
+traits Catholic 1, Married 1, Unroyal 1, GoodCommander 1, High_Woman 1, Royal_Courtmember 1
 ancillaries familyseal
 army
 unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
@@ -578,7 +578,7 @@ unit		crossbowmen						exp 1 armour 0 weapon_lvl 0
 unit		militia spearmen				exp 1 armour 0 weapon_lvl 0
 
 character	Pietro Corsini, named character, age 29, , x 81, y 75
-traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
+traits Catholic 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
 unit		crossbowmen						exp 1 armour 0 weapon_lvl 0
@@ -631,12 +631,12 @@ settlement
 	}
 	building
 	{
-		type temple_christian_church church1
+		type temple_apostolic_church achurch1
 	}
 }
 
 character	Reuben Rupenid, named character, leader, age 45, , x 191, y 59
-traits Christian 1, Married 1, KingOfArmenia 1, Royal 1, Leader_Prince 1, Factionleader 1
+traits Apostolic 1, Married 1, KingOfArmenia 1, Royal 1, Leader_Prince 1, Factionleader 1
 ancillaries familyseal
 army
 unit		naxarar bodyguard c					exp 2 armour 0 weapon_lvl 0
@@ -651,7 +651,7 @@ character	Vahram Poggosian, diplomat, age 33, , x 191, y 58
 ; Region: Cilician Gates
 ; --------------------
 character	Gosdatin Rupenid, named character, heir, age 18, , x 191, y 60
-traits Christian 1, Royal 1, Leader_Prince 1, Factionheir 1
+traits Apostolic 1, Royal 1, Leader_Prince 1, Factionheir 1
 ancillaries familyseal
 army
 unit		naxarar bodyguard c					exp 2 armour 0 weapon_lvl 0
@@ -671,7 +671,7 @@ relative 	Reuben Rupenid,	Sofia,	Gosdatin Rupenid,	end
 ; ---------------------------------------------------------
 
 faction	parthia, balanced_henry
-denari 1500
+denari 10000
 
 settlement
 {
@@ -696,7 +696,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church3
+	 	type temple_orthodox_church ochurch3
 	}
 	building
 	{
@@ -763,7 +763,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_orthodox_church ochurch1
 	}
 	building
 	{
@@ -802,7 +802,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_orthodox_church ochurch1
 	}
 	building
 	{
@@ -833,7 +833,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_orthodox_church ochurch1
 	}
 	building
 	{
@@ -868,7 +868,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_orthodox_church ochurch1
 	}
 	building
 	{
@@ -921,28 +921,20 @@ settlement
 
 settlement
 {
-	level large_town
+	level town
 	region Morea
 
 	year_founded 0
-	population 2100
+	population 1000
 	plan_set default_set
 	faction_creator parthia
 	building
 	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type rights market_rights
+		type core_building governors_house
 	}
 	building
 	{
 	 	type defenses wooden_wall
-	}
-	building
-	{
-	 	type hinterland_roads roads
 	}
 	building
 	{
@@ -977,7 +969,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_orthodox_church ochurch1
 	}
 	building
 	{
@@ -1014,20 +1006,70 @@ settlement
 
 settlement
 {
-	level city
-	region Rhodos
+	level town
+	region Syrmia
 
 	year_founded 0
-	population 4002
+	population 1000
 	plan_set default_set
 	faction_creator parthia
 	building
 	{
-		type core_building governors_palace
+		type core_building governors_house
 	}
 	building
 	{
-		type rights city_rights
+	 	type temples temple
+	}
+	building
+	{
+	 	type defenses wooden_wall
+	}
+	building
+	{
+	 	type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Bukellarion
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+	 	type temples temple
+	}
+	building
+	{
+	 	type defenses wooden_wall
+	}
+	building
+	{
+	 	type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Rhodos
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
 	}
 	building
 	{
@@ -1035,7 +1077,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_orthodox_church ochurch1
 	}
 	building
 	{
@@ -1130,6 +1172,10 @@ settlement
 	{
 	 	type temples temple
 	}
+	building
+	{
+	 	type temple_orthodox_church ochurch1
+	}
 }
 
 settlement
@@ -1138,7 +1184,7 @@ settlement
 	region Cherson 
 
 	year_founded 0
-	population 2104
+	population 2000
 	plan_set default_set
 	faction_creator parthia
 	building
@@ -1163,22 +1209,320 @@ settlement
 	}
 }
 
+settlement
+{
+	level city
+	region Bithynia
+
+	year_founded 0
+	population 3200
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+	 	type temple_orthodox_church ochurch1
+	}
+	building
+	{
+	 	type defenses stone_wall
+	}
+	building
+	{
+	 	type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Kybrrhaiots
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+	 	type port_buildings port
+	}
+	building
+	{
+	 	type defenses wooden_wall
+	}
+	building
+	{
+	 	type temple_orthodox_church ochurch1
+	}
+	building
+	{
+	 	type barracks_buildings barracks
+	}
+}
+
+settlement
+{
+	level large_town
+	region Optimatoi
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+	 	type port_buildings port
+	}
+	building
+	{
+	 	type defenses wooden_wall
+	}
+	building
+	{
+	 	type temple_orthodox_church ochurch1
+	}
+	building
+	{
+	 	type barracks_buildings barracks
+	}
+}
+
+settlement
+{
+	level large_town
+	region Thrakesion
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+	 	type defenses wooden_wall
+	}
+	building
+	{
+	 	type temple_orthodox_church ochurch1
+	}
+}
+
+settlement
+{
+	level large_town
+	region Abydos
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+	 	type port_buildings port
+	}
+	building
+	{
+	 	type defenses wooden_wall
+	}
+	building
+	{
+	 	type temple_orthodox_church ochurch1
+	}
+	building
+	{
+	 	type barracks_buildings barracks
+	}
+	building
+	{
+	 	type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Galatia
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+	 	type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+	 	type defenses wooden_wall
+	}
+	building
+	{
+	 	type temple_orthodox_church ochurch1
+	}
+}
+
+settlement
+{
+	level large_town
+	region Pamphylia
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type temple_orthodox_church ochurch1
+	}
+}
+
+settlement
+{
+	level city
+	region Anatolikon
+
+	year_founded 0
+	population 6200
+	plan_set default_set
+	faction_creator pontus
+	building
+	{
+	 	type core_building governors_palace
+	}
+	building
+	{
+		type rights city_rights
+	}
+	building
+	{
+		type temple_orthodox_church ochurch1
+	}
+	building
+	{
+	 	type defenses stone_wall
+	}
+}
+
+settlement
+{
+	level large_town
+	region Trebizond
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+	 	type temple_orthodox_church ochurch1
+	}
+	building
+	{
+	 	type defenses wooden_wall
+	}
+}
+
+settlement
+{
+	level large_town
+	region Seleukeia
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type temple_orthodox_church ochurch1
+	}
+	building
+	{
+	 	type hinterland_roads roads
+	}
+}
+
 ; --------------------
 ; dies per script
-character	Romanos, named character, age 99, , x 160, y 73
-traits Christian 1, Married 1, Royal 1, Leader_Prince 1
-ancillaries familyseal
-army
-unit		hetaireia c				exp 1 armour 0 weapon_lvl 0
 
 ; City: Byzantion
 ; Region: ByzantionP
 ; --------------------
 
 character	Michael Doukas, named character, leader, age 26, , x 161, y 73
-traits Christian 1, Married 1, EmpOfByz 1, Royal 1, Leader_Prince 1, Factionleader 1, High_Woman 1
+traits Orthodox 1, Married 1, EmpOfByz 1, Royal 1, Leader_Prince 1, Factionleader 1, High_Woman 1
 army
 unit		hetaireia c				exp 1 armour 0 weapon_lvl 0
+unit		varangian guard			exp 3 armour 0 weapon_lvl 0
 unit		varangian guard			exp 3 armour 0 weapon_lvl 0
 unit		skoutatoi				exp 2 armour 0 weapon_lvl 0
 
@@ -1195,7 +1539,7 @@ unit		riptaristai				exp 1 armour 0 weapon_lvl 0
 ; Region: Thessalonika
 ; --------------------
 character	Isaakios Komnenos, named character, age 36, , x 139, y 65
-traits Christian 1, Married 1, Unroyal 1, GoodCommander 1, High_Woman 1
+traits Orthodox 1, Married 1, Unroyal 1, GoodCommander 1, High_Woman 1
 ancillaries office_DomAsia, Emperor_banner, familyseal
 army
 unit		hetaireia c				exp 1 armour 0 weapon_lvl 0
@@ -1206,16 +1550,20 @@ unit		riptaristai				exp 1 armour 0 weapon_lvl 0
 ; Region: Epiros
 ; --------------------
 character	Nikeforos Bryennios, named character, age 19, , x 123, y 69
-traits Christian 1, Married 1, Unroyal 1, GoodCommander 1, High_Woman 1
+traits Orthodox 1, Married 1, Unroyal 1, GoodCommander 1, High_Woman 1
 ancillaries office_DomEuro, familyseal
 army
 unit		hetaireia c				exp 1 armour 0 weapon_lvl 0
+unit		kataphraktoi			exp 2 armour 0 weapon_lvl 0
+unit		kataphraktoi			exp 2 armour 0 weapon_lvl 0
+unit		psiloi					exp 1 armour 0 weapon_lvl 0
+unit		psiloi					exp 1 armour 0 weapon_lvl 0
 unit		psiloi					exp 1 armour 0 weapon_lvl 0
 unit		hoplitai				exp 1 armour 0 weapon_lvl 0
 unit		hoplitai				exp 1 armour 0 weapon_lvl 0
 
-; City: Balkan3C
-; Region: Balkan3
+; City: Athens
+; Region: Hellas
 ; --------------------
 character	Georgios, general, age 35, , x 142, y 52
 army
@@ -1228,17 +1576,25 @@ character	Manuel, general, age 65, , x 140, y 50
 army
 unit		hoplitai				exp 1 armour 0 weapon_lvl 0
 
-; City: Argos
-; Region: Peloponnesos
+; City: Monemvasia
+; Region: Lakonia
 ; --------------------
-character	Alexios, general, age 65, , x 138, y 47
+character	Alexios, general, age 65, , x 141, y 46
 army
 unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+
+; City: Preslav
+; Region: Paristrion
+; --------------------
+character	Andronikos, general, age 38, , x 153, y 85
+army
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+unit		riptaristai				exp 1 armour 0 weapon_lvl 0
 
 ; City: Balkan5C
 ; Region: Balkan5
 ; --------------------
-character	Andronikos, general, age 38, , x 153, y 85
+character	Romanos, general, age 38, , x 124, y 85
 army
 unit		hoplitai				exp 1 armour 0 weapon_lvl 0
 unit		riptaristai				exp 1 armour 0 weapon_lvl 0
@@ -1262,7 +1618,7 @@ unit		tzakones				exp 1 armour 0 weapon_lvl 0
 ; Region: 
 ; --------------------
 character	Loukas Bulgaroctonos, named character, age 34, , x 175, y 95
-traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
+traits Orthodox 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 ancillaries Etairiarches, familyseal
 army
 unit		hetaireia c				exp 1 armour 0 weapon_lvl 0
@@ -1289,24 +1645,126 @@ unit		tzakones				exp 0 armour 0 weapon_lvl 0
 ;Thrake
 ; --------------------
 character	Alexios Komnenos, named character, heir, age 24, , x 151, y 74
-traits Christian 1, Married 1, Royal 1, Leader_Prince 1, Factionheir 1, High_Woman 1
+traits Orthodox 1, Married 1, Royal 1, Leader_Prince 1, Factionheir 1, High_Woman 1
 ancillaries office_Scholae, familyseal
 army
 unit		hetaireia c				exp 1 armour 0 weapon_lvl 0
+unit		kataphraktoi			exp 2 armour 0 weapon_lvl 0
+unit		kataphraktoi			exp 2 armour 0 weapon_lvl 0
 unit		szekely merc			exp 1 armour 0 weapon_lvl 0
 unit		psiloi					exp 1 armour 0 weapon_lvl 0
 unit		hoplitai				exp 1 armour 0 weapon_lvl 0
 
-character_record	Eudokia,	female, age 58, alive, never_a_leader
-character_record	Maria,		female, age 18, alive, never_a_leader
-character_record	Mariam,		female, age 17, alive, never_a_leader
-character_record	Eirene, 	female, age 16, alive, never_a_leader
-character_record	Anna, 		female, age 15, alive, never_a_leader
+; City: Nikaia
+; Region: Upper_Opsician
+; --------------------
+character	Theodoros Dalassenos, named character, age 29, , x 162, y 67
+traits Orthodox 1, Unroyal 1
+army
+unit		hetaireia c				exp 1 armour 0 weapon_lvl 0
+unit		psiloi					exp 1 armour 0 weapon_lvl 0
 
-relative 	Romanos,				Eudokia,	Maria,	Mariam,	Eirene,	Anna,	end
-relative 	Isaakios Komnenos,		Maria,		end
-relative 	Michael Doukas,			Mariam,		end
-relative 	Alexios Komnenos,		Eirene,		end
+; City: Nikomedia
+; Region: Optimatoi
+; --------------------
+character	Andronikos, general, age 29, , x 165, y 73
+army
+unit		thematic cavalry		exp 2 armour 0 weapon_lvl 0
+unit		psiloi					exp 1 armour 0 weapon_lvl 0
+
+; City: Amastris
+; Region: Bukellarion
+; --------------------
+character	Ioseph, general, age 29, , x 174, y 78
+army
+unit		thematic cavalry		exp 2 armour 0 weapon_lvl 0
+unit		psiloi					exp 1 armour 0 weapon_lvl 0
+
+; City: Cyzicos
+; Region: Abydos
+; --------------------
+character	Konstantinos Nicephoritzes, named character, age 43, , x 156, y 54
+traits Orthodox 1, Unroyal 1
+army
+unit		hetaireia c				exp 1 armour 0 weapon_lvl 0
+unit		psiloi					exp 1 armour 0 weapon_lvl 0
+
+; City: Philadelphia
+; Region: Thrakesion
+; --------------------
+character	Theodoros, general, age 43, , x 167, y 57
+army
+unit		thematic cavalry		exp 2 armour 0 weapon_lvl 0
+unit		psiloi					exp 1 armour 0 weapon_lvl 0
+
+; City: Myra
+; Region: Cibyrrhaeot
+; --------------------
+character	Isaakios Kalaphates, named character, age 37, , x 174, y 50
+traits Orthodox 1, Unroyal 1
+army
+unit		hetaireia c				exp 1 armour 0 weapon_lvl 0
+unit		psiloi					exp 1 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+unit		riptaristai				exp 1 armour 0 weapon_lvl 0
+
+; City: Trapezos
+; Region: Chaldea
+; --------------------
+character	Theodoros Gabras, named character, age 36, , x 199, y 81
+traits Orthodox 1, Unroyal 1
+army
+unit		hetaireia c			exp 1 armour 0 weapon_lvl 0
+unit		trebizond archers		exp 2 armour 0 weapon_lvl 0
+unit		trebizond archers		exp 2 armour 0 weapon_lvl 0
+unit		riptaristai				exp 1 armour 0 weapon_lvl 0
+unit		hoplitai				exp 1 armour 0 weapon_lvl 0
+
+; City: Ikonion
+; Region: Anatolikon
+; --------------------
+character	Nikeforos Botaneiates, named character, age 60, , x 180, y 58
+traits Orthodox 1, Unroyal 1
+army
+unit		hetaireia c						exp 2 armour 0 weapon_lvl 0
+unit		thematic cavalry					exp 1 armour 0 weapon_lvl 0
+
+; City: Kalonoros
+; Region: Pamphylia
+; --------------------
+character	Nikeforos, general, age 44, , x 180, y 51
+army
+unit		latinikoi				exp 3 armour 0 weapon_lvl 0
+unit		psiloi					exp 2 armour 0 weapon_lvl 0
+
+; City: Ankara
+; Region: Galatia
+; --------------------
+character	Anastasios, general, age 44, , x 180, y 68
+army
+unit		latinikoi				exp 3 armour 0 weapon_lvl 0
+unit		psiloi					exp 2 armour 0 weapon_lvl 0
+
+; City: Seleukeia
+; Region: Kilikia Trachea (Seleukia)
+; --------------------
+character	Loukas, general, age 44, , x 188, y 51
+army
+unit		hoplitai			exp 2 armour 0 weapon_lvl 0
+unit		hoplitai			exp 2 armour 0 weapon_lvl 0
+unit		riptaristai				exp 1 armour 0 weapon_lvl 0
+unit		psiloi					exp 1 armour 0 weapon_lvl 0
+unit		psiloi					exp 1 armour 0 weapon_lvl 0
+unit		psiloi					exp 1 armour 0 weapon_lvl 0
+
+character_record	Mariam,		female, age 19, alive, never_a_leader
+character_record	Maria,		female, age 18, alive, never_a_leader
+character_record	Eirene, 	female, age 17, alive, never_a_leader
+character_record	Anna, 		female, age 16, alive, never_a_leader
+
+relative 	Michael Doukas,		Mariam,		end
+relative 	Isaakios Komnenos,	Maria,		end
+relative 	Alexios Komnenos,	Eirene,		end
 relative 	Nikeforos Bryennios,	Anna,		end
 
 ; ---------------------------------------------------------
@@ -1314,6 +1772,7 @@ relative 	Nikeforos Bryennios,	Anna,		end
 ; ---------------------------------------------------------
 
 faction	spain, fortified_henry 
+ai_do_not_attack_faction pope
 denari 7500
 settlement
 {
@@ -1338,7 +1797,7 @@ settlement
 	}
 	building
 	{
-		type temple_christian_church church1
+		type temple_catholic_church church1
 	}
 }
 
@@ -1373,7 +1832,7 @@ settlement
 	}
 	building
 	{
-		type temple_christian_church church2
+		type temple_catholic_church church2
 	}
 }
 
@@ -1382,14 +1841,14 @@ settlement
 ; --------------------
 ; dies per script
 character	Ramiro Navarra, named character, age 60, , x 44, y 77
-traits Christian 1, Married 1, Royal 1, Leader_Prince 1
+traits Catholic 1, Married 1, Royal 1, Leader_Prince 1
 ancillaries familyseal
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
 unit		militia spearmen				exp 1 armour 0 weapon_lvl 0
 
 character	Sancho Navarra, named character, leader, age 30, , x 46, y 78
-traits Christian 1, Married 1, KingOfAragon 1, Royal 1, Leader_Prince 1, Factionleader 1
+traits Catholic 1, Married 1, KingOfAragon 1, Royal 1, Leader_Prince 1, Factionleader 1
 ancillaries familyseal
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
@@ -1399,7 +1858,7 @@ unit		militia spearmen				exp 1 armour 0 weapon_lvl 0
 ; Region: catalana
 ; --------------------
 character	Garcia Navarra, named character, heir, age 28, , x 52, y 72
-traits Christian 1, Married 1, Royal 1, Leader_Prince 1, Factionheir 1, GoodCommander 1
+traits Catholic 1, Married 1, Royal 1, Leader_Prince 1, Factionheir 1, GoodCommander 1
 ancillaries office_Barcelona, familyseal
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
@@ -1420,6 +1879,7 @@ relative 	Garcia Navarra,	Constancia,	end
 ; ---------------------------------------------------------
 
 faction	dacia, bureaucrat_napoleon 
+ai_do_not_attack_faction pope
 denari 7500
 settlement
 {
@@ -1448,7 +1908,7 @@ settlement
 	}
 	building
 	{
-		type temple_christian_church church1
+		type temple_catholic_church church1
 	}
 	building
 	{
@@ -1487,7 +1947,7 @@ settlement
 	}
 	building
 	{
-		type temple_christian_church church1
+		type temple_catholic_church church1
 	}
 	building
 	{
@@ -1534,7 +1994,7 @@ settlement
 ; --------------------
 ; dies per script
 character	Tancredi, named character, age 77, , x 48, y 116
-traits Christian 1, Royal 1, Leader_Prince 1, Married 1
+traits Catholic 1, Royal 1, Leader_Prince 1, Married 1
 ancillaries familyseal
 army
 unit		siculo norman nobles c				exp 1 armour 0 weapon_lvl 0
@@ -1544,7 +2004,7 @@ unit		siculo norman nobles c				exp 1 armour 0 weapon_lvl 0
 ; Region: Italy5
 ; --------------------
 character	Roberto Altavilla, named character, leader, age 56, , x 109, y 54
-traits Christian 1, Married 1, KingOfSicily 1, Royal 1, Leader_Prince 1, Factionleader 1, GoodCommander 1
+traits Catholic 1, Married 1, KingOfSicily 1, Royal 1, Leader_Prince 1, Factionleader 1, GoodCommander 1
 ancillaries familyseal
 army
 unit		siculo norman nobles c				exp 1 armour 0 weapon_lvl 0
@@ -1554,7 +2014,7 @@ unit		militia spearmen					exp 1 armour 0 weapon_lvl 0
 ; Region: Italy7
 ; --------------------
 character	Ruggero Altavilla, named character, heir, age 41, , x 98, y 51
-traits Christian 1, Married 1, Royal 1, Leader_Prince 1, Factionheir 1, GoodCommander 1
+traits Catholic 1, Married 1, Royal 1, Leader_Prince 1, Factionheir 1, GoodCommander 1
 ancillaries familyseal
 army
 unit		siculo norman nobles c				exp 1 armour 0 weapon_lvl 0
@@ -1563,7 +2023,7 @@ unit		militia spearmen					exp 1 armour 0 weapon_lvl 0
 ; Region: Italy5
 ; --------------------
 character	Enrico Peralta, named character, age 42, , x 109, y 56
-traits Christian 1, Married 1, Unroyal 1, GoodCommander 1, High_Woman 1
+traits Catholic 1, Married 1, Unroyal 1, GoodCommander 1, High_Woman 1
 ancillaries office_Archon, familyseal
 army
 unit		siculo norman nobles c				exp 1 armour 0 weapon_lvl 0
@@ -1572,7 +2032,7 @@ unit		militia spearmen					exp 1 armour 0 weapon_lvl 0
 ; Italy - Bari
 ; --------------------
 character	Guido Ventimiglia, named character, age 39, , x 113, y 67
-traits Christian 1, Married 1, Unroyal 1, GoodCommander 1, High_Woman 1
+traits Catholic 1, Married 1, Unroyal 1, GoodCommander 1, High_Woman 1
 ancillaries familyseal
 army
 unit		siculo norman nobles c				exp 1 armour 0 weapon_lvl 0
@@ -1581,12 +2041,12 @@ unit		ribaldi								exp 0 armour 0 weapon_lvl 0
 unit		crossbowmen							exp 1 armour 0 weapon_lvl 0
 
 character	Giordano Moncada, general, age 22, , x 100, y 50
-traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
+traits Catholic 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		siculo norman nobles c				exp 1 armour 0 weapon_lvl 0
 
 character	Goffredo Chiaromonte, general, age 21, , x 97, y 51
-traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
+traits Catholic 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		siculo norman nobles c				exp 1 armour 0 weapon_lvl 0
 
@@ -1616,6 +2076,7 @@ relative 	Guido Ventimiglia,		Matilda,		end
 ; ---------------------------------------------------------
 
 faction	britons, sailor_smith 
+ai_do_not_attack_faction pope
 denari 10000
 settlement
 {
@@ -1648,7 +2109,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church2
+	 	type temple_catholic_church church2
 	}
 }
 
@@ -1671,7 +2132,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_catholic_church church1
 	}
 	building
 	{
@@ -1699,7 +2160,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_catholic_church church1
 	}
 	building
 	{
@@ -1734,7 +2195,7 @@ settlement
 		}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_catholic_church church1
 	}
 }
 
@@ -1757,7 +2218,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_catholic_church church1
 	}
 	building
 	{
@@ -1784,7 +2245,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_catholic_church church1
 	}
 	building
 	{
@@ -1799,8 +2260,8 @@ settlement
 ; City: London
 ; Region: East_Anglia
 ; --------------------
-character	William, named character, leader, age 45, , x 56, y 128
-traits Christian 1, Married 1, KingOfEngland 1, Royal 1, Leader_Prince 1, Factionleader 1, GoodCommander 3
+character	William of_Normandy, named character, leader, age 45, , x 56, y 128
+traits Catholic 1, Married 1, KingOfEngland 1, Royal 1, Leader_Prince 1, Factionleader 1, GoodCommander 3
 ancillaries familyseal
 army
 unit		early kings cavalry c					exp 2 armour 0 weapon_lvl 0
@@ -1812,8 +2273,8 @@ unit		archers								exp 0 armour 0 weapon_lvl 0
 ; City: France5C
 ; Region: Normandy
 ; --------------------
-character	Robert, named character, age 17, , x 57, y 117  
-traits Christian 1, Royal 1, Leader_Prince 1
+character	Robert of_Normandy, named character, age 17, , x 57, y 117  
+traits Catholic 1, Royal 1, Leader_Prince 1
 ancillaries familyseal 
 army
 unit		early kings cavalry c					exp 1 armour 0 weapon_lvl 0
@@ -1823,8 +2284,8 @@ unit		norman mercenaries					exp 1 armour 0 weapon_lvl 0
 unit		archers							exp 0 armour 0 weapon_lvl 0
 
 ; outside London
-character	Rufus, named character, heir, age 16, , x 56, y 129
-traits Christian 1, Royal 1, Leader_Prince 1, Factionheir 1, Infertile 2, Hypochondriac 1, Ugly 1
+character	Rufus of_Normandy, named character, heir, age 16, , x 56, y 129
+traits Catholic 1, Royal 1, Leader_Prince 1, Factionheir 1, Infertile 2, Hypochondriac 1, Ugly 1
 ancillaries familyseal
 army
 unit		early kings cavalry c					exp 1 armour 0 weapon_lvl 0
@@ -1835,7 +2296,7 @@ character	Walter Becket, diplomat, age 33, , x 57, y 117
 ; Region: ScottDown
 ; --------------------
 character	Richard deVere, named character, age 23, , x 53, y 147
-traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
+traits Catholic 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 ancillaries office_LHC
 army
 unit		early kings cavalry c					exp 1 armour 0 weapon_lvl 0
@@ -1845,7 +2306,7 @@ unit		norman mercenaries						exp 1 armour 0 weapon_lvl 0
 ; Region: Londonup
 ; --------------------
 character	George deBeauchamp, named character, age 29, , x 53, y 136
-traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
+traits Catholic 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 ancillaries office_LordChancellor
 army
 unit		early kings cavalry c					exp 1 armour 0 weapon_lvl 0
@@ -1855,7 +2316,7 @@ unit		norman mercenaries						exp 1 armour 0 weapon_lvl 0
 ; Region: Kent
 ; --------------------
 character	Roger Bourchier, named character, age 40, , x 58, y 126
-traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
+traits Catholic 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		early kings cavalry c					exp 1 armour 0 weapon_lvl 0
 unit		norman mercenaries						exp 1 armour 0 weapon_lvl 0
@@ -1864,15 +2325,15 @@ unit		norman mercenaries						exp 1 armour 0 weapon_lvl 0
 ; Region: Wessex
 ; --------------------
 character	Henry Montfort, named character, age 35, , x 47, y 126
-traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
+traits Catholic 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		early kings cavalry c					exp 1 armour 0 weapon_lvl 0
 unit		norman mercenaries						exp 1 armour 0 weapon_lvl 0
 
 character_record	Matilda, 				female, age 40, alive, never_a_leader
-character_record	Henry, 		male, 	age 3, 	alive, never_a_leader
+character_record	Henry of_Normandy, 		male, 	age 3, 	alive, never_a_leader
 
-relative 	William,	Matilda,	Robert,	Rufus,	Henry,	end
+relative 	William of_Normandy,	Matilda,	Robert of_Normandy,	Rufus of_Normandy,	Henry of_Normandy,	end
 
 ; ---------------------------------------------------------
 ; #########   >>> The Turks <<<   #########
@@ -2433,6 +2894,7 @@ relative 	Melik Shah,	Fatma,	Mahmud Shah,	Balaban Shah,	end
 ; ---------------------------------------------------------
 
 faction	romans_scipii, religious_napoleon
+ai_do_not_attack_faction pope
 denari 9000
 settlement
 {
@@ -2469,7 +2931,7 @@ settlement
 	}
 	building
 	{
-		type temple_christian_church church2
+		type temple_catholic_church church2
 	}
 }
 
@@ -2508,7 +2970,7 @@ settlement
 	}
 	building
 	{
-		type temple_christian_church church2
+		type temple_catholic_church church2
 	}
 }
 
@@ -2535,7 +2997,7 @@ settlement
 	}
 	building
 	{
-		type temple_christian_church church1
+		type temple_catholic_church church1
 	}
 	building
 	{
@@ -2566,7 +3028,7 @@ settlement
 	}
 	building
 	{
-		type temple_christian_church church1
+		type temple_catholic_church church1
 	}
 	building
 	{
@@ -2579,13 +3041,13 @@ settlement
 ; --------------------
 ; dies per script
 character	Fernando Navarra, named character, age 56, , x 32, y 84
-traits Christian 1, Married 1, Royal 1, Leader_Prince 1
+traits Catholic 1, Married 1, Royal 1, Leader_Prince 1
 ancillaries familyseal
 army
 unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
 
 character	Alfonso Navarra, named character, leader, age 32, , x 31, y 83
-traits Christian 1, KingOfCastile 1, Married 1, Royal 1, Leader_Prince 1, Factionleader 1
+traits Catholic 1, KingOfCastile 1, Married 1, Royal 1, Leader_Prince 1, Factionleader 1
 ancillaries familyseal
 army
 unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
@@ -2597,7 +3059,7 @@ unit		archers							exp 0 armour 0 weapon_lvl 0
 ; Region: Santiago
 ; --------------------
 character	Garcia Navarra, named character, heir, age 30, , x 24, y 87
-traits Christian 1, Royal 1, Leader_Prince 1, Factionheir 1
+traits Catholic 1, Royal 1, Leader_Prince 1, Factionheir 1
 ancillaries familyseal
 army
 unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
@@ -2608,7 +3070,7 @@ unit		archers							exp 0 armour 0 weapon_lvl 0
 ; Region: Portucalense
 ; --------------------
 character	Felipe Lerma, named character, age 40, , x 10, y 80
-traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
+traits Catholic 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit        	early kings cavalry c				exp 1 armour 0 weapon_lvl 0
 unit		militia spearmen				exp 1 armour 0 weapon_lvl 0
@@ -2628,7 +3090,7 @@ unit		archers							exp 0 armour 0 weapon_lvl 0
 ; Region: Province_of_Toledo
 ; --------------------
 character	Rodrigo DiazdeVivar, named character, age 33, , x 27, y 78
-traits Christian 1, Unroyal 1, GoodCommander 2, Non_Royal_Courtmember 1
+traits Catholic 1, Unroyal 1, GoodCommander 2, Non_Royal_Courtmember 1
 ancillaries office_Castile
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
@@ -2798,6 +3260,7 @@ relative 	Tamim alZiri,	Amina,		Yahya alZiri,	Fatimah,	end
 ; ---------------------------------------------------------
 
 faction	gauls, balanced_smith
+ai_do_not_attack_faction pope
 denari 9000
 settlement
 {
@@ -2826,7 +3289,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church2
+	 	type temple_catholic_church church2
 	}
 	building
 	{
@@ -2865,7 +3328,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_catholic_church church1
 	}
 	building
 	{
@@ -2896,7 +3359,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_catholic_church church1
 	}
 	building
 	{
@@ -2927,7 +3390,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_catholic_church church1
 	}
 	building
 	{
@@ -2962,7 +3425,7 @@ settlement
         }
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_catholic_church church1
 	}
 	building
 	{
@@ -2975,20 +3438,20 @@ settlement
 ; --------------------
 ; dies per script
 character	R0bert Capet, named character, age 100, , x 48, y 101
-traits Christian 1, Married 1, Royal 1, Leader_Prince 1
+traits Catholic 1, Married 1, Royal 1, Leader_Prince 1
 ancillaries familyseal
 army
 unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
 
 ; dies per script
 character	Henri Capet, named character, age 64, , x 49, y 102
-traits Christian 1, Married 1, Royal 1, Leader_Prince 1
+traits Catholic 1, Married 1, Royal 1, Leader_Prince 1
 ancillaries familyseal
 army
 unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
 
 character	Philippe Capet, named character, leader, age 19, , x 60, y 112
-traits Christian 1, Married 1, KingOfFrance 1, Royal 1, Leader_Prince 1, Factionleader 1
+traits Catholic 1, Married 1, KingOfFrance 1, Royal 1, Leader_Prince 1, Factionleader 1
 ancillaries familyseal
 army
 unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
@@ -2996,7 +3459,7 @@ unit		militia spearmen				exp 0 armour 0 weapon_lvl 0
 unit		archers							exp 0 armour 0 weapon_lvl 0
 
 character	Hugues Capet, named character, heir, age 17, , x 46, y 108
-traits Christian 1, Royal 1, Leader_Prince 1, Factionheir 1
+traits Catholic 1, Royal 1, Leader_Prince 1, Factionheir 1
 ancillaries familyseal
 army
 unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
@@ -3004,21 +3467,21 @@ unit		militia spearmen				exp 0 armour 0 weapon_lvl 0
 unit		archers							exp 0 armour 0 weapon_lvl 0
 
 character	Robert Capet, named character, age 61, , x 65, y 112
-traits Christian 1, Royal 1, Leader_Prince 1, GoodCommander 1
+traits Catholic 1, Royal 1, Leader_Prince 1, GoodCommander 1
 ancillaries familyseal
 army
 unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
 unit		militia spearmen				exp 0 armour 0 weapon_lvl 0
  
 character	Eudes Capet, named character, age 59, , x 47, y 103
-traits Christian 1, Royal 1, Leader_Prince 1, GoodCommander 1
+traits Catholic 1, Royal 1, Leader_Prince 1, GoodCommander 1
 ancillaries familyseal
 army
 unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
 unit		militia spearmen				exp 0 armour 0 weapon_lvl 0
 
 character	Bernard deBlois, named character, age 28, , x 59, y 94
-traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
+traits Catholic 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 ancillaries office_Constable, familyseal
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
@@ -3040,6 +3503,7 @@ relative 	Philippe Capet,	Berthe,		Louis Capet, 	end
 ; ---------------------------------------------------------
 
 faction	carthage, balanced_henry
+ai_do_not_attack_faction pope
 denari 1500
 settlement
 {
@@ -3068,7 +3532,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_catholic_church church1
 	}
 	building
 	{
@@ -3118,7 +3582,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_catholic_church church1
 	}
 	building
 	{
@@ -3181,13 +3645,13 @@ settlement
 ; --------------------
 ; dies per script
 character	Vazul Arpad, named character, age 96, , x 117, y 102
-traits Christian 1, Married 1, Royal 1, Leader_Prince 1
+traits Catholic 1, Married 1, Royal 1, Leader_Prince 1
 ancillaries familyseal
 army
 unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
 
 character	Salamon Arpad, named character, leader, age 20, , x 116, y 100
-traits Christian 1, Married 1, KingOfHungaria 1, Royal 1, Leader_Prince 1, Factionleader 1
+traits Catholic 1, Married 1, KingOfHungaria 1, Royal 1, Leader_Prince 1, Factionleader 1
 ancillaries familyseal
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
@@ -3197,7 +3661,7 @@ unit		archers							exp 0 armour 0 weapon_lvl 0
 ; Region: Balkan7
 ; --------------------
 character	Geza Arpad, named character, heir, age 27, , x 137, y 96
-traits Christian 1, Married 1, Royal 1, Leader_Prince 1, Factionheir 1
+traits Catholic 1, Married 1, Royal 1, Leader_Prince 1, Factionheir 1
 ancillaries familyseal
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
@@ -3206,7 +3670,7 @@ unit		archers							exp 0 armour 0 weapon_lvl 0
 
 ; --------------------
 character	Lambert Arpad, named character, age 22, , x 129, y 94
-traits Christian 1, Royal 1, Prince 1, GoodCommander 1
+traits Catholic 1, Royal 1, Prince 1, GoodCommander 1
 ancillaries office_Tabornagy, familyseal
 army
 unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
@@ -3216,7 +3680,7 @@ unit		archers							exp 0 armour 0 weapon_lvl 0
 ; Region: Nyitra
 ; --------------------
 character	Laszlo Arpad, named character, age 32, , x 116, y 107
-traits Christian 1, Royal 1, Prince 1, GoodCommander 1
+traits Catholic 1, Royal 1, Prince 1, GoodCommander 1
 ancillaries familyseal
 army
 unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
@@ -3225,14 +3689,14 @@ unit		archers							exp 0 armour 0 weapon_lvl 0
 ; Mukachevo
 ; --------------------
 character	Bela Arpad, named character, age 56, , x 132, y 108
-traits Christian 1, Married 1, Royal 1, Leader_Prince 1, GoodCommander 1
+traits Catholic 1, Married 1, Royal 1, Leader_Prince 1, GoodCommander 1
 ancillaries familyseal
 army
 unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
 unit		archers							exp 0 armour 0 weapon_lvl 0
 
 character	Andras Arpad, named character, age 58, , x 116, y 102
-traits Christian 1, Married 1, Royal 1, Leader_Prince 1, GoodCommander 1
+traits Catholic 1, Married 1, Royal 1, Leader_Prince 1, GoodCommander 1
 ancillaries familyseal
 army
 unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
@@ -3519,14 +3983,14 @@ relative 	Yusef,	Orqina,	Ali,	end
 ; Rum-Seljuks
 
 faction	pontus, religious_genghis
-denari 25000
+denari 20000
 settlement
 {
 	level city
 	region Chersianon
 
 	year_founded 0
-	population 6550
+	population 6000
 	plan_set default_set
 	faction_creator pontus
 	building
@@ -3559,15 +4023,92 @@ settlement
 	}
 }
 
+; City: Kaiseria
+; Region: Chersianon
+; --------------------
+character	Kutalmish, named character, leader, age 59, , x 190, y 67
+traits Muslim 1, Married 1, Royal 1, Leader_Prince 1, Factionleader 1, GoodCommander 1
+ancillaries familyseal
+army
+unit		ghulam bodyguards c					exp 5 armour 0 weapon_lvl 0
+unit		turcoman horsearchers				exp 3 armour 0 weapon_lvl 0
+unit		seljuk horse archers				exp 3 armour 0 weapon_lvl 0
+unit		turcoman footarchers				exp 3 armour 0 weapon_lvl 0
+unit		turcoman archers					exp 3 armour 0 weapon_lvl 0
+unit		turcoman archers					exp 3 armour 0 weapon_lvl 0
+unit		spearmen							exp 0 armour 0 weapon_lvl 0
+
+; Region: Galatia
+; --------------------
+character	Suleyman, named character, heir, age 33, , x 181, y 58
+traits Muslim 1, Royal 1, Leader_Prince 1, Factionheir 1, GoodCommander 1
+ancillaries familyseal
+army
+unit		ghulam bodyguards c					exp 4 armour 0 weapon_lvl 0
+unit		turcoman horsearchers				exp 3 armour 0 weapon_lvl 0
+unit		seljuk horse archers				exp 3 armour 0 weapon_lvl 0
+unit		turcoman footarchers				exp 3 armour 0 weapon_lvl 0
+unit		turcoman archers					exp 3 armour 0 weapon_lvl 0
+unit		turcoman archers					exp 3 armour 0 weapon_lvl 0
+
+character	Dawud KilijArslan, named character, age 23, , x 181, y 60
+traits Muslim 1, Married 1, Unroyal 1, GoodCommander 2, High_Woman 1
+ancillaries Spah_Salar, familyseal
+army
+unit		ghulam bodyguards c					exp 4 armour 0 weapon_lvl 0
+unit		turcoman horsearchers				exp 3 armour 0 weapon_lvl 0
+unit		turcoman horsearchers				exp 3 armour 0 weapon_lvl 0
+unit		seljuk horse archers				exp 3 armour 0 weapon_lvl 0
+unit		seljuk horse archers				exp 3 armour 0 weapon_lvl 0
+unit		seljuk horse archers				exp 3 armour 0 weapon_lvl 0
+unit		turcoman light cavalry				exp 3 armour 0 weapon_lvl 0
+unit		turcoman light cavalry				exp 3 armour 0 weapon_lvl 0
+unit		turcoman light cavalry				exp 3 armour 0 weapon_lvl 0
+unit		turcoman footarchers				exp 3 armour 0 weapon_lvl 0
+unit		turcoman archers					exp 3 armour 0 weapon_lvl 0
+unit		turcoman archers					exp 3 armour 0 weapon_lvl 0
+
+character	Aytigin KilijArslan, named character, age 20, , x 171, y 62
+traits Muslim 1, Married 1, Unroyal 1, GoodCommander 2, High_Woman 1 
+ancillaries office_Vizier, familyseal
+army
+unit		ghulam bodyguards c					exp 4 armour 0 weapon_lvl 0
+unit		turcoman horsearchers				exp 3 armour 0 weapon_lvl 0
+unit		turcoman horsearchers				exp 3 armour 0 weapon_lvl 0
+unit		seljuk horse archers				exp 3 armour 0 weapon_lvl 0
+unit		seljuk horse archers				exp 3 armour 0 weapon_lvl 0
+unit		seljuk horse archers				exp 3 armour 0 weapon_lvl 0
+unit		turcoman light cavalry				exp 3 armour 0 weapon_lvl 0
+unit		turcoman light cavalry				exp 3 armour 0 weapon_lvl 0
+unit		turcoman light cavalry				exp 3 armour 0 weapon_lvl 0
+unit		turcoman footarchers				exp 3 armour 0 weapon_lvl 0
+unit		turcoman archers					exp 3 armour 0 weapon_lvl 0
+unit		turcoman archers					exp 3 armour 0 weapon_lvl 0
+
+character_record	Asena,	female,	age 42,	alive,	never_a_leader
+character_record	Hatice,	female, age 21, alive,	never_a_leader
+character_record	Fatma,	female, age 19, alive,	never_a_leader
+
+relative 	Kutalmish,	Asena,		Suleyman,	Hatice,	Fatma,	end   
+relative 	Dawud KilijArslan,		Hatice,		end
+relative	Aytigin KilijArslan,	Fatma,		end
+
+; ---------------------------------------------------------
+; #########   >>> The Danishmendids <<<   #########
+; ---------------------------------------------------------
+; Danishmend
+
+faction	dani, religious_genghis
+denari 5000
 settlement
 {
 	level large_town
-	region Galatia
+	region LArmenia
 
 	year_founded 0
-	population 3450
+	population 3000
 	plan_set default_set
-	faction_creator pontus
+	faction_creator dani
 	building
 	{
 	 	type core_building governors_villa
@@ -3598,14 +4139,11 @@ settlement
 	}
 }
 
-; Rum-Seljuk army consists of Manzikert veterans only,
-; except the in Anatolia raised levy spearmen
-
-; City: Kaiseria
-; Region: Chersianon
+; City: Sebasteia
+; Region: Lesser Armenia
 ; --------------------
-character	Kutalmish, named character, leader, age 59, , x 193, y 70
-traits Muslim 1, Married 1, Royal 1, Leader_Prince 1, Factionleader 1, GoodCommander 3
+character	Gazi Danishmend, named character, leader, age 40, , x 195, y 72
+traits Muslim 1, Married 1, Royal 1, Leader_Prince 1, Factionleader 1, GoodCommander 1
 ancillaries familyseal
 army
 unit		ghulam bodyguards c					exp 5 armour 0 weapon_lvl 0
@@ -3616,11 +4154,10 @@ unit		turcoman archers					exp 3 armour 0 weapon_lvl 0
 unit		turcoman archers					exp 3 armour 0 weapon_lvl 0
 unit		spearmen							exp 0 armour 0 weapon_lvl 0
 
-; City: Ankara
 ; Region: Galatia
 ; --------------------
-character	Suleyman, named character, heir, age 33, , x 180, y 68
-traits Muslim 1, Royal 1, Leader_Prince 1, Factionheir 1, GoodCommander 2
+character	Gumushtikin Danishmend, named character, heir, age 16, , x 193, y 72
+traits Muslim 1, Royal 1, Leader_Prince 1, Factionheir 1, GoodCommander 1
 ancillaries familyseal
 army
 unit		ghulam bodyguards c					exp 4 armour 0 weapon_lvl 0
@@ -3631,56 +4168,16 @@ unit		turcoman archers					exp 3 armour 0 weapon_lvl 0
 unit		turcoman archers					exp 3 armour 0 weapon_lvl 0
 unit		spearmen							exp 0 armour 0 weapon_lvl 0
 
-character	Dawud KilijArslan, named character, age 23, , x 181, y 60
-traits Muslim 1, Married 1, Unroyal 1, GoodCommander 2, High_Woman 1
-ancillaries Spah_Salar, familyseal
-army
-unit		ghulam bodyguards c					exp 4 armour 0 weapon_lvl 0
-unit		turcoman horsearchers				exp 3 armour 0 weapon_lvl 0
-unit		turcoman horsearchers				exp 3 armour 0 weapon_lvl 0
-unit		seljuk horse archers				exp 3 armour 0 weapon_lvl 0
-unit		seljuk horse archers				exp 3 armour 0 weapon_lvl 0
-unit		seljuk horse archers				exp 3 armour 0 weapon_lvl 0
-unit		turcoman light cavalry				exp 3 armour 0 weapon_lvl 0
-unit		turcoman light cavalry				exp 3 armour 0 weapon_lvl 0
-unit		turcoman light cavalry				exp 3 armour 0 weapon_lvl 0
-unit		turcoman footarchers				exp 3 armour 0 weapon_lvl 0
-unit		turcoman archers					exp 3 armour 0 weapon_lvl 0
-unit		turcoman archers					exp 3 armour 0 weapon_lvl 0
-unit		spearmen							exp 0 armour 0 weapon_lvl 0
-
-character	Aytigin KilijArslan, named character, age 20, , x 171, y 62
-traits Muslim 1, Married 1, Unroyal 1, GoodCommander 2, High_Woman 1 
-ancillaries office_Vizier, familyseal
-army
-unit		ghulam bodyguards c					exp 4 armour 0 weapon_lvl 0
-unit		turcoman horsearchers				exp 3 armour 0 weapon_lvl 0
-unit		turcoman horsearchers				exp 3 armour 0 weapon_lvl 0
-unit		seljuk horse archers				exp 3 armour 0 weapon_lvl 0
-unit		seljuk horse archers				exp 3 armour 0 weapon_lvl 0
-unit		seljuk horse archers				exp 3 armour 0 weapon_lvl 0
-unit		turcoman light cavalry				exp 3 armour 0 weapon_lvl 0
-unit		turcoman light cavalry				exp 3 armour 0 weapon_lvl 0
-unit		turcoman light cavalry				exp 3 armour 0 weapon_lvl 0
-unit		turcoman footarchers				exp 3 armour 0 weapon_lvl 0
-unit		turcoman archers					exp 3 armour 0 weapon_lvl 0
-unit		turcoman archers					exp 3 armour 0 weapon_lvl 0
-unit		spearmen							exp 0 armour 0 weapon_lvl 0
-
 character_record	Asena,	female,	age 42,	alive,	never_a_leader
-character_record	Hatice,	female, age 21, alive,	never_a_leader
-character_record	Fatma,	female, age 19, alive,	never_a_leader
 
-relative 	Kutalmish,	Asena,		Suleyman,	Hatice,	Fatma,	end   
-relative 	Dawud KilijArslan,		Hatice,		end
-relative	Aytigin KilijArslan,	Fatma,		end
+relative 	Gazi Danishmend,	Asena,		Gumushtikin Danishmend,	end  
 
 ; ---------------------------------------------------------
-; #########   >>> The Horde <<<   #########
+; #########   >>> The Cumans <<<   #########
 ; ---------------------------------------------------------
 
 faction	egypt, balanced_genghis 
-denari 10000
+denari 5000
 settlement
 {
 	level large_town
@@ -3789,10 +4286,6 @@ settlement
 	}
 	building
 	{
-		type port_buildings port
-	}
-	building
-	{
 		type law_enforcement_buildings gallows
 	}
 }
@@ -3843,10 +4336,84 @@ character_record	Chagla, 	female, age 50, alive, never_a_leader
 relative 	Asep,	Chagla,		Tugor,	end
 
 ; ---------------------------------------------------------
+; #########   >>> The Pechenegs <<<   #########
+; ---------------------------------------------------------
+
+faction	pech, balanced_genghis 
+denari 5000
+
+; City: Preslav
+; Region: Paristrion
+; --------------------
+character	Kubuk, named character, leader, age 40, , x 145, y 83
+traits Pagan 1, Married 1, Khan 1, Royal 1, Leader_Prince 1, Factionleader 1
+ancillaries familyseal
+army
+unit		cuman heavy cavalry c				exp 2 armour 0 weapon_lvl 0
+unit		cuman horse archers					exp 2 armour 0 weapon_lvl 0
+unit		cuman horse archers					exp 2 armour 0 weapon_lvl 0
+unit		cuman horse archers					exp 2 armour 0 weapon_lvl 0
+unit		steppe light cavalry				exp 2 armour 0 weapon_lvl 0
+unit		steppe light cavalry				exp 2 armour 0 weapon_lvl 0
+unit		steppe light cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	Khundu, named character, heir, age 16, , x 147, y 82
+traits Pagan 1, Royal 1, Leader_Prince 1, Factionheir 1
+ancillaries familyseal
+army
+unit		cuman heavy cavalry c				exp 2 armour 0 weapon_lvl 0
+unit		cuman horse archers					exp 2 armour 0 weapon_lvl 0
+unit		steppe light cavalry				exp 2 armour 0 weapon_lvl 0
+unit		steppe infantry				exp 2 armour 0 weapon_lvl 0
+unit		steppe infantry				exp 2 armour 0 weapon_lvl 0
+
+character	Menglai, general, age 32, , x 151, y 80
+army
+unit		cuman horse archers				exp 2 armour 0 weapon_lvl 0
+unit		cuman horse archers					exp 2 armour 0 weapon_lvl 0
+unit		steppe light cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	Batuban, general, age 29, , x 150, y 90
+army
+unit		cuman horse archers					exp 2 armour 0 weapon_lvl 0
+unit		steppe light cavalry				exp 2 armour 0 weapon_lvl 0
+unit		cuman horse archers					exp 2 armour 0 weapon_lvl 0
+unit		steppe light cavalry				exp 2 armour 0 weapon_lvl 0
+
+character_record	Chagla, 	female, age 35, alive, never_a_leader
+
+relative 	Kubuk,	Chagla,		Khundu,	end
+
+; ---------------------------------------------------------
+; #########   >>> Bulgaria <<<   #########
+; ---------------------------------------------------------
+
+faction	bulgaria, craftsman_smith 
+denari 2000
+
+; City: Skopia
+; Region: Bulgaria
+; --------------------
+character	Georgi, named character, leader, age 40, , x 132, y 74
+traits Orthodox 1, Factionleader 1
+ancillaries familyseal
+army
+unit		czar bodyguards				exp 2 armour 0 weapon_lvl 0
+unit		bulgarian spearmen					exp 2 armour 0 weapon_lvl 0
+unit		bulgarian spearmen					exp 2 armour 0 weapon_lvl 0
+unit		bulgarian pronoia					exp 2 armour 0 weapon_lvl 0
+unit		bulgarian pronoia				exp 2 armour 0 weapon_lvl 0
+unit		bulgarian boyars					exp 2 armour 0 weapon_lvl 0
+unit		bulgarian boyars				exp 2 armour 0 weapon_lvl 0
+unit		bulgarian swordsmen				exp 2 armour 0 weapon_lvl 0
+unit		bulgarian swordsmen				exp 2 armour 0 weapon_lvl 0
+
+; ---------------------------------------------------------
 ; #########   >>> Bohemia <<<   #########
 ; ---------------------------------------------------------
 
 faction	romans_senate, craftsman_smith
+ai_do_not_attack_faction pope
 denari 5000
 settlement
 {
@@ -3875,7 +4442,7 @@ settlement
 	}
 	building
 	{
-		type temple_christian_church church1
+		type temple_catholic_church church1
 	}
 	building
 	{
@@ -3910,7 +4477,7 @@ settlement
 ; Region: Cechy
 ; --------------------
 character	Vratislav Premyslid, named character, leader, age 60, , x 103, y 115
-traits Christian 1, Married 1, DukeOfBoh 1, Royal 1, Leader_Prince 1, Factionleader 1
+traits Catholic 1, Married 1, DukeOfBoh 1, Royal 1, Leader_Prince 1, Factionleader 1
 ancillaries office_elector, familyseal
 army
 unit		knizeci druzina c					exp 1 armour 0 weapon_lvl 0
@@ -3921,7 +4488,7 @@ unit		archers								exp 0 armour 0 weapon_lvl 0
 character	Jan Novak, diplomat, age 33, , x 103, y 115 
 
 character	Bretislav Premyslid, named character, heir, age 20, , x 113, y 113
-traits Christian 1, Royal 1, Leader_Prince 1, Factionheir 1
+traits Catholic 1, Royal 1, Leader_Prince 1, Factionheir 1
 ancillaries familyseal
 army
 unit		knizeci druzina c 					exp 1 armour 0 weapon_lvl 0
@@ -3940,6 +4507,7 @@ relative 	Vratislav Premyslid,	Swatawa,	Bretislav Premyslid,	Judith,	Boleslav Pr
 ; ---------------------------------------------------------
 
 faction	numidia, religious_henry
+ai_do_not_attack_faction pope
 denari 6000
 settlement
 {
@@ -3964,7 +4532,7 @@ settlement
 	}
 	building
 	{
- 		type temple_christian_church church1
+ 		type temple_catholic_church church1
 	}
   	building
 	{
@@ -3999,7 +4567,7 @@ settlement
 	}
 	building
 	{
- 		type temple_christian_church church1
+ 		type temple_catholic_church church1
 	}
   	building
 	{
@@ -4034,7 +4602,7 @@ settlement
 	}
         building
 	{
- 		type temple_christian_church church1
+ 		type temple_catholic_church church1
 	}
 	building
 	{
@@ -4065,7 +4633,7 @@ settlement
 	}
         building
 	{
- 		type temple_christian_church church1
+ 		type temple_catholic_church church1
 	}
 	building
 	{
@@ -4078,7 +4646,7 @@ settlement
 ; --------------------
 ; dies per script
 character	Kazimierz Piast, named character, age 57, , x 112, y 122
-traits Christian 1, Married 1, Royal 1, Leader_Prince 1
+traits Catholic 1, Married 1, Royal 1, Leader_Prince 1
 ancillaries familyseal
 army
 unit		mala druzhina c						exp 1 armour 0 weapon_lvl 0
@@ -4091,7 +4659,7 @@ character	Niegoslaw Wykowski, diplomat, age 33, , x 121, y 116
 ; Region: Germany13
 ; --------------------
 character	Boleslaw Piast, named character, leader, age 30, , x 121, y 116
-traits Christian 1, KingOfPoland 1, Royal 1, Leader_Prince 1, Factionleader 1
+traits Catholic 1, KingOfPoland 1, Royal 1, Leader_Prince 1, Factionleader 1
 ancillaries familyseal
 army
 unit		mala druzhina pole c						exp 1 armour 0 weapon_lvl 0
@@ -4101,7 +4669,7 @@ unit		archers								exp 0 armour 0 weapon_lvl 0
 ; Region: Mazowsze
 ; --------------------
 character	Wladyslaw Piast, named character, heir, age 29, , x 119, y 131
-traits Christian 1, Royal 1, Leader_Prince 1, Factionheir 1
+traits Catholic 1, Royal 1, Leader_Prince 1, Factionheir 1
 ancillaries familyseal
 army
 unit		mala druzhina pole c						exp 1 armour 0 weapon_lvl 0
@@ -4111,7 +4679,7 @@ unit		archers								exp 0 armour 0 weapon_lvl 0
 ; Region: Welkopolska
 ; --------------------
 character	Leszek Jagiello, named character, age 26, , x 110, y 128
-traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
+traits Catholic 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		mala druzhina pole c						exp 1 armour 0 weapon_lvl 0
 unit		archers								exp 0 armour 0 weapon_lvl 0
@@ -4173,7 +4741,7 @@ settlement
 	}
 	building
 	{
-		type temple_christian_church church3
+		type temple_catholic_church church3
 	}
 	building
 	{
@@ -4188,7 +4756,7 @@ settlement
 ; Roma (Papal States)
 ; --------------------
 character	Gregorio, named character, age 49, , x 95, y 71
-traits Christian 1, Pious 3, Unroyal 1, Non_Royal_Courtmember 1, Married 1
+traits Catholic 1, Pious 3, Unroyal 1, Non_Royal_Courtmember 1, Married 1
 ancillaries office_Pope, familyseal
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
@@ -4513,8 +5081,8 @@ relative 	alMustansir alFatimiyyun,	Fatimah,	alMustali alFatimiyyun,	end
 ; ---------------------------------------------------------
 
 faction	germans, balanced_mao
+ai_do_not_attack_faction pope
 denari 10000
-
 settlement            
 {
 	level city
@@ -4542,7 +5110,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church2
+	 	type temple_catholic_church church2
 	}
 	building
 	{
@@ -4581,7 +5149,7 @@ settlement
 	}
 	 building
 	{
-	 	type temple_christian_church church1
+	 	type temple_catholic_church church1
 	}
 }
 
@@ -4616,7 +5184,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_catholic_church church1
 	}
 }
 
@@ -4647,7 +5215,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_catholic_church church1
 	}
 }
 
@@ -4678,7 +5246,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church2
+	 	type temple_catholic_church church2
 	}
 }
 
@@ -4709,7 +5277,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_catholic_church church1
 	}
 }
 
@@ -4740,7 +5308,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_catholic_church church1
 	}	
 }
 
@@ -4771,7 +5339,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_catholic_church church1
 	}
 }
 
@@ -4782,7 +5350,7 @@ settlement
 
 ; dies per script
 character	'Heinrich, named character, age 91, , x 75, y 109 
-traits Christian 1, Married 1, Royal 1, Leader_Prince 1
+traits Catholic 1, Married 1, Royal 1, Leader_Prince 1
 ancillaries familyseal
 army
 unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
@@ -4793,7 +5361,7 @@ character	Adalbert vonLothringen, diplomat, age 33, , x 75, y 110
 ; Region: 
 ; --------------------
 character	Heinrich Salier, named character, leader, age 22, , x 75, y 110
-traits Christian 1, KingOfGermany 1, Married 1, Royal 1, Leader_Prince 1, Factionleader 1
+traits Catholic 1, KingOfGermany 1, Married 1, Royal 1, Leader_Prince 1, Factionleader 1
 ancillaries familyseal
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
@@ -4807,7 +5375,7 @@ unit		archers								exp 0 armour 0 weapon_lvl 0
 ; Region: 
 ; --------------------
 character	Friedrik vonStaufen, named character, heir, age 38, , x 91, y 106 
-traits Christian 1, Married 1, Royal 1, Leader_Prince 1, Factionheir 1
+traits Catholic 1, Married 1, Royal 1, Leader_Prince 1, Factionheir 1
 ancillaries familyseal
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
@@ -4818,7 +5386,7 @@ unit		archers								exp 0 armour 0 weapon_lvl 0
 ; Region: 
 ; --------------------
 character	Herrmann vonLothringen, named character, age 32, , x 76, y 122
-traits  Christian 1, Married 1, Unroyal 1, GoodCommander 1, High_Woman 1
+traits  Catholic 1, Married 1, Unroyal 1, GoodCommander 1, High_Woman 1
 ancillaries familyseal 
 army
 unit		early kings cavalry c					exp 1 armour 0 weapon_lvl 0
@@ -4829,7 +5397,7 @@ unit		archers								exp 0 armour 0 weapon_lvl 0
 ; Region: Germany6
 ; --------------------
 character	Sigismund vonHolstein, named character, age 42, , x 87, y 136
-traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
+traits Catholic 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		early kings cavalry c					exp 1 armour 0 weapon_lvl 0
 unit		militia spearmen					exp 0 armour 0 weapon_lvl 0
@@ -4839,7 +5407,7 @@ unit		archers								exp 0 armour 0 weapon_lvl 0
 ; Region: Germany7
 ; --------------------
 character	Herrmann vonOsterreich, named character, age 22, , x 111, y 105
-traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
+traits Catholic 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		early kings cavalry c					exp 1 armour 0 weapon_lvl 0
 unit		militia spearmen					exp 0 armour 0 weapon_lvl 0
@@ -4849,7 +5417,7 @@ unit		archers								exp 0 armour 0 weapon_lvl 0
 ; Region: Bayern
 ; --------------------
 character	Welf derWelfer, named character, age 42, , x 100, y 104
-traits Christian 1, Married 1, Unroyal 1, GoodCommander 1, High_Woman 1
+traits Catholic 1, Married 1, Unroyal 1, GoodCommander 1, High_Woman 1
 ancillaries office_Marschall, familyseal
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
@@ -4860,7 +5428,7 @@ unit		archers								exp 0 armour 0 weapon_lvl 0
 ; Region: 
 ; --------------------
 character	Ludwig vonFranken, named character, age 48, , x 87, y 116
-traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
+traits Catholic 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
 unit		militia spearmen					exp 0 armour 0 weapon_lvl 0
@@ -4869,7 +5437,7 @@ unit		archers								exp 0 armour 0 weapon_lvl 0
 ; Italy - Verona
 ; --------------------
 character	Folco diVerona, named character, age 29, , x 91, y 91
-traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
+traits Catholic 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
 unit		italian city militia				exp 1 armour 0 weapon_lvl 0
@@ -4906,6 +5474,7 @@ relative 	Herrmann vonLothringen,		Maria vonStaufen,				Peter vonLothringen,	end
 ; ---------------------------------------------------------
 
 faction	scythia, sailor_smith
+ai_do_not_attack_faction pope
 denari 7500
 settlement
 {
@@ -4942,7 +5511,7 @@ settlement
 	}
 	building
 	{
-		type temple_christian_church church1
+		type temple_catholic_church church1
 	}
 }
 
@@ -5023,7 +5592,7 @@ settlement
 ; Region: Denmark
 ; --------------------
 character	Sweyn Estridsen, named character, leader, age 59, , x 95, y 144
-traits Christian 1, Married 1, KingOfDenmark 1, Royal 1, Leader_Prince 1, Factionleader 1
+traits Catholic 1, Married 1, KingOfDenmark 1, Royal 1, Leader_Prince 1, Factionleader 1
 ancillaries familyseal
 army
 unit		early kings cavalry c			exp 1 armour 0 weapon_lvl 0
@@ -5034,7 +5603,7 @@ unit		viking warriors					exp 0 armour 0 weapon_lvl 0
 ; Region: ScandiS
 ; --------------------
 character	Harald Estridsen, named character, heir, age 20, , x 99, y 145
-traits Christian 1, Royal 1, Leader_Prince 1, Factionheir 1
+traits Catholic 1, Royal 1, Leader_Prince 1, Factionheir 1
 ancillaries familyseal
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
@@ -5044,7 +5613,7 @@ unit		viking warriors					exp 0 armour 0 weapon_lvl 0
 ; Region: Denmark
 ; --------------------
 character	Frode af_Jylland, named character, age 47, , x 89, y 151
-traits Christian 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
+traits Catholic 1, Unroyal 1, GoodCommander 1, Non_Royal_Courtmember 1
 ancillaries office_Rigsjarl, familyseal
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
@@ -5105,7 +5674,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church2
+	 	type temple_orthodox_church ochurch2
 	}
 	building
 	{
@@ -5140,7 +5709,7 @@ settlement
 	}
 	building
 	{
-		type temple_christian_church church2
+		type temple_orthodox_church ochurch2
 	}
 	building
 	{
@@ -5179,7 +5748,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_orthodox_church ochurch1
 	}
 	building
 	{
@@ -5218,7 +5787,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_orthodox_church ochurch1
 	}
 	building
 	{
@@ -5230,7 +5799,7 @@ settlement
 ; Region: Russia3
 ; --------------------
 character	Izyaslav Rurikovich, named character, leader, age 60, , x 161, y 123
-traits Christian 1, Married 1, KingOfKiev 1, Royal 1, Leader_Prince 1, Factionleader 1
+traits Orthodox 1, Married 1, KingOfKiev 1, Royal 1, Leader_Prince 1, Factionleader 1
 ancillaries office_Kiev, familyseal
 army
 unit		mala druzhina c				exp 2 armour 0 weapon_lvl 0
@@ -5240,7 +5809,7 @@ unit		archers						exp 0 armour 0 weapon_lvl 0
 
 ; Novgo:
 character	Gleb Rurikovich, named character, heir, age 42, , x 151, y 168
-traits Christian 1, Married 1, Royal 1, Leader_Prince 1, Factionheir 1, GoodCommander 1
+traits Orthodox 1, Married 1, Royal 1, Leader_Prince 1, Factionheir 1, GoodCommander 1
 ancillaries office_Nov, familyseal
 army
 unit		mala druzhina c				exp 2 armour 0 weapon_lvl 0
@@ -5252,7 +5821,7 @@ unit		archers						exp 0 armour 0 weapon_lvl 0
 ; Region: Russia8
 ; --------------------
 character	Yaropolk Rurikovich, named character, age 36, , x 165, y 132
-traits Christian 1, Married 1, Royal 1, Leader_Prince 1, GoodCommander 1
+traits Orthodox 1, Married 1, Royal 1, Leader_Prince 1, GoodCommander 1
 ancillaries familyseal
 army
 unit		mala druzhina c				exp 2 armour 0 weapon_lvl 0
@@ -5264,7 +5833,7 @@ unit		archers						exp 0 armour 0 weapon_lvl 0
 ; Russia
 ; --------------------
 character	Sviatopolk Rurikovich, named character, age 18, , x 165, y 145
-traits Christian 1, Married 1, Royal 1, Prince 1, GoodCommander 1
+traits Orthodox 1, Married 1, Royal 1, Prince 1, GoodCommander 1
 ancillaries familyseal
 army
 unit		mala druzhina c				exp 1 armour 0 weapon_lvl 0
@@ -5314,7 +5883,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_orthodox_church ochurch1
 	}
 	building
 	{
@@ -5361,12 +5930,12 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_orthodox_church ochurch1
 	}
 }
 
 character	Giorgi Bagrationi, named character, leader, age 45, , x 212, y 90
-traits Christian 1, Married 1, Royal 1, Leader_Prince 1, Factionleader 1
+traits Orthodox 1, Married 1, Royal 1, Leader_Prince 1, Factionleader 1
 ancillaries familyseal
 army
 unit		georgian bg					exp 2 armour 0 weapon_lvl 0
@@ -5381,7 +5950,7 @@ unit		armenian foot archers				exp 1 armour 0 weapon_lvl 0
 unit		armenian foot archers				exp 1 armour 0 weapon_lvl 0
 
 character	Bagrat Mkhargrdzeli, named character, age 40, , x 222, y 93
-traits Christian 1, Unroyal 1
+traits Orthodox 1, Unroyal 1
 army
 unit		georgian bg					exp 2 armour 0 weapon_lvl 0
 unit		kartvelian spearmen					exp 1 armour 0 weapon_lvl 0
@@ -5501,7 +6070,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_catholic_church church1
 	}
 	building
 	{
@@ -5733,6 +6302,44 @@ settlement
 
 settlement
 {
+	level town
+	region Dalmatia
+
+	year_founded 0
+	population 1500
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+	 	type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Diokleia
+
+	year_founded 0
+	population 1500
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+	 	type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
 	level large_town
 	region Croatia
 
@@ -5857,7 +6464,7 @@ settlement
 		}
 	building
 	{
-		type temple_christian_church church1
+		type temple_catholic_church church1
 	}
 	building
 	{
@@ -5892,7 +6499,7 @@ settlement
 	}
 	building
 	{
-		type temple_christian_church church1
+		type temple_catholic_church church1
 	}
 	building
 	{
@@ -5927,7 +6534,7 @@ settlement
 	}
 	building
 	{
-		type temple_christian_church church1
+		type temple_catholic_church church1
 	}
 	building
 	{
@@ -5971,60 +6578,6 @@ settlement
 	building
 	{
 	 	type shrines shrine
-	}
-}
-
-settlement
-{
-	level large_town
-	region Seleukeia
-
-	year_founded 0
-	population 3000
-	plan_set default_set
-	faction_creator seleucid
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type rights market_rights
-	}
-	building
-	{
-		type defenses wooden_wall
-	}
-	building
-	{
-		type temple_christian_church church1
-	}
-}
-
-settlement
-{
-	level large_town
-	region Pamphylia
-
-	year_founded 0
-	population 2000
-	plan_set default_set
-	faction_creator parthia
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type rights market_rights
-	}
-	building
-	{
-		type defenses wooden_wall
-	}
-	building
-	{
-		type temple_christian_church church1
 	}
 }
 
@@ -6143,7 +6696,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_apostolic_church achurch1
 	}
 	building
 	{
@@ -6213,7 +6766,7 @@ settlement
 	}
 	building
 	{
-		type temple_christian_church church2
+		type temple_catholic_church church2
 	}
 }
 
@@ -6236,7 +6789,7 @@ settlement
 	}
 	building
 	{
-		type temple_christian_church church2
+		type temple_catholic_church church2
 	}
 	building
 	{
@@ -6248,6 +6801,37 @@ settlement
 	}
 }
 
+;settlement
+;{
+;	level large_town
+;	region Romagna
+;
+;	year_founded 0
+;	population 2500
+;	plan_set default_set
+;	faction_creator romans_julii
+;;	building
+;	{
+;	 	type core_building governors_villa
+;	}
+;	building
+;;	{
+;		type rights market_rights
+;		}
+;	building
+;	{
+;		type temple_catholic_church church1
+;	}
+;	building
+;	{
+;	 	type defenses wooden_wall
+;	}
+;	building
+;	{
+;	 	type hinterland_roads roads
+;	}
+;}
+;
 settlement
 {
 	level large_town
@@ -6267,7 +6851,7 @@ settlement
 		}
 	building
 	{
-		type temple_christian_church church1
+		type temple_catholic_church church1
 	}
 	building
 	{
@@ -6276,18 +6860,6 @@ settlement
 	building
 	{
 	 	type hinterland_roads roads
-	}
-	building
-	{
-		type port_buildings port
-	}
-	building
-	{
-		type barracks_buildings barracks
-	}
-	building
-	{
-		type safe_sea safe_sea
 	}
 }
 
@@ -6338,33 +6910,6 @@ settlement
 	building
 	{
 	 	type defenses wooden_pallisade
-	}
-}
-
-settlement
-{
-	level city
-	region Anatolikon
-
-	year_founded 0
-	population 6200
-	plan_set default_set
-	faction_creator pontus
-	building
-	{
-	 	type core_building governors_palace
-	}
-	building
-	{
-		type rights city_rights
-	}
-	building
-	{
-	 	type shrines shrine
-	}
-	building
-	{
-	 	type defenses stone_wall
 	}
 }
 
@@ -6430,7 +6975,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_orthodox_church ochurch1
 	}
 	building
 	{
@@ -6469,7 +7014,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_orthodox_church ochurch1
 	}
 	building
 	{
@@ -6500,7 +7045,7 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_apostolic_church achurch1
 	}
 	building
 	{
@@ -6565,33 +7110,6 @@ settlement
 settlement
 {
 	level large_town
-	region Trebizond
-
-	year_founded 0
-	population 2198
-	plan_set default_set
-	faction_creator parthia
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type rights market_rights
-	}
-	building
-	{
-	 	type temple_christian_church church1
-	}
-	building
-	{
-	 	type defenses wooden_wall
-	}
-}
-
-settlement
-{
-	level large_town
 	region Paphlagonia
 
 	year_founded 0
@@ -6608,154 +7126,11 @@ settlement
 	}
 	building
 	{
-	 	type temple_christian_church church1
+	 	type temple_orthodox_church ochurch1
 	}
 	building
 	{
 	 	type defenses wooden_wall
-	}
-}
-
-settlement
-{
-	level large_town
-	region Armeniakon
-
-	year_founded 0
-	population 2000
-	plan_set default_set
-	faction_creator parthia
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type rights market_rights
-	}
-	building
-	{
-	 	type temple_christian_church church1
-	}
-	building
-	{
-	 	type defenses wooden_wall
-	}
-}
-
-settlement
-{
-	level city
-	region Bithynia
-
-	year_founded 0
-	population 3200
-	plan_set default_set
-	faction_creator parthia
-	building
-	{
-		type core_building governors_palace
-	}
-	building
-	{
-		type rights city_rights
-	}
-	building
-	{
-	 	type defenses stone_wall
-	}
-}
-
-settlement
-{
-	level large_town
-	region Kybrrhaiots
-
-	year_founded 0
-	population 2000
-	plan_set default_set
-	faction_creator parthia
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type rights market_rights
-	}
-	building
-	{
-	 	type port_buildings port
-	}
-	building
-	{
-	 	type defenses wooden_wall
-	}
-	building
-	{
-	 	type barracks_buildings barracks
-	}
-}
-
-settlement
-{
-	level large_town
-	region Optimatoi
-
-	year_founded 0
-	population 2000
-	plan_set default_set
-	faction_creator parthia
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type rights market_rights
-	}
-	building
-	{
-	 	type port_buildings port
-	}
-	building
-	{
-	 	type defenses wooden_wall
-	}
-	building
-	{
-	 	type barracks_buildings barracks
-	}
-}
-
-settlement
-{
-	level large_town
-	region Abydos
-
-	year_founded 0
-	population 2000
-	plan_set default_set
-	faction_creator parthia
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type rights market_rights
-	}
-	building
-	{
-	 	type port_buildings port
-	}
-	building
-	{
-	 	type defenses wooden_wall
-	}
-	building
-	{
-	 	type barracks_buildings barracks
 	}
 }
 
@@ -6991,41 +7366,6 @@ settlement
 
 settlement
 {
-	level city
-	region Cilicia
-
-	year_founded 0
-	population 6100
-	plan_set default_set
-	faction_creator seleucid
-	building
-	{
-		type core_building governors_palace
-	}
-	building
-	{
-		type rights city_rights
-	}
-	building
-	{
-		type defenses stone_wall
-	}
-	building
-	{		
-		type hinterland_roads roads
-	}
-	building
-	{
-		type temple_christian_church church1
-	}
-	building
-	{
-		type port_buildings port
-	}
-}
-
-settlement
-{
 	level town
 	region Volin
 
@@ -7063,25 +7403,6 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
-	}
-}
-
-settlement
-{
-	level large_town
-	region Thrakesion
-
-	year_founded 0
-	population 3000
-	plan_set default_set
-	faction_creator parthia
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-	 	type defenses wooden_wall
 	}
 }
 
@@ -7232,7 +7553,42 @@ settlement
 	}
 	building
 	{
-		type temple_christian_church church1
+		type temple_catholic_church church1
+	}
+}
+
+settlement
+{
+	level city
+	region Cilicia
+
+	year_founded 0
+	population 6100
+	plan_set default_set
+	faction_creator seleucid
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type rights city_rights
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{		
+		type hinterland_roads roads
+	}
+	building
+	{
+		type temple_orthodox_church ochurch1
+	}
+	building
+	{
+		type port_buildings port
 	}
 }
 
@@ -7815,6 +8171,33 @@ settlement
 
 settlement
 {
+	level large_town
+	region Armeniakon
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type rights market_rights
+	}
+	building
+	{
+		type temple_orthodox_church ochurch1
+	}
+	building
+	{
+	 	type defenses wooden_wall
+	}
+}
+
+settlement
+{
 	level town
 	region Perejaslavl
 
@@ -7998,7 +8381,7 @@ unit		muslim spear militia			exp 0 armour 0 weapon_lvl 0
 ; Wales
 ; --------------------
 character	sub_faction britons, Henry Mortimer, named character, age 35, , x 42, y 139
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c			exp 3 armour 0 weapon_lvl 0
 unit		mounted sergeants			exp 3 armour 0 weapon_lvl 0
@@ -8014,7 +8397,7 @@ unit		welsh longbowmen			exp 3 armour 0 weapon_lvl 0
 ; Scottland1
 ; --------------------
 character	sub_faction britons, Robert Percy, named character, age 28, , x 48, y 157
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c			exp 2 armour 0 weapon_lvl 0
 unit		lewnaght					exp 3 armour 0 weapon_lvl 0
@@ -8038,7 +8421,7 @@ unit		archers						exp 1 armour 0 weapon_lvl 0
 ; Scottland2
 ; --------------------
 character	sub_faction britons, William Stuart, named character, age 29, , x 51, y 155
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c		exp 3 armour 0 weapon_lvl 0
 unit		lewnaght				exp 3 armour 0 weapon_lvl 0
@@ -8062,7 +8445,7 @@ unit		archers					exp 1 armour 0 weapon_lvl 0
 ; Scottland3
 ; --------------------
 character	sub_faction britons, Thomas Greystoke, named character, age 29, , x 42, y 159
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c		exp 3 armour 0 weapon_lvl 0
 unit		lewnaght				exp 3 armour 0 weapon_lvl 0
@@ -8088,7 +8471,7 @@ unit		archers					exp 1 armour 0 weapon_lvl 0
 ; IrelandNE
 ; --------------------
 character	sub_faction britons, Perkin Grey, named character, age 29, , x 36, y 149
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c			exp 3 armour 0 weapon_lvl 0
 unit		lewnaght				exp 3 armour 0 weapon_lvl 0
@@ -8111,7 +8494,7 @@ unit		archers					exp 0 armour 0 weapon_lvl 0
 ; IrelandSE
 ; --------------------
 character	sub_faction britons, Walter Fitzwalter, named character, age 29, , x 36, y 144
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c				exp 2 armour 0 weapon_lvl 0
 unit		lewnaght				exp 3 armour 0 weapon_lvl 0
@@ -8134,7 +8517,7 @@ unit		archers					exp 0 armour 0 weapon_lvl 0
 ; IrelandSW
 ; --------------------
 character	sub_faction britons, Morcar Scrope, named character, age 29, , x 26, y 138
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c				exp 2 armour 0 weapon_lvl 0
 unit		lewnaght				exp 3 armour 0 weapon_lvl 0
@@ -8159,7 +8542,7 @@ unit		archers					exp 0 armour 0 weapon_lvl 0
 ; IrelandNW
 ; --------------------
 character	sub_faction britons, Loefwine Fitzneale, named character, age 29, , x 31, y 147
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c				exp 2 armour 0 weapon_lvl 0
 unit		lewnaght				exp 3 armour 0 weapon_lvl 0
@@ -8184,7 +8567,7 @@ unit		archers					exp 0 armour 0 weapon_lvl 0
 ; Italy - Capua
 ; --------------------
 character	sub_faction romans_julii, Riccardo Castiglioni, named character, age 29, , x 101, y 66
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c				exp 3 armour 0 weapon_lvl 0
 unit		italian knights				exp 3 armour 0 weapon_lvl 0
@@ -8210,7 +8593,7 @@ unit		archers					exp 0 armour 0 weapon_lvl 0
 ; Italy - Genova
 ; --------------------
 character	sub_faction romans_julii, Uberto d'Ivrea, named character, age 29, , x 81, y 85
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
 unit		italian knights				exp 2 armour 0 weapon_lvl 0
@@ -8235,7 +8618,7 @@ unit		archers					exp 0 armour 0 weapon_lvl 0
 ; Italy - Perugia
 ; --------------------
 character	sub_faction romans_julii, Uberto, named character, age 29, , x 101, y 74
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
 unit		italian knights				exp 2 armour 0 weapon_lvl 0
@@ -8260,7 +8643,7 @@ unit		archers					exp 0 armour 0 weapon_lvl 0
 ; Italy - Lombardia
 ; --------------------
 character	sub_faction romans_julii, Lamberto Obertenghi, named character, age 29, , x 83, y 91
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
 unit		italian knights				exp 2 armour 0 weapon_lvl 0
@@ -8282,10 +8665,27 @@ unit		crossbowmen				exp 1 armour 0 weapon_lvl 0
 unit		archers					exp 0 armour 0 weapon_lvl 0
 unit		archers					exp 0 armour 0 weapon_lvl 0
 
+; Italy - Romagna
+; --------------------
+character	sub_faction romans_julii, Lamberto, general, age 29, , x 91, y 86
+army
+unit		italian knights				exp 2 armour 0 weapon_lvl 0
+unit		italian knights				exp 1 armour 0 weapon_lvl 0
+unit		italian city militia			exp 1 armour 0 weapon_lvl 0
+unit		italian city militia			exp 1 armour 0 weapon_lvl 0
+unit		italian city militia			exp 1 armour 0 weapon_lvl 0
+unit		italian city militia			exp 1 armour 0 weapon_lvl 0
+unit		ribaldi					exp 1 armour 0 weapon_lvl 0
+unit		ribaldi					exp 1 armour 0 weapon_lvl 0
+unit		crossbowmen				exp 1 armour 0 weapon_lvl 0
+unit		crossbowmen				exp 1 armour 0 weapon_lvl 0
+unit		archers					exp 0 armour 0 weapon_lvl 0
+unit		archers					exp 0 armour 0 weapon_lvl 0
+
 ; Germany - Lusatia
 ; --------------------
 character	sub_faction numidia, Konrad Puch, named character, age 29, , x 101, y 124
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		mala druzhina c				exp 2 armour 0 weapon_lvl 0
 unit		militia cavalry			exp 3 armour 0 weapon_lvl 0
@@ -8304,7 +8704,7 @@ unit		archers					exp 1 armour 0 weapon_lvl 0
 ; Germany - Polabia
 ; --------------------
 character	sub_faction numidia, Jan Ogitzak, named character, age 28, , x 95, y 137
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		mala druzhina c				exp 2 armour 0 weapon_lvl 0
 unit		militia cavalry			exp 3 armour 0 weapon_lvl 0
@@ -8325,7 +8725,7 @@ unit		archers					exp 1 armour 0 weapon_lvl 0
 ; Polabia
 ; --------------------
 character	sub_faction numidia, Joachim Niemoj, named character, age 27, , x 117, y 138
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		mala druzhina c				exp 2 armour 0 weapon_lvl 0
 unit		militia cavalry			exp 3 armour 0 weapon_lvl 0
@@ -8401,7 +8801,7 @@ unit		crossbowmen				exp 1 armour 0 weapon_lvl 0
 ; Spain - Pamplona
 ; --------------------
 character	sub_faction spain, Hernando Navarra, named character, age 29, , x 40, y 82
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
 unit		armoured spearmen			exp 1 armour 0 weapon_lvl 0
@@ -8420,7 +8820,7 @@ unit		archers					exp 0 armour 0 weapon_lvl 0
 ; France - Bordeaux 
 ; --------------------
 character	sub_faction gauls, Mathieu deChateaubriant, named character, age 29, , x 45, y 95
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c			exp 3 armour 0 weapon_lvl 0
 unit		mounted sergeants			exp 2 armour 0 weapon_lvl 0
@@ -8438,7 +8838,7 @@ unit		archers					exp 0 armour 0 weapon_lvl 0
 ; France - Toulouse
 ; --------------------
 character	sub_faction gauls, Rene deToulouse, named character, age 29, , x 51, y 87
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c			exp 2 armour 0 weapon_lvl 0
 unit		mounted sergeants			exp 2 armour 0 weapon_lvl 0
@@ -8457,7 +8857,7 @@ unit		archers					exp 0 armour 0 weapon_lvl 0
 ; France - Provence
 ; --------------------
 character	sub_faction gauls, Gerbert dePlaisians, named character, age 30, , x 68, y 82
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
 unit		mounted sergeants			exp 2 armour 0 weapon_lvl 0
@@ -8500,7 +8900,7 @@ unit		archers					exp 0 armour 0 weapon_lvl 0
 ; Scandinavia - Svealand
 ; --------------------
 character	sub_faction scythia, Sigifrid Steensen, named character, age 29, , x 111, y 170
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c			exp 4 armour 0 weapon_lvl 0
 unit		viking huscarls				exp 3 armour 0 weapon_lvl 0
@@ -8562,7 +8962,7 @@ unit		archers					exp 0 armour 0 weapon_lvl 0
 ; Scandinavia - Norge
 ; --------------------
 character	sub_faction scythia, Valdemar Magnussen, named character, age 29, , x 93, y 168
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c			exp 5 armour 0 weapon_lvl 0
 unit		viking huscarls				exp 3 armour 0 weapon_lvl 0
@@ -8586,7 +8986,7 @@ unit		archers					exp 1 armour 0 weapon_lvl 0
 ; Russia
 ; --------------------
 character	sub_faction armenia, Domaslav Boldin, named character, age 29, , x 192, y 165
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		mala druzhina c				exp 2 armour 0 weapon_lvl 0
 unit		seljuk horse archers			exp 1 armour 0 weapon_lvl 0
@@ -8605,7 +9005,7 @@ unit		archers					exp 0 armour 0 weapon_lvl 0
 ; Lithuania
 ; --------------------
 character	sub_faction numidia, Leszek Wozniak, named character, age 29, , x 132, y 142
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		mala druzhina c				exp 5 armour 0 weapon_lvl 0
 unit		lithuanian cavalry			exp 3 armour 0 weapon_lvl 0
@@ -8631,7 +9031,7 @@ unit		archers					exp 1 armour 0 weapon_lvl 0
 ; Polotsk
 ; --------------------
 character	sub_faction numidia, Vaclav Psotka, named character, age 29, , x 149, y 150
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		mala druzhina c				exp 2 armour 0 weapon_lvl 0
 unit		lithuanian cavalry			exp 3 armour 0 weapon_lvl 0
@@ -8652,7 +9052,7 @@ unit		archers					exp 1 armour 0 weapon_lvl 0
 ; Region: Edessa
 ; --------------------
 character	sub_faction parthia, Philaretos Brachamios, named character, age 45, , x 211, y 61
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Orthodox 1
 army
 unit		hetaireia c			exp 1 armour 0 weapon_lvl 0
 unit		early didebuls			exp 1 armour 0 weapon_lvl 0
@@ -8682,8 +9082,18 @@ unit		hoplitai				exp 1 armour 0 weapon_lvl 0
 unit		hoplitai				exp 1 armour 0 weapon_lvl 0
 unit		hoplitai				exp 1 armour 0 weapon_lvl 0
 unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
 unit		riptaristai				exp 1 armour 0 weapon_lvl 0
+unit		armenian borderers		exp 1 armour 0 weapon_lvl 0
+unit		armenian borderers		exp 1 armour 0 weapon_lvl 0
+
+; City: Anazarba
+; Region: Cilicia
+; --------------------
+character	sub_faction parthia, Konstantinos, general, age 18, , x 195, y 58
+army
+unit		riptaristai					exp 2 armour 0 weapon_lvl 0
+unit		hoplitai					exp 1 armour 0 weapon_lvl 0
+unit		psiloi						exp 1 armour 0 weapon_lvl 0
 unit		armenian borderers		exp 1 armour 0 weapon_lvl 0
 unit		armenian borderers		exp 1 armour 0 weapon_lvl 0
 
@@ -8691,7 +9101,7 @@ unit		armenian borderers		exp 1 armour 0 weapon_lvl 0
 ; Region: Antiochia
 ; --------------------
 character	sub_faction parthia, Ioseph Tarchaneiotes, named character, age 43, , x 200, y 54
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Orthodox 1
 army
 unit		hetaireia c			exp 1 armour 0 weapon_lvl 0
 unit		early didebuls			exp 1 armour 0 weapon_lvl 0
@@ -8707,48 +9117,12 @@ unit		riptaristai				exp 1 armour 0 weapon_lvl 0
 unit		armenian borderers		exp 1 armour 0 weapon_lvl 0
 unit		armenian borderers		exp 1 armour 0 weapon_lvl 0
 unit		armenian borderers		exp 1 armour 0 weapon_lvl 0
-
-; City: Nikaia
-; Region: Upper_Opsician
-; --------------------
-character	sub_faction parthia, Theodoros Dalassenos, named character, age 29, , x 162, y 67
-traits GoodCommander 1, Loyal 4, Christian 1
-army
-unit		hetaireia c			exp 1 armour 0 weapon_lvl 0
-unit		thematic cavalry		exp 2 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		riptaristai				exp 1 armour 0 weapon_lvl 0
-unit		riptaristai				exp 1 armour 0 weapon_lvl 0
-unit		psiloi					exp 1 armour 0 weapon_lvl 0
-unit		psiloi					exp 1 armour 0 weapon_lvl 0
-unit		psiloi					exp 1 armour 0 weapon_lvl 0
-
-; City: Nikomedia
-; Region: Optimatoi
-; --------------------
-character	sub_faction parthia, Andronikos, named character, age 29, , x 165, y 73
-traits GoodCommander 1, Loyal 4, Christian 1
-army
-unit		hetaireia c			exp 1 armour 0 weapon_lvl 0
-unit		thematic cavalry		exp 2 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		riptaristai				exp 1 armour 0 weapon_lvl 0
-unit		riptaristai				exp 1 armour 0 weapon_lvl 0
-unit		psiloi					exp 1 armour 0 weapon_lvl 0
-unit		psiloi					exp 1 armour 0 weapon_lvl 0
-unit		psiloi					exp 1 armour 0 weapon_lvl 0
 
 ; City: Sinope
 ; Region: Paphlagonia
 ; --------------------
 character	sub_faction parthia, Roussel deBailleul, named character, age 34, , x 185, y 83
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		latinikoi				exp 3 armour 0 weapon_lvl 0
 unit		thematic cavalry		exp 2 armour 0 weapon_lvl 0
@@ -8772,88 +9146,11 @@ unit		psiloi					exp 1 armour 0 weapon_lvl 0
 unit		psiloi					exp 1 armour 0 weapon_lvl 0
 unit		hoplitai				exp 1 armour 0 weapon_lvl 0
 unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-
-; City: Cyzicos
-; Region: Abydos
-; --------------------
-character	sub_faction parthia, Konstantinos Nicephoritzes, named character, age 43, , x 156, y 54
-traits GoodCommander 1, Loyal 4, Christian 1
-army
-unit		hetaireia c			exp 1 armour 0 weapon_lvl 0
-unit		thematic cavalry		exp 2 armour 0 weapon_lvl 0
-unit		psiloi					exp 1 armour 0 weapon_lvl 0
-unit		psiloi					exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		riptaristai				exp 1 armour 0 weapon_lvl 0
-
-; City: Philadelphia
-; Region: Thrakesion
-; --------------------
-character	sub_faction parthia, Theodoros, named character, age 43, , x 167, y 57
-traits GoodCommander 1, Loyal 4, Christian 1
-army
-unit		hetaireia c			exp 1 armour 0 weapon_lvl 0
-unit		thematic cavalry		exp 2 armour 0 weapon_lvl 0
-unit		psiloi					exp 1 armour 0 weapon_lvl 0
-unit		psiloi					exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		riptaristai				exp 1 armour 0 weapon_lvl 0
-
-; City: Myra
-; Region: Cibyrrhaeot
-; --------------------
-character	sub_faction parthia, Isaakios Kalaphates, named character, age 37, , x 174, y 50
-traits GoodCommander 1, Loyal 4, Christian 1
-army
-unit		hetaireia c			exp 1 armour 0 weapon_lvl 0
-unit		thematic cavalry		exp 2 armour 0 weapon_lvl 0
-unit		early didebuls			exp 1 armour 0 weapon_lvl 0
-unit		psiloi					exp 1 armour 0 weapon_lvl 0
-unit		psiloi					exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		armenian borderers		exp 1 armour 0 weapon_lvl 0
-unit		riptaristai				exp 1 armour 0 weapon_lvl 0
-unit		riptaristai				exp 1 armour 0 weapon_lvl 0
-
-; City: Trapezos
-; Region: Chaldea
-; --------------------
-character	sub_faction parthia, Theodoros Gabras, named character, age 36, , x 199, y 81
-traits GoodCommander 1, Loyal 4, Christian 1
-army
-unit		hetaireia c			exp 1 armour 0 weapon_lvl 0
-unit		thematic cavalry		exp 2 armour 0 weapon_lvl 0
-unit		trebizond archers		exp 2 armour 0 weapon_lvl 0
-unit		trebizond archers		exp 2 armour 0 weapon_lvl 0
-unit		trebizond archers		exp 2 armour 0 weapon_lvl 0
-unit		trebizond archers		exp 2 armour 0 weapon_lvl 0
-unit		riptaristai				exp 1 armour 0 weapon_lvl 0
-unit		riptaristai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
 
 ; Flanders
 ; --------------------
 character	sub_faction gauls, Arthur deFlandres, named character, age 29, , x 66, y 124
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c			exp 4 armour 0 weapon_lvl 0
 unit		mounted sergeants			exp 2 armour 0 weapon_lvl 0
@@ -8874,7 +9171,7 @@ unit		archers						exp 0 armour 0 weapon_lvl 0
 ; Holland
 ; --------------------
 character	sub_faction germans, Wenzel Merode, named character, age 29, , x 72, y 130
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c			exp 4 armour 0 weapon_lvl 0
 unit		mounted sergeants			exp 3 armour 0 weapon_lvl 0
@@ -8993,7 +9290,7 @@ unit		archers					exp 1 armour 0 weapon_lvl 0
 ; Truso (Prussia)
 ; --------------------
 character	sub_faction numidia, Stanislaus Penc, named character, age 29, , x 120, y 138
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		mala druzhina c				exp 5 armour 0 weapon_lvl 0
 unit		lithuanian cavalry			exp 4 armour 0 weapon_lvl 0
@@ -9019,7 +9316,7 @@ unit		archers						exp 1 armour 0 weapon_lvl 0
 ; Szteteno
 ; --------------------
 character	sub_faction numidia, Janus Wos, named character, age 29, , x 102, y 135
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		mala druzhina c				exp 5 armour 0 weapon_lvl 0
 unit		lithuanian cavalry			exp 4 armour 0 weapon_lvl 0
@@ -9198,20 +9495,6 @@ unit		seljuk horse archers				exp 1 armour 0 weapon_lvl 0
 unit		seljuk horse archers				exp 1 armour 0 weapon_lvl 0
 unit		steppe infantry						exp 1 armour 0 weapon_lvl 0
 
-; City: Anazarba
-; Region: Cilicia
-; --------------------
-character	sub_faction parthia, Thoros, named character, age 18, , x 195, y 58
-traits Christian 1, Loyal 4
-army
-unit		naxarar bodyguard c					exp 2 armour 0 weapon_lvl 0
-unit		hoplitai					exp 1 armour 0 weapon_lvl 0
-unit		hoplitai					exp 1 armour 0 weapon_lvl 0
-unit		trebizond archers				exp 1 armour 0 weapon_lvl 0
-unit		trebizond archers				exp 1 armour 0 weapon_lvl 0
-unit		armenian borderers					exp 1 armour 0 weapon_lvl 0
-unit		armenian borderers					exp 1 armour 0 weapon_lvl 0
-
 character	sub_faction egypt, Genduk, general, age 29, , x 201, y 172
 army
 unit		steppe heavy cavalry				exp 2 armour 0 weapon_lvl 0
@@ -9331,7 +9614,7 @@ unit		seljuk horse archers				exp 1 armour 0 weapon_lvl 0
 unit		steppe infantry						exp 1 armour 0 weapon_lvl 0
 
 character	sub_faction gauls, Etienne Jeannin, named character, age 29, , x 44, y 113
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
 unit		mounted sergeants				exp 2 armour 0 weapon_lvl 0
@@ -9464,6 +9747,20 @@ unit		archers							exp 1 armour 0 weapon_lvl 0
 unit		archers							exp 1 armour 0 weapon_lvl 0
 unit		archers							exp 1 armour 0 weapon_lvl 0
 
+character	sub_faction carthage, Vazul, general, age 29, , x 108, y 81
+army
+unit		szekely							exp 3 armour 0 weapon_lvl 0
+unit		militia cavalry					exp 2 armour 0 weapon_lvl 0
+unit		militia cavalry					exp 2 armour 0 weapon_lvl 0
+unit		militia cavalry					exp 2 armour 0 weapon_lvl 0
+unit		slavic warband					exp 1 armour 0 weapon_lvl 0
+unit		slavic warband					exp 1 armour 0 weapon_lvl 0
+unit		slavic warband					exp 1 armour 0 weapon_lvl 0
+unit		archers							exp 1 armour 0 weapon_lvl 0
+unit		archers							exp 1 armour 0 weapon_lvl 0
+unit		archers							exp 1 armour 0 weapon_lvl 0
+unit		archers							exp 1 armour 0 weapon_lvl 0
+
 character	sub_faction carthage, Elek, general, age 29, , x 133, y 113
 army
 unit		szekely							exp 3 armour 0 weapon_lvl 0
@@ -9523,7 +9820,7 @@ unit		archers						exp 0 armour 0 weapon_lvl 0
 
 
 character	sub_faction armenia, Maksim Orekhov, named character, age 29, , x 142, y 134
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Orthodox 1
 army
 unit		mala druzhina c					exp 3 armour 0 weapon_lvl 0
 unit		mounted druzhina				exp 1 armour 0 weapon_lvl 0
@@ -9580,7 +9877,7 @@ unit		saracen archers					exp 2 armour 0 weapon_lvl 0
 unit		arab infantry					exp 1 armour 0 weapon_lvl 0
 unit		arab infantry					exp 1 armour 0 weapon_lvl 0
 
-character	sub_faction carthage, Tamas, general, age 29, , x 119, y 74
+character	sub_faction carthage, Tamas, general, age 29, , x 123, y 78
 army
 unit		szekely							exp 2 armour 0 weapon_lvl 0
 unit		szekely							exp 1 armour 0 weapon_lvl 0
@@ -9595,6 +9892,17 @@ unit		archers							exp 1 armour 0 weapon_lvl 0
 unit		archers							exp 1 armour 0 weapon_lvl 0
 unit		archers							exp 1 armour 0 weapon_lvl 0
 
+character	sub_faction parthia, Romanos, general, age 29, , x 119, y 73
+army
+unit		militia cavalry					exp 1 armour 0 weapon_lvl 0
+unit		militia cavalry					exp 1 armour 0 weapon_lvl 0
+unit		slavic warband					exp 1 armour 0 weapon_lvl 0
+unit		slavic warband					exp 1 armour 0 weapon_lvl 0
+unit		slavic warband					exp 1 armour 0 weapon_lvl 0
+unit		slavic warband					exp 1 armour 0 weapon_lvl 0
+unit		archers							exp 1 armour 0 weapon_lvl 0
+unit		archers							exp 1 armour 0 weapon_lvl 0
+unit		archers							exp 1 armour 0 weapon_lvl 0
 
 character	sub_faction carthage, Azzony, general, age 29, , x 141, y 87
 army
@@ -9650,7 +9958,7 @@ unit		berber camels					exp 1 armour 0 weapon_lvl 0
 unit		berber cavalry					exp 1 armour 0 weapon_lvl 0
 
 character	sub_faction numidia, Kasper Marosz, named character, age 29, , x 78, y 101
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		mala druzhina c					exp 3 armour 0 weapon_lvl 0
 unit		militia cavalry					exp 2 armour 0 weapon_lvl 0
@@ -9726,7 +10034,7 @@ unit		woodsmen					exp 1 armour 0 weapon_lvl 0
 unit		woodsmen					exp 1 armour 0 weapon_lvl 0
 
 character	sub_faction armenia, Miroslav Stepanov, named character, age 29, , x 175, y 136
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Orthodox 1
 army
 unit		mala druzhina c					exp 2 armour 0 weapon_lvl 0
 unit		mounted druzhina				exp 1 armour 0 weapon_lvl 0
@@ -9824,7 +10132,7 @@ unit		arab infantry					exp 1 armour 0 weapon_lvl 0
 
 ; Venice
 character	sub_faction romans_julii, Alberto Lanfranchi, named character, age 29, , x 95, y 90
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
 unit		italian knights					exp 2 armour 0 weapon_lvl 0
@@ -9866,7 +10174,7 @@ unit		spearmen					exp 0 armour 0 weapon_lvl 0
 ; Region: Russia6
 ; --------------------
 character	sub_faction armenia, Sviatopolk Shubin, named character, age 18, , x 142, y 161
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Orthodox 1
 army
 unit		mala druzhina c				exp 2 armour 0 weapon_lvl 0
 unit		russian spearmen				exp 1 armour 0 weapon_lvl 0
@@ -9875,7 +10183,7 @@ unit		archers				exp 1 armour 0 weapon_lvl 0
 ; Region: Kakheti
 ; -------------------
 character	sub_faction georgia, Ashot, named character, age 25, x 232, y 92
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Orthodox 1
 army
 unit		georgian bg				exp 2 armour 0 weapon_lvl 0
 unit		kartvelian spearmen				exp 1 armour 0 weapon_lvl 0
@@ -9884,29 +10192,6 @@ unit		monaspa horsearcher				exp 1 armour 0 weapon_lvl 0
 unit		monaspa				exp 1 armour 0 weapon_lvl 0
 unit		armenian foot archers				exp 1 armour 0 weapon_lvl 0
 unit		armenian foot archers				exp 1 armour 0 weapon_lvl 0
-
-; City: Ikonion
-; Region: Anatolikon
-; --------------------
-character	sub_faction parthia, Nikeforos Botaneiates, named character, age 60, , x 180, y 58
-traits GoodCommander 1, Loyal 4, Christian 1
-army
-unit		hetaireia c						exp 2 armour 0 weapon_lvl 0
-unit		thematic cavalry					exp 1 armour 0 weapon_lvl 0
-unit		thematic cavalry					exp 1 armour 0 weapon_lvl 0
-unit		thematic cavalry					exp 1 armour 0 weapon_lvl 0
-unit		seljuk horse archers			exp 1 armour 0 weapon_lvl 0
-unit		seljuk horse archers			exp 1 armour 0 weapon_lvl 0
-unit		riptaristai							exp 0 armour 0 weapon_lvl 0
-unit		psiloi								exp 1 armour 0 weapon_lvl 0
-unit		hoplitai							exp 1 armour 0 weapon_lvl 0
-unit		hoplitai							exp 1 armour 0 weapon_lvl 0
-unit		hoplitai							exp 0 armour 0 weapon_lvl 0
-unit		hoplitai							exp 0 armour 0 weapon_lvl 0
-unit		riptaristai							exp 0 armour 0 weapon_lvl 0
-unit		riptaristai							exp 0 armour 0 weapon_lvl 0
-unit		psiloi								exp 0 armour 0 weapon_lvl 0
-unit		psiloi								exp 0 armour 0 weapon_lvl 0
 
 ; City: Bangazi
 ; Region: Barqa
@@ -9923,7 +10208,7 @@ unit		archers								exp 1 armour 0 weapon_lvl 0
 ; The anti-Salier-coalition of Sachsen
 
 character	sub_faction germans, Otto vonNortheim, named character, age 27, , x 92, y 128  
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
 unit		saxon knights					exp 1 armour 0 weapon_lvl 0
@@ -9940,7 +10225,7 @@ unit		archers							exp 1 armour 0 weapon_lvl 0
 unit		archers							exp 1 armour 0 weapon_lvl 0
 
 character	sub_faction germans, Carl vonBremen, named character, age 26, , x 92, y 126
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Catholic 1
 army
 unit		early kings cavalry c				exp 1 armour 0 weapon_lvl 0
 unit		saxon knights					exp 2 armour 0 weapon_lvl 0
@@ -9954,7 +10239,7 @@ unit		mounted sergeants				exp 1 armour 0 weapon_lvl 0
 ; Region: Tmutarakan
 ; --------------------
 character	sub_faction armenia, Andrei Gubin, named character, age 28, , x 188, y 103
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Orthodox 1
 army
 unit		mala druzhina c				exp 2 armour 0 weapon_lvl 0
 unit		spearmen					exp 0 armour 0 weapon_lvl 0
@@ -9964,27 +10249,11 @@ unit		archers						exp 0 armour 0 weapon_lvl 0
 unit		archers						exp 0 armour 0 weapon_lvl 0
 unit		archers						exp 0 armour 0 weapon_lvl 0
 
-; City: Seleukeia
-; Region: Kilikia Trachea (Seleukia)
-; --------------------
-character	sub_faction seleucid, Reuben Tavrishetsi, named character, age 44, , x 188, y 51
-traits GoodCommander 1, Loyal 4, Christian 1
-army
-unit		naxarar bodyguard c			exp 2 armour 0 weapon_lvl 0
-unit		early didebuls				exp 2 armour 0 weapon_lvl 0
-unit		armenian infantry			exp 1 armour 0 weapon_lvl 0
-unit		armenian infantry			exp 1 armour 0 weapon_lvl 0
-unit		armenian borderers			exp 1 armour 0 weapon_lvl 0
-unit		armenian borderers			exp 1 armour 0 weapon_lvl 0
-unit		caucasian mountaineers		exp 1 armour 0 weapon_lvl 0
-unit		archers						exp 0 armour 0 weapon_lvl 0
-unit		archers						exp 0 armour 0 weapon_lvl 0
-
 ; City: Kapan
 ; Region: Artsakh and Baghk
 ; --------------------
 character	sub_faction seleucid, Senekerim, named character, age 44, , x 232, y 83
-traits GoodCommander 1, Loyal 4, Christian 1
+traits GoodCommander 1, Loyal 4, Apostolic 1
 army
 unit		naxarar bodyguard c			exp 2 armour 0 weapon_lvl 0
 unit		early didebuls				exp 2 armour 0 weapon_lvl 0
@@ -10001,21 +10270,6 @@ unit		armenian horsearcher						exp 1 armour 0 weapon_lvl 0
 unit		armenian horsearcher						exp 1 armour 0 weapon_lvl 0
 unit		armenian horsearcher						exp 1 armour 0 weapon_lvl 0
 unit		armenian horsearcher						exp 1 armour 0 weapon_lvl 0
-
-; City: Kalonoros
-; Region: Pamphylia
-; --------------------
-character	sub_faction parthia, Alexios, named character, age 44, , x 180, y 51
-army
-unit		latinikoi				exp 3 armour 0 weapon_lvl 0
-unit		thematic cavalry		exp 2 armour 0 weapon_lvl 0
-unit		riptaristai				exp 1 armour 0 weapon_lvl 0
-unit		psiloi					exp 1 armour 0 weapon_lvl 0
-unit		psiloi					exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
-unit		hoplitai				exp 1 armour 0 weapon_lvl 0
 
 ; Tripoli
 ; --------------------
@@ -10258,7 +10512,7 @@ faction_relationships 	britons, 		allied_to 		dacia, gauls
 faction_relationships 	dacia, 			at_war_with 	slave, parthia, greek_cities
 faction_relationships 	dacia, 			allied_to 		gauls, spain, britons, carthage
 faction_relationships 	romans_julii, 	at_war_with 	slave, macedon
-faction_relationships 	romans_julii, 	allied_to 		parthia, spain, romans_scipii, seleucid, dacia
+faction_relationships 	romans_julii, 	allied_to 		parthia, spain, romans_scipii, dacia
 faction_relationships 	germans, 		at_war_with 	slave
 faction_relationships 	germans, 		allied_to 		romans_senate, scythia, romans_scipii, spain, parthia, gauls
 faction_relationships 	scythia, 		at_war_with 	slave
@@ -10267,19 +10521,23 @@ faction_relationships 	romans_senate, 	at_war_with 	slave
 faction_relationships 	romans_senate, 	allied_to 		germans
 faction_relationships 	numidia, 		at_war_with 	slave
 faction_relationships 	numidia, 		allied_to 		armenia
-faction_relationships 	carthage, 		at_war_with 	slave
+faction_relationships 	carthage, 		at_war_with 	slave, parthia, pech
 faction_relationships 	carthage, 		allied_to 		dacia
 faction_relationships 	armenia, 		at_war_with 	slave, egypt
 faction_relationships 	armenia, 		allied_to 		numidia
-faction_relationships 	egypt, 			at_war_with 	slave, armenia
+faction_relationships 	egypt, 			at_war_with 	slave, armenia, pech
+faction_relationships 	pech, 			at_war_with 	slave, parthia, egypt, hungary, bulgaria
+faction_relationships 	bulgaria, 		at_war_with 	slave, parthia, pech
 faction_relationships 	parthia, 		at_war_with 	slave, thrace, dacia, pontus
 faction_relationships 	parthia, 		allied_to 		romans_julii, germans, gauls
-faction_relationships 	seleucid, 		at_war_with 	slave, parthia, thrace, pontus
+faction_relationships 	seleucid, 		at_war_with 	slave, parthia, thrace, pontus, dani
 faction_relationships 	seleucid, 		allied_to 		georgia
 faction_relationships 	pontus, 		at_war_with 	slave, parthia, seleucid, georgia
 faction_relationships 	pontus, 		allied_to 		thrace
 faction_relationships 	thrace, 		at_war_with 	slave, greek_cities, parthia, seleucid, georgia
 faction_relationships 	thrace, 		allied_to 		romans_brutii, pontus
+faction_relationships 	dani, 		at_war_with 	slave, parthia, seleucid
+faction_relationships 	dani, 		allied_to 		thrace, pontus
 faction_relationships 	greek_cities, 	at_war_with 	slave, thrace, dacia, romans_brutii
 faction_relationships 	greek_cities, 	allied_to 		macedon
 faction_relationships 	romans_brutii, 	at_war_with 	slave, greek_cities, dacia

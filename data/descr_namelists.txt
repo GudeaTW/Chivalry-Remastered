@@ -1089,9 +1089,11 @@
 			"Erdogan",
 			"Eren",
 			"Ertugrul",
+			"Gazi",
 			"Gorkem",
 			"Gokalp",
 			"Gultekin",
+			"Gumushtikin",
 			"Gunhan",
 			"Gurhan",
 			"Hakan",
@@ -1182,6 +1184,7 @@
 			"Shah",
 			"ibn_Kutalmish",
 			"KilijArslan",
+			"Danishmend",
 		],
 	},
 
@@ -1851,6 +1854,85 @@
 	},
 
 	"russia_women":
+	{
+		"names":
+		[
+			"Dobronega",
+			"Maria",
+			"Anastasia",
+			"Anna",
+			"Elisaveta",
+			"Sofiya",
+			"Olga",
+			"Tatiana",
+			"Ekaterina",
+			"Nataliya",
+			"Evdokia",
+			"Irina",
+			"Elena",
+			"Prascovia",
+			"Svetlana",
+			"Gertrud",
+			"Cunigunda",
+			"Yevpraxia",
+			"Mechthild",
+			"Zoya",
+		],
+	},
+
+	;;bulgaria
+
+	"bulg_men":
+	{
+		"names":
+		[
+			"Boris",
+			"Petr",
+			"Ivan",
+			"Georgi",
+			"Simeon",
+			"Goran",
+			"Konstantin",
+			"Cristo",
+			"Anastas",
+			"Bagrjan",
+			"Bogdan",
+			"Bozhil",
+			"Boil",
+			"Vasily",
+			"Radovan",
+			"Deyan",
+			"Dobran",
+			"Dragodan",
+			"Ignati",
+			"Josif",
+			"Kaloyan",
+		],
+	},
+
+	"bulg_surnames":
+	{
+		"names":
+		[
+			"Komitopul",
+			"Sracimir",
+			"Asen",
+			"Shishman",
+			"Ivajlo",
+			"Vokil",
+			"Ukil",
+			"Ugain",
+			"Terter",
+			"Nogayec",
+			"Smilec",
+			"Asenevec",
+			"Krum",
+			"Komnin",
+			"Voyteh",
+		],
+	},
+
+	"bulg_women":
 	{
 		"names":
 		[

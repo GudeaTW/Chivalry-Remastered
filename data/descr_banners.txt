@@ -135,7 +135,7 @@ ally_texture		../data/models/textures/standard_pontus_ally.tga
 faction				gauls
 standard_texture	../data/models/textures/standard_gaul.tga
 rebels_texture		../data/models/textures/standard_barb_rebels.tga
-routing_texture		../models/textures/standard_routing_barbarian.tga
+routing_texture		../models/textures/standard_routing.tga
 ally_texture		../data/models/textures/standard_gaul_ally.tga
 
 faction				germans
@@ -211,7 +211,31 @@ routing_texture		../data/models/textures/standard_routing.tga
 ally_texture		../data/models/textures/standard_bulgaria_ally.tga
 
 faction				pope
-standard_texture	../data/models/textures/standard_julii.tga
+standard_texture	../data/models/textures/standard_pope.tga
 rebels_texture		../data/models/textures/standard_slave.tga
 routing_texture		../data/models/textures/standard_routing.tga
 ally_texture		../data/models/textures/standard_julii_ally.tga
+
+faction				jeru
+standard_texture	../data/models/textures/standard_jeru.tga
+rebels_texture		../data/models/textures/standard_slave.tga
+routing_texture		../data/models/textures/standard_routing.tga
+ally_texture		../data/models/textures/standard_jeru_ally.tga
+
+faction				pech
+standard_texture	../data/models/textures/standard_egypt.tga
+rebels_texture		../data/models/textures/standard_egyptian_rebels.tga
+routing_texture		../data/models/textures/standard_routing.tga
+ally_texture		../data/models/textures/standard_egypt_ally.tga
+
+faction				novgo
+standard_texture	../data/models/textures/standard_novgo.tga
+rebels_texture		../data/models/textures/standard_eastern_rebels.tga
+routing_texture		../data/models/textures/standard_routing.tga
+ally_texture		../data/models/textures/standard_novgo_ally.tga
+
+faction				dani
+standard_texture	../data/models/textures/standard_dani.tga
+rebels_texture		../data/models/textures/standard_greek_rebels.tga
+routing_texture		../data/models/textures/standard_routing.tga
+ally_texture		../data/models/textures/standard_dani_ally.tga

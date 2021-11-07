@@ -32,7 +32,7 @@ pbr_texture pontus, data/characters/textures/MTW_campmap_assassin_pbr.TGA
 pbr_texture scythia, data/characters/textures/MTW_campmap_assassin_pbr.TGA
 pbr_texture slave, data/characters/textures/MTW_campmap_assassin_pbr.TGA
 pbr_texture spain, data/characters/textures/MTW_campmap_assassin_pbr.TGA
-texture data/characters/textures/MTW_campmap_assassin_pbr.TGA
+texture data/characters/textures/MTW_campmap_assassin.TGA
 texture britons, data/characters/textures/MTW_campmap_assassin.TGA
 texture carthage, data/characters/textures/MTW_campmap_assassin_hungary.TGA
 texture dacia, data/characters/textures/MTW_campmap_assassin_sicily.TGA
@@ -395,6 +395,8 @@ aged 0.00
 pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
 texture data/models_strat/textures/gener_brits.TGA
 texture dacia, data/models_strat/textures/gener_sic.TGA
+texture jeru, data/models_strat/textures/gener_jeru.TGA
+texture pope, data/models_strat/textures/gener_jeru.TGA
 texture gauls, data/models_strat/textures/gener_france.TGA
 texture germans, data/models_strat/textures/gener_hre.TGA
 texture scythia, data/models_strat/textures/gener_denm.TGA
@@ -443,6 +445,8 @@ aged 0.00
 pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
 texture data/models_strat/textures/gener_brits.TGA
 texture dacia, data/models_strat/textures/gener_sic.TGA
+texture jeru, data/models_strat/textures/gener_jeru.TGA
+texture pope, data/models_strat/textures/gener_jeru.TGA
 texture gauls, data/models_strat/textures/gener_france.TGA
 texture germans, data/models_strat/textures/gener_hre.TGA
 texture scythia, data/models_strat/textures/gener_denm.TGA
@@ -533,7 +537,7 @@ medieval_features no
 tired No
 aged 0.00
 pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
-texture egypt, data/models_strat/textures/horde_general.TGA
+texture data/models_strat/textures/horde_general.TGA
 model_flexi data/models_strat/horde_general.cas, max
 no_variation model_flexi data/models_strat/horde_general.cas, max
 
@@ -548,7 +552,7 @@ medieval_features no
 tired Tired
 aged 0.00
 pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
-texture egypt, data/models_strat/textures/horde_general.TGA
+texture data/models_strat/textures/horde_general.TGA
 model_flexi data/models_strat/horde_general.cas, max
 no_variation model_flexi data/models_strat/horde_general.cas, max
 
@@ -566,6 +570,7 @@ pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
 texture romans_brutii, data/models_strat/textures/MTW_general_muslim_turks.TGA
 texture macedon, data/models_strat/textures/MTW_general_muslim_turks.TGA
 texture pontus, data/models_strat/textures/MTW_general_muslim_turks.TGA
+texture dani, data/models_strat/textures/MTW_general_muslim_turks.TGA
 texture thrace, data/models_strat/textures/MTW_general_muslim_turks.TGA
 texture greek_cities, data/models_strat/textures/MTW_general_muslim_turks.TGA
 model_flexi data/models_strat/MTW_general_muslim.cas, max
@@ -585,6 +590,7 @@ pbr_texture data/characters/textures/MTW_campmap_soldiers_pbr.TGA
 texture romans_brutii, data/models_strat/textures/MTW_general_muslim_turks.TGA
 texture macedon, data/models_strat/textures/MTW_general_muslim_turks.TGA
 texture pontus, data/models_strat/textures/MTW_general_muslim_turks.TGA
+texture dani, data/models_strat/textures/MTW_general_muslim_turks.TGA
 texture thrace, data/models_strat/textures/MTW_general_muslim_turks.TGA
 texture greek_cities, data/models_strat/textures/MTW_general_muslim_turks.TGA
 model_flexi data/models_strat/MTW_general_muslim.cas, max

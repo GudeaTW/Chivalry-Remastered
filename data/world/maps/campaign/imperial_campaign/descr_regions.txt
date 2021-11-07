@@ -9,7 +9,7 @@ al-Maghrib ; ok
 	moors, main, elite, harbor, jihad
 	5
 	3
-	islam 90 pagan 5 christianity 5
+	islam 90 pagan 5 catholicism 5
 Al-Udwa ; ok
 	Marrakush
 	macedon
@@ -18,7 +18,7 @@ Al-Udwa ; ok
 	moors, jihad, main
 	5
 	2
-	islam 88 pagan 10 christianity 2
+	islam 88 pagan 10 catholicism 2
 Province_of_Tlemsen ; ok
 	Tlemsen
 	romans_brutii
@@ -27,7 +27,7 @@ Province_of_Tlemsen ; ok
 	moors, jihad
 	5
 	2
-	islam 90 pagan 5 christianity 5
+	islam 90 pagan 5 catholicism 5
 Province_of_Bijayah ; ok
 	Bijayah
 	romans_brutii
@@ -36,7 +36,7 @@ Province_of_Bijayah ; ok
 	moors, jihad
 	5
 	2
-	islam 90 pagan 5 christianity 5
+	islam 90 pagan 5 catholicism 5
 Mahdiyah ; ok
 	Tunis
 	romans_brutii
@@ -45,7 +45,7 @@ Mahdiyah ; ok
 	moors, harbor, main, elite, pisa, sicily, fatamid
 	5
 	4
-	islam 85 christianity 15 pagan 5 
+	islam 85 catholicism 15 pagan 5 
 Tunesia ; ok
 	al-Qayrawan
 	romans_brutii
@@ -54,7 +54,7 @@ Tunesia ; ok
 	moors, main, elite, fatamid
 	6
 	3
-	islam 75 pagan 10 christianity 15
+	islam 75 pagan 10 catholicism 15
 Libiya ; ok 
 	Gadamis
 	macedon
@@ -63,7 +63,7 @@ Libiya ; ok
 	moors, jihad
 	5
 	1
-	islam 50 pagan 45 christianity 5
+	islam 50 pagan 45 catholicism 5
 Tafilet ; ok
 	Sijilmasa
 	macedon
@@ -90,7 +90,7 @@ Barka ; ok
 	fatamid, main 
 	5
 	3
-	islam 70 pagan 15 christianity 15
+	islam 70 pagan 15 catholicism 15
 Tripolitania ; ok ; now al-Jamil
 	Lepcis_Magna ; now Tarabulus
 	greek_cities
@@ -99,7 +99,7 @@ Tripolitania ; ok ; now al-Jamil
 	fatamid, 
 	5
 	2
-	islam 80 christianity 15 pagan 5
+	islam 80 catholicism 15 pagan 5
 al-Sudan ; ok
 	Siwa
 	greek_cities
@@ -108,7 +108,7 @@ al-Sudan ; ok
 	fatamid
 	5
 	2
-	islam 90 christianity 5 pagan 5 
+	islam 90 apostolic 5 pagan 5 
 Al-Iskandariya ; ok
 	Al-Iskandariya
 	greek_cities
@@ -117,7 +117,7 @@ Al-Iskandariya ; ok
 	fatamid, main, elite, harbor
 	5
 	5
-	islam 80 christianity 15 pagan 5 
+	islam 80 apostolic 15 pagan 5 
 Misr ; ok
 	Al-Qahira
 	greek_cities
@@ -126,7 +126,7 @@ Misr ; ok
 	fatamid, main, elite 
 	5
 	4
-	islam 90 christianity 8 pagan 2
+	islam 90 apostolic 8 pagan 2
 An-Nuba ; ok
 	Asyut
 	greek_cities
@@ -135,7 +135,7 @@ An-Nuba ; ok
 	fatamid 
 	5
 	2
-	islam 90 christianity 8 pagan 2  
+	islam 90 apostolic 8 pagan 2  
 Dumyat ; ok
 	Dumyat
 	greek_cities
@@ -144,7 +144,7 @@ Dumyat ; ok
 	fatamid, main
 	5
 	3
-	islam 90 christianity 8 pagan 2 
+	islam 90 apostolic 8 pagan 2 
 Sina ; ok
 	Aqaba
 	greek_cities
@@ -153,7 +153,7 @@ Sina ; ok
 	fatamid 
 	5
 	2
-	islam 95 pagan 2 christianity 3
+	islam 95 pagan 2 apostolic 3
 Al-Urdun ; ok
 	Amman
 	greek_cities
@@ -162,7 +162,7 @@ Al-Urdun ; ok
 	fatamid, turk
 	5
 	2
-	islam 90 pagan 5 christianity 5
+	islam 90 pagan 5 apostolic 5
 Nejd ; ok
 	al-Jouf
 	greek_cities
@@ -171,7 +171,7 @@ Nejd ; ok
 	fatamid, turk 
 	5
 	1
-	islam 88 pagan 10 christianity 2
+	islam 88 pagan 10 apostolic 2
 Sinai ; ok
 	Tabuk
 	greek_cities
@@ -180,7 +180,7 @@ Sinai ; ok
 	fatamid, turk
 	5
 	2
-	islam 80 pagan 15 christianity 5
+	islam 80 pagan 15 apostolic 5
 ash-Sharat ; ok
 	Kerak
 	greek_cities
@@ -189,7 +189,7 @@ ash-Sharat ; ok
 	fatamid, turk
 	5
 	2
-	islam 70 pagan 15 christianity 15
+	islam 70 pagan 15 apostolic 15
 Iraq ; ok
     Baghdad
 	thrace
@@ -198,7 +198,7 @@ Iraq ; ok
 	turk, main, elite, abbasid 
 	5
 	5
-	islam 90 pagan 5 christianity 5
+	islam 90 pagan 5 apostolic 5
 Syria ; ok
 	Dimashq
 	greek_cities
@@ -207,7 +207,7 @@ Syria ; ok
 	turk, main, elite, fatamid, syr
 	5
 	3
-	islam 75 pagan 5 christianity 20
+	islam 75 apostolic 20 orthodoxy 5
 Fillistin ; ok
 	Gaza
 	greek_cities
@@ -216,7 +216,7 @@ Fillistin ; ok
 	fatamid, turk, main, genoa
 	5
 	2
-	islam 65 pagan 15 christianity 20 
+	islam 65 pagan 20 orthodoxy 15 
 Palestina ; ok
 	Jerusalem
 	greek_cities
@@ -225,7 +225,7 @@ Palestina ; ok
 	fatamid, turk, main, elite, harbor, order, genoa, crus_state, jeru
 	5
 	3
-	islam 45 pagan 35 christianity 20 
+	islam 45 orthodoxy 35 apostolic 20 
 Tripoli ; ok
 	Tripoli
 	greek_cities
@@ -234,7 +234,7 @@ Tripoli ; ok
 	turk, order, main, genoa, crus_state, fatamid, syr
 	5
 	3
-	islam 50 christianity 45 pagan 5
+	islam 50 orthodoxy 45 pagan 5
 SidonR ; ok
 	Sidon
 	greek_cities
@@ -243,7 +243,7 @@ SidonR ; ok
 	turk, order, main, genoa, crus_state, fatamid, syr
 	5
 	3
-	islam 50 christianity 45 pagan 5 
+	islam 50 orthodoxy 45 pagan 5 
 Jazira ; ok
 	Al-Mawsil
 	thrace
@@ -261,7 +261,7 @@ Arabia ; ok ; Syria
 	turk, main, fatamid, syr
 	5
 	2
-	islam 55 christianity 35 pagan 10 
+	islam 55 apostolic 35 pagan 10 
 Edessa ; ok
 	Edessa
 	seleucid
@@ -269,8 +269,8 @@ Edessa ; ok
 	26 31 249
 	turk, main, elite, crus_state, fatamid, syr, armen
 	5
-	3
-	christianity 55 islam 40  pagan 5 
+	4
+	apostolic 45 orthodoxy 30 islam 25 
 Antioch ; ok
 	Antioch
 	parthia
@@ -279,25 +279,25 @@ Antioch ; ok
 	turk, harbor, main, elite, genoa, crus_state, fatamid, armen
 	5
 	4
-	christianity 55 islam 35  pagan 10 
+	orthodoxy 45 apostolic 25 islam 20  pagan 10 
 Cilicia ; ok
 	Sis
-	parthia
+	seleucid
 	Kilikian_Armenians
 	255 20 200
 	turk, harbor, main, elite, genoa, armen
 	5
-	4
-	christianity 80 islam 15 pagan 5
+	5
+	orthodoxy 45 apostolic 35 islam 15 pagan 5
 Cilician ; ok
 	Vahka
-	parthia
+	seleucid
 	Kilikian_Armenians
 	240 240 42
 	turk, main, elite, armen
 	5
-	2
-	christianity 85 islam 10 pagan 5
+	3
+	apostolic 60 orthodoxy 25 islam 10 pagan 5
 Seleukeia ; ok
 	Tarsos
 	parthia
@@ -306,7 +306,7 @@ Seleukeia ; ok
 	turk, main, genoa, armen, harbor
 	5
 	4
-	christianity 80 islam 15 pagan 5
+	orthodoxy 50 apostolic 30 islam 15 pagan 5
 Kybrrhaiots ; ok
 	Adalia
 	parthia
@@ -315,7 +315,7 @@ Kybrrhaiots ; ok
 	turk, main, byz
 	5
 	4
-	christianity 70 pagan 15 islam 15
+	orthodoxy 70 pagan 15 islam 15
 Anatolikon ; ok
 	Iconium
 	pontus
@@ -324,7 +324,7 @@ Anatolikon ; ok
 	turk, main, byz, elite, anatol
 	5
 	3
-	christianity 44 islam 51 pagan 5
+	orthodoxy 44 islam 51 pagan 5
 Abydos ; ok
 	Cyzicos
 	parthia
@@ -333,16 +333,16 @@ Abydos ; ok
 	turk, byz
 	5
 	3
-	christianity 75 pagan 25
+	orthodoxy 75 pagan 25
 Chersianon ; ok
 	Kaiseria
 	pontus
 	Turcomans
 	255 120 120
-	turk, main, anatol, elite
+	turk, main, anatol, elite, armen
 	5
 	3
-	christianity 35 islam 60 pagan 5
+	orthodoxy 35 apostolic 20 islam 40 pagan 5
 Galatia ; ok
 	Ancyra
 	pontus
@@ -351,7 +351,7 @@ Galatia ; ok
 	turk, anatol, main
 	5
 	3
-	christianity 50 islam 45 pagan 5
+	orthodoxy 50 islam 45 pagan 5
 Bithynia ; ok
 	Nikaia
 	parthia
@@ -360,16 +360,16 @@ Bithynia ; ok
 	latein, turk, elite, main, byz, anatol
 	5
 	4
-	christianity 70 pagan 15 islam 15
+	orthodoxy 70 pagan 15 islam 15
 Paphlagonia ; ok
 	Sinope
 	parthia
 	Paphlagonians
 	255 160 160
-	trebizond, main, turk, byz, armen, anatol
+	trebizond, main, turk, byz, anatol
 	5
 	3
-	christianity 60 pagan 15 islam 25
+	orthodoxy 60 pagan 15 islam 25
 Trebizond ; ok
 	Trapezos
 	parthia
@@ -378,7 +378,7 @@ Trebizond ; ok
 	turk, trebizond, main, elite, armen, byz
 	5
 	4
-	christianity 65 pagan 15 islam 20
+	orthodoxy 65 pagan 15 islam 20
 Azerbaijan ; ok
 	Ardabil
 	thrace
@@ -387,16 +387,16 @@ Azerbaijan ; ok
 	steppe, turk, main, trap 
 	5
 	3
-	islam 80 pagan 10 christianity 10
+	islam 80 pagan 10 apostolic 10
 Vaspurakan ; ok
 	Van
 	seleucid
 	Armenians
 	155 123 72
-	turk, main, armen, elite
+	turk, main, armen, elite, hayk
 	5
 	3
-	christianity 55 islam 35 pagan 10
+	apostolic 55 islam 35 pagan 10
 Shirvan ; ok
 	Shamakha
 	thrace
@@ -405,16 +405,16 @@ Shirvan ; ok
 	steppe, turk, trap, armen, main
 	5
 	3
-	islam 65 pagan 30 christianity 5
+	islam 55 pagan 10 apostolic 35
 Armenia ; ok
 	Ani
 	seleucid
 	Armenians
 	255 80 200
-	turk, main, armen, georg, elite
+	turk, main, armen, georg, elite, hayk
 	5
 	3
-	christianity 60 islam 30 pagan 10
+	apostolic 60 islam 30 pagan 10
 Abkhazia ; ok
 	Kutaisi
 	georgia
@@ -423,7 +423,7 @@ Abkhazia ; ok
 	steppe, armen, georg, harbor, main, elite 
 	5
 	4
-	christianity 80 islam 10 pagan 10
+	orthodoxy 50 apostolic 30 islam 10 pagan 10
 Kakheti ; ok
 	Telavi
 	georgia
@@ -432,7 +432,7 @@ Kakheti ; ok
 	steppe, armen, georg, main, elite 
 	5
 	3
-	christianity 80 islam 10 pagan 10
+	orthodoxy 60 apostolic 20 islam 10 pagan 10
 Mtianeti ; ok
 	Mtskheta
 	georgia
@@ -441,7 +441,7 @@ Mtianeti ; ok
 	steppe, armen, georg, main, elite 
 	5
 	3
-	christianity 80 islam 10 pagan 10
+	orthodoxy 70 apostolic 10 islam 10 pagan 10
 Georgia ; ok
 	Tbilisi
 	georgia
@@ -450,7 +450,7 @@ Georgia ; ok
 	steppe, elite, main, armen, georg, turk
 	5
 	4
-	christianity 50 islam 45 pagan 5
+	orthodoxy 35 apostolic 35 islam 25 pagan 15
 Alania ; ok
 	Samandar 
 	egypt
@@ -459,7 +459,7 @@ Alania ; ok
 	steppe, main, trap
 	5
 	2
-	pagan 60 christianity 30 islam 10
+	pagan 60 orthodoxy 30 islam 10
 Khazaria ; ok
 	Atil
 	egypt
@@ -486,7 +486,7 @@ Chernigov ; ok
 	steppe, main, river
 	5
 	4
-	christianity 55 pagan 45 
+	orthodoxy 55 pagan 45 
 Suzdal ; ok
 	Suzdal
 	egypt
@@ -567,7 +567,7 @@ Novgorod-Siversky ; ok
 	steppe, main, river 
 	5
 	4
-	pagan 70 christianity 30
+	pagan 70 orthodoxy 30
 Cherson ; ok
 	Chersonesos
 	egypt
@@ -576,7 +576,7 @@ Cherson ; ok
 	steppe, main, genoa, slav, river
 	5
 	4
-	pagan 70 christianity 30 
+	pagan 70 orthodoxy 30 
 Khotzir ; ok
 	Olbia
 	egypt
@@ -585,7 +585,7 @@ Khotzir ; ok
 	steppe, elite, main
 	5
 	4
-	pagan 90 christianity 10
+	pagan 90 orthodoxy 10
 Perejaslavl ; ok
 	Perejaslavl
 	armenia
@@ -594,7 +594,7 @@ Perejaslavl ; ok
 	forest, steppe 
 	5
 	4
-	christianity 50 pagan 50
+	orthodoxy 50 pagan 50
 Kiev ; ok
 	Kiev
 	armenia
@@ -603,7 +603,7 @@ Kiev ; ok
 	forest, steppe, main, elite, kiev, vol, river
 	5
 	5
-	christianity 90 pagan 10
+	orthodoxy 90 pagan 10
 Moldavia ; ok
 	Iasi
 	egypt
@@ -630,7 +630,7 @@ Volin ; ok
 	forest, steppe, slav, vol, main
 	5
 	4
-	pagan 70 christianity 30
+	pagan 70 orthodoxy 30
 Pinsk ; ok
 	Pinsk
 	numidia
@@ -639,7 +639,7 @@ Pinsk ; ok
 	forest, steppe
 	5
 	4
-	pagan 85 christianity 15
+	pagan 85 orthodoxy 15
 Smolensk ; ok
 	Smolensk
 	armenia
@@ -648,7 +648,7 @@ Smolensk ; ok
 	forest, steppe, main, river
 	5
 	4
-	pagan 55 christianity 45
+	pagan 55 orthodoxy 45
 Polotsk ; ok
 	Polotsk
 	numidia
@@ -657,7 +657,7 @@ Polotsk ; ok
 	forest, steppe
 	5
 	4
-	pagan 95 christianity 5
+	pagan 95 orthodoxy 5
 Lithuania ; ok
 	Vilnius
 	numidia
@@ -666,7 +666,7 @@ Lithuania ; ok
 	forest, steppe, lith, baltic_crusade, main
 	5
 	5
-	pagan 99 christianity 1
+	pagan 99 orthodoxy 1
 Novgorod ; ok
 	Novgorod
 	armenia
@@ -675,7 +675,7 @@ Novgorod ; ok
 	forest, steppe, harbor, main, elite, novgo, river
 	5
 	5
-	christianity 85 pagan 15
+	orthodoxy 85 pagan 15
 Livonia ; ok
 	Riga
 	armenia
@@ -711,7 +711,7 @@ Erderly ; ok
 	forest, euro, magyar, steppe, elite, main, slav
 	5
 	5
-	christianity 80 pagan 20
+	catholicism 80 pagan 20
 Wallachia ; ok
 	Craiova
 	egypt
@@ -720,7 +720,7 @@ Wallachia ; ok
 	steppe, magyar, vlach, slav, euro
 	5
 	5
-	pagan 80 christianity 20
+	pagan 80 catholicism 20
 Bulgaria ; ok
 	Preslav
 	egypt
@@ -729,7 +729,7 @@ Bulgaria ; ok
 	steppe, magyar, vlach, slav, euro
 	5
 	5
-	pagan 55 christianity 45
+	pagan 55 orthodoxy 45
 Byzantion ; ok
 	Konstantinoupoli
 	parthia
@@ -738,7 +738,7 @@ Byzantion ; ok
 	konst, harbor, euro, main, elite, latein, genoa, greek
 	5
 	5
-	christianity 94 pagan 4 islam 2
+	orthodoxy 94 pagan 4 islam 2
 Thrake ; ok
 	Hadrianopolis
 	parthia
@@ -747,7 +747,7 @@ Thrake ; ok
 	euro, latein, greek, main, slav, river
 	5
 	5
-	christianity 90 pagan 10
+	orthodoxy 90 pagan 10
 Makedon ; ok
 	Skupi
 	parthia
@@ -756,7 +756,7 @@ Makedon ; ok
 	euro, slav
 	5
 	4
-	christianity 70 pagan 30
+	orthodoxy 70 pagan 30
 Thessalonika ; ok
 	Thessalonika
 	parthia
@@ -765,7 +765,7 @@ Thessalonika ; ok
 	euro, greek, latein, elite, main, harbor, genoa
 	5
 	5
-	christianity 95 pagan 5
+	orthodoxy 95 pagan 5
 Peloponnesos ;ok
 	Argos
 	parthia
@@ -774,7 +774,7 @@ Peloponnesos ;ok
 	euro, greek, italy
 	5
 	3
-	christianity 95 pagan 5
+	orthodoxy 95 pagan 5
 Hellas ; ok
     	Athina
 	parthia
@@ -783,7 +783,7 @@ Hellas ; ok
 	latein, harbor, euro, greek, main, genoa, italy
 	5
 	3
-	christianity 95 pagan 5
+	orthodoxy 95 pagan 5
 Epiros ; ok
 	Dyrrachion
 	parthia
@@ -792,7 +792,7 @@ Epiros ; ok
 	euro, venezian, greek, italy, main
 	5
 	4
-	christianity 70 pagan 30
+	orthodoxy 70 pagan 30
 Serbia ; ok
 	Dubrovnik
 	carthage
@@ -801,7 +801,7 @@ Serbia ; ok
 	magyar, euro, main, slav, venezian
 	5
 	4
-	christianity 60 pagan 40 
+	orthodoxy 60 pagan 40 
 Bosnia ; ok
 	Visoko
 	carthage
@@ -810,7 +810,7 @@ Bosnia ; ok
 	magyar, euro, slav
 	5
 	4
-	pagan 65 christianity 35
+	pagan 65 orthodoxy 35
 Croatia ; ok
 	Zadar
 	carthage
@@ -819,7 +819,7 @@ Croatia ; ok
 	magyar, euro, venezian, main
 	5
 	4
-	christianity 55 pagan 45 
+	catholicism 55 pagan 45 
 Alfold ; ok
 	Varad
 	carthage
@@ -828,7 +828,7 @@ Alfold ; ok
 	forest, magyar, euro, main, slav 
 	5
 	4
-	christianity 70 pagan 30
+	catholicism 70 pagan 30
 Magyarorszag ; ok
 	Buda ; changed name to Szekes..
 	carthage
@@ -837,7 +837,7 @@ Magyarorszag ; ok
 	forest, magyar, euro, main, elite, river 
 	5
 	5
-	christianity 85 pagan 15
+	catholicism 85 pagan 15
 Chervenski_Goroda ; ok
 	Peremyshl
 	numidia
@@ -846,7 +846,7 @@ Chervenski_Goroda ; ok
 	forest, pole, euro, slav
 	5
 	4
-	pagan 70 christianity 30
+	pagan 70 catholicism 30
 Karpatalja ; ok
 	Mukachevo
 	carthage
@@ -855,7 +855,7 @@ Karpatalja ; ok
 	forest, magyar, slav, euro
 	5
 	4
-	pagan 60 christianity 40
+	pagan 60 catholicism 40
 Nyitra ; ok
 	Nitra
 	carthage
@@ -864,7 +864,7 @@ Nyitra ; ok
 	forest, magyar, euro, slav
 	5
 	4
-	christianity 70 pagan 30
+	catholicism 70 pagan 30
 Mazowsze ; ok
 	Krakow
 	numidia
@@ -873,7 +873,7 @@ Mazowsze ; ok
 	forest, pole, euro, main, elite, slav, river 
 	5
 	5
-	christianity 85 pagan 15
+	catholicism 85 pagan 15
 Slask ; ok
 	Wroclaw
 	numidia
@@ -882,7 +882,7 @@ Slask ; ok
 	forest, pole, euro, slav
 	5
 	5
-	christianity 70 pagan 30
+	catholicism 70 pagan 30
 Prussia ; ok
 	Truso
 	numidia
@@ -900,7 +900,7 @@ Malopolska ; ok
 	forest, pole, euro, slav
 	5
 	5
-	christianity 70 pagan 30
+	catholicism 70 pagan 30
 Pomerania ; ok
 	Gdansk
 	numidia
@@ -909,7 +909,7 @@ Pomerania ; ok
 	forest, pole, harbor, euro, main, slav, river, chapter, teuton
 	5
 	4
-	pagan 90 christianity 10
+	pagan 90 catholicism 10
 Welkopolska ; ok
 	Poznan
 	numidia
@@ -918,7 +918,7 @@ Welkopolska ; ok
 	forest, pole, euro, slav 
 	5
 	5
-	christianity 70 pagan 30
+	catholicism 70 pagan 30
 Zopadno_Pomorsko  ; ok
 	Szteteno
 	numidia
@@ -927,7 +927,7 @@ Zopadno_Pomorsko  ; ok
 	forest, pole, germ, euro, slav
 	5
 	4
-	pagan 91 christianity 9	
+	pagan 91 catholicism 9	
 Moravia ; ok
 	Brno
 	romans_senate
@@ -936,7 +936,7 @@ Moravia ; ok
 	forest, boheme, euro, slav
 	5
 	4
-	christianity 85 pagan 15
+	catholicism 85 pagan 15
 Steiermark ; ok
 	Wien
 	germans
@@ -945,7 +945,7 @@ Steiermark ; ok
 	forest, boheme, germ, euro, main, slav, river
 	5
 	4
-	christianity 90 pagan 10
+	catholicism 90 pagan 10
 Venezien           
 	Venezia
 	romans_julii
@@ -954,7 +954,7 @@ Venezien
 	harbor, euro, italy, main, venezian, river, chapter, teuton 
 	5
 	5
-	christianity 90 pagan 9 islam 1
+	catholicism 90 pagan 9 islam 1
 Bavaria ; ok
 	Salzburg
 	germans
@@ -963,7 +963,7 @@ Bavaria ; ok
 	forest, germ, euro, main 
 	5
 	5
-	christianity 95 pagan 5
+	catholicism 95 pagan 5
 Bohemia ; ok
 	Praha
 	romans_senate
@@ -972,7 +972,7 @@ Bohemia ; ok
 	forest, boheme, germ, euro, main, elite, slav, river
 	5
 	5
-	christianity 90 pagan 10
+	catholicism 90 pagan 10
 Lusatia ; ok
 	Misnia
 	numidia
@@ -981,7 +981,7 @@ Lusatia ; ok
 	forest, pole, germ, euro, slav 
 	5
 	4
-	pagan 60 christianity 40 
+	pagan 60 catholicism 40 
 Polabia ; ok
 	Mecklenburg
 	germans
@@ -990,7 +990,7 @@ Polabia ; ok
 	forest, pole, germ, euro, slav
 	5
 	4
-	pagan 85 christianity 15 
+	pagan 85 catholicism 15 
 VeronaR ; ok
 	Verona
 	germans
@@ -999,7 +999,7 @@ VeronaR ; ok
 	germ, euro, italy, main
 	5
 	5
-	christianity 90 pagan 10
+	catholicism 90 pagan 10
 Lombardia ; ok
 	Milano
 	germans
@@ -1008,7 +1008,7 @@ Lombardia ; ok
 	euro, italy, main, elite, germ, river
 	5
 	5
-	christianity 90 pagan 10
+	catholicism 90 pagan 10
 Liguria ; ok
 	Genoa
 	romans_julii
@@ -1017,7 +1017,7 @@ Liguria ; ok
 	italy, harbor, euro, main, genoa, chapter
 	5
 	5
-	christianity 95 pagan 4 islam 1
+	catholicism 95 pagan 4 islam 1
 Toscana ; ok
 	Pisa
 	romans_julii
@@ -1026,7 +1026,7 @@ Toscana ; ok
 	italy, euro, main, harbor, pisa, elite
 	5
 	5
-	christianity 95 pagan 5
+	catholicism 95 pagan 5
 Papal-States ; ok            
 	Roma
 	pope
@@ -1035,7 +1035,7 @@ Papal-States ; ok
 	italy, main, roma, euro, elite, river, chapter
 	5
 	5
-	christianity 96 pagan 4
+	catholicism 96 pagan 4
 Perugia ; ok
 	Spoleto
 	romans_julii
@@ -1044,7 +1044,7 @@ Perugia ; ok
 	italy, euro, main
 	5
 	5
-	christianity 95 pagan 5
+	catholicism 95 pagan 5
 Province_of_Benevento ; ok
 	Benevento ; Capua
 	dacia
@@ -1053,7 +1053,7 @@ Province_of_Benevento ; ok
 	italy, euro, main 
 	5
 	5
-	christianity 95 pagan 5
+	catholicism 95 pagan 5
 Calabria ; ok
 	Cosenza ; Mileto
 	dacia
@@ -1062,7 +1062,7 @@ Calabria ; ok
 	euro, sicily, main
 	5
 	5
-	christianity 95 pagan 5
+	catholicism 95 pagan 5
 Schweiz ; ok
 	Bern
 	germans
@@ -1071,7 +1071,7 @@ Schweiz ; ok
 	germ, euro, chapter
 	5
 	4
-	christianity 65 pagan 35
+	catholicism 65 pagan 35
 Swabia ; ok
 	Augsburg
 	germans
@@ -1080,7 +1080,7 @@ Swabia ; ok
 	forest, germ, swabia, euro, main, elite, river
 	5
 	5
-	christianity 90 pagan 10
+	catholicism 90 pagan 10
 Franconia ; ok
 	Wuerzburg
 	germans
@@ -1089,7 +1089,7 @@ Franconia ; ok
 	forest, germ, euro, thuringian, main, river
 	5
 	5
-	christianity 90 pagan 10
+	catholicism 90 pagan 10
 Sachsen ; ok
 	Magdeburg
 	germans
@@ -1098,7 +1098,7 @@ Sachsen ; ok
 	forest, germ, euro, main, elite, river, sax, chapter, teuton
 	5
 	5
-	christianity 80 pagan 20
+	catholicism 80 pagan 20
 JyllandS ; ok
 	Slesvig
 	scythia
@@ -1107,7 +1107,7 @@ JyllandS ; ok
 	forest, scandinavia, germ, harbor, euro, main, river, sax   
 	5
 	5
-	christianity 80 pagan 20
+	catholicism 80 pagan 20
 Jylland ; ok
 	Viborg
 	scythia
@@ -1116,7 +1116,7 @@ Jylland ; ok
 	forest, scandinavia, euro,  
 	5
 	5
-	christianity 75 pagan 25
+	catholicism 75 pagan 25
 Denmark ; ok
 	Vordingborg
 	scythia
@@ -1125,7 +1125,7 @@ Denmark ; ok
 	scandinavia, harbor, euro, main, elite   
 	5
 	4
-	christianity 75 pagan 25
+	catholicism 75 pagan 25
 Skane ; ok
 	Lund
 	scythia
@@ -1134,7 +1134,7 @@ Skane ; ok
 	forest, scandinavia, euro, main 
 	5
 	5
-	christianity 60 pagan 40
+	catholicism 60 pagan 40
 Svealand ; ok
 	Uppsala
 	scythia
@@ -1143,7 +1143,7 @@ Svealand ; ok
 	forest, scandinavia, euro, main
 	5
 	3
-	pagan 71 christianity 29 
+	pagan 71 catholicism 29 
 Norge ; ok
 	Oslo
 	scythia
@@ -1152,7 +1152,7 @@ Norge ; ok
 	forest, scandinavia, main, euro
 	5
 	3
-	pagan 60 christianity 40 
+	pagan 60 catholicism 40 
 Gotland ; ok
     Visby
 	scythia
@@ -1161,7 +1161,7 @@ Gotland ; ok
 	scandinavia, euro
 	5
 	2
-	pagan 90 christianity 10 
+	pagan 90 catholicism 10 
 Nordvegur  ; ok            
 	Bjorgvin
 	scythia
@@ -1170,7 +1170,7 @@ Nordvegur  ; ok
 	scandinavia, forest, euro
 	5
 	2
-	pagan 90 christianity 10 
+	pagan 90 catholicism 10 
 Smaland ; ok
 	Kalmar
 	scythia
@@ -1179,7 +1179,7 @@ Smaland ; ok
 	forest, scandinavia, euro
 	5
 	4
-	pagan 85 christianity 15  
+	pagan 85 catholicism 15  
 Hebrides ; ok
 	Iona
 	scythia
@@ -1188,7 +1188,7 @@ Hebrides ; ok
 	scot, euro
 	5
 	2
-	pagan 90 christianity 10 
+	pagan 90 catholicism 10 
 Alban ; ok
 	Edinburgh
 	britons
@@ -1197,7 +1197,7 @@ Alban ; ok
 	scot, euro, chapter 
 	5
 	4
-	christianity 70 pagan 30
+	catholicism 70 pagan 30
 Strathclyde ; ok
 	Stirling
 	britons
@@ -1206,7 +1206,7 @@ Strathclyde ; ok
 	scot, euro, main
 	5
 	3
-	christianity 75 pagan 25
+	catholicism 75 pagan 25
 Northumbria ; ok
 	York
 	britons
@@ -1215,7 +1215,7 @@ Northumbria ; ok
 	euro, main
 	5
 	4
-	christianity 90 pagan 10
+	catholicism 90 pagan 10
 Mercia ; ok
 	Leicester ; Nottingham
 	britons
@@ -1224,7 +1224,7 @@ Mercia ; ok
 	engl, euro, main
 	5
 	4
-	christianity 95 pagan 5
+	catholicism 95 pagan 5
 Gwynned ; ok
 	Aberffraw
 	britons
@@ -1233,7 +1233,7 @@ Gwynned ; ok
 	euro, welsh, main
 	5
 	3
-	christianity 95 pagan 5
+	catholicism 95 pagan 5
 Wessex ; ok
 	Winchester
 	britons
@@ -1242,7 +1242,7 @@ Wessex ; ok
 	euro, engl, main
 	5
 	5
-	christianity 90 pagan 10
+	catholicism 90 pagan 10
 East_Anglia ; ok
 	London
 	britons
@@ -1251,7 +1251,7 @@ East_Anglia ; ok
 	harbor, euro, main, elite, engl, norm, river, chapter
 	5
 	5
-	christianity 90 pagan 10
+	catholicism 90 pagan 10
 Kent ; ok
 	Dover
 	britons
@@ -1260,7 +1260,7 @@ Kent ; ok
 	engl, euro, main, harbor, river
 	5
 	5
-	christianity 90 pagan 10
+	catholicism 90 pagan 10
 Ulster ; ok
 	Armagh
 	britons
@@ -1269,7 +1269,7 @@ Ulster ; ok
 	scot, euro 
 	5
 	4
-	christianity 80 pagan 20
+	catholicism 80 pagan 20
 Meath ; ok
 	Dublin
 	britons
@@ -1278,7 +1278,7 @@ Meath ; ok
 	scot, euro, main
 	5
 	4
-	christianity 70 pagan 30
+	catholicism 70 pagan 30
 Connacht ; ok
 	Luimneach
 	britons
@@ -1287,7 +1287,7 @@ Connacht ; ok
 	euro, scot 
 	5
 	3
-	christianity 70 pagan 30
+	catholicism 70 pagan 30
 Munster ; ok
 	Corcaigh
 	britons
@@ -1296,7 +1296,7 @@ Munster ; ok
 	euro, scot
 	5
 	3
-	christianity 70 pagan 30
+	catholicism 70 pagan 30
 Frisia ; ok
 	Utrecht
 	germans
@@ -1305,7 +1305,7 @@ Frisia ; ok
 	germ, french, harbor, euro, main, river, sax, chapter
 	5
 	5
-	christianity 65 pagan 35
+	catholicism 65 pagan 35
 Niederlothringen ; ok
 	Koeln
 	germans
@@ -1314,7 +1314,7 @@ Niederlothringen ; ok
 	forest, germ, euro, main, elite, loth, river 
 	5
 	5
-	christianity 90 pagan 10
+	catholicism 90 pagan 10
 Oberlothringen ; ok
 	Strasburg
 	germans
@@ -1323,7 +1323,7 @@ Oberlothringen ; ok
 	forest, germ, euro, main, loth, river, chapter, teuton 
 	5
 	5
-	christianity 90 pagan 10
+	catholicism 90 pagan 10
 Flanders ; ok
 	Gent
 	gauls
@@ -1332,7 +1332,7 @@ Flanders ; ok
 	germ, french, harbor, euro, main, fland, river
 	5
 	5
-	christianity 90 pagan 10
+	catholicism 90 pagan 10
 Champagne ; ok
     Reims
 	gauls
@@ -1341,7 +1341,7 @@ Champagne ; ok
 	euro, french, main, river 
 	5
 	5
-	christianity 95 pagan 5
+	catholicism 95 pagan 5
 Normandie ; ok
 	Rouen
 	britons
@@ -1350,7 +1350,7 @@ Normandie ; ok
 	euro, norm, main, elite, river
 	5
 	5
-	christianity 80 pagan 20
+	catholicism 80 pagan 20
 Ile_de_France ; ok
 	Paris
 	gauls
@@ -1359,7 +1359,7 @@ Ile_de_France ; ok
 	euro, french, main, elite, river, chapter
 	5
 	5
-	christianity 95 pagan 5
+	catholicism 95 pagan 5
 Bretagne ; ok
 	Fougeres
 	gauls
@@ -1368,7 +1368,7 @@ Bretagne ; ok
 	euro, french, ang, main
 	5
 	4
-	christianity 80 pagan 20
+	catholicism 80 pagan 20
 Anjou ; ok
 	Angers
 	gauls
@@ -1377,7 +1377,7 @@ Anjou ; ok
 	euro, french, ang, main, river, elite
 	5
 	5
-	christianity 95 pagan 5
+	catholicism 95 pagan 5
 Burgund ; ok
 	Geneva
 	gauls
@@ -1386,7 +1386,7 @@ Burgund ; ok
 	euro, burgund, main, elite, river
 	5
 	4
-	christianity 90 pagan 10
+	catholicism 90 pagan 10
 Provence ; ok
 	Arles
 	gauls
@@ -1395,7 +1395,7 @@ Provence ; ok
 	harbor, euro, burgund, main, river 
 	5
 	5
-	christianity 90 pagan 10
+	catholicism 90 pagan 10
 Auvergne ; ok
 	Clermont
 	gauls
@@ -1404,7 +1404,7 @@ Auvergne ; ok
 	euro, french, main, river
 	5
 	5
-	christianity 95 pagan 5
+	catholicism 95 pagan 5
 Poitou ; ok
 	Poitiers
 	gauls
@@ -1413,7 +1413,7 @@ Poitou ; ok
 	euro, french, ang, main, river
 	5
 	5
-	christianity 95 pagan 5
+	catholicism 95 pagan 5
 Guyenne ; ok
 	Bordeaux
 	gauls
@@ -1422,7 +1422,7 @@ Guyenne ; ok
 	euro, french, ang, main, harbor, prov, river, chapter
 	5
 	5
-	christianity 70 pagan 30 
+	catholicism 70 pagan 30 
 Toulouse ; ok
 	Toulouse
 	gauls
@@ -1431,7 +1431,7 @@ Toulouse ; ok
 	harbor, euro, french, ang, main, elite, prov, river, chapter 
 	5
 	5
-	christianity 55 pagan 45  
+	catholicism 55 pagan 45  
 Navarra ; ok
 	Pamplona
 	spain
@@ -1440,7 +1440,7 @@ Navarra ; ok
 	recon, harbor, euro, main, prov, river
 	5
 	3
-	christianity 75 pagan 25
+	catholicism 75 pagan 25
 Aragon ; ok
 	Huesca
 	spain
@@ -1449,7 +1449,7 @@ Aragon ; ok
 	euro, franks, main, prov
 	5
 	4
-	christianity 90 pagan 10
+	catholicism 90 pagan 10
 Catalonia ; ok
 	Barcelona
 	spain
@@ -1458,7 +1458,7 @@ Catalonia ; ok
 	harbor, euro, main, franks, elite, prov, river
 	5
 	5
-	christianity 90 pagan 10
+	catholicism 90 pagan 10
 Province_of_Zaragoza ; ok
 	Zaragoza
 	spain
@@ -1467,7 +1467,7 @@ Province_of_Zaragoza ; ok
 	franks, euro, main, river
 	5
 	4
-	christianity 70 islam 25 pagan 5
+	catholicism 70 islam 25 pagan 5
 Kingdom_of_Castilla ; ok
 	Burgos 
 	romans_scipii
@@ -1476,7 +1476,7 @@ Kingdom_of_Castilla ; ok
 	euro, main, harbor, recon
 	5
 	5
-	christianity 95 pagan 5
+	catholicism 95 pagan 5
 Province_of_Toledo ; ok
 	Toledo
 	romans_scipii
@@ -1485,7 +1485,7 @@ Province_of_Toledo ; ok
 	andalus, euro, main, recon, elite, river 
 	5
 	5
-	christianity 55 islam 42 pagan 3
+	catholicism 55 islam 42 pagan 3
 Valencia ; ok
 	Valencia
 	macedon
@@ -1494,7 +1494,7 @@ Valencia ; ok
 	andalus, franks, main, euro, recon, river
 	5
 	5
-	islam 65 christianity 20 pagan 10
+	islam 65 catholicism 20 pagan 10
 Denia ; ok
 	Murcia
 	macedon
@@ -1503,7 +1503,7 @@ Denia ; ok
 	andalus, euro, recon
 	5
 	4
-	islam 70 pagan 10 christianity 20 
+	islam 70 pagan 10 catholicism 20 
 Granada ; ok 
 	Granada 
 	macedon
@@ -1512,7 +1512,7 @@ Granada ; ok
 	andalus, harbor, main, elite 
 	5
 	5
-	islam 90 pagan 3 christianity 8
+	islam 90 pagan 3 catholicism 8
 Andalusia ; ok
 	Cordoba
 	macedon
@@ -1521,7 +1521,7 @@ Andalusia ; ok
 	andalus, main, elite
 	5
 	6
-	islam 90 pagan 5 christianity 5
+	islam 90 pagan 5 catholicism 5
 Portugal ; ok
 	Lisbon ;Lissabon
 	romans_scipii
@@ -1530,7 +1530,7 @@ Portugal ; ok
 	andalus, euro, main, harbor, recon, portu, river  
 	5
 	5
-	islam 55 christianity 40 pagan 5
+	islam 55 catholicism 40 pagan 5
 Portucalense ; ok
 	Guimaraes
 	romans_scipii
@@ -1539,7 +1539,7 @@ Portucalense ; ok
 	euro, recon, portu
 	5
 	4
-	christianity 85 islam 12 pagan 3
+	catholicism 85 islam 12 pagan 3
 Kingdom_of_Leon ; ok
 	Leon
 	romans_scipii
@@ -1548,7 +1548,7 @@ Kingdom_of_Leon ; ok
 	leon, harbor, euro, main, elite, recon
 	5
 	5
-	christianity 95 pagan 5
+	catholicism 95 pagan 5
 Sevilla ; ok
 	Sevilla
 	macedon
@@ -1557,7 +1557,7 @@ Sevilla ; ok
 	harbor, andalus, main, euro, portu, recon, river 
 	5
 	5
-	islam 75 christianity 15 pagan 10
+	islam 75 catholicism 15 pagan 10
 Baleares ; ok
 	Palma
 	macedon
@@ -1566,7 +1566,7 @@ Baleares ; ok
 	euro, andalus, main, harbor, pisa, franks
 	5
 	3
-	islam 60 christianity 30 pagan 10
+	islam 60 catholicism 30 pagan 10
 Sardinia ; ok
 	Cagliari
 	romans_julii
@@ -1575,7 +1575,7 @@ Sardinia ; ok
 	euro, sardi, pisa
 	5
 	5
-	christianity 60 islam 30 pagan 10 
+	catholicism 60 islam 30 pagan 10 
 Siracuse            ; ok
 	Siracusa
 	dacia
@@ -1584,7 +1584,7 @@ Siracuse            ; ok
 	euro, sicily, main, genoa
 	5
 	5
-	christianity 55 islam 40 pagan 5
+	catholicism 55 islam 40 pagan 5
 Rhodos ; ok
 	Rhodos
 	parthia
@@ -1593,7 +1593,7 @@ Rhodos ; ok
 	turk, euro, harbor, main, venezian, byz 
 	5
 	3
-	christianity 90 islam 5 pagan 5
+	orthodoxy 90 islam 5 pagan 5
 Corsica ; ok
 	Abjacio
 	romans_julii
@@ -1602,7 +1602,7 @@ Corsica ; ok
 	euro, sardi, genoa 
 	5
 	3
-	christianity 55 pagan 40 islam 5
+	catholicism 55 pagan 40 islam 5
 Val_Dimone ; ok
 	Palermo
 	dacia
@@ -1611,7 +1611,7 @@ Val_Dimone ; ok
 	harbor, euro, sicily, main, elite, genoa, chapter, teuton
 	5
 	5
-	christianity 65 islam 30 pagan 5
+	catholicism 65 islam 30 pagan 5
 Wadi_al-Mazzara ; ok
 	Agrigento
 	greek_cities
@@ -1620,7 +1620,7 @@ Wadi_al-Mazzara ; ok
 	euro, sicily, main, fatamid
 	5
 	4
-	islam 60 christianity 35 pagan 5
+	islam 60 catholicism 35 pagan 5
 Malta  ; ok
 	Medina 
 	greek_cities
@@ -1629,7 +1629,7 @@ Malta  ; ok
 	fatamid, main, pisa, euro, harbor 
 	5
 	3
-	islam 52 christianity 38 pagan 10
+	islam 52 catholicism 38 pagan 10
 Krete ; ok
 	Kastro
 	parthia
@@ -1638,7 +1638,7 @@ Krete ; ok
 	fatamid, turk, euro, venezian, byz, italy, sicily
 	5
 	2
-	christianity 70 pagan 25 islam 5
+	orthodoxy 70 pagan 25 islam 5
 Kypros ; ok
 	Leukosia
 	parthia
@@ -1647,7 +1647,7 @@ Kypros ; ok
 	turk, harbor, main, venezian, byz, italy, armen, fatamid
 	5
 	4
-	christianity 65 islam 30 pagan 5
+	orthodoxy 65 islam 30 pagan 5
 Pskov ; ok
 	Pskov
 	numidia
@@ -1656,7 +1656,7 @@ Pskov ; ok
 	forest, steppe, river 
 	5
 	4
-	christianity 50 pagan 50
+	orthodoxy 50 pagan 50
 Principality_of_Bari ; Apulia
     Bari
 	dacia
@@ -1665,7 +1665,7 @@ Principality_of_Bari ; Apulia
 	euro, sicily, venezian, latein, main
 	5
 	4
-	christianity 95 pagan 5
+	catholicism 95 pagan 5
 Thrakesion ; ok
 	Philadelphia
 	parthia
@@ -1674,7 +1674,7 @@ Thrakesion ; ok
 	turk, byz
 	5
 	3
-	christianity 75 pagan 25
+	orthodoxy 75 pagan 25
 Armeniakon ; ok
 	Amasia
 	pontus
@@ -1683,7 +1683,7 @@ Armeniakon ; ok
 	trebizond, main, turk, byz, anatol
 	5
 	3
-	christianity 50 pagan 5 islam 45
+	orthodoxy 50 pagan 5 islam 45
 Pamphylia ; ok
 	Kalonoros
 	parthia
@@ -1692,7 +1692,7 @@ Pamphylia ; ok
 	turk, byz, anatol, armen
 	5
 	3
-	christianity 70 pagan 15 islam 15
+	orthodoxy 70 pagan 15 islam 15
 Kesun ; ok
 	Hromkla
 	seleucid
@@ -1701,7 +1701,7 @@ Kesun ; ok
 	turk, crus_state, syr, armen
 	5
 	2
-	christianity 55 islam 40  pagan 5 
+	apostolic 55 islam 40  orthodoxy 5 
 Tsopk ; ok
 	Mayafarkin
 	thrace
@@ -1710,16 +1710,16 @@ Tsopk ; ok
 	turk, main, anatol
 	5
 	3
-	christianity 35 islam 60 pagan 5
+	apostolic 45 islam 50 pagan 5
 Turuberan ; ok
 	Manzikert
 	thrace
 	Armenians
 	70 240 190
-	turk, armen
+	turk, armen, hayk
 	5
 	3
-	christianity 45 islam 45 pagan 10
+	apostolic 55 islam 35 pagan 10
 Optimatoi ; ok
 	Nikomedia
 	parthia
@@ -1728,7 +1728,7 @@ Optimatoi ; ok
 	turk, elite, main, byz, anatol
 	5
 	3
-	christianity 70 pagan 15 islam 15
+	orthodoxy 70 pagan 15 islam 15
 Akarnania ; ok
 	Nikopolis
 	parthia
@@ -1736,8 +1736,8 @@ Akarnania ; ok
 	62 65 121
 	euro, greek, italy, main
 	5
-	3
-	christianity 70 pagan 30
+	4
+	orthodoxy 70 pagan 30
 Morea ;ok
 	Mystra
 	parthia
@@ -1745,8 +1745,8 @@ Morea ;ok
 	25 44 252
 	euro, greek, italy, main
 	5
-	3
-	christianity 95 pagan 5
+	4
+	orthodoxy 95 pagan 5
 Karin ; ok
 	Theodosioupolis
 	thrace
@@ -1755,7 +1755,7 @@ Karin ; ok
 	turk, main, armen
 	5
 	3
-	christianity 45 islam 45 pagan 10
+	apostolic 55 islam 35 orthodoxy 10
 Arran ; ok
 	Ganja
 	thrace
@@ -1764,7 +1764,7 @@ Arran ; ok
 	turk, trap, armen, main
 	5
 	3
-	islam 55 pagan 10 christianity 35
+	islam 55 pagan 10 apostolic 35
 Urmia ; ok
 	Tabriz
 	thrace
@@ -1773,16 +1773,16 @@ Urmia ; ok
 	turk, trap, main
 	5
 	3
-	islam 55 pagan 10 christianity 35
+	islam 55 pagan 10 apostolic 35
 Artsakh ; ok
 	Kapan
 	seleucid
 	Armenians
 	69 234 204
-	turk, main, armen
+	turk, main, armen, hayk
 	5
 	3
-	christianity 90 islam 5 pagan 5
+	apostolic 90 islam 5 pagan 5
 BasraR ; ok
     	Basra
 	thrace
@@ -1791,7 +1791,7 @@ BasraR ; ok
 	turk, main, elite, abbasid 
 	5
 	4
-	islam 90 pagan 5 christianity 5
+	islam 90 pagan 5 apostolic 5
 Jibal ; ok
 	Hamadan
 	thrace
@@ -1800,7 +1800,7 @@ Jibal ; ok
 	steppe, turk, main, trap 
 	5
 	3
-	islam 80 pagan 10 christianity 10
+	islam 80 pagan 10 apostolic 10
 Extremadura ; ok
 	Badajoz
 	romans_scipii
@@ -1809,7 +1809,7 @@ Extremadura ; ok
 	andalus, euro, main, harbor, recon, portu, river  
 	5
 	5
-	islam 55 christianity 40 pagan 5
+	islam 55 catholicism 40 pagan 5
 Galicia ; ok
 	Compostela
 	romans_scipii
@@ -1818,7 +1818,7 @@ Galicia ; ok
 	leon, harbor, euro, main, elite, recon
 	5
 	3
-	christianity 95 pagan 5
+	catholicism 95 pagan 5
 Holstein ; ok
 	Hamburg
 	germans
@@ -1827,7 +1827,7 @@ Holstein ; ok
 	forest, germ, euro, main, elite, river, sax, chapter, teuton
 	5
 	5
-	christianity 80 pagan 20
+	catholicism 80 pagan 20
 Vastergotland ; ok
 	Skara
 	scythia
@@ -1836,4 +1836,58 @@ Vastergotland ; ok
 	forest, scandinavia, euro, main
 	5
 	3
-	pagan 71 christianity 29 
+	pagan 71 catholicism 29
+Bukellarion ; ok
+	Amastris
+	parthia
+	Bithynians
+	57 13 198
+	main, byz, anatol
+	5
+	4
+	orthodoxy 90 pagan 10
+Syrmia ; ok
+	Belgrade
+	parthia
+	Slavonians
+	185 117 47
+	euro, slav
+	5
+	3
+	orthodoxy 70 pagan 30
+Dalmatia ; ok
+	Split
+	carthage
+	Croatians
+	64 12 198
+	magyar, euro, venezian, main
+	5
+	4
+	catholicism 55 pagan 45
+Diokleia ; ok
+	Kotor
+	parthia
+	Slavonians
+	199 116 47
+	euro, slav
+	5
+	3
+	orthodoxy 70 pagan 30
+LArmenia ; ok
+	Sebasteia
+	dani
+	Armenians
+	77 232 191
+	trebizond, main, turk, byz, anatol, armen
+	5
+	4
+	apostolic 50 pagan 5 islam 45
+;Romagna ; ok
+;	Bologna
+;	germans
+;	Lombardi
+;	33 194 27
+;	euro, italy, main, elite, river, harbor
+;	5
+;	4
+;	catholicism 90 pagan 10

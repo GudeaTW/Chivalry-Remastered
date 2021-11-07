@@ -7,23 +7,49 @@
 ;CTWTA1.1 - Religion
 
 ;------------------------------------------
-Trait Christian
+Trait Catholic
 	Characters family
-	AntiTraits Muslim, Pagan
+	AntiTraits Muslim, Pagan, Apostolic, Orthodox
 	
-	Level Christian
-		Description Christian_desc
-		EffectsDescription Christian_effects_desc
-		GainMessage Christian_gain_desc
+	Level Catholic
+		Description Catholic_desc
+		EffectsDescription Catholic_effects_desc
+		GainMessage Catholic_gain_desc
 		Threshold  1
 		
-		Religious_Belief christianity  1
+		Religious_Belief catholicism  1
+
+;------------------------------------------
+Trait Orthodox
+	Characters family
+	AntiTraits Muslim, Pagan, Apostolic, Catholic
+	
+	Level Orthodox
+		Description Orthodox_desc
+		EffectsDescription Orthodox_effects_desc
+		GainMessage Orthodox_gain_desc
+		Threshold  1
+		
+		Religious_Belief orthodoxy  1
+
+;------------------------------------------
+Trait Apostolic
+	Characters family
+	AntiTraits Muslim, Pagan, Catholic, Orthodox
+	
+	Level Apostolic
+		Description Apostolic_desc
+		EffectsDescription Apostolic_effects_desc
+		GainMessage Apostolic_gain_desc
+		Threshold  1
+		
+		Religious_Belief apostolic  1
 		
 
 ;------------------------------------------
 Trait Muslim
 	Characters family
-	AntiTraits Christian, Pagan
+	AntiTraits Catholic, Apostolic, Pagan, Orthodox
 	
 	Level Muslim
 		Description Muslim_desc
@@ -37,7 +63,7 @@ Trait Muslim
 	
 Trait Pagan
 	Characters family
-	AntiTraits Christian, Muslim
+	AntiTraits Catholic, Apostolic, Muslim, Orthodox
 	
 	Level Pagan
 		Description Pagan_desc
@@ -50,20 +76,40 @@ Trait Pagan
 ;------------------------------------------
 ; Diplomats
 	
-Trait Christian_Flavor
+Trait Catholic_Flavor
 	Characters diplomat
-        AntiTraits Muslim_Flavor, Pagan_Flavor
+        AntiTraits Apostolic_Flavor, Muslim_Flavor, Pagan_Flavor, Orthodox_Flavor
 	
-	Level Christian_Flavor
-		Description Christian_desc
-		EffectsDescription Christian_Flavor_effects_desc
-		GainMessage Christian_gain_desc
+	Level Catholic_Flavor
+		Description Catholic_desc
+		EffectsDescription Catholic_Flavor_effects_desc
+		GainMessage Catholic_gain_desc
+		Threshold  1
+
+Trait Orthodox_Flavor
+	Characters diplomat
+        AntiTraits Apostolic_Flavor, Muslim_Flavor, Pagan_Flavor, Catholic_Flavor
+	
+	Level Orthodox_Flavor
+		Description Orthodox_desc
+		EffectsDescription Orthodox_Flavor_effects_desc
+		GainMessage Orthodox_gain_desc
+		Threshold  1
+
+Trait Apostolic_Flavor
+	Characters diplomat
+        AntiTraits Catholic_Flavor, Muslim_Flavor, Pagan_Flavor, Orthodox_Flavor
+	
+	Level Apostolic_Flavor
+		Description Apostolic_desc
+		EffectsDescription Apostolic_Flavor_effects_desc
+		GainMessage Apostolic_gain_desc
 		Threshold  1
 		
 
 Trait Muslim_Flavor
 	Characters diplomat
-	AntiTraits Christian_Flavor, Pagan_Flavor
+	AntiTraits Catholic_Flavor, Apostolic_Flavor, Pagan_Flavor, Orthodox_Flavor
 	
 	Level Muslim_Flavor
 		Description Muslim_desc
@@ -74,7 +120,7 @@ Trait Muslim_Flavor
 		
 Trait Pagan_Flavor
 	Characters diplomat
-	AntiTraits Christian_Flavor, Muslim_Flavor
+	AntiTraits Catholic_Flavor, Apostolic_Flavor, Muslim_Flavor, Orthodox_Flavor
 	
 	Level Pagan_Flavor
 		Description Pagan_desc
@@ -116,7 +162,7 @@ Trait Christian_Piety
 ;------------------------------------------
 Trait PaganFaith
     Characters family
-    AntiTraits Christian, Muslim
+    AntiTraits Catholic, Apostolic, Muslim, Orthodox
 
     Level Pagan_Piety
         Description Pagan_Piety_desc
@@ -129,7 +175,7 @@ Trait PaganFaith
 ;------------------------------------------
 Trait MuslimPiety
     Characters family
-    AntiTraits Christian, Pagan
+    AntiTraits Catholic, Apostolic, Pagan, Orthodox
 
     Level Faithful_Muslim
         Description Faithful_Muslim_desc
@@ -150,14 +196,14 @@ Trait MuslimPiety
 Trait CrusaderT
     Characters family
     ExcludeCultures egyptian, greek
-    AntiTraits Pagan, Muslim, JihadT
+    AntiTraits Pagan, Muslim, JihadT, Orthodox, Apostolic
 
     Level Zealous
         Description Zealous_desc
         EffectsDescription Zealous_effects_desc
         Threshold  1 
 
-	Religious_Belief christianity  1
+	Religious_Belief catholicism  1
 		Effect Influence  1
 		
     Level Fanatic
@@ -166,7 +212,7 @@ Trait CrusaderT
         Threshold  2 
 		
 		Effect Influence  1	
-	Religious_Belief christianity  2
+	Religious_Belief catholicism  2
         Effect Combat_V_Greek 1 
         Effect Combat_V_Egyptian 1 
         Effect Unrest  1
@@ -177,7 +223,7 @@ Trait CrusaderT
         EffectsDescription Crusader_effects_desc
         Threshold  4 
 
-	Religious_Belief christianity  3
+	Religious_Belief catholicism  3
         Effect Combat_V_Greek 2 
         Effect Combat_V_Egyptian 2 
         Effect Unrest  2
@@ -187,7 +233,7 @@ Trait CrusaderT
 Trait JihadT
     Characters family
     ExcludeCultures barbarian, eastern, carthaginian, egyptian
-    AntiTraits Pagan, Christian, CrusaderT
+    AntiTraits Pagan, Apostolic, Catholic, CrusaderT, Orthodox
 
     Level Islamic_Zealot
         Description Islamic_Zealot_desc
@@ -264,7 +310,7 @@ Trait PaganFearMuslim
 Trait PaganHateChristian
     Characters family
     ExcludeCultures barbarian, eastern, carthaginian, greek
-    AntiTraits PaganFearChristian, Christian
+    AntiTraits PaganFearChristian, Catholic, Apostolic, Orthodox
 
     Level PaganHateChristian_1
         Description PaganHateChristian_1_desc
@@ -288,7 +334,7 @@ Trait PaganHateChristian
 Trait PaganFearChristian
     Characters family
     ExcludeCultures barbarian, eastern, carthaginian, greek
-    AntiTraits PaganHateChristian, Christian
+    AntiTraits PaganHateChristian, Catholic, Apostolic, Orthodox
 
     Level PaganFearChristian_1
         Description PaganFearChristian_1_desc
@@ -1508,52 +1554,52 @@ Trait Crakcrusader
 	
 ; AI family characters default advantages	
 ;------------------------------------------
-Trait Aigeneral
-    Characters family
-    Hidden
-
-    Level Anyone
-        Description Anyone_desc
-        EffectsDescription Anyone_effects_desc
-        Threshold  1 
-
-        Effect Command 2
-		Effect TroopMorale  4
-		Effect BodyguardValour  1
-		Effect Influence  2
-		Effect Management 1
-		Effect TaxCollection 5
-		Effect TrainingUnits  1
-		Effect Construction 5
-		
-	Level Royals
-        Description Royals_desc
-        EffectsDescription Royals_effects_desc
-        Threshold  1 
-
-        Effect Command 4
-		Effect TroopMorale  6
-		Effect BodyguardValour  2
-		Effect Influence  4
-		Effect Management 4
-		Effect TaxCollection 10
-		Effect TrainingUnits  2
-		Effect Construction 10
-		
-	Level Royals2
-        Description Royals2_desc
-        EffectsDescription Royals2_effects_desc
-        Threshold  1 
-
-        Effect Command 6
-		Effect TroopMorale  8
-		Effect BodyguardValour  4
-		Effect Influence  6
-		Effect Management 6
-		Effect TaxCollection 20
-		Effect TrainingUnits  4
-		Effect Construction 20
-		
+;Trait Aigeneral
+;    Characters family
+;    Hidden
+;
+;    Level Anyone
+;        Description Anyone_desc
+;        EffectsDescription Anyone_effects_desc
+;        Threshold  1 
+;
+;        Effect Command 2
+;		Effect TroopMorale  4
+;		Effect BodyguardValour  1
+;		Effect Influence  2
+;		Effect Management 1
+;		Effect TaxCollection 5
+;		Effect TrainingUnits  1
+;		Effect Construction 5
+;		
+;	Level Royals
+;        Description Royals_desc
+;        EffectsDescription Royals_effects_desc
+;        Threshold  1 
+;
+;        Effect Command 4
+;		Effect TroopMorale  6
+;		Effect BodyguardValour  2
+;		Effect Influence  4
+;		Effect Management 4
+;		Effect TaxCollection 10
+;		Effect TrainingUnits  2
+;		Effect Construction 10
+;		
+;	Level Royals2
+;        Description Royals2_desc
+;        EffectsDescription Royals2_effects_desc
+;        Threshold  1 
+;
+;        Effect Command 6
+;		Effect TroopMorale  8
+;		Effect BodyguardValour  4
+;		Effect Influence  6
+;		Effect Management 6
+;		Effect TaxCollection 20
+;		Effect TrainingUnits  4
+;		Effect Construction 20
+;		
 ;; AI extraboni
 Trait Aigeneral2
     Characters family
@@ -1713,32 +1759,32 @@ Trait ReleasedPrisoners
 		
 ; Human player penalty 
 ;------------------------------------------
-Trait MoneyDisadvantage
-    Characters family
-
-    Level MoneyDisadvantage
-        Description MoneyDisadvantage_desc
-        EffectsDescription MoneyDisadvantage_effects_desc
-        Threshold  1 
-
-        Effect Influence -1  
-		Effect TroopMorale  -1
-		Effect Unrest +1
-		Effect Command  -1
-		Effect PersonalSecurity -1 
-		
-	Level MoneyDisadvantage2
-        Description MoneyDisadvantage2_desc
-        EffectsDescription MoneyDisadvantage2_effects_desc
-        Threshold  2 
-
-        Effect Influence -2  
-        Effect Management -1
-		Effect TroopMorale  -2
-		Effect Unrest +1
-		Effect Command  -2
-		Effect PersonalSecurity -2
-
+;Trait MoneyDisadvantage
+;    Characters family
+;
+;    Level MoneyDisadvantage
+;        Description MoneyDisadvantage_desc
+;        EffectsDescription MoneyDisadvantage_effects_desc
+;        Threshold  1 
+;
+;        Effect Influence -1  
+;		Effect TroopMorale  -1
+;		Effect Unrest +1
+;		Effect Command  -1
+;		Effect PersonalSecurity -1 
+;		
+;	Level MoneyDisadvantage2
+;        Description MoneyDisadvantage2_desc
+;        EffectsDescription MoneyDisadvantage2_effects_desc
+;        Threshold  2 
+;
+;        Effect Influence -2  
+;        Effect Management -1
+;		Effect TroopMorale  -2
+;		Effect Unrest +1
+;		Effect Command  -2
+;		Effect PersonalSecurity -2
+;
 ; Money and power salvation (AI also)
 ;------------------------------------------
 Trait Reputation
@@ -4709,7 +4755,7 @@ Trait Pious
     Characters family
     ExcludeCultures egyptian, greek
     NoGoingBackLevel  2 
-    AntiTraits Sacrilegious, Pagan, Muslim
+    AntiTraits Sacrilegious, Pagan, Muslim, Apostolic, Orthodox
 
     Level Reverent
         Description Reverent_desc
@@ -4717,7 +4763,7 @@ Trait Pious
         Threshold  1 
 
         Effect Influence  1 
-        Religious_Belief christianity  1 
+        Religious_Belief catholicism  1 
 
     Level Respectful_of_the_Gods
         Description Respectful_of_the_Gods_desc
@@ -4725,7 +4771,7 @@ Trait Pious
         Threshold  2 
 
         Effect Influence  1 
-		Religious_Belief christianity  2
+		Religious_Belief catholicism  2
 
     Level Pious
         Description Pious_desc
@@ -4734,7 +4780,7 @@ Trait Pious
         Threshold  3 
 
         Effect Influence  1
-		Religious_Belief christianity  3
+		Religious_Belief catholicism  3
 		
 
 
@@ -7037,18 +7083,33 @@ Trigger admiral2
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Created by GhengisKhan
 ; Changes+additions by DV
+; Chivalry Remastered changes by Drtad/Gudea
 
 ;Religious Traits
 
 ;Inheritance
 ;------------------------------------------
 
-Trigger inheritChristian
+Trigger inheritCatholic
 	WhenToTest CharacterComesOfAge
 	
-	Condition FatherTrait Christian >= 1
+	Condition FatherTrait Catholic >= 1
 	
-	Affects Christian  1  Chance  100
+	Affects Catholic  1  Chance  100
+
+Trigger inheritOrthodox
+	WhenToTest CharacterComesOfAge
+	
+	Condition FatherTrait Orthodox >= 1
+	
+	Affects Orthodox  1  Chance  100
+	
+Trigger inheritApostolic
+	WhenToTest CharacterComesOfAge
+	
+	Condition FatherTrait Apostolic >= 1
+	
+	Affects Apostolic  1  Chance  100
 	
 Trigger inheritMuslim
 	WhenToTest CharacterComesOfAge
@@ -7070,9 +7131,23 @@ Trigger inheritPagan
 Trigger marriage_religion_follow_my_leader_1
     WhenToTest OfferedForMarriage
 
-    Condition FactionLeaderTrait Christian >= 1
+    Condition FactionLeaderTrait Catholic >= 1
 
-    Affects Christian  1  Chance  100 
+    Affects Catholic  1  Chance  100 
+
+Trigger marriage_religion_follow_my_leader_1
+    WhenToTest OfferedForMarriage
+
+    Condition FactionLeaderTrait Orthodox >= 1
+
+    Affects Orthodox  1  Chance  100 
+	
+Trigger marriage_religion_follow_my_leader_1
+    WhenToTest OfferedForMarriage
+
+    Condition FactionLeaderTrait Apostolic >= 1
+
+    Affects Apostolic  1  Chance  100 
 
 Trigger marriage_religion_follow_my_leader_2
     WhenToTest OfferedForMarriage
@@ -7091,12 +7166,26 @@ Trigger marriage_religion_follow_my_leader_3
 ;Adoption
 ;------------------------------------------
 
-Trigger ChristianSonBecomesChristianA
+Trigger CatholicSonBecomesCatholicA
 	WhenToTest OfferedForAdoption
 	
-	Condition FactionLeaderTrait Christian >= 1
+	Condition FactionLeaderTrait Catholic >= 1
 	
-	Affects Christian  1  Chance  100
+	Affects Catholic  1  Chance  100
+
+Trigger OrthodoxSonBecomesOrthodoxA
+	WhenToTest OfferedForAdoption
+	
+	Condition FactionLeaderTrait Orthodox >= 1
+	
+	Affects Orthodox  1  Chance  100
+	
+Trigger ApostolicSonBecomesApostolicA
+	WhenToTest OfferedForAdoption
+	
+	Condition FactionLeaderTrait Apostolic >= 1
+	
+	Affects Apostolic  1  Chance  100
 	
 Trigger MuslimSonBecomesMuslimA
 	WhenToTest OfferedForAdoption
@@ -7117,11 +7206,15 @@ Trigger PaganSonBecomesPaganA
 Trigger characterBecomesPagan
 	WhenToTest CharacterTurnEnd
 	
-	Condition not Trait Christian >= 1
+	Condition not Trait Catholic >= 1
 		and not Trait Muslim >= 1
+		and not Trait Orthodox >= 1
+		and not Trait Apostolic >= 1
 		and not Trait Pagan >= 1
 		and not SettlementBuildingExists >= mosque1
 		and not SettlementBuildingExists >= church1
+		and not SettlementBuildingExists >= ochurch1
+		and not SettlementBuildingExists >= achurch1
 		and not SettlementBuildingExists >= temple1
 		
 	Affects Pagan  1  Chance 50
@@ -7129,13 +7222,15 @@ Trigger characterBecomesPagan
 ; Character Conversion with Temple influence
 ; Little chance remains for conversions
 ;------------------------------------------
-Trigger christianConvertsToMuslim
+Trigger catholicConvertsToMuslim
 	WhenToTest CharacterTurnEnd
 	
-	Condition Trait Christian >= 1
+	Condition Trait Catholic >= 1
 		and SettlementBuildingExists >= mosque3
 		and not SettlementBuildingExists >= crusade2
 		and not SettlementBuildingExists >= church1
+		and not SettlementBuildingExists >= achurch1
+		and not SettlementBuildingExists >= ochurch1
 		and not SettlementBuildingExists >= churchprovince2
 		and not Trait Royal >= 1
 		and not Trait CrusaderT >= 1
@@ -7146,10 +7241,10 @@ Trigger christianConvertsToMuslim
 		
 	Affects Muslim  1  Chance 1
 
-Trigger christianConvertsToPagan
+Trigger catholicConvertsToPagan
 	WhenToTest CharacterTurnEnd
 	
-	Condition Trait Christian >= 1
+	Condition Trait Catholic >= 1
 		and SettlementBuildingExists >= temple1
 		and not SettlementBuildingExists >= church1
 		and not Trait Royal = 1
@@ -7158,15 +7253,49 @@ Trigger christianConvertsToPagan
 		and not Trait Pious >= 1
 		
 	Affects Pagan  1  Chance 1
+	
+Trigger ApostolicConvertsToMuslim
+	WhenToTest CharacterTurnEnd
+	
+	Condition Trait Apostolic >= 1
+		and SettlementBuildingExists >= mosque3
+		and not SettlementBuildingExists >= crusade2
+		and not SettlementBuildingExists >= church1
+		and not SettlementBuildingExists >= achurch1
+		and not SettlementBuildingExists >= ochurch1
+		and not SettlementBuildingExists >= churchprovince2
+		and not Trait Royal >= 1
+		and not Trait CrusaderT >= 1
+		and not Trait Christian_Piety >= 1
+		and not Trait Pious >= 1
+		and not Trait Antcrusader >= 1
+		and not Trait Jerucrusader >= 1
+		
+	Affects Muslim  1  Chance 1
+
+Trigger ApostolicConvertsToPagan
+	WhenToTest CharacterTurnEnd
+	
+	Condition Trait Apostolic >= 1
+		and SettlementBuildingExists >= temple1
+		and not SettlementBuildingExists >= church1
+		and not SettlementBuildingExists >= achurch1
+		and not SettlementBuildingExists >= ochurch1
+		and not Trait Royal = 1
+		and not Trait CrusaderT >= 1
+		and not Trait Christian_Piety >= 1
+		and not Trait Pious >= 1
+		
+	Affects Pagan  1  Chance 1
 
 
-Trigger MuslimConvertsToChristianity
+Trigger MuslimConvertsTocatholicism
 	WhenToTest CharacterTurnEnd
 	
 	Condition Trait Muslim >= 1
 		and SettlementBuildingExists >= church2
 		
-	Affects Christian  1  Chance 1
+	Affects Catholic  1  Chance 1
 
 	
 Trigger muslimConvertsToPagan
@@ -7178,13 +7307,13 @@ Trigger muslimConvertsToPagan
 	Affects Pagan  1  Chance 1
 
 	
-Trigger PaganConvertsToChristianity
+Trigger PaganConvertsTocatholicism
 	WhenToTest CharacterTurnEnd
 	
 	Condition Trait Pagan >= 1
 		and SettlementBuildingExists >= church1
 		
-	Affects Christian  1  Chance 1
+	Affects Catholic  1  Chance 1
 	
 	
 Trigger paganConvertsToIslam
@@ -7198,28 +7327,28 @@ Trigger paganConvertsToIslam
 ;Character Conversion with FactionLeader influence
 ;------------------------------------------
 
-Trigger ChristianFactionMuslimConvertsToChristianity
+Trigger CatholicFactionMuslimConvertsTocatholicism
 	WhenToTest CharacterTurnEnd
 	
 	Condition Trait Muslim >= 1
-		and FactionLeaderTrait Christian >= 1
+		and FactionLeaderTrait Catholic >= 1
 		
-	Affects Christian  1  Chance 50
+	Affects Catholic  1  Chance 50
 	
 
-Trigger ChristianFactionPaganConvertsToChristianity
+Trigger CatholicFactionPaganConvertsTocatholicism
 	WhenToTest CharacterTurnEnd
 	
 	Condition Trait Pagan >= 1
-		and FactionLeaderTrait Christian >= 1
+		and FactionLeaderTrait Catholic >= 1
 		
-	Affects Christian  1  Chance 50
+	Affects Catholic  1  Chance 50
 	
 
-Trigger MuslimFactionChristianConvertsToIslam
+Trigger MuslimFactionCatholicConvertsToIslam
 	WhenToTest CharacterTurnEnd
 	
-	Condition Trait Christian >= 1
+	Condition Trait Catholic >= 1
 		and FactionLeaderTrait Muslim >= 1
 		
 	Affects Muslim  1  Chance 50
@@ -7234,10 +7363,10 @@ Trigger MuslimFactionPaganConvertsToIslam
 	Affects Muslim  1  Chance 50
 	
 
-Trigger PaganFactionChristianConvertsToPaganism
+Trigger PaganFactionCatholicConvertsToPaganism
 	WhenToTest CharacterTurnEnd
 	
-	Condition Trait Christian >= 1
+	Condition Trait Catholic >= 1
 		and FactionLeaderTrait Pagan >= 1
 		
 	Affects Pagan  1  Chance 50
@@ -7254,27 +7383,59 @@ Trigger PaganFactionMuslimConvertsToPaganism
 	
 ; Agents Belief Flavor  
 ;------------------------------------------
-Trigger christianFactionAgentIsChristian
+Trigger catholicFactionAgentIsCatholic
 	WhenToTest AgentCreated
 	
-	Condition FactionLeaderTrait Christian >= 1
+	Condition FactionLeaderTrait Catholic >= 1
 		and SettlementBuildingExists >= church1
 	
-	Affects Christian_Flavor  1  Chance 90
-	
-Trigger christianFactionAgentIsMuslim
+	Affects Catholic_Flavor  1  Chance 90
+
+Trigger orthodoxFactionAgentIsOrthodox
 	WhenToTest AgentCreated
 	
-	Condition FactionLeaderTrait Christian >= 1
+	Condition FactionLeaderTrait Orthodox >= 1
+		and SettlementBuildingExists >= ochurch1
+	
+	Affects Orthodox_Flavor  1  Chance 90
+	
+Trigger apostolicFactionAgentIsApostolic
+	WhenToTest AgentCreated
+	
+	Condition FactionLeaderTrait Apostolic >= 1
+		and SettlementBuildingExists >= achurch1
+	
+	Affects Apostolic_Flavor  1  Chance 90
+	
+Trigger catholicFactionAgentIsMuslim
+	WhenToTest AgentCreated
+	
+	Condition FactionLeaderTrait Catholic >= 1
 		and SettlementBuildingExists >= mosque1
 	
 	Affects Muslim_Flavor  1  Chance 10
 
-Trigger christianFactionAgentIsPagan
+Trigger catholicFactionAgentIsPagan
 	WhenToTest AgentCreated
 	
-	Condition FactionLeaderTrait Christian >= 1
+	Condition FactionLeaderTrait Catholic >= 1
 		and not SettlementBuildingExists >= church1
+	
+	Affects Pagan_Flavor  1  Chance 5
+	
+Trigger apostolicFactionAgentIsMuslim
+	WhenToTest AgentCreated
+	
+	Condition FactionLeaderTrait Apostolic >= 1
+		and SettlementBuildingExists >= mosque1
+	
+	Affects Muslim_Flavor  1  Chance 10
+
+Trigger apostolicFactionAgentIsPagan
+	WhenToTest AgentCreated
+	
+	Condition FactionLeaderTrait Apostolic >= 1
+		and not SettlementBuildingExists >= achurch1
 	
 	Affects Pagan_Flavor  1  Chance 5
 	
@@ -7287,13 +7448,29 @@ Trigger muslimFactionAgentIsMuslim
 	
 	Affects Muslim_Flavor  1  Chance 90
 	
-Trigger muslimFactionAgentIsChristian
+Trigger muslimFactionAgentIsCatholic
 	WhenToTest AgentCreated
 	
 	Condition FactionLeaderTrait Muslim >= 1
 		and not SettlementBuildingExists >= mosque1
 	
-	Affects Christian_Flavor  1  Chance 3
+	Affects Catholic_Flavor  1  Chance 3
+	
+Trigger muslimFactionAgentIsApostolic
+	WhenToTest AgentCreated
+	
+	Condition FactionLeaderTrait Muslim >= 1
+		and not SettlementBuildingExists >= mosque1
+	
+	Affects Apostolic_Flavor  1  Chance 3
+
+Trigger muslimFactionAgentIsOrthodox
+	WhenToTest AgentCreated
+	
+	Condition FactionLeaderTrait Muslim >= 1
+		and not SettlementBuildingExists >= mosque1
+	
+	Affects Orthodox_Flavor  1  Chance 3
 
 Trigger muslimFactionAgentIsPagan
 	WhenToTest AgentCreated
@@ -7319,13 +7496,29 @@ Trigger paganFactionAgentIsMuslim
 	
 	Affects Muslim_Flavor  1  Chance 2
 
-Trigger paganFactionAgentIsChristian
+Trigger paganFactionAgentIsCatholic
 	WhenToTest AgentCreated
 	
 	Condition FactionLeaderTrait Pagan >= 1
 		and not SettlementBuildingExists >= temple1
 	
-	Affects Christian_Flavor  1  Chance 1
+	Affects Catholic_Flavor  1  Chance 1
+
+Trigger paganFactionAgentIsOrthodox
+	WhenToTest AgentCreated
+	
+	Condition FactionLeaderTrait Pagan >= 1
+		and not SettlementBuildingExists >= temple1
+	
+	Affects Orthodox_Flavor  1  Chance 1
+	
+Trigger paganFactionAgentIsApostolic
+	WhenToTest AgentCreated
+	
+	Condition FactionLeaderTrait Pagan >= 1
+		and not SettlementBuildingExists >= temple1
+	
+	Affects Apostolic_Flavor  1  Chance 1
 	
 
 Trigger convertsToPaganAg
@@ -7338,14 +7531,32 @@ Trigger convertsToPaganAg
 	Affects Pagan_Flavor  2  Chance 70
 
 	
-Trigger convertsToChristianityAg
+Trigger convertsTocatholicismAg
 	WhenToTest CharacterTurnEnd
 	
-	Condition not Trait Christian_Flavor >= 1
+	Condition not Trait Catholic_Flavor >= 1
 		and SettlementBuildingExists >= church1
 		and EndedInSettlement
 		
-	Affects Christian_Flavor  2  Chance 70
+	Affects Catholic_Flavor  2  Chance 70
+
+Trigger convertsToorthodoxyAg
+	WhenToTest CharacterTurnEnd
+	
+	Condition not Trait Orthodox_Flavor >= 1
+		and SettlementBuildingExists >= ochurch1
+		and EndedInSettlement
+		
+	Affects Orthodox_Flavor  2  Chance 70
+	
+Trigger convertsToapostolicAg
+	WhenToTest CharacterTurnEnd
+	
+	Condition not Trait Apostolic_Flavor >= 1
+		and SettlementBuildingExists >= achurch1
+		and EndedInSettlement
+		
+	Affects Apostolic_Flavor  2  Chance 70
 	
 	
 Trigger convertsToIslamAg
@@ -8033,7 +8244,7 @@ Trigger ctw1_kingofarmeniatrigger1
     Condition IsFactionLeader
           and Trait KingOfArmenia < 1
           and FactionType seleucid
-          and I_SettlementOwner Sis = seleucid
+          and I_SettlementOwner Vahka = seleucid
 
     Affects KingOfArmenia  1  Chance  100
 
@@ -8045,7 +8256,7 @@ Trigger ctw1_notkingofarmeniatrigger1
     Condition IsFactionLeader
           and Trait KingOfArmenia >= 1
           and FactionType seleucid
-          and not I_SettlementOwner Sis = seleucid
+          and not I_SettlementOwner Vahka = seleucid
 
     Affects NotKingOfArmenia  2  Chance  100
 	
@@ -8729,7 +8940,7 @@ Trigger isinRomebecomesHoly
 
     Condition EndedInSettlement
 		and CultureType barbarian
-		and Trait Christian >= 1
+		and Trait Catholic >= 1
 		and Trait Pious >= 1
 		and not IsFactionLeader
 		and not IsFactionHeir
@@ -8745,11 +8956,11 @@ Trigger christianConvertsToMuslimSolved
 	
 	Condition EndedInSettlement
 		and CultureType barbarian
-		and Trait Christian < 1
+		and Trait Catholic < 1
 		and RemainingMPPercentage = 100
 		and SettlementBuildingExists >= churchprovince2
 		
-	Affects Christian  1  Chance 80
+	Affects Catholic  1  Chance 80
 	
 Trigger christianConvertsToMuslimSolvedA
 	WhenToTest CharacterTurnEnd
@@ -8760,18 +8971,18 @@ Trigger christianConvertsToMuslimSolvedA
 		and RemainingMPPercentage = 100
 		and SettlementBuildingExists >= churchprovince2
 		
-	Affects Christian  2  Chance 80
+	Affects Catholic  2  Chance 80
 
 Trigger christianConvertsToMuslimSolved1
 	WhenToTest CharacterTurnEnd
 	
 	Condition EndedInSettlement
 		and CultureType eastern
-		and Trait Christian < 1
+		and Trait Orthodox < 1
 		and RemainingMPPercentage = 100
 		and SettlementBuildingExists >= churchprovince2
 		
-	Affects Christian  1  Chance 75
+	Affects Orthodox  1  Chance 75
 	
 Trigger christianConvertsToMuslimSolved1A
 	WhenToTest CharacterTurnEnd
@@ -8782,18 +8993,18 @@ Trigger christianConvertsToMuslimSolved1A
 		and RemainingMPPercentage = 100
 		and SettlementBuildingExists >= churchprovince2
 		
-	Affects Christian  2  Chance 75
+	Affects Orthodox  2  Chance 75
 	
 Trigger christianConvertsToMuslimSolved2
 	WhenToTest CharacterTurnEnd
 	
 	Condition EndedInSettlement
 		and CultureType carthaginian
-		and Trait Christian < 1
+		and Trait Orthodox < 1
 		and RemainingMPPercentage = 100
 		and SettlementBuildingExists >= churchprovince2
 		
-	Affects Christian  1  Chance 75
+	Affects Orthodox  1  Chance 75
 	
 Trigger christianConvertsToMuslimSolved2A
 	WhenToTest CharacterTurnEnd
@@ -8804,7 +9015,7 @@ Trigger christianConvertsToMuslimSolved2A
 		and RemainingMPPercentage = 100
 		and SettlementBuildingExists >= churchprovince2
 		
-	Affects Christian  2  Chance 75
+	Affects Orthodox  2  Chance 75
 
 ;; Muslim belief issue vice versa
 
@@ -8814,7 +9025,7 @@ Trigger muslimConvertsToChristSolved
 	Condition EndedInSettlement
 		and CultureType greek
 		and not FactionType seleucid
-		and Trait Christian >= 1
+		and Trait Catholic >= 1
 		and RemainingMPPercentage = 100
 		and SettlementBuildingExists >= mosque1
 		
@@ -8829,9 +9040,9 @@ Trigger muslimConvertsToChristArmenian
 		and FactionType seleucid
 		and Trait Muslim >= 1
 		and RemainingMPPercentage = 100
-		and SettlementBuildingExists >= church1
+		and SettlementBuildingExists >= achurch1
 		
-	Affects Christian  2  Chance 75
+	Affects Apostolic  2  Chance 75
 	
 ;; Crusade influence
 
@@ -8900,34 +9111,34 @@ Trigger jihadfaction
 ;; Saving high cash flow penalty: human player only
 
 ;------------------------------------------
-Trigger goveror_not_building1a
-    WhenToTest SettlementTurnEnd
-
-    Condition GovernorInResidence
-		  and Treasury > 35000
-		  and FactionIsLocal
-		  
-    Affects Corrupt  1  Chance  35
-
+;Trigger goveror_not_building1a
+;    WhenToTest SettlementTurnEnd
+;
+;    Condition GovernorInResidence
+;		  and Treasury > 35000
+;		  and FactionIsLocal
+;		  
+;    Affects Corrupt  1  Chance  35
+;
 ;------------------------------------------
-Trigger goveror_not_building2
-    WhenToTest SettlementTurnEnd
-
-    Condition GovernorInResidence
-		  and Treasury > 50000
-		  and FactionIsLocal
-		  
-    Affects Corrupt  1  Chance  65
-	
+;Trigger goveror_not_building2
+;    WhenToTest SettlementTurnEnd
+;
+;    Condition GovernorInResidence
+;		  and Treasury > 50000
+;		  and FactionIsLocal
+;		  
+;    Affects Corrupt  1  Chance  65
+;	
 ;------------------------------------------
-Trigger goveror_not_building3
-    WhenToTest SettlementTurnEnd
-
-    Condition GovernorInResidence
-		  and Treasury > 75000
-		  and FactionIsLocal
-		  
-    Affects Corrupt  1  Chance  100
+;Trigger goveror_not_building3
+;    WhenToTest SettlementTurnEnd
+;
+;    Condition GovernorInResidence
+;		  and Treasury > 75000
+;		  and FactionIsLocal
+;		  
+;    Affects Corrupt  1  Chance  100
 
 ;; Levante building influence
 
@@ -8996,60 +9207,60 @@ Trigger crusaderfaction5
 
 ;; AI general boni
 ;------------------------------------------
-
-Trigger aigeneralgetstarsslave
-	WhenToTest CharacterTurnEnd
-	
-	Condition FactionType slave
-		and Trait Aigeneral <= 2
-		
-	Affects Aigeneral  1  Chance 100
-
-Trigger aigeneralgetstars1
-	WhenToTest CharacterTurnEnd
-	
-	Condition not FactionIsLocal
-		and Trait Aigeneral < 1
-		
-	Affects Aigeneral  1  Chance 100
-	
-Trigger aigeneralgetstars2
-	WhenToTest CharacterTurnEnd
-	
-	Condition not FactionIsLocal
-		and Trait Aigeneral < 2
-		and Trait Royal = 1
-		
-	Affects Aigeneral  1  Chance 100
-
-Trigger aigeneralgetstars3
-	WhenToTest CharacterTurnEnd
-	
-	Condition not FactionIsLocal
-		and Trait Aigeneral <= 2
-		and Trait Prince = 1
-		
-	Affects Aigeneral  1  Chance 100
-	
-Trigger aigeneralgetstars4
-	WhenToTest CharacterTurnEnd
-	
-	Condition not FactionIsLocal
-		and Trait Aigeneral <= 2
-		and Trait Leader_Prince = 1
-		
-	Affects Aigeneral  1  Chance 100
-
+;
+;Trigger aigeneralgetstarsslave
+;	WhenToTest CharacterTurnEnd
+;	
+;	Condition FactionType slave
+;		and Trait Aigeneral <= 2
+;		
+;	Affects Aigeneral  1  Chance 100
+;
+;Trigger aigeneralgetstars1
+;	WhenToTest CharacterTurnEnd
+;	
+;	Condition not FactionIsLocal
+;		and Trait Aigeneral < 1
+;		
+;	Affects Aigeneral  1  Chance 100
+;	
+;Trigger aigeneralgetstars2
+;	WhenToTest CharacterTurnEnd
+;	
+;	Condition not FactionIsLocal
+;		and Trait Aigeneral < 2
+;		and Trait Royal = 1
+;		
+;	Affects Aigeneral  1  Chance 100
+;
+;Trigger aigeneralgetstars3
+;	WhenToTest CharacterTurnEnd
+;	
+;	Condition not FactionIsLocal
+;		and Trait Aigeneral <= 2
+;		and Trait Prince = 1
+;		
+;	Affects Aigeneral  1  Chance 100
+;	
+;Trigger aigeneralgetstars4
+;	WhenToTest CharacterTurnEnd
+;	
+;	Condition not FactionIsLocal
+;		and Trait Aigeneral <= 2
+;		and Trait Leader_Prince = 1
+;		
+;	Affects Aigeneral  1  Chance 100
+;
 ;; extra
-Trigger aigeneralgetextraboni
-	WhenToTest CharacterTurnEnd
-	
-	Condition not FactionIsLocal
-		and Trait Aigeneral2 <= 1
-		
-	Affects Aigeneral2  1  Chance 100
-
- 	
+;Trigger aigeneralgetextraboni
+;	WhenToTest CharacterTurnEnd
+;	
+;	Condition not FactionIsLocal
+;		and Trait Aigeneral2 <= 1
+;		
+;	Affects Aigeneral2  1  Chance 100
+;
+; 	
 ;; Won Battles
 ;------------------------------------------
 
@@ -9167,51 +9378,51 @@ Trigger generalhpplusoneAIextra
 	Affects HaleAndHearty  1  Chance  100
 	
 ;; power and money penalty for human player
-
-Trigger generalmoneypenalty
-    WhenToTest CharacterTurnEnd
-
-    Condition IsGeneral
-		  and FactionIsLocal
-		  and not Trait MoneyDisadvantage >= 1
-	
-	Affects MoneyDisadvantage  1  Chance  100
-	
-Trigger generalmoneypenalty2
-    WhenToTest CharacterTurnEnd
-
-    Condition IsGeneral
-		  and FactionIsLocal
-		  and Trait Corrupt > 1
-	
-	Affects MoneyDisadvantage  1  Chance  100
-
-	
+;
+;Trigger generalmoneypenalty
+;    WhenToTest CharacterTurnEnd
+;
+;    Condition IsGeneral
+;		  and FactionIsLocal
+;		  and not Trait MoneyDisadvantage >= 1
+;	
+;	Affects MoneyDisadvantage  1  Chance  100
+;	
+;Trigger generalmoneypenalty2
+;    WhenToTest CharacterTurnEnd
+;
+;    Condition IsGeneral
+;		  and FactionIsLocal
+;		  and Trait Corrupt > 1
+;	
+;	Affects MoneyDisadvantage  1  Chance  100
+;
+;	
 ;; power and money penalty solve with "reputation"
-
-Trigger generalmoneypenaltysolve
-    WhenToTest CharacterTurnEnd
-
-    Condition IsGeneral
-		  and not Trait Bloodthirsty > 1
-		  and Trait Battlewinner >= 1
-		  and Trait Brave >= 1 
-		  and not Trait Reputation >= 1 
-	
-	Affects Reputation  1  Chance  100
-	
-Trigger generalmoneypenalty2solve
-    WhenToTest CharacterTurnEnd
-
-    Condition IsGeneral
-		  and not Trait Bloodthirsty > 1
-		  and Trait Battlewinner >= 1
-		  and Trait Brave > 1
- 		  and Trait GoodBaron > 1
-		  and not Trait Lewd >= 1
-		  and not Trait Paranoia >= 1
-		  and not Trait Reputation >= 2
-	
-	Affects Reputation  1  Chance  100
-
+;
+;Trigger generalmoneypenaltysolve
+;    WhenToTest CharacterTurnEnd
+;
+;    Condition IsGeneral
+;		  and not Trait Bloodthirsty > 1
+;		  and Trait Battlewinner >= 1
+;		  and Trait Brave >= 1 
+;		  and not Trait Reputation >= 1 
+;	
+;	Affects Reputation  1  Chance  100
+;	
+;Trigger generalmoneypenalty2solve
+;    WhenToTest CharacterTurnEnd
+;
+;    Condition IsGeneral
+;		  and not Trait Bloodthirsty > 1
+;		  and Trait Battlewinner >= 1
+;		  and Trait Brave > 1
+; 		  and Trait GoodBaron > 1
+;		  and not Trait Lewd >= 1
+;		  and not Trait Paranoia >= 1
+;		  and not Trait Reputation >= 2
+;	
+;	Affects Reputation  1  Chance  100
+;
 ;;;;;;End file so far;;;;;;;;;;;;;;;;;;;;;; 

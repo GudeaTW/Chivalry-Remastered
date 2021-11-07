@@ -81,6 +81,10 @@ texture_variants
 		spain			##standard_spain.tga
 		thrace			##standard_thrace.tga
 		slave			##standard_slave.tga
+		georgia			##standard_georgia.tga
+		mongol			##standard_mongol.tga
+		bulgaria		##standard_bulgaria.tga
+		pope			##standard_pope.tga
 	}
 
 	##cren.tga
@@ -358,8 +362,10 @@ transition_scripts
 	}
 }
 
+include dbb_barbarian_invasion.txt
+
+include dbb_chivalry.txt
 include CTW_we_walls.txt
-include CTW_we_buildings.txt
 	
 include dbb_slot_fillers.txt
 

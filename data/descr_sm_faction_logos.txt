@@ -33,3 +33,7 @@ icon	ui/faction_icons/georgia.tga
 icon	ui/faction_icons/mongol.tga
 icon	ui/faction_icons/bulgaria.tga
 icon	ui/faction_icons/pope.tga
+icon	ui/faction_icons/pech.tga
+icon	ui/faction_icons/jeru.tga
+icon	ui/faction_icons/novgo.tga
+icon	ui/faction_icons/dani.tga

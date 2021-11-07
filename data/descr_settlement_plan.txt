@@ -179,10 +179,16 @@ primary
 	warlords_hold
 	warlords_stable
 	warriors_hold
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;				chivalry slot buildings				;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+	BI_christian_shrine
+	BI_christian_chapel
+	BI_christian_church
+	BI_christian_cathedral
+	BI_christian_basilica
 	ctw_we_church1
 	ctw_we_barracks
 	ctw_gallows
@@ -197,7 +203,8 @@ primary
 	ctw_we_armoury
 	ctw_we_siege
 	ctw_we_tax_office
-	ctw_we_monastery		
+	ctw_we_monastery
+	
 }
 
 climate_groups
@@ -332,11 +339,81 @@ ambient_groups
 		greek_tenamentA,	0,	0,	0,	0
 	}
 
+	group greek_tenamentA1_group
+	{
+		;floor underlay_greek_tenamentA.cas overlay_greek_tenamentA.cas
+
+		greek_tenamentA1,	0,	0,	0,	0
+	}
+
+	group greek_tenamentA2_group
+	{
+		;floor underlay_greek_tenamentA.cas overlay_greek_tenamentA.cas
+
+		greek_tenamentA2,	0,	0,	0,	0
+	}
+
+	group greek_tenamentA3_group
+	{
+		;floor underlay_greek_tenamentA.cas overlay_greek_tenamentA.cas
+
+		greek_tenamentA3,	0,	0,	0,	0
+	}
+
+	group greek_tenamentA4_group
+	{
+		;floor underlay_greek_tenamentA.cas overlay_greek_tenamentA.cas
+
+		greek_tenamentA4,	0,	0,	0,	0
+	}
+
+	group greek_tenamentA5_group
+	{
+		;floor underlay_greek_tenamentA.cas overlay_greek_tenamentA.cas
+
+		greek_tenamentA5,	0,	0,	0,	0
+	}
+
 	group roman_tenamentA_group
 	{
 		floor underlay_roman_tenamentA.cas overlay_roman_tenamentA.cas
 
 		roman_tenamentA,	0,	0,	0,	0
+	}
+
+	group roman_tenamentA1_group
+	{
+		;floor underlay_roman_tenamentA.cas overlay_roman_tenamentA.cas
+
+		roman_tenamentA1,	0,	0,	0,	0
+	}
+
+	group roman_tenamentA2_group
+	{
+		;floor underlay_roman_tenamentA.cas overlay_roman_tenamentA.cas
+
+		roman_tenamentA2,	0,	0,	0,	0
+	}
+
+	group roman_tenamentA3_group
+	{
+		;floor underlay_roman_tenamentA.cas overlay_roman_tenamentA.cas
+
+		roman_tenamentA3,	0,	0,	0,	0
+	}
+
+	group roman_tenamentA4_group
+	{
+		;floor underlay_roman_tenamentA.cas overlay_roman_tenamentA.cas
+
+		roman_tenamentA4,	0,	0,	0,	0
+	}
+
+	group roman_tenamentA5_group
+	{
+		;floor underlay_roman_tenamentA.cas overlay_roman_tenamentA.cas
+
+		roman_tenamentA5,	0,	0,	0,	0
 	}
 
 	group public_gardens_group
@@ -829,7 +906,6 @@ ambient_groups
 
 ; ** these are the groups of trees and buildings that go into each empty slot and slot filler
 
-
 	group	empty
 	{
 		;
@@ -852,10 +928,10 @@ ambient_groups
 
 	group	slot_48x32_empty_group_roman_bits
 	{
-		roman_tenamentD,	 4.46,	 9.21,	90.0,	0.0
-		roman_tenamentE,	-16.69,	 6.08,	96.6922,	0.0
-		roman_tenamentE,	-7.34,	-6.55,	93.3078,	0.0
-		roman_tenamentE,	 7.83,	-8.35,	96.6922,	0.0
+		roman_tenamentD1,	 4.46,	 9.21,	90.0,	0.0
+		roman_tenamentE1,	-16.69,	 6.08,	96.6922,	0.0
+		roman_tenamentE2,	-7.34,	-6.55,	93.3078,	0.0
+		roman_tenamentE1,	 7.83,	-8.35,	96.6922,	0.0
 		tree_B,	-17.30,	-8.09,	15.0,	0.0
 		tree_B,	 18.47,	-9.95,	105.0,	0.0
 		tree_C,	-6.68,	 2.61,	180.0,	0.0
@@ -863,10 +939,10 @@ ambient_groups
 
 	group	slot_48x32_empty_group_greek_bits
 	{
-		greek_tenamentD,	 4.46,	 9.21,	90.0,	0.0
-		greek_tenamentE,	-16.69,	 6.08,	96.6922,	0.0
-		greek_tenamentE,	-7.34,	-6.55,	93.3078,	0.0
-		greek_tenamentE,	 7.83,	-8.35,	96.6922,	0.0
+		greek_tenamentD1,	 4.46,	 9.21,	90.0,	0.0
+		greek_tenamentE1,	-16.69,	 6.08,	96.6922,	0.0
+		greek_tenamentE2,	-7.34,	-6.55,	93.3078,	0.0
+		greek_tenamentE1,	 7.83,	-8.35,	96.6922,	0.0
 		tree_B,	-17.30,	-8.09,	15.0,	0.0
 		tree_B,	 18.47,	-9.95,	105.0,	0.0
 		tree_C,	-6.68,	 2.61,	180.0,	0.0
@@ -937,18 +1013,18 @@ ambient_groups
 	{
 		roman_colonnaded_portico,	 32.19,	-21.65,	180.0,	0.0
 		roman_colonnaded_portico,	-10.62,	 17.89,	90.0,	0.0
-		roman_tenamentB,	-35.62,	 13.66,	90.0,	0.0
-		roman_tenamentD,	-10.27,	-13.70,	190.0,	0.0
-		roman_tenamentD,	-40.73,	-14.88,	140.0,	0.0
-		roman_tenamentD,	 28.19,	 7.80,	95.0,	0.0
-		roman_tenamentE,	 10.23,	 23.89,	33.3078,	0.0
-		roman_tenamentE,	-28.96,	-9.17,	66.6922,	0.0
-		roman_tenamentE,	-48.42,	-22.99,	91.6922,	0.0
-		roman_tenamentE,	 28.46,	 22.90,	78.3078,	0.0
-		roman_tenamentE,	 37.19,	-7.27,	183.308,	0.0
-		roman_tenamentE,	 5.06,	 7.21,	1.69221,	0.0
-		roman_tenamentE,	-21.22,	-17.30,	66.6922,	0.0
-		roman_tenamentE,	 25.50,	-8.17,	96.6922,	0.0
+		roman_tenamentB1,	-35.62,	 13.66,	90.0,	0.0
+		roman_tenamentD1,	-10.27,	-13.70,	190.0,	0.0
+		roman_tenamentD2,	-40.73,	-14.88,	140.0,	0.0
+		roman_tenamentD3,	 28.19,	 7.80,	95.0,	0.0
+		roman_tenamentE1,	 10.23,	 23.89,	33.3078,	0.0
+		roman_tenamentE2,	-28.96,	-9.17,	66.6922,	0.0
+		roman_tenamentE1,	-48.42,	-22.99,	91.6922,	0.0
+		roman_tenamentE2,	 28.46,	 22.90,	78.3078,	0.0
+		roman_tenamentE1,	 37.19,	-7.27,	183.308,	0.0
+		roman_tenamentE2,	 5.06,	 7.21,	1.69221,	0.0
+		roman_tenamentE1,	-21.22,	-17.30,	66.6922,	0.0
+		roman_tenamentE2,	 25.50,	-8.17,	96.6922,	0.0
 		tree_A,	 12.0,	-20.0,	0.0,	0.0
 		tree_A,	 44.00,	 20.0,	0.0,	0.0
 		tree_B,	 15.0,	-7.00,	0.0,	0.0
@@ -965,18 +1041,18 @@ ambient_groups
 	{
 		greek_colonnaded_portico,	 32.19,	-21.65,	180.0,	0.0
 		greek_colonnaded_portico,	-10.62,	 17.89,	90.0,	0.0
-		greek_tenamentB,	-35.62,	 13.66,	90.0,	0.0
-		greek_tenamentD,	-10.27,	-13.70,	190.0,	0.0
-		greek_tenamentD,	-40.73,	-14.88,	140.0,	0.0
-		greek_tenamentD,	 28.19,	 7.80,	95.0,	0.0
-		greek_tenamentE,	 10.23,	 23.89,	33.3078,	0.0
-		greek_tenamentE,	-28.96,	-9.17,	66.6922,	0.0
-		greek_tenamentE,	-48.42,	-22.99,	91.6922,	0.0
-		greek_tenamentE,	 28.46,	 22.90,	78.3078,	0.0
-		greek_tenamentE,	 37.19,	-7.27,	183.308,	0.0
-		greek_tenamentE,	 5.06,	 7.21,	1.69221,	0.0
-		greek_tenamentE,	-21.22,	-17.30,	66.6922,	0.0
-		greek_tenamentE,	 25.50,	-8.17,	96.6922,	0.0
+		greek_tenamentB1,	-35.62,	 13.66,	90.0,	0.0
+		greek_tenamentD1,	-10.27,	-13.70,	190.0,	0.0
+		greek_tenamentD2,	-40.73,	-14.88,	140.0,	0.0
+		greek_tenamentD3,	 28.19,	 7.80,	95.0,	0.0
+		greek_tenamentE1,	 10.23,	 23.89,	33.3078,	0.0
+		greek_tenamentE2,	-28.96,	-9.17,	66.6922,	0.0
+		greek_tenamentE1,	-48.42,	-22.99,	91.6922,	0.0
+		greek_tenamentE2,	 28.46,	 22.90,	78.3078,	0.0
+		greek_tenamentE1,	 37.19,	-7.27,	183.308,	0.0
+		greek_tenamentE2,	 5.06,	 7.21,	1.69221,	0.0
+		greek_tenamentE1,	-21.22,	-17.30,	66.6922,	0.0
+		greek_tenamentE2,	 25.50,	-8.17,	96.6922,	0.0
 		tree_A,	 12.0,	-20.0,	0.0,	0.0
 		tree_A,	 44.00,	 20.0,	0.0,	0.0
 		tree_B,	 15.0,	-7.00,	0.0,	0.0
@@ -1034,18 +1110,18 @@ ambient_groups
 	{
 		floor none overlay_slot_filler_48x32_112x64_roman.cas
 
-		roman_tenamentB,	-38.69,	 15.10,	180.0,	0.0
-		roman_tenamentD,	-38.30,	-24.18,	85.0,	0.0
-		roman_tenamentD,	 19.52,	-22.75,	95.0,	0.0
-		roman_tenamentD,	 37.15,	 24.47,	85.0,	0.0
-		roman_tenamentD,	-4.97,	 23.55,	80.0,	0.0
-		roman_tenamentE,	 30.05,	-9.24,	101.692,	0.0
-		roman_tenamentE,	-33.78,	-12.28,	163.308,	0.0
-		roman_tenamentE,	 46.84,	 10.82,	101.692,	0.0
-		roman_tenamentE,	-7.56,	-23.13,	81.6922,	0.0
-		roman_tenamentE,	 45.42,	-24.93,	178.308,	0.0
-		roman_tenamentE,	 16.48,	 23.68,	88.3078,	0.0
-		roman_tenamentE,	-48.36,	-10.16,	101.692,	0.0
+		roman_tenamentB1,	-38.69,	 15.10,	180.0,	0.0
+		roman_tenamentD1,	-38.30,	-24.18,	85.0,	0.0
+		roman_tenamentD2,	 19.52,	-22.75,	95.0,	0.0
+		roman_tenamentD3,	 37.15,	 24.47,	85.0,	0.0
+		roman_tenamentD4,	-4.97,	 23.55,	80.0,	0.0
+		roman_tenamentE1,	 30.05,	-9.24,	101.692,	0.0
+		roman_tenamentE2,	-33.78,	-12.28,	163.308,	0.0
+		roman_tenamentE1,	 46.84,	 10.82,	101.692,	0.0
+		roman_tenamentE2,	-7.56,	-23.13,	81.6922,	0.0
+		roman_tenamentE1,	 45.42,	-24.93,	178.308,	0.0
+		roman_tenamentE2,	 16.48,	 23.68,	88.3078,	0.0
+		roman_tenamentE1,	-48.36,	-10.16,	101.692,	0.0
 		tree_A,	 44.46,	-11.69,	0.0,	0.0
 		tree_B,	 31.33,	 8.44,	35.0,	0.0
 		tree_B,	-38.82,	 14.82,	0.0,	0.0
@@ -1056,18 +1132,18 @@ ambient_groups
 	{
 		floor none overlay_slot_filler_48x32_112x64_roman.cas
 
-		greek_tenamentB,	-38.69,	 15.10,	180.0,	0.0
-		greek_tenamentD,	-38.30,	-24.18,	85.0,	0.0
-		greek_tenamentD,	 19.52,	-22.75,	95.0,	0.0
-		greek_tenamentD,	 37.15,	 24.47,	85.0,	0.0
-		greek_tenamentD,	-4.97,	 23.55,	80.0,	0.0
-		greek_tenamentE,	 30.05,	-9.24,	101.692,	0.0
-		greek_tenamentE,	-33.78,	-12.28,	163.308,	0.0
-		greek_tenamentE,	 46.84,	 10.82,	101.692,	0.0
-		greek_tenamentE,	-7.56,	-23.13,	81.6922,	0.0
-		greek_tenamentE,	 45.42,	-24.93,	178.308,	0.0
-		greek_tenamentE,	 16.48,	 23.68,	88.3078,	0.0
-		greek_tenamentE,	-48.36,	-10.16,	101.692,	0.0
+		greek_tenamentB1,	-38.69,	 15.10,	180.0,	0.0
+		greek_tenamentD1,	-38.30,	-24.18,	85.0,	0.0
+		greek_tenamentD2,	 19.52,	-22.75,	95.0,	0.0
+		greek_tenamentD3,	 37.15,	 24.47,	85.0,	0.0
+		greek_tenamentD4,	-4.97,	 23.55,	80.0,	0.0
+		greek_tenamentE1,	 30.05,	-9.24,	101.692,	0.0
+		greek_tenamentE2,	-33.78,	-12.28,	163.308,	0.0
+		greek_tenamentE1,	 46.84,	 10.82,	101.692,	0.0
+		greek_tenamentE2,	-7.56,	-23.13,	81.6922,	0.0
+		greek_tenamentE1,	 45.42,	-24.93,	178.308,	0.0
+		greek_tenamentE2,	 16.48,	 23.68,	88.3078,	0.0
+		greek_tenamentE1,	-48.36,	-10.16,	101.692,	0.0
 		tree_A,	 44.46,	-11.69,	0.0,	0.0
 		tree_B,	 31.33,	 8.44,	35.0,	0.0
 		tree_B,	-38.82,	 14.82,	0.0,	0.0
@@ -1172,25 +1248,25 @@ ambient_groups
 		roman_colonnaded_portico,	-42.04,	 46.75,	45.0,	0.0
 		roman_colonnaded_portico,	-14.54,	-46.29,	95.0,	0.0
 		roman_colonnaded_portico,	 50.65,	 47.36,	75.0,	0.0
-		roman_tenamentD,	-58.79,	-38.54,	105.0,	0.0
-		roman_tenamentD,	 3.69,	 52.03,	85.0,	0.0
-		roman_tenamentD,	-61.60,	 5.85,	0.0,	0.0
-		roman_tenamentD,	-69.13,	 34.49,	5.0,	0.0
-		roman_tenamentD,	-6.28,	 40.35,	95.0,	0.0
-		roman_tenamentD,	 19.97,	-53.37,	85.0,	0.0
-		roman_tenamentD,	 67.25,	-31.58,	15.0,	0.0
-		roman_tenamentD,	 70.56,	 18.60,	0.0,	0.0
-		roman_tenamentE,	 69.83,	 51.80,	101.692,	0.0
-		roman_tenamentE,	 65.52,	-9.54,	168.308,	0.0
-		roman_tenamentE,	-22.43,	 52.63,	16.6922,	0.0
-		roman_tenamentE,	 65.48,	-53.90,	6.69222,	0.0
-		roman_tenamentE,	-69.82,	-50.51,	81.6922,	0.0
-		roman_tenamentE,	 16.37,	 39.90,	101.692,	0.0
-		roman_tenamentE,	-57.75,	 38.21,	163.308,	0.0
-		roman_tenamentE,	-47.38,	-53.59,	21.6922,	0.0
-		roman_tenamentE,	-71.31,	-1.10,	101.692,	0.0
-		roman_tenamentE,	 11.73,	-39.70,	193.308,	0.0
-		roman_tenamentE,	 26.44,	-39.66,	81.6922,	0.0
+		roman_tenamentD1,	-58.79,	-38.54,	105.0,	0.0
+		roman_tenamentD2,	 3.69,	 52.03,	85.0,	0.0
+		roman_tenamentD3,	-61.60,	 5.85,	0.0,	0.0
+		roman_tenamentD4,	-69.13,	 34.49,	5.0,	0.0
+		roman_tenamentD5,	-6.28,	 40.35,	95.0,	0.0
+		roman_tenamentD1,	 19.97,	-53.37,	85.0,	0.0
+		roman_tenamentD2,	 67.25,	-31.58,	15.0,	0.0
+		roman_tenamentD3,	 70.56,	 18.60,	0.0,	0.0
+		roman_tenamentE1,	 69.83,	 51.80,	101.692,	0.0
+		roman_tenamentE2,	 65.52,	-9.54,	168.308,	0.0
+		roman_tenamentE1,	-22.43,	 52.63,	16.6922,	0.0
+		roman_tenamentE2,	 65.48,	-53.90,	6.69222,	0.0
+		roman_tenamentE1,	-69.82,	-50.51,	81.6922,	0.0
+		roman_tenamentE2,	 16.37,	 39.90,	101.692,	0.0
+		roman_tenamentE1,	-57.75,	 38.21,	163.308,	0.0
+		roman_tenamentE2,	-47.38,	-53.59,	21.6922,	0.0
+		roman_tenamentE1,	-71.31,	-1.10,	101.692,	0.0
+		roman_tenamentE2,	 11.73,	-39.70,	193.308,	0.0
+		roman_tenamentE1,	 26.44,	-39.66,	81.6922,	0.0
 		tree_A,	 54.38,	-42.19,	105.0,	0.0
 		tree_A,	-33.86,	-43.31,	170.0,	0.0
 		tree_A,	-66.44,	-19.91,	170.0,	0.0
@@ -1216,25 +1292,25 @@ ambient_groups
 		greek_colonnaded_portico,	-42.04,	 46.75,	45.0,	0.0
 		greek_colonnaded_portico,	-14.54,	-46.29,	95.0,	0.0
 		greek_colonnaded_portico,	 50.65,	 47.36,	75.0,	0.0
-		greek_tenamentD,	-58.79,	-38.54,	105.0,	0.0
-		greek_tenamentD,	 3.69,	 52.03,	85.0,	0.0
-		greek_tenamentD,	-61.60,	 5.85,	0.0,	0.0
-		greek_tenamentD,	-69.13,	 34.49,	5.0,	0.0
-		greek_tenamentD,	-6.28,	 40.35,	95.0,	0.0
-		greek_tenamentD,	 19.97,	-53.37,	85.0,	0.0
-		greek_tenamentD,	 67.25,	-31.58,	15.0,	0.0
-		greek_tenamentD,	 70.56,	 18.60,	0.0,	0.0
-		greek_tenamentE,	 69.83,	 51.80,	101.692,	0.0
-		greek_tenamentE,	 65.52,	-9.54,	168.308,	0.0
-		greek_tenamentE,	-22.43,	 52.63,	16.6922,	0.0
-		greek_tenamentE,	 65.48,	-53.90,	6.69222,	0.0
-		greek_tenamentE,	-69.82,	-50.51,	81.6922,	0.0
-		greek_tenamentE,	 16.37,	 39.90,	101.692,	0.0
-		greek_tenamentE,	-57.75,	 38.21,	163.308,	0.0
-		greek_tenamentE,	-47.38,	-53.59,	21.6922,	0.0
-		greek_tenamentE,	-71.31,	-1.10,	101.692,	0.0
-		greek_tenamentE,	 11.73,	-39.70,	193.308,	0.0
-		greek_tenamentE,	 26.44,	-39.66,	81.6922,	0.0
+		greek_tenamentD1,	-58.79,	-38.54,	105.0,	0.0
+		greek_tenamentD2,	 3.69,	 52.03,	85.0,	0.0
+		greek_tenamentD3,	-61.60,	 5.85,	0.0,	0.0
+		greek_tenamentD4,	-69.13,	 34.49,	5.0,	0.0
+		greek_tenamentD5,	-6.28,	 40.35,	95.0,	0.0
+		greek_tenamentD1,	 19.97,	-53.37,	85.0,	0.0
+		greek_tenamentD2,	 67.25,	-31.58,	15.0,	0.0
+		greek_tenamentD3,	 70.56,	 18.60,	0.0,	0.0
+		greek_tenamentE1,	 69.83,	 51.80,	101.692,	0.0
+		greek_tenamentE2,	 65.52,	-9.54,	168.308,	0.0
+		greek_tenamentE1,	-22.43,	 52.63,	16.6922,	0.0
+		greek_tenamentE2,	 65.48,	-53.90,	6.69222,	0.0
+		greek_tenamentE1,	-69.82,	-50.51,	81.6922,	0.0
+		greek_tenamentE2,	 16.37,	 39.90,	101.692,	0.0
+		greek_tenamentE1,	-57.75,	 38.21,	163.308,	0.0
+		greek_tenamentE2,	-47.38,	-53.59,	21.6922,	0.0
+		greek_tenamentE1,	-71.31,	-1.10,	101.692,	0.0
+		greek_tenamentE2,	 11.73,	-39.70,	193.308,	0.0
+		greek_tenamentE1,	 26.44,	-39.66,	81.6922,	0.0
 		tree_A,	 54.38,	-42.19,	105.0,	0.0
 		tree_A,	-33.86,	-43.31,	170.0,	0.0
 		tree_A,	-66.44,	-19.91,	170.0,	0.0
@@ -1382,34 +1458,34 @@ ambient_groups
 		roman_colonnaded_portico,	-21.75,	 78.57,	280.0,	0.0
 		roman_colonnaded_portico,	 91.57,	-14.31,	90.0,	0.0
 		roman_colonnaded_portico,	-44.31,	-78.34,	90.0,	0.0
-		roman_tenamentB,	-107.02,	 71.78,	95.0,	0.0
-		roman_tenamentB,	-104.09,	-73.54,	0.0,	0.0
-		roman_tenamentC,	-102.42,	-7.19,	80.0,	0.0
-		roman_tenamentC,	 102.32,	 59.98,	100.0,	0.0
-		roman_tenamentC,	 101.96,	-59.40,	85.0,	0.0
-		roman_tenamentD,	-71.73,	-71.53,	85.0,	0.0
-		roman_tenamentD,	 20.65,	-72.27,	85.0,	0.0
-		roman_tenamentD,	 7.12,	 73.40,	90.0,	0.0
-		roman_tenamentD,	 62.27,	 74.13,	105.0,	0.0
-		roman_tenamentD,	 107.04,	 9.31,	85.0,	0.0
-		roman_tenamentD,	-68.35,	 86.44,	85.0,	0.0
-		roman_tenamentD,	-104.76,	 48.45,	80.0,	0.0
-		roman_tenamentD,	 86.75,	 20.07,	0.0,	0.0
-		roman_tenamentE,	-7.60,	-72.30,	101.692,	0.0
-		roman_tenamentE,	-7.55,	 84.33,	83.3078,	0.0
-		roman_tenamentE,	 20.28,	-84.33,	163.308,	0.0
-		roman_tenamentE,	 71.53,	 84.81,	78.3078,	0.0
-		roman_tenamentE,	 9.17,	-84.78,	93.3078,	0.0
-		roman_tenamentE,	-78.51,	-84.40,	78.3078,	0.0
-		roman_tenamentE,	 33.16,	-82.91,	78.3078,	0.0
-		roman_tenamentE,	 21.93,	 84.79,	83.3078,	0.0
-		roman_tenamentE,	 116.41,	 22.03,	101.692,	0.0
-		roman_tenamentE,	 7.22,	 84.51,	1.69221,	0.0
-		roman_tenamentE,	-77.96,	 72.76,	108.308,	0.0
-		roman_tenamentE,	-58.59,	 73.60,	78.3078,	0.0
-		roman_tenamentE,	-61.49,	-82.20,	108.308,	0.0
-		roman_tenamentE,	 100.30,	 21.44,	168.308,	0.0
-		roman_tenamentE,	 107.56,	-24.02,	193.308,	0.0
+		roman_tenamentB1,	-107.02,	 71.78,	95.0,	0.0
+		roman_tenamentB2,	-104.09,	-73.54,	0.0,	0.0
+		roman_tenamentC1,	-102.42,	-7.19,	80.0,	0.0
+		roman_tenamentC2,	 102.32,	 59.98,	100.0,	0.0
+		roman_tenamentC3,	 101.96,	-59.40,	85.0,	0.0
+		roman_tenamentD1,	-71.73,	-71.53,	85.0,	0.0
+		roman_tenamentD2,	 20.65,	-72.27,	85.0,	0.0
+		roman_tenamentD3,	 7.12,	 73.40,	90.0,	0.0
+		roman_tenamentD4,	 62.27,	 74.13,	105.0,	0.0
+		roman_tenamentD5,	 107.04,	 9.31,	85.0,	0.0
+		roman_tenamentD1,	-68.35,	 86.44,	85.0,	0.0
+		roman_tenamentD2,	-104.76,	 48.45,	80.0,	0.0
+		roman_tenamentD3,	 86.75,	 20.07,	0.0,	0.0
+		roman_tenamentE1,	-7.60,	-72.30,	101.692,	0.0
+		roman_tenamentE2,	-7.55,	 84.33,	83.3078,	0.0
+		roman_tenamentE1,	 20.28,	-84.33,	163.308,	0.0
+		roman_tenamentE2,	 71.53,	 84.81,	78.3078,	0.0
+		roman_tenamentE1,	 9.17,	-84.78,	93.3078,	0.0
+		roman_tenamentE2,	-78.51,	-84.40,	78.3078,	0.0
+		roman_tenamentE1,	 33.16,	-82.91,	78.3078,	0.0
+		roman_tenamentE2,	 21.93,	 84.79,	83.3078,	0.0
+		roman_tenamentE1,	 116.41,	 22.03,	101.692,	0.0
+		roman_tenamentE2,	 7.22,	 84.51,	1.69221,	0.0
+		roman_tenamentE1,	-77.96,	 72.76,	108.308,	0.0
+		roman_tenamentE2,	-58.59,	 73.60,	78.3078,	0.0
+		roman_tenamentE1,	-61.49,	-82.20,	108.308,	0.0
+		roman_tenamentE2,	 100.30,	 21.44,	168.308,	0.0
+		roman_tenamentE1,	 107.56,	-24.02,	193.308,	0.0
 		tree_C,	-88.00,	 80.00,	180.0,	0.0
 		tree_C,	-101.0,	 5.00,	90.0,	0.0
 		tree_A,	-97.99,	 32.96,	75.0,	0.0
@@ -1431,34 +1507,34 @@ ambient_groups
 		greek_colonnaded_portico,	-21.75,	 78.57,	280.0,	0.0
 		greek_colonnaded_portico,	 91.57,	-14.31,	90.0,	0.0
 		greek_colonnaded_portico,	-44.31,	-78.34,	90.0,	0.0
-		greek_tenamentB,	-107.02,	 71.78,	95.0,	0.0
-		greek_tenamentB,	-104.09,	-73.54,	0.0,	0.0
-		greek_tenamentC,	-102.42,	-7.19,	80.0,	0.0
-		greek_tenamentC,	 102.32,	 59.98,	100.0,	0.0
-		greek_tenamentC,	 101.96,	-59.40,	85.0,	0.0
-		greek_tenamentD,	-71.73,	-71.53,	85.0,	0.0
-		greek_tenamentD,	 20.65,	-72.27,	85.0,	0.0
-		greek_tenamentD,	 7.12,	 73.40,	90.0,	0.0
-		greek_tenamentD,	 62.27,	 74.13,	105.0,	0.0
-		greek_tenamentD,	 107.04,	 9.31,	85.0,	0.0
-		greek_tenamentD,	-68.35,	 86.44,	85.0,	0.0
-		greek_tenamentD,	-104.76,	 48.45,	80.0,	0.0
-		greek_tenamentD,	 86.75,	 20.07,	0.0,	0.0
-		greek_tenamentE,	-7.60,	-72.30,	101.692,	0.0
-		greek_tenamentE,	-7.55,	 84.33,	83.3078,	0.0
-		greek_tenamentE,	 20.28,	-84.33,	163.308,	0.0
-		greek_tenamentE,	 71.53,	 84.81,	78.3078,	0.0
-		greek_tenamentE,	 9.17,	-84.78,	93.3078,	0.0
-		greek_tenamentE,	-78.51,	-84.40,	78.3078,	0.0
-		greek_tenamentE,	 33.16,	-82.91,	78.3078,	0.0
-		greek_tenamentE,	 21.93,	 84.79,	83.3078,	0.0
-		greek_tenamentE,	 116.41,	 22.03,	101.692,	0.0
-		greek_tenamentE,	 7.22,	 84.51,	1.69221,	0.0
-		greek_tenamentE,	-77.96,	 72.76,	108.308,	0.0
-		greek_tenamentE,	-58.59,	 73.60,	78.3078,	0.0
-		greek_tenamentE,	-61.49,	-82.20,	108.308,	0.0
-		greek_tenamentE,	 100.30,	 21.44,	168.308,	0.0
-		greek_tenamentE,	 107.56,	-24.02,	193.308,	0.0
+		greek_tenamentB1,	-107.02,	 71.78,	95.0,	0.0
+		greek_tenamentB2,	-104.09,	-73.54,	0.0,	0.0
+		greek_tenamentC1,	-102.42,	-7.19,	80.0,	0.0
+		greek_tenamentC2,	 102.32,	 59.98,	100.0,	0.0
+		greek_tenamentC3,	 101.96,	-59.40,	85.0,	0.0
+		greek_tenamentD1,	-71.73,	-71.53,	85.0,	0.0
+		greek_tenamentD2,	 20.65,	-72.27,	85.0,	0.0
+		greek_tenamentD3,	 7.12,	 73.40,	90.0,	0.0
+		greek_tenamentD4,	 62.27,	 74.13,	105.0,	0.0
+		greek_tenamentD5,	 107.04,	 9.31,	85.0,	0.0
+		greek_tenamentD1,	-68.35,	 86.44,	85.0,	0.0
+		greek_tenamentD2,	-104.76,	 48.45,	80.0,	0.0
+		greek_tenamentD3,	 86.75,	 20.07,	0.0,	0.0
+		greek_tenamentE1,	-7.60,	-72.30,	101.692,	0.0
+		greek_tenamentE2,	-7.55,	 84.33,	83.3078,	0.0
+		greek_tenamentE1,	 20.28,	-84.33,	163.308,	0.0
+		greek_tenamentE2,	 71.53,	 84.81,	78.3078,	0.0
+		greek_tenamentE1,	 9.17,	-84.78,	93.3078,	0.0
+		greek_tenamentE2,	-78.51,	-84.40,	78.3078,	0.0
+		greek_tenamentE1,	 33.16,	-82.91,	78.3078,	0.0
+		greek_tenamentE2,	 21.93,	 84.79,	83.3078,	0.0
+		greek_tenamentE1,	 116.41,	 22.03,	101.692,	0.0
+		greek_tenamentE2,	 7.22,	 84.51,	1.69221,	0.0
+		greek_tenamentE1,	-77.96,	 72.76,	108.308,	0.0
+		greek_tenamentE2,	-58.59,	 73.60,	78.3078,	0.0
+		greek_tenamentE1,	-61.49,	-82.20,	108.308,	0.0
+		greek_tenamentE2,	 100.30,	 21.44,	168.308,	0.0
+		greek_tenamentE1,	 107.56,	-24.02,	193.308,	0.0
 		tree_C,	-88.00,	 80.00,	180.0,	0.0
 		tree_C,	-101.0,	 5.00,	90.0,	0.0
 		tree_A,	-97.99,	 32.96,	75.0,	0.0
@@ -1628,20 +1704,20 @@ ambient_groups
 	{
 		floor none	overlay_slot_filler_112x64_256x96_roman.cas
 
-		roman_tenamentA,	-91.79,	 0.83,	0.0,	0.0
-		roman_tenamentB,	 109.03,	 21.85,	0.0,	0.0
-		roman_tenamentB,	 75.24,	 28.67,	180.0,	0.0
-		roman_tenamentC,	 89.50,	-19.00,	180.0,	0.0
-		roman_tenamentD,	-39.00,	 39.22,	90.0,	0.0
-		roman_tenamentD,	 36.11,	-39.26,	80.0,	0.0
-		roman_tenamentD,	-19.47,	-39.37,	85.0,	0.0
-		roman_tenamentD,	 78.66,	-39.09,	90.0,	0.0
-		roman_tenamentD,	 40.98,	 39.73,	95.0,	0.0
-		roman_tenamentE,	-6.51,	 39.58,	183.308,	0.0
-		roman_tenamentE,	 118.64,	-39.53,	168.308,	0.0
-		roman_tenamentE,	 10.79,	-38.81,	183.308,	0.0
-		roman_tenamentE,	-44.93,	-39.20,	83.3078,	0.0
-		roman_tenamentE,	 19.13,	 39.90,	101.692,	0.0
+		roman_tenamentA1,	-91.79,	 0.83,	0.0,	0.0
+		roman_tenamentB1,	 109.03,	 21.85,	0.0,	0.0
+		roman_tenamentB2,	 75.24,	 28.67,	180.0,	0.0
+		roman_tenamentC1,	 89.50,	-19.00,	180.0,	0.0
+		roman_tenamentD1,	-39.00,	 39.22,	90.0,	0.0
+		roman_tenamentD2,	 36.11,	-39.26,	80.0,	0.0
+		roman_tenamentD3,	-19.47,	-39.37,	85.0,	0.0
+		roman_tenamentD4,	 78.66,	-39.09,	90.0,	0.0
+		roman_tenamentD5,	 40.98,	 39.73,	95.0,	0.0
+		roman_tenamentE1,	-6.51,	 39.58,	183.308,	0.0
+		roman_tenamentE2,	 118.64,	-39.53,	168.308,	0.0
+		roman_tenamentE1,	 10.79,	-38.81,	183.308,	0.0
+		roman_tenamentE2,	-44.93,	-39.20,	83.3078,	0.0
+		roman_tenamentE1,	 19.13,	 39.90,	101.692,	0.0
 		tree_B,	 6.88,	 39.71,	10.0,	0.0
 		tree_B,	 104.84,	-39.73,	10.0,	0.0
 		tree_B,	 76.63,	 8.24,	90.0,	0.0
@@ -1657,20 +1733,20 @@ ambient_groups
 	{
 		floor none	overlay_slot_filler_112x64_256x96_roman.cas
 
-		greek_tenamentA,	-91.79,	 0.83,	0.0,	0.0
-		greek_tenamentB,	 109.03,	 21.85,	0.0,	0.0
-		greek_tenamentB,	 75.24,	 28.67,	180.0,	0.0
-		greek_tenamentC,	 89.50,	-19.00,	180.0,	0.0
-		greek_tenamentD,	-39.00,	 39.22,	90.0,	0.0
-		greek_tenamentD,	 36.11,	-39.26,	80.0,	0.0
-		greek_tenamentD,	-19.47,	-39.37,	85.0,	0.0
-		greek_tenamentD,	 78.66,	-39.09,	90.0,	0.0
-		greek_tenamentD,	 40.98,	 39.73,	95.0,	0.0
-		greek_tenamentE,	-6.51,	 39.58,	183.308,	0.0
-		greek_tenamentE,	 118.64,	-39.53,	168.308,	0.0
-		greek_tenamentE,	 10.79,	-38.81,	183.308,	0.0
-		greek_tenamentE,	-44.93,	-39.20,	83.3078,	0.0
-		greek_tenamentE,	 19.13,	 39.90,	101.692,	0.0
+		greek_tenamentA1,	-91.79,	 0.83,	0.0,	0.0
+		greek_tenamentB2,	 109.03,	 21.85,	0.0,	0.0
+		greek_tenamentB3,	 75.24,	 28.67,	180.0,	0.0
+		greek_tenamentC1,	 89.50,	-19.00,	180.0,	0.0
+		greek_tenamentD1,	-39.00,	 39.22,	90.0,	0.0
+		greek_tenamentD2,	 36.11,	-39.26,	80.0,	0.0
+		greek_tenamentD3,	-19.47,	-39.37,	85.0,	0.0
+		greek_tenamentD4,	 78.66,	-39.09,	90.0,	0.0
+		greek_tenamentD5,	 40.98,	 39.73,	95.0,	0.0
+		greek_tenamentE1,	-6.51,	 39.58,	183.308,	0.0
+		greek_tenamentE2,	 118.64,	-39.53,	168.308,	0.0
+		greek_tenamentE1,	 10.79,	-38.81,	183.308,	0.0
+		greek_tenamentE2,	-44.93,	-39.20,	83.3078,	0.0
+		greek_tenamentE1,	 19.13,	 39.90,	101.692,	0.0
 		tree_B,	 6.88,	 39.71,	10.0,	0.0
 		tree_B,	 104.84,	-39.73,	10.0,	0.0
 		tree_B,	 76.63,	 8.24,	90.0,	0.0
@@ -2502,7 +2578,7 @@ slots
 ;			}
 ;			buildings
 ;			{
-;none
+;				academic academy
 ;			}
 ;			; possible floor... 
 ;			academy_roman, 0, 0, 0, 0
@@ -2806,7 +2882,7 @@ slots
 		{
 			cultures
 			{
-				eastern
+				greek
 			}
 			buildings
 			{
@@ -2832,7 +2908,7 @@ slots
 		{
 			cultures
 			{
-				greek
+				eastern
 			}
 			buildings
 			{
@@ -2885,7 +2961,7 @@ slots
 		{
 			cultures
 			{
-				eastern
+				greek
 			}
 			buildings
 			{
@@ -2899,7 +2975,7 @@ slots
 		{
 			cultures
 			{
-				greek
+				eastern
 				carthaginian
 			}
 			buildings
@@ -2942,7 +3018,7 @@ slots
 		{
 			cultures
 			{
-				eastern
+				greek
 			}
 			buildings
 			{
@@ -2962,7 +3038,7 @@ slots
 		{
 			cultures
 			{
-				greek
+				eastern
 				carthaginian
 			}
 			buildings
@@ -3012,7 +3088,7 @@ slots
 		{
 			cultures
 			{
-				eastern
+				greek
 			}
 			buildings
 			{
@@ -3038,7 +3114,7 @@ slots
 		{
 			cultures
 			{
-				greek
+				eastern
 			}
 			buildings
 			{
@@ -3091,7 +3167,7 @@ slots
 		{
 			cultures
 			{
-				eastern
+				greek
 			}
 			buildings
 			{
@@ -3125,7 +3201,7 @@ slots
 		{
 			cultures
 			{
-				greek
+				eastern
 				carthaginian
 			}
 			buildings
@@ -3187,7 +3263,7 @@ slots
 		{
 			cultures
 			{
-				eastern
+				greek
 			}
 			buildings
 			{
@@ -3214,7 +3290,7 @@ slots
 		{
 			cultures
 			{
-				greek
+				eastern
 			}
 			buildings
 			{
@@ -3267,7 +3343,7 @@ slots
 		{
 			cultures
 			{
-				eastern
+				greek
 			}
 			buildings
 			{
@@ -3297,7 +3373,7 @@ slots
 		{
 			cultures
 			{
-				greek
+				eastern
 				carthaginian
 			}
 			buildings
@@ -3352,7 +3428,7 @@ slots
 		{
 			cultures
 			{
-				eastern
+				greek
 			}
 			buildings
 			{
@@ -3378,7 +3454,7 @@ slots
 		{
 			cultures
 			{
-				greek
+				eastern
 			}
 			buildings
 			{
@@ -3432,7 +3508,7 @@ slots
 		{
 			cultures
 			{
-				eastern
+				greek
 			}
 			buildings
 			{
@@ -3461,7 +3537,7 @@ slots
 		{
 			cultures
 			{
-				greek
+				eastern
 				carthaginian
 			}
 			buildings
@@ -3584,17 +3660,41 @@ slots
 
 		variant
 		{
+			cultures any
+			status construction
+			buildings
+			{
+				none
+			}
+			slot_48x32_construction_site,	0,	0,	0,	0
+		}
+
+		variant
+		{
 			cultures
 			{
-				roman
+				greek
 			}
 			buildings
 			{
-none
-			}
-			; no floor needed as there's no overlay.
-			ludus_magnus_roman, 		0, 	0, 	0, 	0
+				none
+			}	
+			slot_48x32_empty_group_greek,	0,	0,	0,	0	
 		}
+
+		variant
+		{
+			cultures
+			{
+				egyptian
+			}
+			buildings
+			{
+				none
+			}	
+			slot_48x32_empty_group_egyptian,	0,	0,	0,	0	
+		}
+
 		variant
 		{
 			cultures
@@ -3603,7 +3703,59 @@ none
 			}
 			buildings
 			{
-none
+				none
+			}	
+			slot_48x32_empty_group_eastern,	0,	0,	0,	0	
+		}
+
+		variant
+		{
+			cultures
+			{
+				carthaginian
+			}
+			buildings
+			{
+				none
+			}	
+			slot_48x32_empty_group_carthaginian,	0,	0,	0,	0	
+		}
+
+		variant
+		{
+			cultures
+			{
+				barbarian
+			}
+			buildings
+			{
+				none
+			}	
+			slot_48x32_empty_group_barbarian,	0,	0,	0,	0	
+		}
+
+		variant
+		{
+			cultures
+			{
+				roman
+			}
+			buildings
+			{
+				none
+			}
+			; no floor needed as there's no overlay.
+			ludus_magnus_roman, 		0, 	0, 	0, 	0
+		}
+		variant
+		{
+			cultures
+			{
+				greek
+			}
+			buildings
+			{
+				none
 			}
 			; no floor needed as there's no overlay.
 			ludus_magnus_greek, 		0, 	0, 	0, 	0
@@ -3616,7 +3768,7 @@ none
 			}
 			buildings
 			{
-none
+				none
 			}
 			; no floor
 			ludus_magnus_egyptian, 		0, 	0, 	0, 	0
@@ -3625,17 +3777,77 @@ none
 		{
 			cultures
 			{
-				greek
+				eastern
 				carthaginian
 			}
 			buildings
 			{
-none
+				none
 			}
 			; no floor 
 			ludus_magnus_eastern, 			0, 	0, 	0, 	0
 		}
-
+		variant
+		{
+			cultures
+			{
+				roman
+			}
+			buildings
+			{
+				none
+			}
+			floor none
+			scriptorium_roman, 			0, 	0, 	0, 	0
+		}
+		variant
+		{
+			cultures
+			{
+				greek
+			}
+			buildings
+			{
+				none
+			}
+			floor none overlay_scriptorium_roman.cas
+			scriptorium_greek, 			0, 	0, 	0, 	0
+			slot_filler_outer_wall_48x32_roman,	0,	0,	0,	0
+		}
+		variant
+		{
+			cultures
+			{
+				egyptian
+			}
+			buildings
+			{
+				none
+			}
+			floor none overlay_scriptorium_egyptian.cas
+			scriptorium_egyptian, 		0, 	0, 	0, 	0
+			tree_C,				-19.5,	10.5,	0,	0
+			tree_C,				-19.5,	0.5,	0,	0
+			tree_C,				-19.5,	-9.5,	0,	0
+			tree_C,				19.5,	10.5,	0,	0
+			tree_C,				19.5,	0.5,	0,	0
+			tree_C,				19.5,	-9.5,	0,	0
+			slot_filler_outer_wall_48x32_roman,	0,	0,	0,	0
+		}
+		variant
+		{
+			cultures
+			{
+				eastern
+				carthaginian
+			}
+			buildings
+			{
+				none
+			}
+			floor underlay_scriptorium_roman.cas overlay_scriptorium_roman.cas
+			scriptorium_eastern, 			0, 	0, 	0, 	0
+		}
 	}
 
 	slot slot_112x64_barracks
@@ -4629,9 +4841,7 @@ none
 			{				
 				none
 			}
-			floor none overlay_shrine_round.cas
-			slot_upgrade_48x32_160x128_greek,	0,	0,	0,	0
-			shrine_round_group, 				0, 	0, 	0, 	0
+			slot_160x128_construction_site,	0,	0,	0,	0
 		}
 
 		variant
@@ -4644,9 +4854,7 @@ none
 			{				
 				none
 			}
-			floor none overlay_eastern_shrine.cas
-			slot_upgrade_48x32_160x128_eastern,	0,	0,	0,	0
-			eastern_shrine,				0,	0,	0,	0
+			slot_160x128_empty_group_eastern,	0,	0,	0,	0
 		}
 
 		variant
@@ -4659,9 +4867,7 @@ none
 			{				
 				none
 			}
-			floor none overlay_eastern_shrine.cas
-			slot_upgrade_48x32_160x128_carthaginian,	0,	0,	0,	0
-			eastern_shrine,				0,	0,	0,	0
+			slot_160x128_empty_group_barbarian,	0,	0,	0,	0
 		}
 
 		variant
@@ -4689,9 +4895,7 @@ none
 			{				
 				none
 			}
-			;;;;floor none overlay_barbarian_shrine.cas
-			slot_upgrade_48x32_160x128_barbarian,		0,	0,	0,	0
-			barbarian_shrine,			0,	0,	0,	0
+			slot_160x128_empty_group_barbarian,	0,	0,	0,	0
 		}
 	}
 
@@ -4711,16 +4915,9 @@ none
 			}
 			buildings
 			{				
-				none
+				exact temple_catholic_church church1
 			}
-			floor underlay_roman_small_temple.cas overlay_roman_small_temple.cas
-			slot_upgrade_48x32_112x64_roman,	0,	0,	0,	0
-			roman_small_temple, 			0, 	0, 	0, 	0.5
-			base_roman_small_temple,		0,	0,	0,	0
-			tree_C,				-18,	10,	0,	0.5
-			tree_C,				-18,	-10,	0,	0.5
-			tree_C,				18,	-10,	0,	0.5
-			tree_C,				18,	10,	0,	0.5
+			BI_christian_church,		0,	0,	0,	0
 		}	
 		variant
 		{
@@ -4730,13 +4927,9 @@ none
 			}
 			buildings
 			{				
-				none
+				exact temple_orthodox_church ochurch1
 			}
-			floor underlay_greek_small_temple.cas overlay_greek_small_temple.cas
-			slot_upgrade_48x32_112x64_greek,	0,	0,	0,	0
-			greek_small_temple, 			-6, 	0, 	0, 	0
-			tree_B,				16,	9,	0,	0
-			tree_B,				16,	-9,	0,	0
+			BI_christian_church,		0,	0,	0,	0
 		}
 		variant
 		{
@@ -4746,11 +4939,9 @@ none
 			}
 			buildings
 			{				
-				none
+				exact temple_apostolic_church achurch1
 			}
-			floor none overlay_eastern_temple.cas
-			slot_upgrade_48x32_112x64_eastern,	0,	0,	0,	0
-			eastern_temple, 			0, 	0, 	0, 	0
+			BI_christian_church,		0,	0,	0,	0
 		}
 
 		variant
@@ -4761,11 +4952,9 @@ none
 			}
 			buildings
 			{				
-				none
+				exact temple_catholic_church church1
 			}
-			floor none overlay_eastern_temple.cas
-			slot_upgrade_48x32_112x64_carthaginian,	0,	0,	0,	0
-			eastern_temple, 			0, 	0, 	0, 	0
+			BI_christian_church,		0,	0,	0,	0
 		}
 	
 		variant
@@ -4791,11 +4980,9 @@ none
 			}
 			buildings
 			{				
-				none
+				exact temple_catholic_church church1
 			}
-			;;;;floor 	underlay_sacred_grove.cas overlay_sacred_grove.cas
-			slot_upgrade_48x32_112x64_barbarian,	0,	0,	0,	0
-			sacred_grove_group, 			0, 	0, 	0, 	0
+			BI_christian_church,		0,	0,	0,	0
 		}	
 	}
 
@@ -4814,15 +5001,9 @@ none
 			}
 			buildings
 			{				
-				none
+				exact temple_catholic_church church1
 			}
-			floor underlay_roman_small_temple.cas overlay_roman_small_temple.cas
-			roman_small_temple, 	0, 	0, 	0, 	0.5
-			base_roman_small_temple,0,	0,	0,	0
-			tree_C,		-18,	10,	0,	0.5
-			tree_C,		-18,	-10,	0,	0.5
-			tree_C,		18,	-10,	0,	0.5
-			tree_C,		18,	10,	0,	0.5
+			BI_christian_shrine,		0,	0,	0,	0
 		}
 		variant
 		{
@@ -4832,27 +5013,33 @@ none
 			}
 			buildings
 			{				
-				none
+				exact temple_orthodox_church ochurch1
 			}
-			floor underlay_greek_small_temple.cas overlay_greek_small_temple.cas
-			greek_small_temple, 			-6, 	0, 	0, 	0
-			tree_B,				16,	9,	0,	0
-			tree_B,				16,	-9,	0,	0
-			slot_filler_outer_wall_48x32_roman,		0,	0,	0,	0
+			BI_christian_shrine,		0,	0,	0,	0
+		}
+		variant
+		{
+			cultures
+			{
+				carthaginian
+			}
+			buildings
+			{				
+				exact temple_orthodox_church ochurch1
+			}
+			BI_christian_shrine,		0,	0,	0,	0
 		}
 		variant
 		{
 			cultures
 			{
 				greek
-				carthaginian
 			}
 			buildings
 			{				
-				none
+				exact temple_apostolic_church achurch1
 			}
-			floor none overlay_eastern_temple.cas
-			eastern_temple, 			0, 	0, 	0, 	0
+			BI_christian_shrine,		0,	0,	0,	0
 		}
 
 		variant
@@ -4877,10 +5064,9 @@ none
 			}
 			buildings
 			{				
-				none
+				exact temple_catholic_church church1
 			}
-			;;;;;floor 	underlay_sacred_grove.cas overlay_sacred_grove.cas
-			sacred_grove_group, 			0, 	0, 	0, 	0
+			BI_christian_shrine,		0,	0,	0,	0
 		}
 	
 	}
@@ -5934,9 +6120,6 @@ none
 			sewers_egyptian, 		0, 	0, 	0, 	0
 		}
 	}	
-
-
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;		chivalry western european slots
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -5955,7 +6138,7 @@ none
 			status construction
 			buildings
 			{
-				temple_christian_church church1
+				temple_catholic_church church1
 			}
 			ctw_we_construction,		0, 	0, 	0, 	0
 		}
@@ -5975,7 +6158,7 @@ none
 			cultures any
 			buildings
 			{
-				temple_christian_church church1
+				temple_catholic_church church1
 			}
 			ctw_we_church1,		0, 	0, 	0, 	0
 		}
@@ -5985,7 +6168,7 @@ none
 			cultures any
 			buildings
 			{
-				temple_christian_church church2
+				temple_catholic_church church2
 			}
 			ctw_we_monastery,		0, 	0, 	0, 	0
 		}
@@ -6101,7 +6284,7 @@ none
 	{
 		default
 		{
-			empty,		0, 	0, 	0, 	0
+			empty,	0, 	0, 	0, 	0
 		}
 
 		variant
@@ -6292,7 +6475,6 @@ none
 	}
 }
 
-
 ; *************************
 
 ; proper ROAD JOINERS
@@ -6414,35 +6596,25 @@ plans_by_level
 
 	plan_levels		Roman_plan_levels
 	{
-		village		Roman_Village
-		town		Roman_Town
-		large_town	Roman_Large_Town
-		city		Roman_City
-		large_city	Roman_Large_City
-		huge_city	Roman_Huge_City
+		village		Barbarian_Village
+		town		Barbarian_Town
+		large_town	Barbarian_Large_Town
+		city		Barbarian_City
+		large_city	Barbarian_Large_City
+		huge_city	Barbarian_Huge_City
 	}
 	
 	plan_levels		Egyptian_plan_levels
 	{
-		village		Egyptian_Village
-		town		Egyptian_Town
-		large_town	Egyptian_Large_Town
-		city		Egyptian_City
-		large_city	Egyptian_Large_City
-		huge_city	Egyptian_Huge_City
+		village		Barbarian_Village
+		town		Barbarian_Town
+		large_town	Barbarian_Large_Town
+		city		Barbarian_City
+		large_city	Barbarian_Large_City
+		huge_city	Barbarian_Huge_City
 	}
 	
 	plan_levels		Eastern_plan_levels
-	{
-		village		Egyptian_Village
-		town		Eastern_Town
-		large_town	Eastern_Large_Town
-		city		Eastern_City
-		large_city	Eastern_Large_City
-		huge_city	Eastern_Huge_City
-	}
-	
-	plan_levels		Greek_plan_levels
 	{
 		village		Roman_Village
 		town		Greek_Town
@@ -6450,6 +6622,16 @@ plans_by_level
 		city		Greek_City
 		large_city	Greek_Large_City
 		huge_city	Greek_Huge_City
+	}
+	
+	plan_levels		Greek_plan_levels
+	{
+		village		Egyptian_Village
+		town		Eastern_Town
+		large_town	Eastern_Large_Town
+		city		Eastern_City
+		large_city	Eastern_Large_City
+		huge_city	Eastern_Huge_City
 	}
 	
 	plan_levels		Barbarian_plan_levels
@@ -6464,12 +6646,12 @@ plans_by_level
 
 	plan_levels		Carthaginian_plan_levels
 	{
-		village		Egyptian_Village
-		town		Carthaginian_Town
-		large_town	Carthaginian_Large_Town
-		city		Carthaginian_City
-		large_city	Carthaginian_Large_City
-		huge_city	Carthaginian_Huge_City
+		village		Barbarian_Village
+		town		Barbarian_Town
+		large_town	Barbarian_Large_Town
+		city		Barbarian_City
+		large_city	Barbarian_Large_City
+		huge_city	Barbarian_Huge_City
 	}
 
 ;************* only using this settlement ***************

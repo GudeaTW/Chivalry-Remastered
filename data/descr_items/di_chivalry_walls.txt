@@ -1,0 +1,234 @@
+; ;;;;;;;;;;;;;CHIVALRY WALLS;;;;;;;;;;;;;;;;;;
+type		chiv_wooden_gateway 
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_wall_short_gateway.cas 
+
+type		chiv_wooden_wall_straight 
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_wall_short_straight.cas 
+
+type		chiv_wooden_wall_straight_damaged_static 
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_wall_short_straight_damaged_static.cas 
+
+type		chiv_wooden_wall_straight_damaged_remains 
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_wall_short_straight_damaged_remains.cas 
+
+type		chiv_wooden_wall_straight_destroyed_static 
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_wall_short_straight_destroyed_static.cas 
+
+type		chiv_wooden_wall_straight_destroyed_remains 
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_wall_short_straight_destroyed_remains.cas 
+
+type		chiv_wooden_wall_joiner_straight  
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_wall_short_joiner_straight.cas 
+
+type		chiv_wooden_wall_joiner_diagonal 
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_wall_short_joiner_diagonal.cas 
+
+type		chiv_wooden_wall_joiner_internal_left 
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_wall_short_joiner_internal_left.cas 
+
+type		chiv_wooden_wall_joiner_internal_right  
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_wall_short_joiner_internal_right.cas 
+
+type		chiv_wooden_wall_joiner_external_right  
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_wall_short_joiner_external_right.cas 
+
+type		chiv_wooden_wall_joiner_external_left 
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_wall_short_joiner_external_left.cas 
+
+type		chiv_wooden_wall_internal_corner 
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_wall_short_internal_corner.cas 
+
+type		chiv_wooden_wall_external_corner 
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_wall_short_external_corner.cas 
+
+; ;;;;;;;;;;;;;;CHIV STONE WALLS;;;;;;;;;;;;;;;;;
+type		chiv_stone_gateway
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_tall_gateway.cas 
+
+type		chiv_stone_wall_straight 
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_tall_straight.cas
+
+type		chiv_stone_wall_joiner_straight
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_tall_joiner_straight.cas  
+
+type		chiv_stone_wall_straight_damaged_static 
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_tall_straight_damaged_static.cas 
+
+type		chiv_stone_wall_straight_damaged_remains 
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_tall_straight_damaged_remains.cas 
+
+type		chiv_stone_wall_straight_destroyed_static 
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_tall_straight_destroyed_static.cas 
+
+type		chiv_stone_wall_straight_destroyed_remains 
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_tall_straight_destroyed_remains.cas 
+
+type		chiv_stone_wall_joiner_external_right 
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_tall_joiner_external_right.cas 
+
+type		chiv_stone_wall_joiner_external_left 
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_tall_joiner_external_left.cas 
+
+type		chiv_stone_wall_external_corner 
+lod
+max_distance	4000.0
+model_rigid	models_walls/wooden_tall_external_corner.cas 
+
+;;;;;;;;;;;;;;CHIV castle WALLS;;;;;;;;;;;;;;;;;
+type		chiv_castle_gateway
+lod
+max_distance	4000.0
+model_rigid	models_walls/castle_gateway.cas 
+
+type		chiv_castle_wall_straight 
+lod
+max_distance	4000.0
+model_rigid	models_walls/castle_wall_straight.cas
+
+type		chiv_castle_wall_joiner_straight
+lod
+max_distance	4000.0
+model_rigid	models_walls/castle_wall_joiner_straight.cas  
+
+type		chiv_castle_wall_joiner_external_right 
+lod
+max_distance	4000.0
+model_rigid	models_walls/castle_wall_joiner_external_right.cas 
+
+type		chiv_castle_wall_joiner_external_left
+lod
+max_distance	4000.0
+model_rigid	models_walls/castle_wall_joiner_external_left.cas 
+
+type		chiv_castle_wall_watchtower
+lod
+max_distance	4000.0
+model_rigid	models_walls/castle_wall_watchtower.cas 
+
+type		chiv_castle_wall_external_corner_watchtower
+lod
+max_distance	4000.0
+model_rigid	models_walls/castle_wall_external_corner_watchtower.cas
+
+;;; NOT EVEN USED
+
+; type		ctw_castle_innerwall_1
+; lod
+; max_distance	4000.0
+; model_rigid	models_walls/ctw_castle_innerwall_1.cas
+
+; type		ctw_castle_innerwall_2
+; lod
+; max_distance	4000.0
+; model_rigid	models_walls/ctw_castle_innerwall_2.cas
+
+; type		ctw_castle_innerwall_3
+; lod
+; max_distance	4000.0
+; model_rigid	models_walls/ctw_castle_innerwall_3.cas
+
+; type		ctw_castle_innerwall_4
+; lod
+; max_distance	4000.0
+; model_rigid	models_walls/ctw_castle_innerwall_4.cas
+
+; type		ctw_castle_innerwall_5
+; lod
+; max_distance	4000.0
+; model_rigid	models_walls/ctw_castle_innerwall_5.cas
+
+type		chiv_castle_wall_small_damadge
+lod
+max_distance	4000.0
+model_rigid	models_walls/castle_wall_small_damadge.cas
+
+type		chiv_castle_wall_more_damadge
+lod
+max_distance	4000.0
+model_rigid	models_walls/castle_wall_more_damadge.cas
+
+type		chiv_castle_wall_collapse
+lod
+max_distance	4000.0
+model_rigid	models_walls/castle_wall_collapse.cas
+
+type		chiv_castle_wall_major_collapse
+lod
+max_distance	4000.0
+model_rigid	models_walls/castle_wall_major_collapse.cas
+
+type		chiv_castle_wall_final_collapse
+lod
+max_distance	4000.0
+model_rigid	models_walls/castle_wall_final_collapse.cas
+
+type		chiv_castle_wall_small_damadge_remains
+lod
+max_distance	4000.0
+model_rigid	models_walls/castle_wall_small_damadge_remains.cas
+
+type		chiv_castle_wall_more_damadge_remains
+lod
+max_distance	4000.0
+model_rigid	models_walls/castle_wall_more_damadge_remains.cas
+
+type		chiv_castle_wall_collapse_remains
+lod
+max_distance	4000.0
+model_rigid	models_walls/castle_wall_collapse_remains.cas
+
+type		chiv_castle_wall_major_collapse_remains
+lod
+max_distance	4000.0
+model_rigid	models_walls/castle_wall_major_collapse_remains.cas
+
+type		chiv_castle_wall_final_collapse_remains
+lod
+max_distance	4000.0
+model_rigid	models_walls/castle_wall_final_collapse_remains.cas

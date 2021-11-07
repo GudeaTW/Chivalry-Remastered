@@ -1328,4 +1328,8 @@
 	{
 		"subtype": "hidden",
 	},
+	"hayk":
+	{
+		"subtype": "hidden",
+	},
 ],

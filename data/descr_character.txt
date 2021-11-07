@@ -61,7 +61,19 @@ strat_model		sm_barb_general
 battle_model	MTW_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
+faction			jeru
+dictionary		15
+strat_model		sm_barb_general
+battle_model	MTW_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
 faction			romans_brutii
+dictionary		15
+strat_model		sm_greek_general
+battle_model	MTW_general_muslim
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			dani
 dictionary		15
 strat_model		sm_greek_general
 battle_model	MTW_general_muslim
@@ -86,6 +98,12 @@ battle_model	MTW_general_muslim
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			egypt
+dictionary		2
+strat_model		sm_egypt_general
+battle_model	MTW_general_horde
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			pech
 dictionary		2
 strat_model		sm_egypt_general
 battle_model	MTW_general_horde
@@ -121,6 +139,12 @@ strat_model		sm_barb_general
 battle_model	MTW_general_byz
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
+faction			bulgaria
+dictionary		2
+strat_model		sm_eastern_general
+battle_model	MTW_general_byz
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
 faction			pontus
 dictionary		2
 strat_model		sm_greek_general
@@ -146,6 +170,12 @@ battle_model	MTW_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			armenia
+dictionary		2
+strat_model		sm_eastern_general
+battle_model	MTW_general_rus
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			novgo
 dictionary		2
 strat_model		sm_eastern_general
 battle_model	MTW_general_rus
@@ -214,7 +244,21 @@ strat_model		sm_barb_lesser_general
 battle_model	MTW_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
+faction			jeru
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_barb_lesser_general
+battle_model	MTW_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
 faction			romans_brutii
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_greek_lesser_general
+battle_model	MTW_general_muslim
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			dani
 dictionary		15
 strat_card		data/ui/roman/portraits/captain_card_julii.tga
 strat_model		sm_greek_lesser_general
@@ -243,6 +287,13 @@ battle_model	MTW_general_muslim
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			egypt
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_egypt_lesser_general
+battle_model	MTW_general_horde
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			pech
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
 strat_model		sm_egypt_lesser_general
@@ -319,6 +370,20 @@ strat_model		sm_eastern_lesser_general
 battle_model	MTW_general_rus
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
+faction			novgo
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_eastern_lesser_general
+battle_model	MTW_general_rus
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			bulgaria
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_eastern_lesser_general
+battle_model	MTW_general_byz
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
 faction			dacia
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
@@ -381,6 +446,31 @@ strat_card		data/ui/roman/agents/card_spy.tga
 strat_model		spy
 
 faction			pope
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			jeru
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			pech
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			novgo
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			dani
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			bulgaria
 dictionary		15
 strat_card		data/ui/roman/agents/card_spy.tga
 strat_model		spy
@@ -513,6 +603,31 @@ dictionary		15
 strat_card		data/ui/roman/agents/card_assassin.tga
 strat_model		assassin
 
+faction			pech
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			jeru
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			bulgaria
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			dani
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			novgo
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
 faction			romans_brutii
 dictionary		15
 strat_card		data/ui/roman/agents/card_assassin.tga
@@ -640,6 +755,31 @@ dictionary		15
 strat_card		data/ui/roman/agents/card_diplo_rome.tga
 strat_model		diplomat
 
+faction			pech
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			bulgaria
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			dani
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			jeru
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			novgo
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
 faction			romans_brutii
 dictionary		15
 strat_card		data/ui/roman/agents/card_diplo_rome.tga
@@ -762,6 +902,31 @@ strat_card		data/ui/roman/agents/card_diplo_rome.tga
 strat_model		merchant
 
 faction			pope
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			bulgaria
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			pech
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			dani
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			jeru
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			novgo
 dictionary		15
 strat_card		data/ui/roman/agents/card_diplo_rome.tga
 strat_model		merchant
@@ -920,6 +1085,11 @@ dictionary		2
 strat_card		data/ui/egyptian/agents/temp_admiral.tga
 strat_model		egypt_admiral
 
+faction			pech
+dictionary		2
+strat_card		data/ui/egyptian/agents/temp_admiral.tga
+strat_model		egypt_admiral
+
 faction			mongol
 dictionary		2
 strat_card		data/ui/egyptian/agents/temp_admiral.tga
@@ -945,12 +1115,22 @@ dictionary		2
 strat_card		data/ui/eastern/agents/temp_admiral.tga
 strat_model		parthia_admiral
 
+faction			bulgaria
+dictionary		2
+strat_card		data/ui/eastern/agents/temp_admiral.tga
+strat_model		parthia_admiral
+
 faction			pontus
 dictionary		2
 strat_card		data/ui/eastern/agents/temp_admiral.tga
 strat_model		pontus_admiral
 
 faction			gauls
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		gaul_admiral
+
+faction			jeru
 dictionary		2
 strat_card		data/ui/barbarian/agents/temp_admiral.tga
 strat_model		gaul_admiral
@@ -966,6 +1146,11 @@ strat_card		data/ui/barbarian/agents/temp_admiral.tga
 strat_model		briton_admiral
 
 faction			armenia
+dictionary		2
+strat_card		data/ui/eastern/agents/temp_admiral.tga
+strat_model		armenia_admiral
+
+faction			novgo
 dictionary		2
 strat_card		data/ui/eastern/agents/temp_admiral.tga
 strat_model		armenia_admiral
@@ -996,6 +1181,11 @@ strat_card		data/ui/barbarian/agents/temp_admiral.tga
 strat_model		spain_admiral
 
 faction			thrace
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		thrace_admiral
+
+faction			dani
 dictionary		2
 strat_card		data/ui/greek/agents/temp_admiral.tga
 strat_model		thrace_admiral

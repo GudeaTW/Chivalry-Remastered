@@ -6,11 +6,11 @@
 
 "religions":
 [
-	"christianity":
+	"catholicism":
 	{
 		;;the name of the trait to be used to identify members of this religion
 		;;will be auto-generated if not defined
-		"trait": "Christian",
+		"trait": "Catholic",
 		
 		;;UI icons to use for this
 		"unrest icon": "data/ui/pips/pip_religion_christian_negative.tga",
@@ -20,10 +20,80 @@
 		"info button": "data/ui/buttons/settlementdetailschristianity.tga",
 		
 		;;localised name for this religion
-		"name": "CHRISTIAN_LABEL",
+		"name": "CATHOLIC_LABEL",
 		
 		;;tooltips for when a religion is creating unrest
-		"unrest tooltip": "CHRISTIAN_UNREST",
+		"unrest tooltip": "CATHOLIC_UNREST",
+
+		;;what group is this religion a part of
+		"group": "christianity",
+		
+		;;how much extra or less unrest and order should this religion create
+		"unrest multipliers":
+		{
+			;;how much unrest should we create against religions in the same group as us
+			"heretics": 1,
+			
+			;;how much unrest should we create against religions in other groups
+			"heathens": 1,
+		},
+		
+		;;should this religion be hidden at zero presense and influence
+		"hide at zero": true, 
+	},
+	"orthodoxy":
+	{
+		;;the name of the trait to be used to identify members of this religion
+		;;will be auto-generated if not defined
+		"trait": "Orthodox",
+		
+		;;UI icons to use for this
+		"unrest icon": "data/ui/pips/pip_religion_orthodox_negative.tga",
+		"religion icon":  "data/ui/pips/pip_religion_orthodox.tga",
+		
+		;;info button button used for the settlement overview panel
+		"info button": "data/ui/buttons/settlementdetailschristianity.tga",
+		
+		;;localised name for this religion
+		"name": "ORTHODOX_LABEL",
+		
+		;;tooltips for when a religion is creating unrest
+		"unrest tooltip": "ORTHODOX_UNREST",
+
+		;;what group is this religion a part of
+		"group": "christianity",
+		
+		;;how much extra or less unrest and order should this religion create
+		"unrest multipliers":
+		{
+			;;how much unrest should we create against religions in the same group as us
+			"heretics": 1,
+			
+			;;how much unrest should we create against religions in other groups
+			"heathens": 1,
+		},
+		
+		;;should this religion be hidden at zero presense and influence
+		"hide at zero": true, 
+	},
+	"apostolic":
+	{
+		;;the name of the trait to be used to identify members of this religion
+		;;will be auto-generated if not defined
+		"trait": "Apostolic",
+		
+		;;UI icons to use for this
+		"unrest icon": "data/ui/pips/pip_religion_apostolic_negative.tga",
+		"religion icon":  "data/ui/pips/pip_religion_apostolic.tga",
+		
+		;;info button button used for the settlement overview panel
+		"info button": "data/ui/buttons/settlementdetailschristianity.tga",
+		
+		;;localised name for this religion
+		"name": "APOSTOLIC_LABEL",
+		
+		;;tooltips for when a religion is creating unrest
+		"unrest tooltip": "APOSTOLIC_UNREST",
 
 		;;what group is this religion a part of
 		"group": "christianity",
@@ -74,7 +144,7 @@
 		},
 		
 		;;should this religion be hidden at zero presense and influence
-		"hide at zero": truee, 
+		"hide at zero": true, 
 	},
 	"islam":
 	{
@@ -109,6 +179,6 @@
 		},
 		
 		;;should this religion be hidden at zero presense and influence
-		"hide at zero": truee, 
+		"hide at zero": true, 
 	},
 ],

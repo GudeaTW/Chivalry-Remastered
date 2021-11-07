@@ -86,8 +86,6 @@ strat
 		external_right_link, -32, 128, 180, 0.00
 	}
 	ctw_we_keep,		0.37, -32.65, 90, 0
-	
-	slot_innerwall,		0, 0, 0, 0.00
 
 	slot_ctw_we_law_enforcement,	-60, -8.5, 0, 0.00
 	slot_ctw_we_millitary_2,	36.5, 18, 180, 0.00

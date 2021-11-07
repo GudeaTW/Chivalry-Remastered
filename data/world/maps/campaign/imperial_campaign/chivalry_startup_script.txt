@@ -27,9 +27,6 @@ console_command kill_character "Ramiro Navarra"
 ;Castille
 console_command kill_character "Fernando Navarra"
 
-;Byzantium
-console_command kill_character "Romanos"
-
 ;HRE
 console_command kill_character "'Heinrich"
 
@@ -41,111 +38,6 @@ console_command kill_character "'Heinrich"
 
 monitor_event FactionTurnStart TrueCondition
 
-if I_LocalFaction gauls
-console_command add_money gauls, -9000
-terminate_script
-end_if
-
-if I_LocalFaction britons
-console_command add_money britons, -9000
-terminate_script
-end_if
-
-if I_LocalFaction germans
-console_command add_money germans, -10000
-terminate_script
-end_if
-
-if I_LocalFaction romans_scipii
-console_command add_money romans_scipii, -7500
-terminate_script
-end_if
-
-if I_LocalFaction romans_senate
-console_command add_money romans_senate, -2500
-terminate_script
-end_if
-
-if I_LocalFaction carthage
-console_command add_money carthage, -5000
-terminate_script
-end_if
-
-if I_LocalFaction dacia
-console_command add_money dacia, -3500
-terminate_script
-end_if
-
-if I_LocalFaction numidia
-console_command add_money numidia, -3500
-terminate_script
-end_if
-
-if I_LocalFaction spain
-console_command add_money spain, -4500
-terminate_script
-end_if
-
-if I_LocalFaction scythia
-console_command add_money scythia, -4000
-terminate_script
-end_if
-
-if I_LocalFaction parthia
-console_command add_money parthia, -5000
-terminate_script
-end_if
-
-if I_LocalFaction pontus
-console_command add_money pontus, -3500
-terminate_script
-end_if
-
-if I_LocalFaction armenia
-console_command add_money armenia, -3000
-terminate_script
-end_if
-
-if I_LocalFaction thrace
-console_command add_money thrace, -6000
-terminate_script
-end_if
-
-if I_LocalFaction greek_cities
-console_command add_money greek_cities, -9000
-terminate_script
-end_if
-
-if I_LocalFaction macedon
-console_command add_money macedon, -8000
-terminate_script
-end_if
-
-if I_LocalFaction egypt
-console_command add_money egypt, -3000
-terminate_script
-end_if
-
-if I_LocalFaction seleucid
-console_command add_money seleucid, -2500
-terminate_script
-end_if
-
-if I_LocalFaction romans_julii
-console_command add_money romans_julii, -4000
-terminate_script
-end_if
-
-if I_LocalFaction romans_brutii
-console_command add_money romans_brutii, -4000
-terminate_script
-end_if
-
-if I_LocalFaction georgia
-console_command add_money georgia, -1500
-terminate_script
-end_if
-
 ;****************************************
 ; add start-money for ai player  
 ;****************************************
@@ -156,7 +48,7 @@ terminate_script
 end_if
 
 if not I_LocalFaction pontus
-console_command add_money pontus, 10000
+console_command add_money pontus, 5000
 terminate_script
 end_if
 
@@ -166,7 +58,7 @@ terminate_script
 end_if
 
 if not I_LocalFaction thrace
-console_command add_money thrace, 20000
+console_command add_money thrace, 5000
 terminate_script
 end_if
 

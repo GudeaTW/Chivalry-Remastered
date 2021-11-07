@@ -101,7 +101,7 @@ strat
 		external_left_link, -96, 128, -90, 10.00
 		external_right_link, -32, 192, 180, 10.00
 	}
-	ctw_we_donjon, 26.5, 128, 135, 15	
+	ctw_we_donjon, 26.5, 128, 135, 15
 	slot_ctw_we_religious, 45, 70.5, 90, 15.00	
 	slot_ctw_we_millitary, -57.5, 90, 15, 10.00
 	slot_ctw_we_law_enforcement, 1.5, 71.5, -119.5, 15.00

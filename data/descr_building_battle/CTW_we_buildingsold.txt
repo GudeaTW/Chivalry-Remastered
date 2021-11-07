@@ -1,0 +1,52 @@
+
+
+;; CTW building models, edited by Drak10687 august 2006
+;; !!!!!!!!!!!!!so far only for motte, have to add for other levels of settlements!!!!!!!!!!!!!
+
+
+;;;;;;;;;;;;;;;motte level buildings;;;;;;;;;;;;;;;;;;	
+
+
+;;;;;;;;;;;;;;;;;;;donjon level buildings;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	ctw_we_church1
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_church1
+			physical_info	info_academy_eastern.cas
+		}
+	}
+	
+	ctw_we_small_house_wood
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_small_house_wood
+			physical_info	info_academy_eastern.cas
+		}
+	}
+
+	ctw_we_small_house_wood_2
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_small_house_wood_2
+			physical_info	info_academy_eastern.cas
+		}
+	}

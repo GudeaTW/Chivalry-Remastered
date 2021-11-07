@@ -182,6 +182,36 @@ stat_food        60, 300
 stat_cost        1, 3700, 140, 105, 155, 880
 ownership        slave, parthia
 
+;----------------Bulgaria 
+
+type             czar bodyguards
+dictionary       bulgarian_bodyguard
+category         cavalry
+class            heavy
+voice_type       Light_1
+soldier          hetaireia, 6, 0, 1.4
+officer          bulg_officer
+officer		     bulg_standard_mount
+mount            generals horse
+mount_effect     camel -1
+attributes       sea_faring, hide_forest, very_hardy, command, frighten_foot, general_unit, can_horde
+formation        1.4, 1.8, 2.4, 2.8, 3, square, 
+stat_health      1, 0
+stat_pri         5, 30, no, 0, 0, melee, blade, piercing, spear, 10 ,0.4
+stat_pri_attr    ap
+stat_sec         4, 16, no, 0, 0, melee, blade, piercing, sword, 10 ,0.6
+stat_sec_attr    ap
+stat_pri_armour  15, 10, 4, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 1, -6, 0
+stat_mental      13, disciplined, highly_trained
+stat_charge_dist 25
+stat_fire_delay  -300000
+stat_food        60, 300
+stat_cost        1, 3700, 130, 105, 155, 880
+ownership        bulgaria
+
 ;----------------Georgia  
  
 type             georgian bg
@@ -269,7 +299,7 @@ stat_charge_dist 25
 stat_fire_delay  -300000
 stat_food        60, 300
 stat_cost        1, 3700, 150, 100, 150, 850
-ownership        slave, gauls, germans, britons, romans_julii, romans_scipii, spain, carthage, scythia, pope	
+ownership        slave, gauls, jeru, germans, britons, romans_julii, romans_scipii, spain, carthage, scythia, pope	
 
 ;----------------Almohads / Moors 
 
@@ -343,7 +373,7 @@ officer		 elite_ghulam_cavalry
 officer          muslim_mount_standard
 mount            generals horse
 mount_effect     camel -1
-attributes       sea_faring, hide_forest, very_hardy, general_unit, command, frighten_foot
+attributes       sea_faring, hide_forest, very_hardy, general_unit, command, frighten_foot, can_horde
 formation        1.4, 1.8, 2.4, 2.8, 3, square, 
 stat_health      1, 0
 stat_pri         5, 30, no, 0, 0, melee, simple, piercing, spear, 10 ,0.4
@@ -359,7 +389,7 @@ stat_charge_dist 25
 stat_fire_delay  -300000
 stat_food        60, 300
 stat_cost        1, 3700, 130, 105, 155, 880
-ownership        slave, greek_cities, romans_brutii, thrace, pontus
+ownership        slave, greek_cities, romans_brutii, thrace, pontus, dani
 
 ;----------------Poland  
 
@@ -419,7 +449,7 @@ stat_charge_dist 25
 stat_fire_delay  -300000
 stat_food        60, 300
 stat_cost        1, 3700, 110, 115, 130, 870
-ownership        slave, armenia
+ownership        slave, armenia, novgo
 
 
 ;----------------Bohemia  
@@ -463,7 +493,7 @@ voice_type       Light_1
 soldier          cuman_heavy_cavalry, 7, 0, 1.4
 mount            medium horse
 mount_effect     camel -1
-attributes       sea_faring, hide_forest, very_hardy, command, general_unit, frighten_foot
+attributes       sea_faring, hide_forest, very_hardy, command, general_unit, frighten_foot, can_horde
 formation        2.0, 2.4, 3.8, 4.0, 3, square, 
 stat_health      1, 0
 stat_pri         6, 15, arrow2, 125, 4, missile, archery, piercing, none, 20 ,0.4
@@ -479,7 +509,7 @@ stat_charge_dist 25
 stat_fire_delay  -300000
 stat_food        60, 300
 stat_cost        1, 3700, 100, 110, 132, 830
-ownership        slave, egypt
+ownership        slave, egypt, pech
 
 type             dogheads
 dictionary       dogheads
@@ -708,7 +738,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        3, 2200, 725, 110, 130, 880
-ownership        slave, germans, dacia, gauls, britons
+ownership        slave, germans, dacia, gauls, jeru, britons
 
 ; ************************************************************************************************************************************* 
 ; Via crusader factions (France, Sicily, HRE, England, Pisa) 
@@ -744,7 +774,7 @@ stat_charge_dist 30
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        2, 2200, 600, 100, 130, 840
-ownership        slave, romans_julii, dacia, germans, gauls, britons
+ownership        slave, romans_julii, dacia, germans, gauls, jeru, britons
 
 
 type             knights of santiago early
@@ -857,7 +887,7 @@ stat_charge_dist 20
 stat_fire_delay  -170000
 stat_food        60, 300
 stat_cost        2, 950, 450, 90, 70, 500
-ownership        slave, germans, gauls, spain
+ownership        slave, germans, gauls, jeru, spain
 
 ; *************************************************************************************************************************************
 ;
@@ -1019,7 +1049,7 @@ voice_type       Light_1
 soldier          seljuk_horse_archer, 25, 0, 1.0
 mount            light horse
 mount_effect     horse -1, camel -2
-attributes       sea_faring, hide_forest, very_hardy 
+attributes       sea_faring, hide_forest, very_hardy, can_horde 
 formation        2.0, 2.4, 3.8, 4.0, 3, square
 stat_health      1, 0
 stat_pri         4, 0, arrow2, 125, 15, missile, other, piercing, none, 10 ,0.5
@@ -1035,7 +1065,7 @@ stat_charge_dist 15
 stat_fire_delay  -170000
 stat_food        60, 300
 stat_cost        0, 450, 225, 110, 55, 540
-ownership        slave, pontus, thrace, greek_cities, parthia, armenia, egypt
+ownership        slave, pontus, dani, thrace, greek_cities, parthia, armenia, novgo, egypt, pech
 
 type             turcoman archers
 dictionary       turcoman_archers 
@@ -1044,7 +1074,7 @@ class            missile
 voice_type       Light_1
 soldier          turcoman_archer, 35, 0, 0.6
 mount_effect     horse -2, camel -2
-attributes       sea_faring, hide_long_grass, hide_improved_forest, very_hardy
+attributes       sea_faring, hide_long_grass, hide_improved_forest, very_hardy, can_horde
 formation        1.2, 2.6, 1.5, 2.6, 3, square
 stat_health      1, 0
 stat_pri         4, 0, arrow2, 125, 15, missile, other, piercing, none, 10 ,0.7
@@ -1060,7 +1090,7 @@ stat_charge_dist 125
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        0, 280, 140, 120, 60, 300
-ownership        slave, pontus, thrace 
+ownership        slave, pontus, dani, thrace 
 
 ; *************************************************************************************************************************************
 ;
@@ -1875,7 +1905,7 @@ voice_type       Light_1
 soldier          szekely, 30, 0, 1.0
 mount            ranged horse
 mount_effect     horse -1, camel -2
-attributes       sea_faring, hide_forest, very_hardy  
+attributes       sea_faring, hide_forest, very_hardy, can_horde
 formation        2.0, 2.4, 3.8, 4.0, 3, square
 stat_health      1, 0
 stat_pri         5, 0, arrow2, 125, 15, missile, archery, piercing, none, 10 ,0.4
@@ -1891,7 +1921,7 @@ stat_charge_dist 15
 stat_fire_delay  -160000
 stat_food        60, 300
 stat_cost        0, 500, 250, 100, 70, 530
-ownership        slave, egypt, mongol
+ownership        slave, egypt, pech, mongol
 
 
 type             steppe heavy cavalry
@@ -1902,7 +1932,7 @@ voice_type       Light_1
 soldier          steppe_heavy_cavalry, 18, 0, 1.3
 mount            light horse
 mount_effect     camel -2
-attributes       sea_faring, hide_forest, very_hardy, frighten_foot, command
+attributes       sea_faring, hide_forest, very_hardy, frighten_foot, command, can_horde
 formation        2.0, 2.4, 3.8, 4.0, 3, square, 
 stat_health      1, 0
 stat_pri         5, 22, arrow2, 125, 5, missile, archery, piercing, none, 10 ,0.6
@@ -1918,7 +1948,7 @@ stat_charge_dist 25
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        1, 1150, 425, 100, 125, 790
-ownership        slave, egypt, thrace, pontus, mongol, bulgaria
+ownership        slave, egypt, pech, thrace, pontus, dani, mongol, bulgaria
 
 
 type             steppe infantry
@@ -1928,7 +1958,7 @@ class            missile
 voice_type       Light_1
 soldier          steppe_infantry, 30, 0, 0.7
 mount_effect     horse -2, camel -2
-attributes       sea_faring, hide_long_grass, hide_improved_forest,very_hardy
+attributes       sea_faring, hide_long_grass, hide_improved_forest, very_hardy, can_horde
 formation        1.2, 2.6, 1.5, 2.6, 3, square
 stat_health      1, 0
 stat_pri         3, 8, arrow2, 120, 10, missile, archery, piercing, none, 10 ,0.7
@@ -1944,11 +1974,11 @@ stat_charge_dist 120
 stat_fire_delay  -160000
 stat_food        60, 300
 stat_cost        1, 420, 210, 100, 60, 480
-ownership        slave, egypt, mongol, bulgaria
+ownership        slave, egypt, pech, mongol, bulgaria
 
 ; *************************************************************************************************************************************
 ;
-;				*NOVGOROD [Armenia]
+;				*NOVGOROD [armenia, novgo]
 ;
 ; ************************************************************************************************************************************* 
 
@@ -1977,7 +2007,7 @@ stat_charge_dist 25
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        3, 2600, 600, 95, 90, 750
-ownership        slave, armenia
+ownership        slave, armenia, novgo
 
  
 type             foot boyars
@@ -2003,7 +2033,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1650, 550, 105, 90, 650
-ownership        slave, armenia
+ownership        slave, armenia, novgo
 
 
 type             russ archers
@@ -2029,11 +2059,11 @@ stat_charge_dist 120
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        0, 330, 170, 100, 60, 380
-ownership        slave, armenia
+ownership        slave, armenia, novgo
 
 ; *************************************************************************************************************************************
 ;
-;				*KIEVAN RUS [ARMENIA]
+;				*KIEVAN RUS [armenia, novgo]
 ;
 ; ************************************************************************************************************************************* 
 
@@ -2062,7 +2092,7 @@ stat_charge_dist 120
 stat_fire_delay  -180000
 stat_food        60, 300
 stat_cost        1, 700, 300, 100, 85, 340
-ownership        slave, armenia
+ownership        slave, armenia, novgo
 
 
 type             kievan militia
@@ -2088,7 +2118,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        0, 380, 190, 90, 40, 450
-ownership        slave, armenia
+ownership        slave, armenia, novgo
 
 
 type             rogatnyk
@@ -2113,7 +2143,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        0, 250, 125, 58, 58, 320
-ownership        slave, armenia
+ownership        slave, armenia, novgo
 
 
 type             volhynian militia
@@ -2139,7 +2169,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        2, 700, 300, 80, 100, 450
-ownership        slave, armenia, numidia
+ownership        slave, armenia, novgo, numidia
 
 ; *************************************************************************************************************************************
 ;
@@ -2231,7 +2261,7 @@ ownership        slave, greek_cities, thrace
 
 ; *************************************************************************************************************************************
 ;
-;				*ARMENIAN CILICIA [SELEUCID]
+;				*armenia, novgoN CILICIA [SELEUCID]
 ;
 ; ************************************************************************************************************************************* 
 
@@ -2365,7 +2395,7 @@ stat_charge_dist 25
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        1, 1250, 450, 95, 115, 730
-ownership        slave, seleucid, dacia, romans_julii, gauls, germans, britons, egypt, armenia, parthia, pontus, thrace, greek_cities, georgia, mongol
+ownership        slave, seleucid, dacia, romans_julii, gauls, jeru, germans, britons, egypt, pech, armenia, novgo, parthia, pontus, dani, thrace, greek_cities, georgia, mongol
 
 
 
@@ -2505,7 +2535,7 @@ stat_charge_dist 30
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        3, 2800, 640, 100, 130, 840
-ownership        slave, gauls, germans, britons, numidia, romans_scipii, romans_julii, romans_senate, spain, carthage, pope
+ownership        slave, gauls, jeru, germans, britons, numidia, romans_scipii, romans_julii, romans_senate, spain, carthage, pope
 
 type             mounted sergeants
 dictionary       mounted_sergeants
@@ -2532,7 +2562,7 @@ stat_charge_dist 15
 stat_fire_delay  -120000
 stat_food        60, 300
 stat_cost        1, 950, 450, 90, 80, 580
-ownership        slave, gauls, germans, britons, numidia, dacia, romans_julii, romans_senate, spain, carthage, scythia, pope
+ownership        slave, gauls, jeru, germans, britons, numidia, dacia, romans_julii, romans_senate, spain, carthage, scythia, pope
 
 type             steppe light cavalry
 dictionary       steppe_light_cavalry
@@ -2542,7 +2572,7 @@ voice_type       Light_1
 soldier          steppe_light_cavalry, 25, 0, 1.1
 mount            light horse
 mount_effect     horse -1, camel -2
-attributes       sea_faring, hide_forest, very_hardy
+attributes       sea_faring, hide_forest, very_hardy, can_horde
 formation        2.0, 2.4, 3.8, 4.0, 3, square
 stat_health      1, 0
 stat_pri         1, 18, no, 0, 0, melee, other, piercing, spear, 10 ,0.4
@@ -2558,7 +2588,7 @@ stat_charge_dist 15
 stat_fire_delay  -100000
 stat_food        60, 300
 stat_cost        0, 450, 225, 70, 80, 590
-ownership        slave, egypt, armenia, mongol, bulgaria
+ownership        slave, egypt, pech, armenia, novgo, mongol, bulgaria
 
 type             light cavalry
 dictionary       light_cavalry
@@ -2621,7 +2651,7 @@ soldier          ghulam_cavalry, 18, 0, 1.4
 officer          muslim_mount_standard
 mount            light horse
 mount_effect     camel -2
-attributes       sea_faring, hide_forest, very_hardy, command, frighten_foot
+attributes       sea_faring, hide_forest, very_hardy, command, frighten_foot, can_horde
 formation        1.6, 2.0, 3.4, 3.4, 3, square, 
 stat_health      1, 0
 stat_pri         4, 30, no, 0, 0, melee, simple, piercing, spear, 10 ,0.4
@@ -2637,7 +2667,7 @@ stat_charge_dist 25
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        2, 1350, 560, 106, 120, 810
-ownership        slave, greek_cities, romans_brutii, thrace, pontus
+ownership        slave, greek_cities, romans_brutii, thrace, pontus, dani
 
 type             lithuanian cavalry
 dictionary       lithuanian_cavalry
@@ -2690,7 +2720,7 @@ stat_charge_dist 20
 stat_fire_delay  -160000
 stat_food        60, 300
 stat_cost        1, 1250, 500, 100, 125, 830
-ownership        slave, armenia
+ownership        slave, armenia, novgo
 
 type             hobilars
 dictionary       hobilars
@@ -2717,7 +2747,7 @@ stat_charge_dist 15
 stat_fire_delay  -100000
 stat_food        60, 300
 stat_cost        2, 520, 260, 70, 80, 520
-ownership        slave, britons, gauls
+ownership        slave, britons, gauls, jeru
 
 type             ghazi cavalry
 dictionary       ghazi_cavalry
@@ -2727,7 +2757,7 @@ voice_type       Light_1
 soldier          ghazi_cavalry, 25, 0, 1.1
 mount            light horse
 mount_effect     horse -1, camel -2
-attributes       sea_faring, hide_forest, very_hardy
+attributes       sea_faring, hide_forest, very_hardy, can_horde
 formation        2.0, 2.4, 3.8, 4.0, 3, square
 stat_health      1, 0
 stat_pri         1, 15, no, 0, 0, melee, blade, slashing, axe, 10 ,0.5
@@ -2743,7 +2773,7 @@ stat_charge_dist 15
 stat_fire_delay  -90000
 stat_food        60, 300
 stat_cost        2, 700, 350, 90, 50, 650
-ownership        slave, greek_cities, romans_brutii, thrace, pontus
+ownership        slave, greek_cities, romans_brutii, thrace, pontus, dani
 
 type             bedouin camels
 dictionary       bedouin_camels
@@ -2828,7 +2858,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        2, 1450, 540, 80, 86, 550
-ownership        slave, gauls, germans, britons, numidia, romans_scipii, romans_julii, romans_senate, spain, carthage, scythia, pope
+ownership        slave, gauls, jeru, germans, britons, numidia, romans_scipii, romans_julii, romans_senate, spain, carthage, scythia, pope
 
 type             foot druzhina
 dictionary       foot_druzhina
@@ -2853,7 +2883,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        2, 1150, 450, 100, 100, 560
-ownership        slave, armenia
+ownership        slave, armenia, novgo
 
 type             saracen warriors
 dictionary       saracen_warriors
@@ -2880,7 +2910,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 770, 385, 85, 73, 500
-ownership        slave, dacia, thrace, pontus, greek_cities, romans_brutii, germans
+ownership        slave, dacia, thrace, pontus, dani, greek_cities, romans_brutii, germans
 
 ;***************************** ARCHER CLASS INFANTRY ***************************************************
 
@@ -2908,7 +2938,7 @@ stat_charge_dist 95
 stat_fire_delay  2
 stat_food        60, 300
 stat_cost        2, 460, 230, 110, 46, 280
-ownership        slave, gauls, germans, scythia, britons, numidia, dacia, romans_scipii, romans_julii, pope, romans_senate, macedon, armenia, spain, seleucid, georgia, romans_brutii
+ownership        slave, gauls, jeru, germans, scythia, britons, numidia, dacia, romans_scipii, romans_julii, pope, romans_senate, macedon, armenia, novgo, spain, seleucid, georgia, romans_brutii
 
 type             archers
 dictionary       archers
@@ -2917,7 +2947,7 @@ class            missile
 voice_type       Light_1
 soldier          archer, 25, 0, 0.4
 mount_effect     horse -2, camel -2
-attributes       sea_faring, hide_improved_forest,hide_long_grass, hardy
+attributes       sea_faring, hide_improved_forest, hide_long_grass, hardy
 formation        1.2, 2.6, 1.5, 2.6, 3, square
 stat_health      1, 0
 stat_pri         2, 0, arrow2, 105, 12, missile, other, piercing, none, 10 ,0.4
@@ -2933,7 +2963,7 @@ stat_charge_dist 105
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 320, 200, 100, 36, 250
-ownership        slave, barbarian, carthaginian, armenia, egyptian, greek, bulgaria
+ownership        slave, barbarian, carthaginian, armenia, novgo, egyptian, greek, bulgaria
 
 type             saracen archers
 dictionary       saracen_archers
@@ -2959,7 +2989,7 @@ stat_charge_dist 125
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 900, 425, 110, 63, 390
-ownership        slave, dacia, thrace, pontus, greek_cities, romans_brutii, germans
+ownership        slave, dacia, thrace, pontus, dani, greek_cities, romans_brutii, germans
 
 ;***************************** SPEAR ARMED INFANTRY ***************************************************
 
@@ -2990,7 +3020,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 750, 275, 70, 80, 500
-ownership        slave, thrace, pontus, greek_cities, romans_brutii
+ownership        slave, thrace, pontus, dani, greek_cities, romans_brutii
 
 type             armoured spearmen
 dictionary       armoured_spearmen
@@ -3017,7 +3047,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 800, 300, 70, 80, 510
-ownership        slave, gauls, germans, scythia, britons, dacia, numidia, romans_julii, pope, romans_senate, carthage, romans_scipii, spain 
+ownership        slave, gauls, jeru, germans, scythia, britons, dacia, numidia, romans_julii, pope, romans_senate, carthage, romans_scipii, spain 
 
 type             russian spearmen
 dictionary       russian_spearmen
@@ -3043,7 +3073,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 750, 275, 70, 85, 380
-ownership        slave, armenia
+ownership        slave, armenia, novgo
 
 ; Medium/Light:
 
@@ -3072,7 +3102,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 450, 225, 70, 75, 400
-ownership        slave, gauls, germans, scythia, britons, numidia, dacia, romans_senate, romans_julii, pope, romans_scipii, spain, carthage
+ownership        slave, gauls, jeru, germans, scythia, britons, numidia, dacia, romans_senate, romans_julii, pope, romans_scipii, spain, carthage
 
 type             apellidos
 dictionary       apellidos
@@ -3120,7 +3150,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 320, 195, 60, 60, 260
-ownership        slave, greek_cities, romans_brutii, thrace, pontus, macedon
+ownership        slave, greek_cities, romans_brutii, thrace, pontus, dani, macedon
 
 type             spearmen 
 dictionary       spearmen ; Sergeants
@@ -3145,7 +3175,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        2, 400, 200, 90, 65, 200
-ownership        slave, barbarian, carthaginian, armenia, egyptian, greek
+ownership        slave, barbarian, carthaginian, armenia, novgo, egyptian, greek
 
 ; as settlers
 type             peasants
@@ -3171,7 +3201,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        2, 320, 160, 90, 65, 100
-ownership        slave, barbarian, carthaginian, armenia, parthia, egyptian, greek, pontus
+ownership        slave, barbarian, carthaginian, armenia, novgo, parthia, egyptian, greek, pontus, dani
 
 type             pilgers 
 dictionary       pilgrims
@@ -3225,7 +3255,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        2, 875, 410, 100, 70, 450
-ownership        slave, germans, numidia, scythia, gauls, romans_julii, pope 
+ownership        slave, germans, numidia, scythia, gauls, jeru, romans_julii, pope 
 
 type             woodsmen
 dictionary       woodsmen
@@ -3250,7 +3280,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        2, 400, 200, 90, 65, 210
-ownership        slave, scythia, germans, numidia, armenia
+ownership        slave, scythia, germans, numidia, armenia, novgo
 
 type             ghazi infantry
 dictionary       ghazi_infantry
@@ -3275,7 +3305,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        2, 400, 200, 90, 65, 500
-ownership        slave, greek_cities, romans_brutii, thrace, pontus
+ownership        slave, greek_cities, romans_brutii, thrace, pontus, dani
 
 ;***************************** MISCELLANEOUS ***************************************************
 
@@ -3330,7 +3360,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        3, 300, 200, 55, 55, 200
-ownership        slave, gauls, britons, germans, numidia, romans_julii, romans_scipii, spain, carthage, romans_senate, dacia
+ownership        slave, gauls, jeru, britons, germans, numidia, romans_julii, romans_scipii, spain, carthage, romans_senate, dacia
 
 ; *************************************************************************************************************************************
 ;
@@ -3373,7 +3403,7 @@ class            missile
 voice_type       Light_1
 soldier          slavic_warband, 40, 0, 0.5
 mount_effect     horse -2, camel -2
-attributes       sea_faring, hide_improved_forest,hide_long_grass, very_hardy
+attributes       sea_faring, hide_improved_forest, hide_long_grass, very_hardy, can_horde
 formation        1.5, 2.2, 1.5, 2.2, 3, square
 stat_health      1, 0
 stat_pri         8, 0, javelin, 38, 2, thrown, other, piercing, spear, 25 ,0.5
@@ -3389,7 +3419,7 @@ stat_charge_dist 60
 stat_fire_delay  -60000
 stat_food        60, 300
 stat_cost        1, 420, 230, 90, 55, 340
-ownership        slave, carthage, armenia, numidia, romans_senate, mongol, bulgaria
+ownership        slave, carthage, armenia, novgo, numidia, romans_senate, mongol, bulgaria
 
 type             viking warriors
 dictionary       viking_warriors
@@ -3514,7 +3544,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        2, 1050, 445, 95, 100, 750
-ownership        slave, armenia
+ownership        slave, armenia, novgo
 
 type             vlach tribesmen
 dictionary       vlach_tribesmen
@@ -3522,7 +3552,7 @@ category         infantry
 class            light
 voice_type       Light_1
 soldier          vlach_tribesman, 45, 0, 0.5
-attributes       sea_faring, hide_improved_forest,hide_long_grass, very_hardy 
+attributes       sea_faring, hide_improved_forest, hide_long_grass, very_hardy, can_horde 
 formation        1.3, 1.6, 1.5, 1.6, 5, square
 stat_health      1, 0
 stat_pri         1, 7, no, 0, 0, melee, other, piercing, spear, 10 ,0.4
@@ -3538,7 +3568,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 250, 125, 30, 35, 210
-ownership        slave, egypt, mongol, bulgaria
+ownership        slave, egypt, pech, mongol, bulgaria
 
 ; rebel only
 type             lewnaght
@@ -3590,7 +3620,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 750, 350, 80, 80, 500
-ownership        slave, germans, dacia, romans_julii, pope, gauls, britons
+ownership        slave, germans, dacia, romans_julii, pope, gauls, jeru, britons
 
 type             italian crossbow
 dictionary       italian_crossbow
@@ -3825,7 +3855,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 1200, 475, 80, 86, 550
-ownership        slave, gauls
+ownership        slave, gauls, jeru
 
 ; not pool-merc! (former pool merc, changed)
 type             teutonic spearmen
@@ -3851,7 +3881,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        2, 850, 325, 85, 95, 630
-ownership        slave, germans, dacia, gauls, britons
+ownership        slave, germans, dacia, gauls, jeru, britons
 
 type             welsh longbowmen
 dictionary       welsh_longbowmen_merc
@@ -3905,7 +3935,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        3, 600, 350, 80, 100, 620
-ownership        slave, romans_julii, pope, gauls, britons, dacia, germans, spain, parthia
+ownership        slave, romans_julii, pope, gauls, jeru, britons, dacia, germans, spain, parthia
 
 ; pool merc:
 type             trebizond archers merc
@@ -3931,7 +3961,7 @@ stat_charge_dist 125
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 500, 250, 100, 70, 320
-ownership        slave, pontus
+ownership        slave, pontus, dani
 
 ; plus pool merc:
 type             latin auxiliaries merc
@@ -3957,7 +3987,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 550, 300, 80, 110, 600
-ownership        slave, germans, gauls, britons, dacia, romans_julii, pope, parthia, spain
+ownership        slave, germans, gauls, jeru, britons, dacia, romans_julii, pope, parthia, spain
 
 type             bedouin camels merc
 dictionary       bedouin_camels_merc
@@ -3983,7 +4013,7 @@ stat_charge_dist 20
 stat_fire_delay  -90000
 stat_food        60, 300
 stat_cost        0, 450, 225, 70, 65, 570
-ownership        macedon, thrace, pontus, romans_brutii
+ownership        macedon, thrace, pontus, dani, romans_brutii
 
 type             brabancons merc
 dictionary       brabancons_merc
@@ -4008,7 +4038,7 @@ stat_charge_dist 10
 stat_fire_delay  100000
 stat_food        60, 300
 stat_cost        1, 700, 325, 80, 92, 600
-ownership        gauls, germans
+ownership        gauls, jeru, germans
 
 type             slavic warband merc
 dictionary       slavic_warband_merc
@@ -4033,7 +4063,7 @@ stat_charge_dist 60
 stat_fire_delay  -60000
 stat_food        60, 300
 stat_cost        1, 400, 200, 90, 55, 340
-ownership        egypt, numidia, armenia, mongol, bulgaria
+ownership        egypt, pech, numidia, armenia, novgo, mongol, bulgaria
 
 ; re-functioned to pool merc only
 type             viking warriors merc
@@ -4084,7 +4114,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 550, 275, 90, 80, 350
-ownership        gauls, germans, scythia, britons, dacia
+ownership        gauls, jeru, germans, scythia, britons, dacia
 
 type             lewnaght merc
 dictionary       lewnaght_merc
@@ -4134,7 +4164,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        2, 750, 350, 80, 80, 500
-ownership        gauls, germans, britons, dacia, romans_julii, pope, spain, parthia, seleucid
+ownership        gauls, jeru, germans, britons, dacia, romans_julii, pope, spain, parthia, seleucid
 
 type             flemish militia merc
 dictionary       flemish_militia_merc
@@ -4159,7 +4189,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        3, 750, 375, 63, 63, 380
-ownership        gauls, germans, britons, dacia
+ownership        gauls, jeru, germans, britons, dacia
 
 type             burgundian knights 
 dictionary       feudal_knights_merc
@@ -4186,7 +4216,7 @@ stat_charge_dist 30
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        3, 1850, 550, 100, 130, 840
-ownership        gauls, germans
+ownership        gauls, jeru, germans
 
 type             szekely merc
 dictionary       szekely_merc ; Skythian Mercs
@@ -4274,7 +4304,7 @@ ownership        slave, dacia
 ;stat_fire_delay  -190000
 ;stat_food        60, 300
 ;stat_cost        2, 2600, 650, 110, 140, 890
-;ownership        gauls, germans, britons, dacia
+;ownership        gauls, jeru, germans, britons, dacia
 
 ; current only templar
 type             templars high
@@ -4301,7 +4331,7 @@ stat_charge_dist 30
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        3, 2475, 710, 110, 140, 890
-ownership        gauls, germans, britons, dacia
+ownership        gauls, jeru, germans, britons, dacia
 
 ; current only hosp
 type             hospitallers early merc
@@ -4328,7 +4358,7 @@ stat_charge_dist 30
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        2, 2225, 660, 110, 130, 860
-ownership        gauls, germans, britons, dacia
+ownership        gauls, jeru, germans, britons, dacia
 
 ;; changed to non-merc 
 type             crusader infantry
@@ -4356,7 +4386,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        2, 825, 400, 85, 95, 630
-ownership        gauls, germans, britons, dacia
+ownership        gauls, jeru, germans, britons, dacia
 
 ; changed to non-merc
 type             crusader foot knights 
@@ -4384,7 +4414,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        3, 1350, 500, 80, 86, 550
-ownership        gauls, germans, britons, dacia
+ownership        gauls, jeru, germans, britons, dacia
 
 ; Levante
 type             cross bearers merc
@@ -4413,7 +4443,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        3, 1100, 425, 50, 50, 550
-ownership        gauls, germans, britons, dacia
+ownership        gauls, jeru, germans, britons, dacia
 
 ; crusader characters, 2hp (generals), nope: changed
 type             kings cavalry merc  
@@ -4441,7 +4471,7 @@ stat_charge_dist 30
 stat_fire_delay  -300000
 stat_food        60, 300
 stat_cost        3, 2550, 480, 100, 150, 850
-ownership        romans_julii, pope, gauls, germans, britons, dacia
+ownership        romans_julii, pope, gauls, jeru, germans, britons, dacia
 
 ; Crusader Aux, Levante
 ;---------------
@@ -4472,7 +4502,7 @@ stat_charge_dist 15
 stat_fire_delay  -170000
 stat_food        60, 300
 stat_cost        1, 1050, 425, 85, 83, 500
-ownership        romans_julii, gauls, germans, britons, dacia
+ownership        romans_julii, gauls, jeru, germans, britons, dacia
 
 
 ; End Crusaders
@@ -4530,7 +4560,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        2, 600, 280, 80, 60, 250
-ownership        gauls, germans, scythia, britons, numidia, dacia, romans_scipii, romans_julii, pope, romans_senate, spain
+ownership        gauls, jeru, germans, scythia, britons, numidia, dacia, romans_scipii, romans_julii, pope, romans_senate, spain
 
 type             muslim urban militia exp
 dictionary       muslim_urban_militia ; Custom House Militia
@@ -4555,7 +4585,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 580, 275, 85, 60, 230
-ownership        greek_cities, macedon, thrace, pontus, romans_brutii
+ownership        greek_cities, macedon, thrace, pontus, dani, romans_brutii
 
 type             elite feudal foot knights
 dictionary       elite_foot_knights ; black foot knights
@@ -4581,7 +4611,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        3, 2050, 550, 80, 86, 550
-ownership        gauls, germans, britons, numidia, dacia, romans_julii, pope, romans_senate, carthage, scythia, spain, romans_scipii
+ownership        gauls, jeru, germans, britons, numidia, dacia, romans_julii, pope, romans_senate, carthage, scythia, spain, romans_scipii
 
 type             elite ghulam cavalry
 dictionary       elite_ghulam_cav
@@ -4592,7 +4622,7 @@ soldier          elite_ghulam_cavalry, 11, 0, 1.5
 officer          muslim_mount_standard
 mount            covered horse eastern ; light horse
 mount_effect     camel -2
-attributes       sea_faring, hide_forest, very_hardy, command, frighten_foot, ;no_custom
+attributes       sea_faring, hide_forest, very_hardy, command, frighten_foot, can_horde ;no_custom
 formation        1.6, 2.0, 3.4, 3.4, 3, square, 
 stat_health      1, 0
 stat_pri         5, 34, no, 0, 0, melee, simple, piercing, spear, 10 ,0.4
@@ -4608,7 +4638,7 @@ stat_charge_dist 30
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        3, 2950, 705, 106, 120, 810
-ownership        slave, greek_cities, thrace, pontus, romans_brutii, macedon
+ownership        slave, greek_cities, thrace, pontus, dani, romans_brutii, macedon
 
 ; Regular Faction Units/Mercs:
 
@@ -4637,7 +4667,7 @@ stat_charge_dist 30
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        2, 1950, 600, 130, 150, 800
-ownership        slave, egypt, thrace, pontus, mongol
+ownership        slave, egypt, pech, thrace, pontus, dani, mongol
 
 type             knights reconquista
 dictionary       feudal_knights_recon
@@ -4720,7 +4750,7 @@ stat_charge_dist 30
 stat_fire_delay  -100000
 stat_food        60, 300
 stat_cost        2, 1250, 500, 105, 90, 630
-ownership        germans, dacia, gauls, britons
+ownership        germans, dacia, gauls, jeru, britons
 
 type             baltic foot crusader 
 dictionary       baltic_foot_crusader
@@ -4802,7 +4832,7 @@ stat_charge_dist 30
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        3, 1450, 550, 90, 80, 650
-ownership        slave, germans, dacia, romans_julii, pope, gauls, britons
+ownership        slave, germans, dacia, romans_julii, pope, gauls, jeru, britons
 
 type             sardinian mercenaries
 dictionary       sardinian_mercenaries
@@ -4852,7 +4882,7 @@ stat_charge_dist 125
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 480, 240, 100, 70, 320
-ownership        slave, romans_julii, pope, gauls, germans, britons, dacia
+ownership        slave, romans_julii, pope, gauls, jeru, germans, britons, dacia
 
 type             berber infantry
 dictionary       berber_infantry ; Berber Heavy Inf
@@ -4903,7 +4933,7 @@ stat_charge_dist 125
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 500, 250, 100, 70, 320
-ownership        slave, romans_julii, pope, gauls, germans, britons, dacia
+ownership        slave, romans_julii, pope, gauls, jeru, germans, britons, dacia
 
 type             venezian sailors 
 dictionary       venezian_sailors
@@ -4928,7 +4958,7 @@ stat_charge_dist 60
 stat_fire_delay  -60000
 stat_food        60, 300
 stat_cost        1, 500, 250, 100, 70, 320
-ownership        slave, romans_julii, pope, gauls, germans, britons, dacia
+ownership        slave, romans_julii, pope, gauls, jeru, germans, britons, dacia
 
 type             foot knights recon 
 dictionary       euro_foot_recon
@@ -5036,7 +5066,7 @@ stat_charge_dist 125
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 700, 300, 100, 70, 320
-ownership        slave, gauls, germans, britons, scythia, numidia, romans_senate, romans_julii, pope
+ownership        slave, gauls, jeru, germans, britons, scythia, numidia, romans_senate, romans_julii, pope
 
 type             crusader crossbowmen
 dictionary       crusaders_frank_crossbowmen ; Crusader State Crossbowmen
@@ -5061,7 +5091,7 @@ stat_charge_dist 100
 stat_fire_delay  2
 stat_food        60, 300
 stat_cost        2, 800, 400, 65, 46, 280
-ownership        gauls, germans, britons, dacia, romans_julii
+ownership        gauls, jeru, germans, britons, dacia, romans_julii
 
 type             crusader archer  
 dictionary       ordini_arceri_elite
@@ -5086,7 +5116,7 @@ stat_charge_dist 120
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 480, 240, 100, 70, 320
-ownership        romans_julii, gauls, germans, britons, dacia
+ownership        romans_julii, gauls, jeru, germans, britons, dacia
 
 type             crusader mounted sergeants  
 dictionary       horse_sergeant
@@ -5113,7 +5143,7 @@ stat_charge_dist 20
 stat_fire_delay  -120000
 stat_food        60, 300
 stat_cost        1, 1150, 500, 90, 80, 580
-ownership        gauls, germans, britons, dacia, romans_julii
+ownership        gauls, jeru, germans, britons, dacia, romans_julii
 
 type             crusader base spearmen  
 dictionary       jeru_base_spearman
@@ -5139,7 +5169,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 450, 225, 85, 95, 630
-ownership        gauls
+ownership        gauls, jeru
 
 type             anatolian spearmen
 dictionary       anatolian_spearmen
@@ -5165,7 +5195,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 550, 225, 70, 80, 500
-ownership        slave, thrace, pontus
+ownership        slave, thrace, pontus, dani
 
 ; light desert cav
 type             bedouin cavalry
@@ -5219,7 +5249,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        2, 800, 380, 80, 80, 550
-ownership        slave, thrace, pontus, greek_cities
+ownership        slave, thrace, pontus, dani, greek_cities
 
 type             saracen faris
 dictionary       saracen_faris
@@ -5246,7 +5276,7 @@ stat_charge_dist 20
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        1, 1150, 450, 95, 115, 730
-ownership        slave, greek_cities, thrace, pontus
+ownership        slave, greek_cities, thrace, pontus, dani
 
 type             saracen horse archers
 dictionary       turcoman_horse_archers ; Saracen Horse Archers
@@ -5257,7 +5287,7 @@ soldier          turcoman_horse_archer, 20, 0, 1.3
 ;officer          muslim_mount_standard ; needs a sicily one first
 mount            light horse
 mount_effect     camel -2
-attributes       sea_faring, hide_forest, very_hardy, command, frighten_foot
+attributes       sea_faring, hide_forest, very_hardy, command, frighten_foot, can_horde
 formation        1.6, 2.0, 3.4, 3.4, 3, square, 
 stat_health      1, 0
 stat_pri         4, 15, arrow2, 125, 10, missile, archery, piercing, none, 10 ,0.4
@@ -5273,7 +5303,7 @@ stat_charge_dist 25
 stat_fire_delay  -160000
 stat_food        60, 300
 stat_cost        1, 1250, 475, 100, 125, 830
-ownership        slave, greek_cities, thrace, pontus, dacia
+ownership        slave, greek_cities, thrace, pontus, dani, dacia
 
 ; semi-heavy arabs
 type             arab cavalry
@@ -5328,7 +5358,7 @@ stat_charge_dist 30
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        3, 2050, 500, 100, 130, 840
-ownership        slave, gauls, germans, britons
+ownership        slave, gauls, jeru, germans, britons
 
 type             lothringian knights 
 dictionary       loth_knights_early
@@ -5355,7 +5385,7 @@ stat_charge_dist 30
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        3, 2050, 500, 100, 130, 840
-ownership        slave, gauls, germans
+ownership        slave, gauls, jeru, germans
 
 type             siculo norman foot knights
 dictionary       siculo_norman_foot_knights
@@ -5407,7 +5437,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 780, 375, 90, 80, 420
-ownership        romans_scipii, romans_julii, germans, gauls, britons, dacia, spain, pope
+ownership        romans_scipii, romans_julii, germans, gauls, jeru, britons, dacia, spain, pope
 
 type             dismounted sergeants
 dictionary       dismounted_sergeants
@@ -5434,7 +5464,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 585, 275, 70, 75, 400
-ownership        slave, gauls, germans, britons, numidia, dacia, romans_julii, pope, romans_senate, spain, carthage, scythia
+ownership        slave, gauls, jeru, germans, britons, numidia, dacia, romans_julii, pope, romans_senate, spain, carthage, scythia
 
 type             muslim spear militia
 dictionary       muslim_spear_militia
@@ -5458,7 +5488,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        2, 420, 210, 70, 75, 380
-ownership        slave, greek_cities, romans_brutii, thrace, pontus, macedon
+ownership        slave, greek_cities, romans_brutii, thrace, pontus, dani, macedon
 
 type             levy spearmen 
 dictionary       levy_spearmen
@@ -5482,7 +5512,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        0, 400, 275, 90, 65, 200
-ownership        slave, barbarian, carthaginian, armenia, egyptian, greek, thrace, pontus, romans_brutii, macedon, greek_cities
+ownership        slave, barbarian, carthaginian, armenia, novgo, egyptian, greek, thrace, pontus, dani, romans_brutii, macedon, greek_cities
 
 type             militia spearmen
 dictionary       militia_spearmen
@@ -5507,7 +5537,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        2, 400, 200, 70, 75, 400
-ownership        slave, gauls, germans, scythia, britons, numidia, dacia, romans_senate, romans_julii, pope, romans_scipii, spain, carthage
+ownership        slave, gauls, jeru, germans, scythia, britons, numidia, dacia, romans_senate, romans_julii, pope, romans_scipii, spain, carthage
 
 ; AoR units /dv
 
@@ -5536,7 +5566,7 @@ stat_charge_dist 30
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        2, 1350, 425, 100, 130, 840
-ownership        gauls, germans, britons, numidia, dacia, romans_scipii, romans_julii, pope, romans_senate, spain, carthage
+ownership        gauls, jeru, germans, britons, numidia, dacia, romans_scipii, romans_julii, pope, romans_senate, spain, carthage
 
 type             feudal foot knights aor
 dictionary       feudal_foot_knights_aor
@@ -5562,7 +5592,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        2, 1150, 450, 80, 86, 550
-ownership        gauls, germans, britons, numidia, dacia, romans_scipii, romans_julii, pope, romans_senate, spain, carthage
+ownership        gauls, jeru, germans, britons, numidia, dacia, romans_scipii, romans_julii, pope, romans_senate, spain, carthage
 
 ;type             numerioi
 ;dictionary       numerioi ; Numerioi
@@ -5665,7 +5695,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 800, 400, 60, 80, 544
-ownership        slave, carthage, egypt, mongol
+ownership        slave, carthage, egypt, pech, mongol
 
 type             szekely2
 dictionary       szekely2     ; Szekely
@@ -5700,7 +5730,7 @@ class            missile
 voice_type       Light_1
 soldier          wallachian_skirmisher, 30, 0, 0.5
 mount_effect     horse -2, camel -2
-attributes       sea_faring, hide_long_grass, hide_improved_forest, very_hardy
+attributes       sea_faring, hide_long_grass, hide_improved_forest, very_hardy, can_horde
 formation        1.5, 2.2, 1.5, 2.2, 3, square
 stat_health      1, 0
 stat_pri         8, 4, javelin, 38, 3, thrown, other, piercing, spear, 10 ,0.5
@@ -5716,7 +5746,7 @@ stat_charge_dist 60
 stat_fire_delay  -60000
 stat_food        60, 300
 stat_cost        1, 400, 200, 80, 110, 300
-ownership        slave, carthage, egypt, bulgaria, mongol
+ownership        slave, carthage, egypt, pech, bulgaria, mongol
 
 ; building
 type             genoese crossbowmen
@@ -5742,7 +5772,7 @@ stat_charge_dist 100
 stat_fire_delay  2
 stat_food        60, 300
 stat_cost        2, 1050, 500, 60, 80, 480
-ownership        romans_julii, pope, gauls, britons, dacia, germans
+ownership        romans_julii, pope, gauls, jeru, britons, dacia, germans
 
 type             archer merc 
 dictionary       it_arceri ; Archer Mercenaries
@@ -5843,7 +5873,7 @@ stat_charge_dist 115
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 460, 240, 60, 80, 240
-ownership        romans_julii, germans, britons, gauls, dacia
+ownership        romans_julii, germans, britons, gauls, jeru, dacia
 
 type             crusader sergeants  
 dictionary       jeru_sergeant ; Crusader State Sergeant
@@ -5869,7 +5899,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 800, 375, 60, 80, 390
-ownership        slave, gauls, germans, britons, dacia, romans_julii
+ownership        slave, gauls, jeru, germans, britons, dacia, romans_julii
 
 type             azaks  
 dictionary       arm_azaks ; Azaks
@@ -5956,7 +5986,7 @@ voice_type       Light_1
 soldier          saracen_turcoman_archers, 27, 0, 1
 mount            light horse
 mount_effect     horse -1, camel -2
-attributes       sea_faring, hide_forest, very_hardy
+attributes       sea_faring, hide_forest, very_hardy, can_horde
 formation        2.0, 2.4, 3.8, 4.0, 3, square
 stat_health      1, 0
 stat_pri         4, 0, arrow2, 125, 13, missile, other, piercing, none, 10, 0.4
@@ -5972,7 +6002,7 @@ stat_charge_dist 15
 stat_fire_delay  -170000
 stat_food        60, 300
 stat_cost        0, 550, 250, 80, 110, 555
-ownership        slave, thrace, pontus
+ownership        slave, thrace, pontus, dani
 
 type             turcoman footarchers
 dictionary       saracen_turcoman_archers_foot ; Turcoman Footarchers
@@ -5997,7 +6027,7 @@ stat_charge_dist 125
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        0, 350, 175, 80, 110, 378
-ownership        thrace, pontus
+ownership        thrace, pontus, dani
 
 type             lamtuna
 dictionary       saracen_lamtuna
@@ -6058,7 +6088,7 @@ soldier          saracen_turcoman_light_cavalry, 27, 0, 1
 officer          muslim_mount_standard
 mount            light horse
 mount_effect     horse -1, camel -2
-attributes       sea_faring, hide_forest, very_hardy
+attributes       sea_faring, hide_forest, very_hardy, can_horde
 formation        2.0, 2.4, 3.8, 4, 3, square
 stat_health      1, 0
 stat_pri         1, 18, no, 0, 0, melee, other, piercing, spear, 10, 0.4
@@ -6074,7 +6104,7 @@ stat_charge_dist 15
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        0, 550, 275, 40, 50, 525
-ownership        slave, thrace, pontus
+ownership        slave, thrace, pontus, dani
 
 type             daylami spear
 dictionary       Saracen_daylami_spear
@@ -6099,7 +6129,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 550, 250, 60, 80, 512
-ownership        thrace, greek_cities, pontus
+ownership        thrace, greek_cities, pontus, dani
 
 type             daylami sword
 dictionary       Saracen_daylami_sword
@@ -6124,7 +6154,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 620, 280, 60, 80, 512
-ownership        thrace, greek_cities, pontus
+ownership        thrace, greek_cities, pontus, dani
 
 type             aghulans
 dictionary       saracen_aghulans
@@ -6150,7 +6180,7 @@ stat_charge_dist 25
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        2, 770, 385, 40, 50, 828
-ownership        slave, thrace, pontus
+ownership        slave, thrace, pontus, dani
 
 type             maghreb cavalry
 dictionary       saracen_cavalieri_maghrebini
@@ -6257,7 +6287,7 @@ stat_charge_dist 30
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        3, 2050, 550, 100, 130, 840
-ownership        slave, romans_scipii, romans_julii, germans, gauls, britons, dacia, spain
+ownership        slave, romans_scipii, romans_julii, germans, gauls, jeru, britons, dacia, spain
 
 type             levy guards 
 dictionary       levy_spearmen1
@@ -6290,7 +6320,7 @@ class            heavy
 voice_type       Light_1
 soldier          transilvanian_infantry, 30, 0, 0.8
 mount_effect     horse +1
-attributes       sea_faring, hide_forest, very_hardy
+attributes       sea_faring, hide_forest, very_hardy, can_horde
 formation        1.3, 1.6, 1.5, 1.6, 3, square
 stat_health      1, 0
 stat_pri         2, 7, no, 0, 0, melee, blade, piercing, sword, 20 ,0.7
@@ -6306,7 +6336,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 720, 350, 60, 80, 544
-ownership        slave, carthage, egypt, bulgaria, mongol
+ownership        slave, carthage, egypt, pech, bulgaria, mongol
 
 type             saxon knights 
 dictionary       sax_knights_early
@@ -6384,7 +6414,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        2, 720, 285, 70, 75, 400
-ownership        gauls, germans, britons, numidia, romans_scipii, spain, scythia
+ownership        gauls, jeru, germans, britons, numidia, romans_scipii, spain, scythia
 
 type             maa aor
 dictionary       maa_aor ; Vasall MAA
@@ -6410,7 +6440,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        2, 825, 310, 80, 100, 620
-ownership        gauls, germans, britons, numidia, dacia, romans_scipii, romans_julii, pope, romans_senate, spain, carthage
+ownership        gauls, jeru, germans, britons, numidia, dacia, romans_scipii, romans_julii, pope, romans_senate, spain, carthage
 
 type             early merc knights 
 dictionary       early_merc_knights
@@ -6596,7 +6626,7 @@ voice_type       Light_1
 soldier          cuman_horse_archer, 25, 0, 1.1
 mount            light horse
 mount_effect     camel -2
-attributes       sea_faring, hide_forest, very_hardy, command, frighten_foot
+attributes       sea_faring, hide_forest, very_hardy, command, frighten_foot, can_horde
 formation        1.6, 2.0, 3.4, 3.4, 3, square 
 stat_health      1, 0
 stat_pri         4, 15, arrow2, 125, 10, missile, archery, piercing, none, 10 ,0.4
@@ -6612,7 +6642,7 @@ stat_charge_dist 20
 stat_fire_delay  -160000
 stat_food        60, 300
 stat_cost        2, 850, 400, 100, 125, 830
-ownership        slave, egypt, mongol
+ownership        slave, egypt, pech, mongol
 
 type             cuman foot warrior 
 dictionary       cuman_archer
@@ -6621,7 +6651,7 @@ class            heavy
 voice_type       Light_1
 soldier          cuman_archer, 30, 0, 1
 mount_effect     horse -1, camel -2
-attributes       sea_faring, hide_forest, very_hardy, command
+attributes       sea_faring, hide_forest, very_hardy, command, can_horde
 formation        1.2, 1.6, 1.5, 1.6, 3, square
 stat_health      1, 0
 stat_pri         4, 2, arrow2, 125, 10, missile, archery, piercing, none, 10, 0.7
@@ -6637,7 +6667,7 @@ stat_charge_dist 125
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 680, 285, 60, 80, 250
-ownership        slave, egypt, mongol
+ownership        slave, egypt, pech, mongol
 
 type             georgian infantry  
 dictionary       arm_peltasti
@@ -6687,7 +6717,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 750, 280, 60, 80, 1113
-ownership        slave, pontus, thrace
+ownership        slave, pontus, dani, thrace
 
 type             muttawia
 dictionary       saracen_muttawia
@@ -6712,7 +6742,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 650, 325, 60, 80, 1113
-ownership        slave, greek, romans_brutii, pontus
+ownership        slave, greek, romans_brutii, pontus, dani
 
 type             order serviants
 dictionary       hosp_ord_adepti
@@ -6737,7 +6767,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 650, 300, 60, 80, 1113
-ownership        slave, gauls, germans, dacia, britons, romans_julii
+ownership        slave, gauls, jeru, germans, dacia, britons, romans_julii
 
 type             dismounted sergeants merc
 dictionary       dismounted_sergeants_merc ; jeru skin
@@ -6762,7 +6792,7 @@ stat_charge_dist 30
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        1, 600, 295, 70, 75, 400
-ownership        gauls, germans, britons, dacia
+ownership        gauls, jeru, germans, britons, dacia
 
 type             teutonic knight levante
 dictionary       teutonic_knight ; Grandmaster model
@@ -6789,7 +6819,7 @@ stat_charge_dist 30
 stat_fire_delay  -190000
 stat_food        60, 300
 stat_cost        3, 3250, 750, 40, 50, 2000
-ownership        gauls, britons
+ownership        gauls, jeru, britons
 
 ; *************************************************************************************************************************************
 ;
@@ -6821,7 +6851,7 @@ stat_charge_dist 60
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 650, 300, 40, 30, 240
-ownership        slave, parthia, thrace, pontus, greek_cities, romans_brutii
+ownership        slave, parthia, thrace, pontus, dani, greek_cities, romans_brutii
 
 type             catapult
 dictionary       catapult ; mangonel
@@ -7013,7 +7043,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 400, 80, 50, 70, 450
-ownership        slave, thrace, pontus, macedon, greek_cities, romans_brutii, egypt, seleucid, georgia
+ownership        slave, thrace, pontus, dani, macedon, greek_cities, romans_brutii, egypt, pech, seleucid, georgia
 
 
 type             ship cog
@@ -7039,7 +7069,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 400, 80, 50, 70, 450
-ownership        slave, gauls, germans, scythia, britons, numidia, romans_scipii, romans_senate, spain, armenia, carthage, bulgaria
+ownership        slave, gauls, jeru, germans, scythia, britons, numidia, romans_scipii, romans_senate, spain, armenia, novgo, carthage, bulgaria
 
 
 type             ship dromon
@@ -7238,7 +7268,7 @@ soldier          hetaireia, 8, 0, 1.4
 officer		     bulg_standard_mount
 mount            generals horse
 mount_effect     camel -1
-attributes       sea_faring, hide_forest, very_hardy, command, frighten_foot
+attributes       sea_faring, hide_forest, very_hardy, command, frighten_foot, can_horde
 formation        1.6, 2.0, 3.4, 3.4, 3, square
 stat_health      1, 0
 stat_pri         5, 31, no, 0, 0, melee, blade, piercing, spear, 10 ,0.4
@@ -7270,7 +7300,7 @@ voice_type       Light_1
 soldier          bulg_cuman, 25, 0, 1.1
 mount            ranged horse
 mount_effect     horse -1, camel -2
-attributes       sea_faring, hide_forest, very_hardy, command 
+attributes       sea_faring, hide_forest, very_hardy, command, can_horde
 formation        2.0, 2.4, 3.8, 4.0, 3, square
 stat_health      1, 0
 stat_pri         4, 0, arrow2, 125, 12, missile, archery, piercing, none, 10 ,0.5
@@ -7296,7 +7326,7 @@ voice_type       Light_1
 soldier          bulg_sword, 25, 0, 0.8
 officer          bulg_officer
 mount_effect     horse -1, camel -2
-attributes       sea_faring, hide_forest, very_hardy, command
+attributes       sea_faring, hide_forest, very_hardy, command, can_horde
 formation        1.2, 1.6, 1.5, 1.6, 5, square
 stat_health      1, 0
 stat_pri         3, 8, no, 0, 0, melee, blade, piercing, sword, 10, 0.9
@@ -7323,7 +7353,7 @@ soldier          bulg_spearman, 35, 0, 0.8
 officer          bulg_officer
 officer          bulg_standard
 mount_effect     horse +7
-attributes       sea_faring, hide_forest, very_hardy, command
+attributes       sea_faring, hide_forest, very_hardy, command, can_horde
 formation        1.3, 1.2, 1.5, 1.2, 4, square, phalanx
 stat_health      1, 0
 stat_pri         1, 10, no, 0, 0, melee, blade, piercing, spear, 10 ,0.4
@@ -7402,7 +7432,7 @@ soldier          bulg_pronoia, 15, 0, 1.6
 officer          bulg_officer
 mount            warhorse 
 mount_effect     camel -2
-attributes       sea_faring, very_hardy, command, frighten_foot
+attributes       sea_faring, very_hardy, command, frighten_foot, can_horde
 formation        1.6, 2.0, 3.4, 3.4, 3, square
 stat_health      1, 0
 stat_pri         4, 31, no, 0, 0, melee, blade, piercing, spear, 10 ,0.4

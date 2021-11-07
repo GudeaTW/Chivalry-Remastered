@@ -80,7 +80,7 @@
 
 		"available in custom battles": true,
 		"prefer naval invasions": true,
-		"default religion": "christianity",
+		"default religion": "catholicism",
 	
 		;;allow this faction to have a functioning family tree
 		"allow reproduction": true,
@@ -224,7 +224,7 @@
 
 		"available in custom battles": true,
 		"prefer naval invasions": false,
-		"default religion": "christianity",
+		"default religion": "catholicism",
 	
 		;;allow this faction to have a functioning family tree
 		"allow reproduction": true,
@@ -296,7 +296,7 @@
 
 		"available in custom battles": true,
 		"prefer naval invasions": false,
-		"default religion": "christianity",
+		"default religion": "catholicism",
 	
 		;;allow this faction to have a functioning family tree
 		"allow reproduction": true,
@@ -512,7 +512,7 @@
 
 		"available in custom battles": true,
 		"prefer naval invasions": false,
-		"default religion": "christianity",
+		"default religion": "apostolic",
 	
 		;;allow this faction to have a functioning family tree
 		"allow reproduction": true,
@@ -584,7 +584,7 @@
 
 		"available in custom battles": true,
 		"prefer naval invasions": false,
-		"default religion": "christianity",
+		"default religion": "catholicism",
 	
 		;;allow this faction to have a functioning family tree
 		"allow reproduction": true,
@@ -656,7 +656,7 @@
 
 		"available in custom battles": true,
 		"prefer naval invasions": false,
-		"default religion": "christianity",
+		"default religion": "catholicism",
 	
 		;;allow this faction to have a functioning family tree
 		"allow reproduction": true,
@@ -680,6 +680,42 @@
 			"men":      "rum_men",
 			"women":    "rum_women",
 			"surnames": "rum_surnames",
+		},
+
+		;;horde information
+		"horde":
+		{
+			"horde units":
+			[
+				"ghulam bodyguards c",
+				"turcoman archers",
+				"turcoman archers",
+				"ghulam cavalry",
+				"seljuk horse archers",
+				"seljuk horse archers",
+				"seljuk horse archers",
+				"ghazi cavalry",
+				"ghazi cavalry",
+			],
+
+			"min horde units": 60,
+			"max horde units": 100,
+
+			;;remove this amount of horde units from the max every time we re-horde
+			"horde unit reduction per horde": 20,
+
+			;;gain one random horde unit per this amount of population in this settlement, up to the cap
+			"population to horde units": 300,
+
+			;;minimum number of named characters we should have when we first go horde
+			"min named characters": 4,
+
+			;;maximum percentage of armies horde units can fill
+			"max horde unit army percent": 80,
+
+			;;the amount of horde units to disband every time we get a settlement
+			;;if amount of settlements exceeds the numbers in this array, 100% disband assumed
+			"horde unit disband per settlement": [ 33, 55, 100, ],
 		},
 
 		"logos":
@@ -799,8 +835,8 @@
 		},
 
 		"available in custom battles": true,
-		"prefer naval invasions": false,
-		"default religion": "christianity",
+		"prefer naval invasions": true,
+		"default religion": "catholicism",
 	
 		;;allow this faction to have a functioning family tree
 		"allow reproduction": true,
@@ -872,7 +908,7 @@
 
 		"available in custom battles": true,
 		"prefer naval invasions": false,
-		"default religion": "christianity",
+		"default religion": "catholicism",
 	
 		;;allow this faction to have a functioning family tree
 		"allow reproduction": true,
@@ -944,7 +980,7 @@
 
 		"available in custom battles": true,
 		"prefer naval invasions": false,
-		"default religion": "christianity",
+		"default religion": "catholicism",
 	
 		;;allow this faction to have a functioning family tree
 		"allow reproduction": true,
@@ -1016,7 +1052,7 @@
 
 		"available in custom battles": true,
 		"prefer naval invasions": false,
-		"default religion": "christianity",
+		"default religion": "orthodoxy",
 	
 		;;allow this faction to have a functioning family tree
 		"allow reproduction": true,
@@ -1088,7 +1124,7 @@
 
 		"available in custom battles": true,
 		"prefer naval invasions": false,
-		"default religion": "christianity",
+		"default religion": "catholicism",
 	
 		;;allow this faction to have a functioning family tree
 		"allow reproduction": true,
@@ -1172,7 +1208,7 @@
 		"description": "NUMIDIA_DESCR",
 
 		;;culture and (default?) character ethnicity
-		"culture":   "carthaginian",
+		"culture":   "barbarian",
 		"ethnicity": "berber",
 
 		;;tags for faction groups
@@ -1232,7 +1268,7 @@
 
 		"available in custom battles": true,
 		"prefer naval invasions": false,
-		"default religion": "christianity",
+		"default religion": "catholicism",
 	
 		;;allow this faction to have a functioning family tree
 		"allow reproduction": true,
@@ -1304,7 +1340,7 @@
 
 		"available in custom battles": true,
 		"prefer naval invasions": false,
-		"default religion": "christianity",
+		"default religion": "catholicism",
 	
 		;;allow this faction to have a functioning family tree
 		"allow reproduction": true,
@@ -1376,7 +1412,7 @@
 
 		"available in custom battles": true,
 		"prefer naval invasions": true,
-		"default religion": "christianity",
+		"default religion": "catholicism",
 	
 		;;allow this faction to have a functioning family tree
 		"allow reproduction": true,
@@ -1559,7 +1595,7 @@
 			"rebel logo index": 20, ;23,
 
 			;;flag models to be used on the strat map when a settlement is unoccupied
-			"strat symbol model":       "data/models_strat/symbol_seleucid.CAS",
+			"strat symbol model":       "data/models_strat/symbol_georgia.CAS",
 			"strat rebel symbol model": "data/models_strat/symbol_greek_rebel.CAS",
 		},
 
@@ -1591,7 +1627,7 @@
 
 		"available in custom battles": true,
 		"prefer naval invasions": false,
-		"default religion": "christianity",
+		"default religion": "orthodoxy",
 	
 		;;allow this faction to have a functioning family tree
 		"allow reproduction": true,
@@ -1631,7 +1667,7 @@
 			"rebel logo index": 20, ;24,
 
 			;;flag models to be used on the strat map when a settlement is unoccupied
-			"strat symbol model":       "data/models_strat/symbol_egypt.CAS",
+			"strat symbol model":       "data/models_strat/symbol_mongol.CAS",
 			"strat rebel symbol model": "data/models_strat/symbol_egypt_rebel.CAS",
 		},
 
@@ -1684,9 +1720,45 @@
 		;;namelists
 		"namelists":
 		{
-			"men":      "russia_men",
+			"men":      "bulg_men",
 			"women":    "russia_women",
-			"surnames": "russia_surnames",
+			"surnames": "bulg_surnames",
+		},
+
+		;;horde information
+		"horde":
+		{
+			"horde units":
+			[
+				"czar bodyguards",
+				"bulgarian boyars",
+				"bulgarian boyars",
+				"bulgarian pronoia",
+				"bulgarian pronoia",
+				"bulgarian swordsmen",
+				"bulgarian swordsmen",
+				"bulgarian spearmen",
+				"bulgarian spearmen",
+			],
+
+			"min horde units": 60,
+			"max horde units": 100,
+
+			;;remove this amount of horde units from the max every time we re-horde
+			"horde unit reduction per horde": 20,
+
+			;;gain one random horde unit per this amount of population in this settlement, up to the cap
+			"population to horde units": 300,
+
+			;;minimum number of named characters we should have when we first go horde
+			"min named characters": 4,
+
+			;;maximum percentage of armies horde units can fill
+			"max horde unit army percent": 80,
+
+			;;the amount of horde units to disband every time we get a settlement
+			;;if amount of settlements exceeds the numbers in this array, 100% disband assumed
+			"horde unit disband per settlement": [ 33, 55, 100, ],
 		},
 
 		"logos":
@@ -1703,7 +1775,7 @@
 			"rebel logo index": 20, ;25,
 
 			;;flag models to be used on the strat map when a settlement is unoccupied
-			"strat symbol model":       "data/models_strat/symbol_armenia.CAS",
+			"strat symbol model":       "data/models_strat/symbol_bulgaria.CAS",
 			"strat rebel symbol model": "data/models_strat/symbol_eastern_rebel.CAS",
 		},
 
@@ -1735,7 +1807,7 @@
 
 		"available in custom battles": true,
 		"prefer naval invasions": false,
-		"default religion": "christianity",
+		"default religion": "orthodoxy",
 	
 		;;allow this faction to have a functioning family tree
 		"allow reproduction": true,
@@ -1764,7 +1836,7 @@
 		"logos":
 		{
 			;;logo to use in the loading screens (seperate as sprite sheets aren't loaded at that point)
-			"loading screen icon": "data/ui/faction_icons/romans_julii.tga",
+			"loading screen icon": "data/ui/faction_icons/pope.tga",
 
 			;;standard index as declared in descr_standards (4 per page)
 			"standard index":       31,
@@ -1775,7 +1847,7 @@
 			"rebel logo index": 20,
 
 			;;flag models to be used on the strat map when a settlement is unoccupied
-			"strat symbol model":       "data/models_strat/symbol_julii.CAS",
+			"strat symbol model":       "data/models_strat/symbol_pope.CAS",
 			"strat rebel symbol model": "data/models_strat/symbol_slaves.CAS",
 		},
 
@@ -1805,9 +1877,333 @@
 			"defeat": "data/fmv/lose/julii_eliminated.wmv",
 		},
 
+		"available in custom battles": false,
+		"prefer naval invasions": false,
+		"default religion": "catholicism",
+	
+		;;allow this faction to have a functioning family tree
+		"allow reproduction": true,
+	},
+	"pech":
+	{
+		;;name and description
+		"string":      "PECH",
+		"description": "PECH_DESCR",
+
+		;;culture and (default?) character ethnicity
+		"culture":   "egyptian",
+		"ethnicity": "egyptian",
+
+		;;tags for faction groups
+		"tags": [ "fgroup_fertility_temple", "fgroup_fun_temple", "fgroup_justice_temple", "fgroup_law_temple", "fgroup_healing_temple", ],
+
+		;;namelists
+		"namelists":
+		{
+			"men":      "cuman_men",
+			"women":    "cuman_women",
+			"surnames": "blank_surnames",
+		},
+
+		;;horde information
+		"horde":
+		{
+			"horde units":
+			[
+				"cuman heavy cavalry c",
+				"cuman horse archers",
+				"cuman horse archers",
+				"steppe light cavalry",
+				"steppe light cavalry",
+				"steppe light cavalry",
+				"steppe heavy cavalry",
+				"steppe infantry",
+				"steppe infantry",
+			],
+
+			"min horde units": 60,
+			"max horde units": 100,
+
+			;;remove this amount of horde units from the max every time we re-horde
+			"horde unit reduction per horde": 20,
+
+			;;gain one random horde unit per this amount of population in this settlement, up to the cap
+			"population to horde units": 300,
+
+			;;minimum number of named characters we should have when we first go horde
+			"min named characters": 4,
+
+			;;maximum percentage of armies horde units can fill
+			"max horde unit army percent": 80,
+
+			;;the amount of horde units to disband every time we get a settlement
+			;;if amount of settlements exceeds the numbers in this array, 100% disband assumed
+			"horde unit disband per settlement": [ 33, 55, 100, ],
+		},
+
+		"logos":
+		{
+			;;logo to use in the loading screens (seperate as sprite sheets aren't loaded at that point)
+			"loading screen icon": "data/ui/faction_icons/pech.tga",
+
+			;;standard index as declared in descr_standards (4 per page)
+			"standard index":       34,
+			"rebel standard index": 24,
+
+			;;logo index as declared in descr_sm_faction_logos (1 per page)
+			"logo index":       30,
+			"rebel logo index": 20, ;24,
+
+			;;flag models to be used on the strat map when a settlement is unoccupied
+			"strat symbol model":       "data/models_strat/symbol_egypt.CAS",
+			"strat rebel symbol model": "data/models_strat/symbol_egypt_rebel.CAS",
+		},
+
+		;;faction colours (some base game factions may have hardcoded overrides)
+		"colours":
+		{
+			"primary":   [  160, 120, 60, ],
+			"secondary": [  0,   0,   0,   ],
+
+			"family tree":
+			{
+				"background":      [  154, 117, 57,  ],
+				"font":            [  255, 255, 255, ],
+
+				"selected line":   [  255, 255, 255, ],
+				"unselected line": [  200, 187, 187, ],
+			},
+		},
+
+		"movies":
+		{
+			;;movie to play when starting a campaign
+			"intro": "data/fmv/intros/egyptian_intro_1080p.wmv",
+
+			;;movie to play when this faction wins or is defeated, respectively
+			"victory": "data/fmv/victory/egyptian_outro.wmv",
+			"defeat": "data/fmv/lose/egyptians_eliminated.wmv",
+		},
+
 		"available in custom battles": true,
-		"prefer naval invasions": true,
-		"default religion": "christianity",
+		"prefer naval invasions": false,
+		"default religion": "pagan",
+	
+		;;allow this faction to have a functioning family tree
+		"allow reproduction": true,
+	},
+	"jeru":
+	{
+		;;name and description
+		"string":      "JERU",
+		"description": "JERU_DESCR",
+
+		;;culture and (default?) character ethnicity
+		"culture":   "barbarian",
+		"ethnicity": "caucasian",
+
+		;;tags for faction groups
+		"tags": [ "fgroup_justice_temple", "fgroup_horse_temple", "fgroup_hunting_temple", ],
+
+		;;namelists
+		"namelists":
+		{
+			"men":      "france_men",
+			"women":    "france_women",
+			"surnames": "france_surnames",
+		},
+
+		"logos":
+		{
+			;;logo to use in the loading screens (seperate as sprite sheets aren't loaded at that point)
+			"loading screen icon": "data/ui/faction_icons/jeru.tga",
+
+			;;standard index as declared in descr_standards (4 per page)
+			"standard index":       35,
+			"rebel standard index": 21,
+
+			;;logo index as declared in descr_sm_faction_logos (1 per page)
+			"logo index":       31,
+			"rebel logo index": 20, ;21,
+
+			;;flag models to be used on the strat map when a settlement is unoccupied
+			"strat symbol model":       "data/models_strat/symbol_jeru.CAS",
+			"strat rebel symbol model": "data/models_strat/symbol_barb_rebel.CAS",
+		},
+
+		;;faction colours (some base game factions may have hardcoded overrides)
+		"colours":
+		{
+			"primary":   [  100,  100, 200,  ],
+			"secondary": [  255, 100,  0,  ],
+
+			"family tree":
+			{
+				"background":      [  51,  91,  30,  ],
+				"font":            [  255, 255, 255, ],
+
+				"selected line":   [  255, 255, 255, ],
+				"unselected line": [  200, 187, 187, ],
+			},
+		},
+
+		"movies":
+		{
+			;;movie to play when starting a campaign
+			"intro": "data/fmv/intros/barbarian_intro_1080p.wmv",
+
+			;;movie to play when this faction wins or is defeated, respectively
+			"victory": "data/fmv/victory/barbarian_outro.wmv",
+			"defeat": "data/fmv/lose/gauls_eliminated.wmv",
+		},
+
+		"available in custom battles": true,
+		"prefer naval invasions": false,
+		"default religion": "catholicism",
+	
+		;;allow this faction to have a functioning family tree
+		"allow reproduction": true,
+	},
+	"novgo":
+	{
+		;;name and description
+		"string":      "NOVGO",
+		"description": "NOVGO_DESCR",
+
+		;;culture and (default?) character ethnicity
+		"culture":   "carthaginian",
+		"ethnicity": "arabic",
+
+		;;tags for faction groups
+		"tags": [ "fgroup_fun_temple", "fgroup_leadership_temple", ],
+
+		;;namelists
+		"namelists":
+		{
+			"men":      "russia_men",
+			"women":    "russia_women",
+			"surnames": "russia_surnames",
+		},
+
+		"logos":
+		{
+			;;logo to use in the loading screens (seperate as sprite sheets aren't loaded at that point)
+			"loading screen icon": "data/ui/faction_icons/novgo.tga",
+
+			;;standard index as declared in descr_standards (4 per page)
+			"standard index":       37,
+			"rebel standard index": 25,
+
+			;;logo index as declared in descr_sm_faction_logos (1 per page)
+			"logo index":       32,
+			"rebel logo index": 20, ;25,
+
+			;;flag models to be used on the strat map when a settlement is unoccupied
+			"strat symbol model":       "data/models_strat/symbol_novgo.CAS",
+			"strat rebel symbol model": "data/models_strat/symbol_eastern_rebel.CAS",
+		},
+
+		;;faction colours (some base game factions may have hardcoded overrides)
+		"colours":
+		{
+			"primary":   [  0,  40, 250,  ],
+			"secondary": [  255, 177, 200, ],
+
+			"family tree":
+			{
+				"background":      [  33,  78,  62,  ],
+				"font":            [  255, 255, 255, ],
+
+				"selected line":   [  255, 255, 255, ],
+				"unselected line": [  200, 187, 187, ],
+			},
+		},
+
+		"movies":
+		{
+			;;movie to play when starting a campaign
+			"intro": "data/fmv/intros/armenia_intro_1080p.wmv",
+
+			;;movie to play when this faction wins or is defeated, respectively
+			"victory": "data/fmv/victory/eastern_outro.wmv",
+			"defeat": "data/fmv/lose/armenia_eliminated.wmv",
+		},
+
+		"available in custom battles": true,
+		"prefer naval invasions": false,
+		"default religion": "orthodoxy",
+	
+		;;allow this faction to have a functioning family tree
+		"allow reproduction": true,
+	},
+	"dani":
+	{
+		;;name and description
+		"string":      "DANI",
+		"description": "DANI_DESCR",
+
+		;;culture and (default?) character ethnicity
+		"culture":   "greek",
+		"ethnicity": "mediterranean",
+
+		;;tags for faction groups
+		"tags": [ "fgroup_governors_temple", "fgroup_love_temple", "fgroup_violence_temple", ],
+
+		;;namelists
+		"namelists":
+		{
+			"men":      "rum_men",
+			"women":    "rum_women",
+			"surnames": "rum_surnames",
+		},
+
+		"logos":
+		{
+			;;logo to use in the loading screens (seperate as sprite sheets aren't loaded at that point)
+			"loading screen icon": "data/ui/faction_icons/dani.tga",
+
+			;;standard index as declared in descr_standards (4 per page)
+			"standard index":       36,
+			"rebel standard index": 25,
+
+			;;logo index as declared in descr_sm_faction_logos (1 per page)
+			"logo index":       33,
+			"rebel logo index": 20, ;25,
+
+			;;flag models to be used on the strat map when a settlement is unoccupied
+			"strat symbol model":       "data/models_strat/symbol_dani.CAS",
+			"strat rebel symbol model": "data/models_strat/symbol_eastern_rebel.CAS",
+		},
+
+		;;faction colours (some base game factions may have hardcoded overrides)
+		"colours":
+		{
+			"primary":   [  160,  10, 0, ],
+			"secondary": [  0, 0,  49,  ],
+
+			"family tree":
+			{
+				"background":      [  23,  94,  117, ],
+				"font":            [  255, 255, 255, ],
+
+				"selected line":   [  255, 255, 255, ],
+				"unselected line": [  200, 187, 187, ],
+			},
+		},
+
+		"movies":
+		{
+			;;movie to play when starting a campaign
+			"intro": "data/fmv/intros/eastern_intro_1080p.wmv",
+
+			;;movie to play when this faction wins or is defeated, respectively
+			"victory": "data/fmv/victory/eastern_outro.wmv",
+			"defeat": "data/fmv/lose/pontus_eliminated.wmv",
+		},
+
+		"available in custom battles": true,
+		"prefer naval invasions": false,
+		"default religion": "islam",
 	
 		;;allow this faction to have a functioning family tree
 		"allow reproduction": true,

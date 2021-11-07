@@ -20,12 +20,16 @@
 
   "armenia": 2,
   "dacia": 1,
-  "parthia": 1,
+  "parthia": 2,
   "scythia": 2,
   "thrace": 1,
   "bulgaria": 3,
 
   "romans_senate": 3,
   "pope": 3,
+  "jeru": 3,
+  "pech": 3,
+  "novgo": 2,
+  "dani": 3,
   "slave": -1
 }

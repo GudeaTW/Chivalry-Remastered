@@ -69,7 +69,7 @@ Ancillary office_Patriarch_Jerusalem
     Image Patriarch.tga
     Description office_Patriarch_Jerusalem_desc
     EffectsDescription office_Patriarch_Jerusalem_effects_desc 
-    Religious_Belief christianity 1 
+    Religious_Belief catholicism 1 
     Effect Influence 1 
 
 ;------------------------------------------
@@ -77,7 +77,7 @@ Ancillary office_Patriarch_Novgorod
     Image Patriarch_Novgo.tga
     Description office_Patriarch_Novgorod_desc
     EffectsDescription office_Patriarch_Novgorod_effects_desc 
-    Religious_Belief christianity 1 
+    Religious_Belief catholicism 1 
     Effect Influence 1 
 
 ;------------------------------------------
@@ -85,7 +85,7 @@ Ancillary office_Patriarch_Konst
     Image Patriarch_Konst.tga
     Description office_Patriarch_Konst_desc
     EffectsDescription office_Patriarch_Konst_effects_desc 
-    Religious_Belief christianity 1 
+    Religious_Belief catholicism 1 
     Effect Influence 1 
 
 ;------------------------------------------
@@ -93,7 +93,7 @@ Ancillary office_Patriarch_Antioch
     Image Patriarch_Antioch.tga
     Description office_Patriarch_Antioch_desc
     EffectsDescription office_Patriarch_Antioch_effects_desc 
-    Religious_Belief christianity 1 
+    Religious_Belief catholicism 1 
     Effect Influence 1 
 
 ;------------------------------------------
@@ -319,7 +319,7 @@ Ancillary office_Archbishop
     Image Archbishop.tga
     Description office_Archbishop_desc
     EffectsDescription office_Archbishop_effects_desc
-    Religious_Belief christianity 1 
+    Religious_Belief catholicism 1 
     Effect Unrest -1
 
 ;------------------------------------------
@@ -429,7 +429,7 @@ Ancillary office_Pope
     Effect Influence  1
     Effect PersonalSecurity -3
     Effect TroopMorale  1 
-    Religious_Belief christianity  1
+    Religious_Belief catholicism  1
 
 ;------------------------------------------
 Ancillary office_Rigsjarl
@@ -758,7 +758,7 @@ Ancillary TrueCross
     Description TrueCross_desc
     EffectsDescription TrueCross_effects_desc
     Effect Influence  1
-    Religious_Belief christianity  1
+    Religious_Belief catholicism  1
     Effect TroopMorale  2
 
 ;------------------------------------------
@@ -768,7 +768,7 @@ Ancillary TrueCrossB
     Description TrueCross_desc
     EffectsDescription TrueCross_effects_desc
     Effect Influence  1
-    Religious_Belief christianity  1
+    Religious_Belief catholicism  1
     Effect TroopMorale  2
 
 ;------------------------------------------
@@ -827,14 +827,14 @@ Ancillary armenian_priest
     Image armenian_religion2.tga
     Description armenian_priest_desc
     EffectsDescription armenian_priest_effects_desc
-    Religious_Belief christianity  1  
+    Religious_Belief apostolic  1  
 
 ;------------------------------------------
 Ancillary Catholicos_of_Cilicia
     Image armenian_religion.tga
     Description Catholicos_of_Cilicia_desc
     EffectsDescription Catholicos_of_Cilicia_effects_desc
-    Religious_Belief christianity  2 
+    Religious_Belief apostolic  2 
     Effect Influence  1 
 
 ;------------------------------------------
@@ -954,7 +954,7 @@ Ancillary godfrey
     EffectsDescription godfrey_effects_desc
     Effect Command  1 
     Effect Influence  1 
-    Religious_Belief christianity  1 
+    Religious_Belief catholicism  1 
 
 
 ;------------------------------------------
@@ -984,8 +984,8 @@ Ancillary el_cid
 ;------------------------------------------
 Ancillary christian
     Image gonf.tga
-    Description christian_desc
-    EffectsDescription christian_effects_desc
+    Description catholic_desc
+    EffectsDescription catholic_effects_desc
     Effect Combat_V_Barbarian  1 
 
 ;------------------------------------------
@@ -1132,7 +1132,7 @@ Ancillary ctw_bishop
     ExcludeCultures eastern, egyptian, greek
     Description ctw_bishop_desc
     EffectsDescription ctw_bishop_effects_desc
-    Religious_Belief christianity  1 
+    Religious_Belief catholicism  1 
 
 ;------------------------------------------
 Ancillary ctw_cardinal
@@ -1140,7 +1140,7 @@ Ancillary ctw_cardinal
     ExcludeCultures eastern, egyptian, greek
     Description ctw_cardinal_desc
     EffectsDescription ctw_cardinal_effects_desc
-    Religious_Belief christianity  2 
+    Religious_Belief catholicism  2 
     Effect Law  1 
     Effect Influence  1 
 
@@ -1149,7 +1149,7 @@ Ancillary ctw_inquisitor
     Image cardinal.tga
     Description ctw_inquisitor_desc
     EffectsDescription ctw_inquisitor_effects_desc
-    Religious_Belief christianity  3 
+    Religious_Belief catholicism  3 
     Effect Unrest  1 
 
 ;------------------------------------------
@@ -1236,7 +1236,7 @@ Ancillary orthodox_priest
     ExcludeCultures barbarian, egyptian, greek, carthaginian, roman
     Description orthodox_priest_desc
     EffectsDescription orthodox_priest_effects_desc
-    Religious_Belief christianity  1 
+    Religious_Belief orthodoxy  1 
 
 ;===============================================================
 ;== ANCILLARY DATA STARTS HERE ==
@@ -3461,7 +3461,7 @@ Trigger trigger_armenian_siege_engineer3
 Trigger trigger_armenian_priest
     WhenToTest CharacterTurnEnd
     Condition EndedInSettlement
-          and SettlementBuildingExists >= church1
+          and SettlementBuildingExists >= achurch1
           and IsGeneral
           and FactionType seleucid
 		  and RemainingMPPercentage = 100
@@ -3873,7 +3873,7 @@ Trigger trigger_orthodox_priest
     WhenToTest CharacterTurnEnd
     Condition EndedInSettlement
           and RemainingMPPercentage = 100
-          and SettlementBuildingExists >= church1
+          and SettlementBuildingExists >= ochurch1
           and IsGeneral
 
     AcquireAncillary orthodox_priest chance  6 
@@ -6664,7 +6664,7 @@ Trigger trigger_Heretic
           and not SettlementBuildingExists >= church2
           and not SettlementBuildingExists = churchprovince2
           and IsGeneral
-          and Trait Christian = 1
+          and Trait Catholic = 1
           and not Trait CrusaderT >= 1
           and Trait Disloyal >= 1
 

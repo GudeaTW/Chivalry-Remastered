@@ -1,0 +1,136 @@
+type		ctw_we_haystack 
+lod
+max_distance	4000.0
+model_rigid	ctw_we_haystack.cas
+
+type		ctw_we_well 
+lod
+max_distance	4000.0
+model_rigid	ctw_we_well.cas 
+
+type		ctw_we_small_house_wood 
+lod
+max_distance	4000.0
+model_rigid	ctw_we_small_house_wood.cas 
+
+type		ctw_we_small_house_wood_2 
+lod
+max_distance	4000.0
+model_rigid	ctw_we_small_house_wood_2.cas 
+
+type		ctw_we_blacksmith
+lod
+max_distance	4000.0
+model_rigid	ctw_we_blacksmith.cas 
+
+type		ctw_we_barn 
+lod
+max_distance	4000.0
+model_rigid	ctw_we_barn.cas 
+
+type		ctw_we_mill 
+lod
+max_distance	4000.0
+model_rigid	ctw_we_mill.cas 
+
+type		ctw_we_stables
+lod
+max_distance	4000.0
+model_rigid	ctw_we_stables.cas 
+
+type		ctw_we_motte 
+lod
+max_distance	4000.0
+model_rigid	ctw_we_motte.cas 
+
+type		ctw_we_landlords_house 
+lod
+max_distance	4000.0
+model_rigid	ctw_we_landlords_house.cas
+
+type		ctw_we_fence
+lod
+max_distance	4000.0
+model_rigid	ctw_we_fence.cas  
+
+
+type		ctw_we_church1
+lod
+max_distance	4000.0
+model_rigid	ctw_we_church_1.cas 
+
+
+type		ctw_we_construction
+lod
+max_distance	4000.0
+model_rigid	ctw_we_construction.cas
+
+type		ctw_we_construction_2
+lod
+max_distance	4000.0
+model_rigid	ctw_we_construction_2.cas  
+
+type		ctw_we_donjon
+lod
+max_distance	4000.0
+model_rigid	ctw_we_donjon.cas
+
+type		ctw_we_barracks
+lod
+max_distance	4000.0
+model_rigid	ctw_we_barracks.cas
+
+type		ctw_gallows
+lod
+max_distance	4000.0
+model_rigid	ctw_we_gallows.cas
+
+type		ctw_we_keep
+lod
+max_distance	4000.0
+model_rigid	ctw_we_keep.cas
+
+type		ctw_we_large_house_stone
+lod
+max_distance	4000.0
+model_rigid	ctw_we_large_house_stone.cas
+
+type		ctw_we_large_house_wood
+lod
+max_distance	4000.0
+model_rigid	ctw_we_large_house_wood.cas
+
+type		ctw_we_wall_house
+lod
+max_distance	4000.0
+model_rigid	ctw_we_wall_house.cas
+
+type		ctw_we_wall_house_2
+lod
+max_distance	4000.0
+model_rigid	ctw_we_wall_house_2.cas
+
+type		ctw_we_armoury
+lod
+max_distance	4000.0
+model_rigid	ctw_we_armoury.cas
+
+type		ctw_we_siege
+lod
+max_distance	4000.0
+model_rigid	ctw_we_siege.cas
+
+type		ctw_we_catapult
+lod
+max_distance	4000.0
+model_rigid	ctw_we_catapult.cas
+
+type		ctw_we_tax_office
+lod
+max_distance	4000.0
+model_rigid	ctw_we_tax_office.cas
+
+type		ctw_we_monastery
+lod
+max_distance	4000.0
+model_rigid	ctw_we_monastery.cas

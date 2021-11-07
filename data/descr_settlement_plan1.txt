@@ -6225,35 +6225,25 @@ plans_by_level
 
 	plan_levels		Roman_plan_levels
 	{
-		village		Roman_Village
-		town		Roman_Town
-		large_town	Roman_Large_Town
-		city		Roman_City
-		large_city	Roman_Large_City
-		huge_city	Roman_Huge_City
+		village		Barbarian_Village
+		town		Barbarian_Town
+		large_town	Barbarian_Large_Town
+		city		Barbarian_City
+		large_city	Barbarian_Large_City
+		huge_city	Barbarian_Huge_City
 	}
 	
 	plan_levels		Egyptian_plan_levels
 	{
-		village		Egyptian_Village
-		town		Egyptian_Town
-		large_town	Egyptian_Large_Town
-		city		Egyptian_City
-		large_city	Egyptian_Large_City
-		huge_city	Egyptian_Huge_City
+		village		Barbarian_Village
+		town		Barbarian_Town
+		large_town	Barbarian_Large_Town
+		city		Barbarian_City
+		large_city	Barbarian_Large_City
+		huge_city	Barbarian_Huge_City
 	}
 	
 	plan_levels		Eastern_plan_levels
-	{
-		village		Egyptian_Village
-		town		Eastern_Town
-		large_town	Eastern_Large_Town
-		city		Eastern_City
-		large_city	Eastern_Large_City
-		huge_city	Eastern_Huge_City
-	}
-	
-	plan_levels		Greek_plan_levels
 	{
 		village		Roman_Village
 		town		Greek_Town
@@ -6261,6 +6251,16 @@ plans_by_level
 		city		Greek_City
 		large_city	Greek_Large_City
 		huge_city	Greek_Huge_City
+	}
+	
+	plan_levels		Greek_plan_levels
+	{
+		village		Egyptian_Village
+		town		Eastern_Town
+		large_town	Eastern_Large_Town
+		city		Eastern_City
+		large_city	Eastern_Large_City
+		huge_city	Eastern_Huge_City
 	}
 	
 	plan_levels		Barbarian_plan_levels
@@ -6275,12 +6275,12 @@ plans_by_level
 
 	plan_levels		Carthaginian_plan_levels
 	{
-		village		Egyptian_Village
-		town		Carthaginian_Town
-		large_town	Carthaginian_Large_Town
-		city		Carthaginian_City
-		large_city	Carthaginian_Large_City
-		huge_city	Carthaginian_Huge_City
+		village		Barbarian_Village
+		town		Barbarian_Town
+		large_town	Barbarian_Large_Town
+		city		Barbarian_City
+		large_city	Barbarian_Large_City
+		huge_city	Barbarian_Huge_City
 	}
 
 ;************* only using this settlement ***************

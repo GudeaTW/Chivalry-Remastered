@@ -1,0 +1,458 @@
+
+;; CTW building models, edited by Drak10687 august 2006
+;; !!!!!!!!!!!!!so far only for motte, have to add for other levels of settlements!!!!!!!!!!!!!
+
+
+;;;;;;;;;;;;;;;motte level buildings;;;;;;;;;;;;;;;;;;	
+
+	ctw_we_motte
+	{
+		stat_cat indestructable
+		localised_name none
+;		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_motte
+			physical_info	info_ctw_we_motte.cas
+		}
+	}
+
+	ctw_we_small_house_wood
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_small_house_wood
+			physical_info	info_ctw_we_small_house_wood.cas
+		}
+	}
+
+	ctw_we_small_house_wood_2
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_small_house_wood_2
+			physical_info	info_ctw_we_small_house_wood.cas
+		}
+	}
+
+	ctw_we_well
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_well
+			physical_info	info_ctw_we_well.cas
+		}
+	}
+
+	ctw_we_mill
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_mill
+			physical_info	info_ctw_we_mill.cas
+		}
+	}
+
+	ctw_we_blacksmith
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_blacksmith
+			physical_info	info_ctw_we_blacksmith.cas
+		}
+	}
+
+	ctw_we_fence
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_fence
+			physical_info	none
+		}
+	}
+
+	ctw_we_haystack
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_haystack
+			physical_info	none
+		}
+	}
+
+	ctw_we_landlords_house
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_landlords_house
+			physical_info	info_ctw_we_landlords_house.cas
+		}
+	}
+
+	ctw_we_stables
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_stables
+			physical_info	info_ctw_we_stables.cas
+		}
+	}
+
+	ctw_we_barn
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_barn
+			physical_info	info_ctw_we_barn.cas
+		}
+	}
+
+;;;;;;;;;;;;;;;;;;;donjon level buildings;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	ctw_we_church1
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_church1
+			physical_info	info_ctw_we_church_1.cas
+		}
+	}
+	
+	ctw_we_construction
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_construction
+			physical_info	info_ctw_we_construction.cas
+		}
+	}
+
+	ctw_we_construction_2
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_construction_2
+			physical_info	info_ctw_we_construction_2.cas
+		}
+	}
+
+	ctw_we_donjon
+	{
+		stat_cat indestructable
+		localised_name none
+;		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_donjon
+			physical_info	info_ctw_we_donjon.cas
+		}
+	}
+
+	ctw_we_barracks
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_barracks
+			physical_info	info_ctw_we_barracks.cas
+		}
+	}
+
+	ctw_gallows
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_gallows
+			physical_info	info_ctw_we_gallows.cas
+		}
+	}
+
+;;;;;;;;;;;;;;;;;;;;;;castle level buildings;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	ctw_we_keep
+	{
+		stat_cat indestructable
+		localised_name none
+;		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_keep
+			physical_info	info_ctw_we_keep.cas
+		}
+	}
+
+	ctw_we_large_house_stone
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_large_house_stone
+			physical_info	info_ctw_we_large_house_stone.cas
+		}
+	}
+
+	ctw_we_large_house_wood
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_large_house_wood
+			physical_info	info_ctw_we_large_house_wood.cas
+		}
+	}
+
+	ctw_we_wall_house
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_wall_house
+			physical_info	info_ctw_we_wall_house.cas
+		}
+	}
+
+	ctw_we_wall_house_2
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_wall_house_2
+			physical_info	info_ctw_we_wall_house_2.cas
+		}
+	}
+
+	ctw_castle_innerwall_1
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_castle_innerwall_1
+			physical_info	info_ctw_castle_innerwall_1.cas
+		}
+	}
+
+	ctw_castle_innerwall_2
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_castle_innerwall_2
+			physical_info	info_ctw_castle_innerwall_2.cas
+		}
+	}
+
+	ctw_castle_innerwall_3
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_castle_innerwall_3
+			physical_info	info_ctw_castle_innerwall_3.cas
+		}
+	}
+
+	ctw_castle_innerwall_4
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_castle_innerwall_4
+			physical_info	info_ctw_castle_innerwall_4.cas
+		}
+	}
+
+	ctw_castle_innerwall_5
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_castle_innerwall_5
+			physical_info	info_ctw_castle_innerwall_5.cas
+		}
+	}
+
+	ctw_we_armoury
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_armoury
+			physical_info	info_ctw_we_armoury.cas
+		}
+	}
+
+	ctw_we_siege
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_siege
+			physical_info	info_ctw_we_barn.cas
+		}
+	}
+
+	ctw_we_catapult
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_catapult
+			physical_info	info_ctw_we_catapult.cas
+		}
+	}
+
+	ctw_we_tax_office
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_tax_office
+			physical_info	info_ctw_we_tax_office.cas
+		}
+	}
+
+	ctw_we_monastery
+	{
+		stat_cat indestructable
+		localised_name none
+		follow_terrain
+		level
+		{
+			min_health 0
+			battle_stats
+			item		ctw_we_monastery
+			physical_info	info_ctw_we_monastery.cas
+		}
+	}
